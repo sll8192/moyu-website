@@ -1,4 +1,4 @@
-name: Daily News Update
+name: Daily Content Update
 
 on:
   schedule:
@@ -33,19 +33,32 @@ jobs:
     - name: Install Dependencies
       run: npm install
       
-    - name: Generate Daily News with Tavily + MiMo
+    - name: Generate AI Daily News
       run: node backend/scraper/generate.js --real --archive
       env:
         NODE_ENV: production
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
         
+    - name: Generate Moyu Content
+      run: node -e "
+        const { generateAllMoyuContent, saveMoyuData } = require('./backend/scraper/moyu-scraper');
+        async function main() {
+          const data = await generateAllMoyuContent();
+          saveMoyuData(data, 'backend/data/moyu-content.json');
+        }
+        main().catch(console.error);
+      "
+      env:
+        NODE_ENV: production
+        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        
     - name: Commit and Push
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git commit -m "📰 Update daily news for $(date +%Y-%m-%d) [skip ci]" || echo "No changes to commit"
+        git commit -m "📰 Update daily content for $(date +%Y-%m-%d) [skip ci]" || echo "No changes to commit"
         git pull --rebase origin ${{ github.ref_name }} || echo "No remote changes to pull"
         git push || git push --force-with-lease
       env:
