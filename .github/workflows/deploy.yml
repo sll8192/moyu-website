@@ -2,9 +2,8 @@ name: Daily Content Update
 
 on:
   schedule:
-    # 每天北京时间 8:00 运行 (UTC 00:00)
     - cron: '0 0 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
   push:
     branches: [ main, master ]
 
@@ -20,69 +19,60 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-        
-    - name: Install Dependencies
-      run: npm install
-      
-    - name: Generate AI Daily News
-      run: node backend/scraper/generate.js --real --archive
-      env:
-        NODE_ENV: production
-        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
-        
-    - name: Generate Moyu Content
-      run: node -e "
-        const { generateAllMoyuContent, saveMoyuData } = require('./backend/scraper/moyu-scraper');
-        async function main() {
-          const data = await generateAllMoyuContent();
-          saveMoyuData(data, 'backend/data/moyu-content.json');
-        }
-        main().catch(console.error);
-      "
-      env:
-        NODE_ENV: production
-        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        
-    - name: Commit and Push
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git commit -m "📰 Update daily content for $(date +%Y-%m-%d) [skip ci]" || echo "No changes to commit"
-        git pull --rebase origin ${{ github.ref_name }} || echo "No remote changes to pull"
-        git push || git push --force-with-lease
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate AI Daily News
+        run: node backend/scraper/generate.js --real --archive
+        env:
+          NODE_ENV: production
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
+
+      - name: Generate Moyu Content
+        run: node backend/scraper/generate-moyu.js
+        env:
+          NODE_ENV: production
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "📰 Update daily content for $(date +%Y-%m-%d) [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin ${{ github.ref_name }} || echo "No remote changes to pull"
+          git push || git push --force-with-lease
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   deploy:
     needs: generate
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-      
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: '.'
-        
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
