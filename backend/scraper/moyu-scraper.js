@@ -1,11 +1,12 @@
 /**
  * 摸鱼内容抓取模块
- * 使用 Tavily API 搜索真实的搞笑图片、美女福利、内涵段子、糗事百科
+ * 优先使用真实 API，失败时回退到 Tavily Search 或 mock 数据
  */
 
 const fs = require('fs');
 const path = require('path');
-const { tavily_search_batch } = require('../utils/tavily-api');
+const { tavily_search } = require('../utils/tavily-api');
+const { fetchAllRealContent } = require('../utils/real-api');
 
 // ============================================
 // 四大摸鱼分类配置
@@ -15,11 +16,10 @@ const MOYU_SOURCES = {
     name: '搞笑图片',
     icon: '😂',
     queries: [
-      '搞笑图片 热门 meme 今日',
       'funny memes trending today',
-      ' hilarious jokes images 2026'
+      '搞笑趣图 热门 今日'
     ],
-    keywords: ['搞笑', 'meme', '笑话', '趣图'],
+    keywords: ['搞笑', 'meme', '笑话', '趣图', 'funny', 'humor'],
     placeholderImages: [
       'https://picsum.photos/seed/funny1/400/300',
       'https://picsum.photos/seed/funny2/400/300',
@@ -33,11 +33,10 @@ const MOYU_SOURCES = {
     name: '美女福利',
     icon: '👀',
     queries: [
-      'beauty photography portrait aesthetic',
-      'fashion model photography 2026',
-      'portrait photography beautiful'
+      'beautiful photography portrait aesthetic',
+      '人像摄影 美女 时尚'
     ],
-    keywords: ['美女', '摄影', '时尚', '人像'],
+    keywords: ['美女', '摄影', '时尚', '人像', 'beauty', 'portrait', 'photography'],
     placeholderImages: [
       'https://picsum.photos/seed/beauty1/400/500',
       'https://picsum.photos/seed/beauty2/400/500',
@@ -51,11 +50,10 @@ const MOYU_SOURCES = {
     name: '内涵段子',
     icon: '🤣',
     queries: [
-      '内涵段子 成人笑话 精选',
-      'funny jokes adult humor 2026',
-      'witty jokes one liners'
+      'funny jokes humor trending',
+      '内涵段子 笑话 精选'
     ],
-    keywords: ['段子', '笑话', '幽默', '内涵'],
+    keywords: ['段子', '笑话', '幽默', '内涵', 'jokes', 'humor', 'funny'],
     placeholderImages: [
       'https://picsum.photos/seed/joke1/400/250',
       'https://picsum.photos/seed/joke2/400/250',
@@ -69,11 +67,10 @@ const MOYU_SOURCES = {
     name: '糗事百科',
     icon: '😅',
     queries: [
-      '糗事百科 尴尬瞬间 搞笑',
       'embarrassing stories funny moments',
-      'awkward situations humor'
+      '糗事百科 尴尬 搞笑经历'
     ],
-    keywords: ['糗事', '尴尬', '搞笑', '经历'],
+    keywords: ['糗事', '尴尬', '搞笑', '经历', 'embarrassing', 'awkward', 'stories'],
     placeholderImages: [
       'https://picsum.photos/seed/qiushi1/400/300',
       'https://picsum.photos/seed/qiushi2/400/300',
@@ -127,9 +124,17 @@ const MOCK_DATA = {
 // 抓取函数
 // ============================================
 
+/**
+ * 使用 Tavily Search API 搜索指定分类的摸鱼内容
+ * @param {string} category - 分类 key (funny/beauty/jokes/qiushi)
+ * @param {number} limit - 最大结果数
+ * @returns {Promise<Array>} 格式化后的内容列表
+ */
 async function fetchMoyuContent(category, limit = 6) {
   console.log(`\n📡 正在抓取 [${MOYU_SOURCES[category].name}] 内容...`);
-  
+
+  const config = MOYU_SOURCES[category];
+
   // 检查是否有 Tavily API Key
   if (!process.env.TAVILY_API_KEY) {
     console.log('  ℹ️  未配置 TAVILY_API_KEY，使用模拟数据');
@@ -137,21 +142,41 @@ async function fetchMoyuContent(category, limit = 6) {
   }
 
   try {
-    const config = MOYU_SOURCES[category];
-    const results = await tavily_search_batch(config.queries, 2);
-    
-    if (results.length === 0) {
+    const allResults = [];
+    const usedUrls = new Set();
+
+    // 逐个查询搜索，合并去重
+    for (const query of config.queries) {
+      try {
+        const results = await tavily_search(query, limit);
+
+        for (const item of results) {
+          if (!usedUrls.has(item.url) && item.url !== '#') {
+            usedUrls.add(item.url);
+            allResults.push(item);
+          }
+        }
+
+        // 避免请求过快
+        await new Promise(r => setTimeout(r, 500));
+      } catch (error) {
+        console.warn(`  ⚠️ 查询 "${query}" 失败: ${error.message}`);
+      }
+    }
+
+    if (allResults.length === 0) {
       console.log('  ⚠️ 搜索无结果，使用模拟数据');
       return MOCK_DATA[category].slice(0, limit);
     }
 
     // 格式化结果
-    const formatted = results.slice(0, limit).map((item, index) => ({
-      title: item.title || config.name + (index + 1),
-      content: item.summary || item.content || '',
-      image: config.placeholderImages[index] || `https://picsum.photos/seed/${category}${index}/400/300`,
+    const formatted = allResults.slice(0, limit).map((item, index) => ({
+      title: item.title || config.name + ' #' + (index + 1),
+      content: item.summary || item.rawContent || '',
+      image: item.image || config.placeholderImages[index] || `https://picsum.photos/seed/${category}${index}/400/300`,
       likes: Math.floor(Math.random() * 4000) + 500,
-      source: item.source || '网络'
+      source: item.source || '网络',
+      url: item.url || '#'
     }));
 
     console.log(`  ✅ ${config.name}: ${formatted.length} 条`);
@@ -163,33 +188,63 @@ async function fetchMoyuContent(category, limit = 6) {
   }
 }
 
-async function generateAllMoyuContent() {
+/**
+ * 生成所有摸鱼分类的内容
+ * @param {boolean} useRealApi - 是否使用真实 API
+ * @returns {Promise<Object>} 包含所有分类内容的对象
+ */
+async function generateAllMoyuContent(useRealApi = true) {
   console.log('\n🎣 摸鱼内容生成器');
   console.log('====================\n');
-  
+
+  // 优先尝试真实 API
+  if (useRealApi) {
+    try {
+      const realData = await fetchAllRealContent();
+      if (realData.beauty.length > 0 || realData.jokes.length > 0) {
+        // 合并神回复到段子
+        const jokes = [...realData.jokes, ...(realData.shenhuifu || [])].slice(0, 12);
+        
+        return {
+          funny: realData.funny.length > 0 ? realData.funny : MOCK_DATA.funny,
+          beauty: realData.beauty.length > 0 ? realData.beauty : MOCK_DATA.beauty,
+          jokes: jokes.length > 0 ? jokes : MOCK_DATA.jokes,
+          qiushi: realData.qiushi.length > 0 ? realData.qiushi : MOCK_DATA.qiushi
+        };
+      }
+    } catch (error) {
+      console.warn('⚠️ 真实 API 获取失败，回退到 Tavily:', error.message);
+    }
+  }
+
+  // 回退到 Tavily 或 mock
   const data = {};
-  
+
   for (const [key, config] of Object.entries(MOYU_SOURCES)) {
     data[key] = await fetchMoyuContent(key, 6);
     // 避免请求过快
     await new Promise(r => setTimeout(r, 500));
   }
-  
+
   console.log('\n📊 摸鱼内容统计:');
   Object.entries(data).forEach(([key, items]) => {
     console.log(`  ${MOYU_SOURCES[key].icon} ${MOYU_SOURCES[key].name}: ${items.length} 条`);
   });
-  
+
   return data;
 }
 
-// 保存数据
+/**
+ * 保存摸鱼数据到 JSON 文件
+ * @param {Object} data - 摸鱼内容数据
+ * @param {string} outputPath - 输出文件路径
+ */
 function saveMoyuData(data, outputPath) {
   const dir = path.dirname(outputPath);
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
-  
+
   fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8');
   console.log(`\n💾 摸鱼数据已保存: ${outputPath}`);
 }

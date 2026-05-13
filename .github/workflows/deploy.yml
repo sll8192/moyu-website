@@ -31,18 +31,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Generate AI Daily News
-        run: node backend/scraper/generate.js --real --archive
+      - name: Generate Content
+        run: node backend/scraper/generate.js --real
         env:
           NODE_ENV: production
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
-
-      - name: Generate Moyu Content
-        run: node backend/scraper/generate-moyu.js
-        env:
-          NODE_ENV: production
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
 
       - name: Commit and Push
         run: |

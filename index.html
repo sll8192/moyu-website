@@ -1,293 +1,1310 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="摸鱼观察室 - 当代人精神马杀鸡，提供搞笑图片、美女福利、内涵段子、糗事百科，以及每日AI日报">
-    <title>摸鱼观察室 - 你假装在工作，我假装很正经</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="摸鱼观察室 - AI日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科，每天自动更新">
+  <meta name="theme-color" content="#0F172A">
+  <title>摸鱼观察室 - 2026年5月13日星期三</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>">
+  <style>
+/* ===== tose.sh Design System ===== */
+/* Primary: #1E293B | Secondary: #334155 | CTA: #22C55E | Background: #0F172A | Text: #F8FAFC */
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0F172A;
+  color: #F8FAFC;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+ul { list-style: none; }
+
+/* ===== Navbar ===== */
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+  padding: 0 24px; height: 72px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.navbar-logo {
+  display: flex; align-items: center; gap: 12px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px; font-weight: 700; color: #F8FAFC;
+}
+.navbar-logo span { font-size: 28px; }
+.navbar-links { display: flex; gap: 8px; }
+.navbar-links a {
+  padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500;
+  color: #94A3B8; transition: all 0.2s;
+}
+.navbar-links a:hover, .navbar-links a.active {
+  background: rgba(34, 197, 94, 0.15); color: #22C55E;
+}
+.navbar-time { 
+  font-size: 13px; color: #64748B;
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* ===== Hero ===== */
+.hero {
+  margin-top: 72px;
+  background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #312E81 100%);
+  padding: 80px 24px 64px; text-align: center; 
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(34, 197, 94, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+.hero-content { position: relative; z-index: 1; }
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px; font-weight: 700; margin-bottom: 16px; 
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, #F8FAFC 0%, #22C55E 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero p { 
+  font-size: 18px; color: #94A3B8; 
+  max-width: 600px; margin: 0 auto 32px;
+}
+.hero-stats {
+  display: flex; justify-content: center; gap: 48px;
+}
+.hero-stat { 
+  text-align: center;
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 16px;
+  padding: 24px 32px;
+  backdrop-filter: blur(10px);
+}
+.hero-stat .num { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 36px; font-weight: 700; 
+  color: #22C55E;
+}
+.hero-stat .label { 
+  font-size: 14px; color: #94A3B8; 
+  margin-top: 4px; text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== Container ===== */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* ===== Section ===== */
+.section { padding: 56px 0; }
+.section-header {
+  display: flex; align-items: center; gap: 16px; margin-bottom: 32px;
+}
+.section-icon { font-size: 32px; }
+.section-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px; font-weight: 700; color: #F8FAFC; 
+}
+.section-badge {
+  background: rgba(34, 197, 94, 0.15); 
+  color: #22C55E; 
+  font-family: 'Space Grotesk', monospace;
+  font-size: 13px; font-weight: 600;
+  padding: 6px 14px; border-radius: 20px; 
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.section-divider { 
+  height: 1px; 
+  background: linear-gradient(90deg, transparent, rgba(51, 65, 85, 0.5), transparent); 
+  margin: 0 0 56px; 
+}
+
+/* ===== Card Grid ===== */
+.card-grid {
+  display: grid; gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+/* ===== News Card (AI日报) ===== */
+.news-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column;
+}
+.news-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.news-card-img {
+  width: 100%; height: 200px; object-fit: cover;
+  background: #334155;
+}
+.news-card-body { 
+  padding: 20px 24px 24px; 
+  flex: 1; display: flex; flex-direction: column; 
+}
+.news-card-tag {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  padding: 4px 12px; border-radius: 6px; margin-bottom: 12px; 
+  width: fit-content;
+  font-family: 'Space Grotesk', monospace;
+}
+.tag-ai { background: rgba(34, 197, 94, 0.2); color: #22C55E; }
+.tag-ecommerce { background: rgba(59, 130, 246, 0.2); color: #3B82F6; }
+.tag-startup { background: rgba(251, 191, 36, 0.2); color: #FBBF24; }
+.tag-web3 { background: rgba(168, 85, 247, 0.2); color: #A855F7; }
+.tag-newenergy { background: rgba(236, 72, 153, 0.2); color: #EC4899; }
+.news-card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; line-height: 1.4; 
+  margin-bottom: 10px; color: #F8FAFC;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-card-summary {
+  font-size: 14px; color: #94A3B8; line-height: 1.7; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-card-meta {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; padding-top: 14px; 
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+  font-size: 12px; color: #64748B;
+}
+.news-card-source { 
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* ===== Image Card (搞笑图片 / 美女福利) ===== */
+.image-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+}
+.image-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.image-card img {
+  width: 100%; height: 280px; object-fit: cover; 
+  background: #334155;
+}
+.image-card-body { padding: 18px 20px 20px; }
+.image-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px; font-weight: 600; 
+  margin-bottom: 8px; color: #F8FAFC; 
+}
+.image-card-actions {
+  display: flex; align-items: center; justify-content: space-between; 
+  margin-top: 12px;
+  font-size: 13px; color: #64748B;
+}
+.like-btn {
+  display: flex; align-items: center; gap: 6px; cursor: pointer;
+  background: none; border: none; color: #64748B; 
+  font-family: 'Space Grotesk', monospace;
+  font-size: 13px; padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.like-btn:hover { 
+  color: #22C55E; 
+  background: rgba(34, 197, 94, 0.1);
+}
+
+/* ===== Joke Card (内涵段子) ===== */
+.joke-card {
+  background: #1E293B; border-radius: 16px; padding: 24px 28px;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+}
+.joke-card:hover { 
+  transform: translateX(6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.joke-card-header {
+  display: flex; align-items: center; justify-content: space-between; 
+  margin-bottom: 16px;
+}
+.joke-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; color: #F8FAFC; 
+}
+.joke-card-content {
+  font-size: 15px; color: #CBD5E1; line-height: 1.8;
+  padding: 18px 20px; 
+  background: rgba(30, 41, 59, 0.5); 
+  border-radius: 12px;
+  border-left: 4px solid #22C55E;
+}
+.joke-card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; font-size: 13px; color: #64748B;
+}
+
+/* ===== Qiushi Card (糗事百科) ===== */
+.qiushi-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column;
+}
+.qiushi-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.qiushi-card img {
+  width: 100%; height: 200px; object-fit: cover; 
+  background: #334155;
+}
+.qiushi-card-body { 
+  padding: 20px 24px 24px; 
+  flex: 1; display: flex; flex-direction: column; 
+}
+.qiushi-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px; font-weight: 600; 
+  margin-bottom: 10px; color: #F8FAFC; 
+}
+.qiushi-card-content {
+  font-size: 14px; color: #94A3B8; line-height: 1.7; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.qiushi-card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; padding-top: 14px; 
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+  font-size: 13px; color: #64748B;
+}
+
+/* ===== Guide Section ===== */
+.guide-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+  gap: 24px;
+}
+.guide-card {
+  background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+  border-radius: 16px; padding: 28px; 
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.guide-card::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; width: 100px; height: 100px;
+  background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+.guide-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.guide-card-number {
+  position: absolute; top: 16px; right: 20px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 48px; font-weight: 700;
+  color: rgba(34, 197, 94, 0.15);
+}
+.guide-card-icon { font-size: 40px; margin-bottom: 16px; }
+.guide-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; 
+  color: #F8FAFC; margin-bottom: 10px; 
+}
+.guide-card-desc { 
+  font-size: 14px; color: #94A3B8; line-height: 1.7; 
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: linear-gradient(180deg, #0F172A 0%, #020617 100%); 
+  color: #94A3B8; 
+  padding: 64px 24px 32px; 
+  margin-top: 64px;
+  border-top: 1px solid rgba(51, 65, 85, 0.3);
+}
+.footer-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px;
+}
+.footer-brand-name { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px; font-weight: 700; 
+  color: #F8FAFC; margin-bottom: 12px; 
+}
+.footer-brand-desc { 
+  font-size: 14px; line-height: 1.8; color: #64748B; 
+}
+.footer-col-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px; font-weight: 600; 
+  color: #F8FAFC; margin-bottom: 16px; 
+}
+.footer-col a {
+  display: block; font-size: 14px; 
+  color: #64748B; padding: 6px 0; 
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: #22C55E; }
+.footer-bottom {
+  max-width: 1200px; margin: 40px auto 0; 
+  padding-top: 24px;
+  border-top: 1px solid rgba(51, 65, 85, 0.3); 
+  text-align: center; font-size: 13px; color: #475569;
+}
+.footer-link {
+  color: #22C55E; transition: opacity 0.2s;
+}
+.footer-link:hover { opacity: 0.8; }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .navbar { padding: 0 16px; height: 64px; }
+  .navbar-links { display: none; }
+  .navbar-time { display: none; }
+  .hero { margin-top: 64px; padding: 48px 16px 40px; }
+  .hero h1 { font-size: 32px; }
+  .hero p { font-size: 16px; }
+  .hero-stats { gap: 16px; flex-wrap: wrap; }
+  .hero-stat { padding: 16px 24px; }
+  .hero-stat .num { font-size: 28px; }
+  .container { padding: 0 16px; }
+  .section { padding: 40px 0; }
+  .section-title { font-size: 22px; }
+  .card-grid { grid-template-columns: 1fr; gap: 20px; }
+  .guide-grid { grid-template-columns: 1fr; gap: 20px; }
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+  .guide-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
 </head>
 <body>
-    <!-- 浮动导航栏 -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">
-                <span class="logo-icon">🎣</span>
-                <span class="logo-text">摸鱼观察室</span>
-            </a>
-            <div class="nav-links">
-                <a href="#ai-daily" class="nav-link active">🤖 AI日报</a>
-                <a href="#funny" class="nav-link">😂 搞笑</a>
-                <a href="#beauty" class="nav-link">👀 美女</a>
-                <a href="#jokes" class="nav-link">🤣 段子</a>
-                <a href="#qiushi" class="nav-link">😅 糗事</a>
-            </div>
-            <button class="mobile-menu-btn" aria-label="菜单">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <div class="navbar-logo"><span>🐟</span> 摸鱼观察室</div>
+    <div class="navbar-links">
+      <a href="#section-ai">AI</a>
+      <a href="#section-ecommerce">电商</a>
+      <a href="#section-startup">创业</a>
+      <a href="#section-web3">Web3</a>
+      <a href="#section-newenergy">能源</a>
+      <a href="#section-moyu">摸鱼</a>
+    </div>
+    <div class="navbar-time">2026/5/13 21:37:12</div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>摸鱼观察室</h1>
+      <p>AI 行业日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科，每天自动更新，打工人的精神食粮</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num">24</div>
+          <div class="label">AI 资讯</div>
         </div>
-    </nav>
-
-    <!-- Hero 区域 - AI日报作为核心展示 -->
-    <section class="hero" id="ai-daily">
-        <div class="hero-bg-pattern"></div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="pulse-dot"></span>
-                    每日更新
-                </div>
-                <h1 class="hero-title">
-                    🤖 AI 日报
-                    <span class="hero-subtitle">摸鱼也能跟上科技潮流</span>
-                </h1>
-                <p class="hero-description">
-                    每日自动抓取 AI、跨境电商、创业、Web3、新能源五大领域热点，
-                    让你在摸鱼时也能了解行业动态。
-                </p>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">5</span>
-                        <span class="stat-label">大领域</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">20+</span>
-                        <span class="stat-label">条资讯</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">24h</span>
-                        <span class="stat-label">实时更新</span>
-                    </div>
-                </div>
-                <div class="hero-cta">
-                    <a href="#ai-categories" class="btn btn-primary">
-                        查看今日日报
-                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
-                        </svg>
-                    </a>
-                    <a href="ai-news/archive/" class="btn btn-secondary">历史存档</a>
-                </div>
-            </div>
-            
-            <!-- AI日报预览卡片 -->
-            <div class="hero-preview">
-                <div class="preview-card">
-                    <div class="preview-header">
-                        <span class="preview-date">📅 2026年5月13日</span>
-                        <span class="preview-tag">今日热点</span>
-                    </div>
-                    <div class="preview-categories">
-                        <div class="preview-item">
-                            <span class="preview-icon">🤖</span>
-                            <span class="preview-text">OpenAI 发布 GPT-5 预览版</span>
-                        </div>
-                        <div class="preview-item">
-                            <span class="preview-icon">🌍</span>
-                            <span class="preview-text">Temu 欧洲用户突破 5000 万</span>
-                        </div>
-                        <div class="preview-item">
-                            <span class="preview-icon">💡</span>
-                            <span class="preview-text">Cursor 完成 1 亿美元融资</span>
-                        </div>
-                        <div class="preview-item">
-                            <span class="preview-icon">⛓️</span>
-                            <span class="preview-text">以太坊 Layer2 锁仓破 500 亿</span>
-                        </div>
-                        <div class="preview-item">
-                            <span class="preview-icon">⚡</span>
-                            <span class="preview-text">宁德时代发布固态电池</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="hero-stat">
+          <div class="num">24</div>
+          <div class="label">摸鱼内容</div>
         </div>
-    </section>
-
-    <!-- AI日报分类详情 -->
-    <section class="section ai-section" id="ai-categories">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">今日 AI 日报</h2>
-                <a href="ai-news/" class="section-link">
-                    查看完整版
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                </a>
-            </div>
-            
-            <div class="ai-categories-grid">
-                <a href="ai-news/#ai" class="ai-category-card ai-card">
-                    <div class="ai-card-icon">🤖</div>
-                    <h3>AI 人工智能</h3>
-                    <p>大模型、ChatGPT、Claude、OpenAI、机器人</p>
-                    <span class="ai-card-count">3 条新资讯</span>
-                </a>
-                <a href="ai-news/#ecommerce" class="ai-category-card ecommerce-card">
-                    <div class="ai-card-icon">🌍</div>
-                    <h3>跨境电商</h3>
-                    <p>SHEIN、Temu、TikTok Shop、亚马逊</p>
-                    <span class="ai-card-count">2 条新资讯</span>
-                </a>
-                <a href="ai-news/#startup" class="ai-category-card startup-card">
-                    <div class="ai-card-icon">💡</div>
-                    <h3>产品创业</h3>
-                    <p>融资、独角兽、SaaS、PMF、增长</p>
-                    <span class="ai-card-count">2 条新资讯</span>
-                </a>
-                <a href="ai-news/#web3" class="ai-category-card web3-card">
-                    <div class="ai-card-icon">⛓️</div>
-                    <h3>区块链 Web3</h3>
-                    <p>加密货币、比特币、以太坊、DeFi</p>
-                    <span class="ai-card-count">2 条新资讯</span>
-                </a>
-                <a href="ai-news/#newenergy" class="ai-category-card energy-card">
-                    <div class="ai-card-icon">⚡</div>
-                    <h3>新能源</h3>
-                    <p>电动车、储能、电池、碳中和</p>
-                    <span class="ai-card-count">2 条新资讯</span>
-                </a>
-            </div>
+        <div class="hero-stat">
+          <div class="num">9</div>
+          <div class="label">板块</div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- 搞笑图片 -->
-    <section class="section content-section" id="funny">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <span class="section-icon">😂</span>
-                    <h2 class="section-title">搞笑图片</h2>
-                </div>
-                <p class="section-desc">轻松一刻，告别无聊</p>
-            </div>
-            <div class="content-grid" id="funny-grid">
-                <!-- 内容由 JS 动态加载 -->
-            </div>
+  <!-- ===== AI 日报 ===== -->
+  
+    <div class="section" id="section-ai">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🤖</span>
+          <h2 class="section-title">AI 人工智能</h2>
+          <span class="section-badge">6 条</span>
         </div>
-    </section>
-
-    <!-- 美女福利 -->
-    <section class="section content-section beauty-section" id="beauty">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <span class="section-icon">👀</span>
-                    <h2 class="section-title">美女福利</h2>
+        <div class="card-grid">
+    
+          <a href="https://www.huanqiu.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai0/400/250" alt="越南《人工智能法》正式生效，成东南亚首个 AI 专门立法国家" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">政策</span>
+                <h3 class="news-card-title">越南《人工智能法》正式生效，成东南亚首个 AI 专门立法国家</h3>
+                <p class="news-card-summary">越南于3月1日正式实施《人工智能法》，标志着东盟 AI 治理进入新阶段。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 环球时报</span>
+                  <span>今日</span>
                 </div>
-                <p class="section-desc">工作太累，眼睛要吃糖</p>
+              </div>
             </div>
-            <div class="content-grid beauty-grid" id="beauty-grid">
-                <!-- 内容由 JS 动态加载 -->
+          </a>
+      
+          <a href="https://www.xinhuanet.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai1/400/250" alt="荣耀发布机器人手机，AI 从&quot;云端对话&quot;走向&quot;端侧执行&quot;" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">产品</span>
+                <h3 class="news-card-title">荣耀发布机器人手机，AI 从&quot;云端对话&quot;走向&quot;端侧执行&quot;</h3>
+                <p class="news-card-summary">MWC 2026 上，荣耀推出融合具身智能的机器人手机，被视为 AI 智能体重要入口。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 新华网</span>
+                  <span>今日</span>
+                </div>
+              </div>
             </div>
+          </a>
+      
+          <a href="https://www.jfdaily.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai2/400/250" alt="阿里千问大模型负责人林俊旸卸任" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">人事</span>
+                <h3 class="news-card-title">阿里千问大模型负责人林俊旸卸任</h3>
+                <p class="news-card-summary">阿里巴巴最年轻 P10 级技术专家宣布离开千问团队，折射 AI 人才高流动性。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 上观新闻</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://finance.sina.com.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai3/400/250" alt="黄仁勋：300 亿投资 OpenAI&quot;可能是最后一次&quot;" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">融资</span>
+                <h3 class="news-card-title">黄仁勋：300 亿投资 OpenAI&quot;可能是最后一次&quot;</h3>
+                <p class="news-card-summary">英伟达 CEO 表示，随着 OpenAI 准备上市，近期 300 亿美元投资可能是最后一次。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 新浪财经</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.chinastarmarket.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai4/400/250" alt="蚂蚁集团联合清华发布 AReaL v1.0 强化学习框架" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">开源</span>
+                <h3 class="news-card-title">蚂蚁集团联合清华发布 AReaL v1.0 强化学习框架</h3>
+                <p class="news-card-summary">首个全异步训推解耦的大模型强化学习训练系统，让智能体强化学习开箱即用。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 科创板日报</span>
+                  <span>昨日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.ruanmeng.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai5/400/250" alt="我国首个国家级人形机器人标准体系发布" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">标准</span>
+                <h3 class="news-card-title">我国首个国家级人形机器人标准体系发布</h3>
+                <p class="news-card-summary">我国首个国家级&quot;人形机器人与具身智能标准体系&quot;正式发布。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 软盟资讯</span>
+                  <span>3月2日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
         </div>
-    </section>
-
-    <!-- 内涵段子 -->
-    <section class="section content-section" id="jokes">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <span class="section-icon">🤣</span>
-                    <h2 class="section-title">内涵段子</h2>
-                </div>
-                <p class="section-desc">成年人懂的都懂</p>
-            </div>
-            <div class="jokes-list" id="jokes-list">
-                <!-- 内容由 JS 动态加载 -->
-            </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
+    <div class="section" id="section-ecommerce">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🌍</span>
+          <h2 class="section-title">跨境电商</h2>
+          <span class="section-badge">4 条</span>
         </div>
-    </section>
-
-    <!-- 糗事百科 -->
-    <section class="section content-section qiushi-section" id="qiushi">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-title-wrapper">
-                    <span class="section-icon">😅</span>
-                    <h2 class="section-title">糗事百科</h2>
+        <div class="card-grid">
+    
+          <a href="https://www.xinhuanet.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/shop0/400/250" alt="深圳华强北发布 AI 硬件全球销售热力图" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ecommerce">数据</span>
+                <h3 class="news-card-title">深圳华强北发布 AI 硬件全球销售热力图</h3>
+                <p class="news-card-summary">2026年1-2月数据显示，无人机海内外市场需求保持旺盛。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 新华社</span>
+                  <span>今日</span>
                 </div>
-                <p class="section-desc">神评时刻，笑料不断</p>
+              </div>
             </div>
-            <div class="content-grid" id="qiushi-grid">
-                <!-- 内容由 JS 动态加载 -->
+          </a>
+      
+          <a href="https://www.ithome.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/shop1/400/250" alt="雷军两会建议：提高人形机器人使用率" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ecommerce">政策</span>
+                <h3 class="news-card-title">雷军两会建议：提高人形机器人使用率</h3>
+                <p class="news-card-summary">小米 CEO 提出 5 份建议，涉及智能制造应用和人才培养。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 IT之家</span>
+                  <span>今日</span>
+                </div>
+              </div>
             </div>
+          </a>
+      
+          <a href="https://www.huawei.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/shop2/400/250" alt="华为发布 Atlas 950 SuperPoD" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ecommerce">产品</span>
+                <h3 class="news-card-title">华为发布 Atlas 950 SuperPoD</h3>
+                <p class="news-card-summary">MWC 2026 期间，华为发布多款超节点产品，助力运营商智能化升级。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 华为官网</span>
+                  <span>昨日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://finance.sina.com.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/shop3/400/250" alt="千问&quot;一句话下单&quot;功能 DAU 突破 7300 万" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ecommerce">数据</span>
+                <h3 class="news-card-title">千问&quot;一句话下单&quot;功能 DAU 突破 7300 万</h3>
+                <p class="news-card-summary">超过 400 万 60 岁以上新用户通过 AI 完成外卖下单。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 新浪财经</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
         </div>
-    </section>
-
-    <!-- 摸鱼指南 -->
-    <section class="section guide-section">
-        <div class="container">
-            <div class="guide-card">
-                <div class="guide-content">
-                    <h2>🎣 摸鱼指南</h2>
-                    <p>如何在老板眼皮底下优雅摸鱼</p>
-                    <ul class="guide-list">
-                        <li>⌨️ 快捷键：Alt+Tab 快速切换窗口</li>
-                        <li>🎭 表情管理：保持专注的表情</li>
-                        <li>📱 手机策略：放在键盘旁边假装看消息</li>
-                        <li>☕ 咖啡战术：每隔一小时去接水</li>
-                    </ul>
-                </div>
-                <div class="guide-image">
-                    <div class="guide-illustration">🐟</div>
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
+    <div class="section" id="section-startup">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">💡</span>
+          <h2 class="section-title">产品创业</h2>
+          <span class="section-badge">3 条</span>
         </div>
-    </section>
-
-    <!-- 页脚 -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <span class="logo-icon">🎣</span>
-                        <span class="logo-text">摸鱼观察室</span>
-                    </div>
-                    <p class="footer-desc">当代人精神马杀鸡网站，让摸鱼也能跟上科技潮流。</p>
+        <div class="card-grid">
+    
+          <a href="https://www.bloomberg.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/rocket0/400/250" alt="OpenAI 完成 1100 亿美元新一轮融资" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-startup">融资</span>
+                <h3 class="news-card-title">OpenAI 完成 1100 亿美元新一轮融资</h3>
+                <p class="news-card-summary">该轮融资包括英伟达、亚马逊和软银的投资承诺。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 彭博社</span>
+                  <span>今日</span>
                 </div>
-                <div class="footer-links">
-                    <h4>快速导航</h4>
-                    <ul>
-                        <li><a href="#ai-daily">🤖 AI日报</a></li>
-                        <li><a href="#funny">😂 搞笑图片</a></li>
-                        <li><a href="#beauty">👀 美女福利</a></li>
-                        <li><a href="#jokes">🤣 内涵段子</a></li>
-                        <li><a href="#qiushi">😅 糗事百科</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>AI日报</h4>
-                    <ul>
-                        <li><a href="ai-news/#ai">🤖 人工智能</a></li>
-                        <li><a href="ai-news/#ecommerce">🌍 跨境电商</a></li>
-                        <li><a href="ai-news/#startup">💡 产品创业</a></li>
-                        <li><a href="ai-news/#web3">⛓️ 区块链</a></li>
-                        <li><a href="ai-news/#newenergy">⚡ 新能源</a></li>
-                    </ul>
-                </div>
+              </div>
             </div>
-            <div class="footer-bottom">
-                <p>© 2026 摸鱼观察室. 你假装在工作，我假装很正经.</p>
-                <p class="footer-motto">不要让老板发现这个网站哦~ 🎣</p>
+          </a>
+      
+          <a href="https://www.bjd.com.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/rocket1/400/250" alt="北京数据和人工智能安全检测中心揭牌" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-startup">政策</span>
+                <h3 class="news-card-title">北京数据和人工智能安全检测中心揭牌</h3>
+                <p class="news-card-summary">AI 产业迎来专业鉴定机构，七大创新成果发布。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 北京日报</span>
+                  <span>3月2日</span>
+                </div>
+              </div>
             </div>
+          </a>
+      
+          <a href="https://www.mwcbarcelona.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/rocket2/400/250" alt="Honor 推出全球首款机器人手机" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-startup">创新</span>
+                <h3 class="news-card-title">Honor 推出全球首款机器人手机</h3>
+                <p class="news-card-summary">荣耀 CEO 表示，这是智能手机的&quot;全新物种&quot;。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 MWC 2026</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
+    <div class="section" id="section-web3">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">⛓️</span>
+          <h2 class="section-title">区块链 Web3</h2>
+          <span class="section-badge">5 条</span>
+        </div>
+        <div class="card-grid">
+    
+          <a href="https://www.coindesk.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/crypto0/400/250" alt="比特币 ETF 资金流入创新高，机构配置加速" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-web3">BTC</span>
+                <h3 class="news-card-title">比特币 ETF 资金流入创新高，机构配置加速</h3>
+                <p class="news-card-summary">美国比特币 ETF 单日净流入超 10 亿美元，显示机构投资者持续加仓。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 CoinDesk</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.theblock.co" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/crypto1/400/250" alt="以太坊 Dencun 升级完成，Layer2 费用大幅下降" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-web3">ETH</span>
+                <h3 class="news-card-title">以太坊 Dencun 升级完成，Layer2 费用大幅下降</h3>
+                <p class="news-card-summary">升级引入 EIP-4844，使 Layer2 交易费用降低 90% 以上。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 The Block</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.scmp.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/crypto2/400/250" alt="香港证监会批准首批现货加密 ETF" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-web3">ETF</span>
+                <h3 class="news-card-title">香港证监会批准首批现货加密 ETF</h3>
+                <p class="news-card-summary">香港正式批准比特币和以太坊现货 ETF，预计 4 月上市交易。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 南华早报</span>
+                  <span>昨日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://defillama.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/crypto3/400/250" alt="DeFi 协议总锁仓量突破 1000 亿美元" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-web3">DeFi</span>
+                <h3 class="news-card-title">DeFi 协议总锁仓量突破 1000 亿美元</h3>
+                <p class="news-card-summary">受市场回暖带动，DeFi 生态 TVL 创下近两年新高。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 DeFiLlama</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.caixin.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/crypto4/400/250" alt="央行数字货币跨境支付试点扩大" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-web3">CBDC</span>
+                <h3 class="news-card-title">央行数字货币跨境支付试点扩大</h3>
+                <p class="news-card-summary">数字人民币跨境支付试点新增 5 个国家和地区。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 财新</span>
+                  <span>3月3日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
+    <div class="section" id="section-newenergy">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">⚡</span>
+          <h2 class="section-title">新能源</h2>
+          <span class="section-badge">6 条</span>
+        </div>
+        <div class="card-grid">
+    
+          <a href="https://www.stcn.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy0/400/250" alt="宁德时代发布新一代固态电池技术" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">固态电池</span>
+                <h3 class="news-card-title">宁德时代发布新一代固态电池技术</h3>
+                <p class="news-card-summary">能量密度突破 500Wh/kg，预计 2027 年量产装车。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 证券时报</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.thepaper.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy1/400/250" alt="特斯拉上海储能超级工厂投产" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">Tesla</span>
+                <h3 class="news-card-title">特斯拉上海储能超级工厂投产</h3>
+                <p class="news-card-summary">年产能 40GWh，产品将面向全球市场供应。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 澎湃新闻</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.mee.gov.cn" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy2/400/250" alt="全国碳市场扩容，纳入钢铁水泥行业" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">碳中和</span>
+                <h3 class="news-card-title">全国碳市场扩容，纳入钢铁水泥行业</h3>
+                <p class="news-card-summary">碳交易市场覆盖范围扩大，推动高耗能行业绿色转型。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 生态环境部</span>
+                  <span>昨日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.pvmen.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy3/400/250" alt="光伏组件出口量同比增长 35%" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">光伏</span>
+                <h3 class="news-card-title">光伏组件出口量同比增长 35%</h3>
+                <p class="news-card-summary">中国光伏产品海外需求持续旺盛，欧洲和新兴市场为主要增长点。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 光伏們</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.cnautonews.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy4/400/250" alt="氢能源重卡商业化运营启动" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">氢能</span>
+                <h3 class="news-card-title">氢能源重卡商业化运营启动</h3>
+                <p class="news-card-summary">首批 100 辆氢燃料电池重卡投入物流干线运营。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 中国汽车报</span>
+                  <span>3月2日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.byd.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/energy5/400/250" alt="比亚迪发布第五代 DM 混动技术" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-newenergy">BYD</span>
+                <h3 class="news-card-title">比亚迪发布第五代 DM 混动技术</h3>
+                <p class="news-card-summary">百公里油耗降至 2.9L，综合续航超 2000 公里。</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 比亚迪</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
 
-    <!-- 回到顶部按钮 -->
-    <button class="back-to-top" id="backToTop" aria-label="回到顶部">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 15l-6-6-6 6"/>
-        </svg>
-    </button>
+  <!-- ===== 搞笑图片 ===== -->
+  <div id="section-moyu"></div>
+  
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">😂</span>
+          <h2 class="section-title">搞笑图片</h2>
+          <span class="section-badge">6 条</span>
+        </div>
+        <div class="card-grid">
+  
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny1/400/300" alt="程序员的一天" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">程序员的一天</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2341</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny2/400/300" alt="当代年轻人的钱包" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">当代年轻人的钱包</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1892</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny3/400/300" alt="减肥的真相" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">减肥的真相</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3421</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny4/400/300" alt="开会时的我" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">开会时的我</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1567</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny5/400/300" alt="周末计划" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">周末计划</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2789</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/funny6/400/300" alt="网购的心理历程" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">网购的心理历程</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2156</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
 
-    <script src="script.js"></script>
+  <!-- ===== 美女福利 ===== -->
+  
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">👀</span>
+          <h2 class="section-title">美女福利</h2>
+          <span class="section-badge">6 条</span>
+        </div>
+        <div class="card-grid">
+  
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty1/400/500" alt="清新自然风" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">清新自然风</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4521</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty2/400/500" alt="都市时尚" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">都市时尚</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3892</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty3/400/500" alt="优雅气质" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">优雅气质</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 5234</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty4/400/500" alt="甜美风格" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">甜美风格</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4123</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty5/400/500" alt="复古风情" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">复古风情</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3678</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="https://picsum.photos/seed/beauty6/400/500" alt="运动活力" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">运动活力</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2987</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
+
+  <!-- ===== 内涵段子 ===== -->
+  
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🤣</span>
+          <h2 class="section-title">内涵段子</h2>
+          <span class="section-badge">6 条</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+  
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">程序员的浪漫</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1234</button>
+            </div>
+            <div class="joke-card-content">我对你的爱就像循环语句，没有break，只有continue，直到内存溢出。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">成年人的世界</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2345</button>
+            </div>
+            <div class="joke-card-content">小时候以为&quot;早睡早起身体好&quot;是个建议，长大后才知道这是三个愿望。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">职场真相</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1876</button>
+            </div>
+            <div class="joke-card-content">老板：这个项目很简单；实际：需要学会时光倒流。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">健身感悟</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2987</button>
+            </div>
+            <div class="joke-card-content">健身三个月，体重没变，但心态变了——从想瘦变成了想吃。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">相亲经历</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1567</button>
+            </div>
+            <div class="joke-card-content">对方问：你有房吗？我说：有，斗地主里还有炸弹呢。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">生活哲学</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3421</button>
+            </div>
+            <div class="joke-card-content">人生就像打电话，不是你先挂就是我先挂，反正最后都要挂。</div>
+            <div class="joke-card-footer">
+              <span>网络精选</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
+
+  <!-- ===== 糗事百科 ===== -->
+  
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">😅</span>
+          <h2 class="section-title">糗事百科</h2>
+          <span class="section-badge">6 条</span>
+        </div>
+        <div class="card-grid">
+  
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi1/400/300" alt="电梯尴尬" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">电梯尴尬</div>
+              <div class="qiushi-card-content">进电梯发现老板在里面，我紧张地按了所有楼层，然后假装这是新功能演示。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 4521</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi2/400/300" alt="认错人" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">认错人</div>
+              <div class="qiushi-card-content">在商场拍了前面人的肩膀说&quot;亲爱的&quot;，结果是个陌生大叔，他说：&quot;小伙子，眼光不错。&quot;</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 3890</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi3/400/300" alt="开会社死" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">开会社死</div>
+              <div class="qiushi-card-content">视频会议时以为静音了，结果全家都听到我吐槽老板的新发型。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 5234</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi4/400/300" alt="外卖事故" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">外卖事故</div>
+              <div class="qiushi-card-content">点外卖备注&quot;多放辣&quot;，结果送来的是一整袋干辣椒，现在我在医院。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 2876</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi5/400/300" alt="健身尴尬" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">健身尴尬</div>
+              <div class="qiushi-card-content">第一次去健身房，把跑步机速度调到最大，现在我在墙上。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 4123</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi6/400/300" alt="购物失误" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">购物失误</div>
+              <div class="qiushi-card-content">网购时没看尺寸，收到了一个需要放大镜才能看见的&quot;巨型&quot;玩偶。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 3567</button>
+                <span>匿名</span>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
+
+  <!-- ===== 摸鱼指南 ===== -->
+  
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🐟</span>
+          <h2 class="section-title">摸鱼指南</h2>
+          <span class="section-badge">6 招</span>
+        </div>
+        <div class="guide-grid">
+  
+          <div class="guide-card">
+            <span class="guide-card-number">01</span>
+            <div class="guide-card-icon">⌨️</div>
+            <div class="guide-card-title">Alt+Tab 快速切换</div>
+            <div class="guide-card-desc">老板走过来时，一键切回工作界面。建议提前打开一个 Excel 表格备用。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">02</span>
+            <div class="guide-card-icon">📱</div>
+            <div class="guide-card-title">手机支架大法</div>
+            <div class="guide-card-desc">把手机放在显示器后方，利用余光看视频。注意调节亮度，避免反光。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">03</span>
+            <div class="guide-card-icon">☕</div>
+            <div class="guide-card-title">带薪拉屎计时</div>
+            <div class="guide-card-desc">每天 3 次，每次 15 分钟，一年多出 16 天假期。记得带手机。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">04</span>
+            <div class="guide-card-icon">🎧</div>
+            <div class="guide-card-title">耳机伪装术</div>
+            <div class="guide-card-desc">戴着耳机假装听会议录音，实际上在听播客。记得偶尔点头微笑。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">05</span>
+            <div class="guide-card-icon">📝</div>
+            <div class="guide-card-title">会议摸鱼学</div>
+            <div class="guide-card-desc">开会时带笔记本，认真做笔记的样子。实际上在画火柴人或写小说。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">06</span>
+            <div class="guide-card-icon">🪟</div>
+            <div class="guide-card-title">窗口管理大师</div>
+            <div class="guide-card-desc">Ctrl+W 一键关闭当前页面，Win+D 一键回到桌面。肌肉记忆很重要。</div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand-name">🐟 摸鱼观察室</div>
+        <p class="footer-brand-desc">
+          摸鱼观察室是一个自动化内容聚合平台，每日抓取 AI 行业资讯和摸鱼娱乐内容。
+          工作再忙，也要记得摸鱼。
+        </p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">内容板块</div>
+                <a href="#section-ai">🤖 AI 人工智能</a>
+        <a href="#section-ecommerce">🌍 跨境电商</a>
+        <a href="#section-startup">💡 产品创业</a>
+        <a href="#section-web3">⛓️ 区块链 Web3</a>
+        <a href="#section-newenergy">⚡ 新能源</a>
+        <a href="#section-moyu">😂 摸鱼专区</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">关于</div>
+        <a href="#">关于我们</a>
+        <a href="#">联系方式</a>
+        <a href="#">使用条款</a>
+        <a href="#">隐私政策</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 <span class="footer-link">摸鱼观察室</span>. All Rights Reserved. &middot; 更新时间: 2026/5/13 21:37:12
+    </div>
+  </footer>
+
 </body>
 </html>
