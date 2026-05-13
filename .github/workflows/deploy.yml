@@ -33,12 +33,12 @@ jobs:
     - name: Install Dependencies
       run: npm install
       
-    - name: Generate Daily News with Tavily
+    - name: Generate Daily News with Tavily + MiMo
       run: node backend/scraper/generate.js --real --archive
       env:
         NODE_ENV: production
         TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-        KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+        MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
         
     - name: Commit and Push
       run: |

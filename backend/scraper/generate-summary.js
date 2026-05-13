@@ -1,6 +1,6 @@
 /**
  * 日报汇总生成器
- * 使用 Kimi API 生成结构化的日报汇总
+ * 使用小米 MiMo API 生成结构化的日报汇总
  */
 
 const fs = require('fs').promises;
@@ -13,26 +13,26 @@ const DATA_DIR = path.join(__dirname, '../data');
 const DAILY_JSON = path.join(DATA_DIR, 'daily.json');
 const SUMMARY_JSON = path.join(DATA_DIR, 'daily-summary.json');
 
-const KIMI_API_KEY = process.env.KIMI_API_KEY || '';
-const KIMI_API_HOST = 'api.moonshot.cn';
+const MIMO_API_KEY = process.env.MIMO_API_KEY || '';
+const MIMO_API_BASE = 'https://token-plan-cn.xiaomimimo.com/v1/chat/completions';
 
 /**
- * 调用 Kimi API 生成汇总
+ * 调用 MiMo API 生成汇总
  */
 async function generateSummary(newsData) {
-  const apiKey = process.env.KIMI_API_KEY || KIMI_API_KEY;
-  
+  const apiKey = process.env.MIMO_API_KEY || MIMO_API_KEY;
+
   if (!apiKey) {
-    console.error('⚠️ KIMI_API_KEY 未配置');
-    throw new Error('KIMI_API_KEY 未配置');
+    console.error('⚠️ MIMO_API_KEY 未配置');
+    throw new Error('MIMO_API_KEY 未配置');
   }
 
   const prompt = buildPrompt(newsData);
-  
-  console.log('🤖 正在调用 Kimi API 生成汇总...');
-  
+
+  console.log('🤖 正在调用 MiMo API 生成汇总...');
+
   const requestBody = {
-    model: 'moonshot-v1-32k',
+    model: 'MiMo-V2.5-Pro',
     messages: [
       {
         role: 'system',
@@ -86,10 +86,11 @@ async function generateSummary(newsData) {
 
   const data = JSON.stringify(requestBody);
 
+  const url = new URL(MIMO_API_BASE);
   const options = {
-    hostname: KIMI_API_HOST,
+    hostname: url.hostname,
     port: 443,
-    path: '/v1/chat/completions',
+    path: url.pathname,
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -108,9 +109,9 @@ async function generateSummary(newsData) {
       res.on('end', () => {
         try {
           const parsedData = JSON.parse(responseData);
-          
+
           if (parsedData.error) {
-            console.error(`[Kimi] API 错误: ${parsedData.error.message || parsedData.error}`);
+            console.error(`[MiMo] API 错误: ${parsedData.error.message || JSON.stringify(parsedData.error)}`);
             reject(new Error(parsedData.error.message || 'API 错误'));
             return;
           }
@@ -125,7 +126,7 @@ async function generateSummary(newsData) {
             const summary = JSON.parse(content);
             resolve(fixSummaryIds(summary, newsData));
           } catch (parseError) {
-            console.error('[Kimi] JSON 解析失败，尝试提取 JSON');
+            console.error('[MiMo] JSON 解析失败，尝试提取 JSON');
             const jsonMatch = content.match(/\{[\s\S]*\}/);
             if (jsonMatch) {
               const summary = JSON.parse(jsonMatch[0]);
@@ -135,14 +136,14 @@ async function generateSummary(newsData) {
             }
           }
         } catch (error) {
-          console.error(`[Kimi] 解析失败: ${error.message}`);
+          console.error(`[MiMo] 解析失败: ${error.message}`);
           reject(error);
         }
       });
     });
 
     req.on('error', (error) => {
-      console.error(`[Kimi] 请求失败: ${error.message}`);
+      console.error(`[MiMo] 请求失败: ${error.message}`);
       reject(error);
     });
 
@@ -159,7 +160,7 @@ function fixSummaryIds(summary, newsData) {
   newsData.categories.forEach(cat => {
     categoryMap[cat.name] = { id: cat.id, icon: cat.icon };
   });
-  
+
   summary.categories.forEach(cat => {
     const original = categoryMap[cat.name];
     if (original) {
@@ -167,7 +168,7 @@ function fixSummaryIds(summary, newsData) {
       cat.icon = original.icon;
     }
   });
-  
+
   return summary;
 }
 
@@ -176,7 +177,7 @@ function fixSummaryIds(summary, newsData) {
  */
 function buildPrompt(newsData) {
   let prompt = `日期：${newsData.date.display}\n\n`;
-  
+
   newsData.categories.forEach(cat => {
     prompt += `【${cat.name}】\n`;
     cat.items.forEach((item, index) => {
@@ -189,7 +190,7 @@ function buildPrompt(newsData) {
     });
     prompt += '\n';
   });
-  
+
   return prompt;
 }
 

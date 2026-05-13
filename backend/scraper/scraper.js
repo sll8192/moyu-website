@@ -1,12 +1,12 @@
 /**
  * News Scraper Module - Tavily Search Version
- * 真实数据抓取模块 - 使用 Tavily Search API + Kimi 翻译
+ * 真实数据抓取模块 - 使用 Tavily Search API + 小米 MiMo 翻译
  */
 
 const fs = require('fs');
 const path = require('path');
 const { tavily_search_batch } = require('../utils/tavily-api');
-const { kimi_translate_batch } = require('../utils/kimi-api');
+const { mimo_translate_batch } = require('../utils/mimo-api');
 
 // ============================================
 // 五大分类配置（英文搜索 + 中文显示）
@@ -114,7 +114,7 @@ const SOURCES = {
 };
 
 // ============================================
-// Tavily 搜索 + Kimi 翻译
+// Tavily 搜索 + 小米 MiMo 翻译
 // ============================================
 
 // 格式化搜索结果为新闻条目
@@ -221,13 +221,13 @@ async function fetchNews(category, limit = 6) {
     // 格式化结果
     let formatted = formatSearchResults(results.slice(0, limit), category);
     
-    // 使用 Kimi 翻译标题和摘要
-    if (process.env.KIMI_API_KEY && formatted.length > 0) {
+    // 使用 MiMo 翻译标题和摘要
+    if (process.env.MIMO_API_KEY && formatted.length > 0) {
       console.log(`  🔄 正在翻译 ${formatted.length} 条新闻...`);
-      formatted = await kimi_translate_batch(formatted);
+      formatted = await mimo_translate_batch(formatted);
     }
     
-    console.log(`  ✅ ${config.name}: ${formatted.length} 条 (Tavily + Kimi)`);
+    console.log(`  ✅ ${config.name}: ${formatted.length} 条 (Tavily + MiMo)`);
     return formatted;
   } catch (error) {
     console.warn(`  ⚠️ Tavily 搜索失败: ${error.message}`);
@@ -243,14 +243,14 @@ async function generateDailyNews(useRealSearch = false) {
   console.log(`📅 ${today.display}\n`);
   
   const hasTavilyKey = !!process.env.TAVILY_API_KEY;
-  const hasKimiKey = !!process.env.KIMI_API_KEY;
+  const hasMimoKey = !!process.env.MIMO_API_KEY;
   
   if (useRealSearch && hasTavilyKey) {
     console.log('🔍 使用 Tavily Search API 进行真实搜索');
-    if (hasKimiKey) {
-      console.log('🌐 使用 Kimi API 进行中文翻译\n');
+    if (hasMimoKey) {
+      console.log('🌐 使用小米 MiMo API 进行中文翻译\n');
     } else {
-      console.log('⚠️  未配置 KIMI_API_KEY，将使用英文原文\n');
+      console.log('⚠️  未配置 MIMO_API_KEY，将使用英文原文\n');
     }
   } else if (useRealSearch && !hasTavilyKey) {
     console.log('⚠️  未配置 TAVILY_API_KEY，将使用模拟数据\n');
@@ -285,7 +285,7 @@ async function generateDailyNews(useRealSearch = false) {
     categories: categories,
     generatedAt: today.timestamp,
     version: '3.0.0',
-    source: (useRealSearch && hasTavilyKey) ? 'tavily-kimi' : 'mock'
+    source: (useRealSearch && hasTavilyKey) ? 'tavily-mimo' : 'mock'
   };
   
   console.log(`\n📊 总计: ${categories.reduce((sum, cat) => sum + cat.items.length, 0)} 条新闻`);

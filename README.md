@@ -26,7 +26,7 @@
 ### AI日报技术栈
 
 - **数据抓取**: Tavily Search API
-- **翻译优化**: Kimi API (可选)
+- **AI翻译**: 小米 MiMo V2.5 Pro (可选)
 - **前端**: 静态 HTML/CSS/JS (MetaBlog 风格)
 - **部署**: GitHub Pages + GitHub Actions (每日自动更新)
 
@@ -63,7 +63,7 @@ git push origin main
 3. 点击 "New repository secret"
 4. 添加以下 secrets:
    - `TAVILY_API_KEY`: 你的 Tavily API Key ([获取](https://tavily.com))
-   - `KIMI_API_KEY`: 你的 Kimi API Key ([获取](https://platform.moonshot.cn))
+   - `MIMO_API_KEY`: 你的小米 MiMo API Key ([获取](https://token-plan-cn.xiaomimimo.com))
 
 ### 步骤4：启用 GitHub Pages
 
@@ -123,7 +123,7 @@ npm run generate:archive
 - **部署**: GitHub Pages
 - **自动化**: GitHub Actions
 - **数据抓取**: Tavily Search API
-- **AI翻译**: Kimi API
+- **AI翻译**: 小米 MiMo V2.5 Pro
 
 ## 📱 响应式设计
 

@@ -1,24 +1,24 @@
 /**
- * Kimi API 工具
- * 封装 Kimi 翻译调用
+ * MiMo API 工具（小米大模型）
+ * 封装 MiMo 翻译调用，兼容 OpenAI API 格式
  */
 
 const https = require('https');
 
-const KIMI_API_KEY = process.env.KIMI_API_KEY || '';
-const KIMI_API_HOST = 'api.moonshot.cn';
+const MIMO_API_KEY = process.env.MIMO_API_KEY || '';
+const MIMO_API_BASE = 'https://token-plan-cn.xiaomimimo.com/v1/chat/completions';
 
 /**
- * 使用 Kimi 翻译文本
+ * 使用 MiMo 翻译文本
  * @param {string} text - 要翻译的文本
  * @param {string} targetLang - 目标语言，默认中文
  * @returns {Promise<string>} 翻译后的文本
  */
-async function kimi_translate(text, targetLang = '中文') {
-  const apiKey = process.env.KIMI_API_KEY || KIMI_API_KEY;
-  
+async function mimo_translate(text, targetLang = '中文') {
+  const apiKey = process.env.MIMO_API_KEY || MIMO_API_KEY;
+
   if (!apiKey) {
-    console.warn('⚠️ KIMI_API_KEY 未配置，返回原文');
+    console.warn('⚠️ MIMO_API_KEY 未配置，返回原文');
     return text;
   }
 
@@ -27,7 +27,7 @@ async function kimi_translate(text, targetLang = '中文') {
   }
 
   const requestBody = {
-    model: 'kimi-k2.5',
+    model: 'MiMo-V2.5-Pro',
     messages: [
       {
         role: 'system',
@@ -46,10 +46,11 @@ async function kimi_translate(text, targetLang = '中文') {
 
   const data = JSON.stringify(requestBody);
 
+  const url = new URL(MIMO_API_BASE);
   const options = {
-    hostname: KIMI_API_HOST,
+    hostname: url.hostname,
     port: 443,
-    path: '/v1/chat/completions',
+    path: url.pathname,
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -57,7 +58,7 @@ async function kimi_translate(text, targetLang = '中文') {
     }
   };
 
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const req = https.request(options, (res) => {
       let responseData = '';
 
@@ -68,24 +69,24 @@ async function kimi_translate(text, targetLang = '中文') {
       res.on('end', () => {
         try {
           const parsedData = JSON.parse(responseData);
-          
+
           if (parsedData.error) {
-            console.error(`[Kimi] API 错误: ${parsedData.error.message || parsedData.error}`);
-            resolve(text); // 失败时返回原文
+            console.error(`[MiMo] API 错误: ${parsedData.error.message || JSON.stringify(parsedData.error)}`);
+            resolve(text);
             return;
           }
 
           const translated = parsedData.choices?.[0]?.message?.content?.trim() || text;
           resolve(translated);
         } catch (error) {
-          console.error(`[Kimi] 解析失败: ${error.message}`);
+          console.error(`[MiMo] 解析失败: ${error.message}`);
           resolve(text);
         }
       });
     });
 
     req.on('error', (error) => {
-      console.error(`[Kimi] 请求失败: ${error.message}`);
+      console.error(`[MiMo] 请求失败: ${error.message}`);
       resolve(text);
     });
 
@@ -99,14 +100,15 @@ async function kimi_translate(text, targetLang = '中文') {
  * @param {Array} items - 新闻条目数组，每项包含 title、summary 和 content
  * @returns {Promise<Array>} 翻译后的新闻条目
  */
-async function kimi_translate_batch(items) {
-  const apiKey = process.env.KIMI_API_KEY || KIMI_API_KEY;  
+async function mimo_translate_batch(items) {
+  const apiKey = process.env.MIMO_API_KEY || MIMO_API_KEY;
   if (!apiKey || !items || items.length === 0) {
     return items;
   }
 
+  console.log(`  🔄 MiMo 正在翻译 ${items.length} 条新闻...`);
   const translatedItems = [];
-  
+
   for (const item of items) {
     try {
       const translatedTitle = await translateText(item.title, apiKey);
@@ -114,21 +116,21 @@ async function kimi_translate_batch(items) {
       const translatedSummary = await translateText(summaryToTranslate, apiKey);
       const contentToTranslate = (item.content || '').substring(0, 2000) || '';
       const translatedContent = await translateText(contentToTranslate, apiKey);
-      
+
       translatedItems.push({
         ...item,
         title: translatedTitle || item.title,
         summary: translatedSummary?.substring(0, 100) || item.summary?.substring(0, 100) || '',
         content: translatedContent || item.content || ''
       });
-      
+
       await new Promise(r => setTimeout(r, 300));
     } catch (error) {
-      console.error(`[Kimi] 翻译失败: ${error.message}`);
+      console.error(`[MiMo] 翻译失败: ${error.message}`);
       translatedItems.push(item);
     }
   }
-  
+
   return translatedItems;
 }
 
@@ -141,7 +143,7 @@ async function translateText(text, apiKey) {
   }
 
   const requestBody = {
-    model: 'moonshot-v1-8k',
+    model: 'MiMo-V2.5-Pro',
     messages: [
       {
         role: 'system',
@@ -157,10 +159,11 @@ async function translateText(text, apiKey) {
 
   const data = JSON.stringify(requestBody);
 
+  const url = new URL(MIMO_API_BASE);
   const options = {
-    hostname: KIMI_API_HOST,
+    hostname: url.hostname,
     port: 443,
-    path: '/v1/chat/completions',
+    path: url.pathname,
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -203,6 +206,6 @@ function isChineseText(text) {
 }
 
 module.exports = {
-  kimi_translate,
-  kimi_translate_batch
+  mimo_translate,
+  mimo_translate_batch
 };
