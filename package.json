@@ -1,0 +1,23 @@
+{
+  "name": "moyu-website",
+  "version": "2.0.0",
+  "description": "摸鱼观察室 - 当代人精神马杀鸡 + AI日报",
+  "main": "index.html",
+  "scripts": {
+    "generate": "node backend/scraper/generate.js --real",
+    "generate:archive": "node backend/scraper/generate.js --real --archive",
+    "summary": "node backend/scraper/generate-summary.js",
+    "dev": "node backend/server.js"
+  },
+  "keywords": [
+    "摸鱼",
+    "AI日报",
+    "新闻聚合",
+    "GitHub Pages"
+  ],
+  "author": "sll8192",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

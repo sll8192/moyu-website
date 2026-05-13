@@ -1,0 +1,146 @@
+{
+  "date": {
+    "date": "2026-05-13",
+    "display": "2026年5月13日星期三",
+    "timestamp": "2026-05-13T09:53:09.468Z"
+  },
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI 人工智能",
+      "icon": "🤖",
+      "items": [
+        {
+          "title": "OpenAI 发布 GPT-5 预览版，推理能力大幅提升",
+          "summary": "新一代大模型在数学推理和代码生成方面表现优异，预计年内正式发布。",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com",
+          "time": "今日",
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai1/400/250"
+        },
+        {
+          "title": "Google Gemini 2.0 支持百万token上下文",
+          "summary": "长文本处理能力突破，可一次性处理整本书籍内容。",
+          "source": "Google AI",
+          "url": "https://ai.google",
+          "time": "今日",
+          "tag": "Google",
+          "image": "https://picsum.photos/seed/ai2/400/250"
+        },
+        {
+          "title": "Anthropic Claude 4 发布，多模态能力增强",
+          "summary": "支持图像理解和生成，在视觉问答基准测试中创下新高。",
+          "source": "Anthropic",
+          "url": "https://anthropic.com",
+          "time": "昨日",
+          "tag": "Claude",
+          "image": "https://picsum.photos/seed/ai3/400/250"
+        }
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "跨境电商",
+      "icon": "🌍",
+      "items": [
+        {
+          "title": "Temu 欧洲市场用户突破 5000 万",
+          "summary": "拼多多海外版在欧洲快速扩张，已成为当地下载量最高的购物应用。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com",
+          "time": "今日",
+          "tag": "Temu",
+          "image": "https://picsum.photos/seed/shop1/400/250"
+        },
+        {
+          "title": "SHEIN 供应链数字化升级，交付周期缩短 30%",
+          "summary": "通过 AI 预测和智能排产，快时尚巨头进一步提升供应链效率。",
+          "source": "Reuters",
+          "url": "https://reuters.com",
+          "time": "今日",
+          "tag": "SHEIN",
+          "image": "https://picsum.photos/seed/shop2/400/250"
+        }
+      ]
+    },
+    {
+      "id": "startup",
+      "name": "产品创业",
+      "icon": "💡",
+      "items": [
+        {
+          "title": "AI 编程助手 Cursor 完成 1 亿美元 B 轮融资",
+          "summary": "估值突破 10 亿美元，成为最新一家 AI 独角兽。",
+          "source": "The Information",
+          "url": "https://theinformation.com",
+          "time": "今日",
+          "tag": "融资",
+          "image": "https://picsum.photos/seed/rocket1/400/250"
+        },
+        {
+          "title": "YC W26 批次申请量创历史新高",
+          "summary": "AI 应用层项目占比超过 60%，Agent 成为最热门赛道。",
+          "source": "Y Combinator",
+          "url": "https://ycombinator.com",
+          "time": "昨日",
+          "tag": "YC",
+          "image": "https://picsum.photos/seed/rocket2/400/250"
+        }
+      ]
+    },
+    {
+      "id": "web3",
+      "name": "区块链 Web3",
+      "icon": "⛓️",
+      "items": [
+        {
+          "title": "以太坊 Layer2 总锁仓量突破 500 亿美元",
+          "summary": "Arbitrum 和 Optimism 领跑，zkSync 增速最快。",
+          "source": "L2Beat",
+          "url": "https://l2beat.com",
+          "time": "今日",
+          "tag": "ETH",
+          "image": "https://picsum.photos/seed/crypto1/400/250"
+        },
+        {
+          "title": "香港批准首批现货比特币 ETF",
+          "summary": "预计下周开始交易，为亚洲投资者提供合规加密货币投资渠道。",
+          "source": "Bloomberg",
+          "url": "https://bloomberg.com",
+          "time": "今日",
+          "tag": "ETF",
+          "image": "https://picsum.photos/seed/crypto2/400/250"
+        }
+      ]
+    },
+    {
+      "id": "newenergy",
+      "name": "新能源",
+      "icon": "⚡",
+      "items": [
+        {
+          "title": "宁德时代发布凝聚态电池，能量密度达 500Wh/kg",
+          "summary": "新型电池技术可让电动车续航突破 1000 公里，预计 2027 年量产。",
+          "source": "CATL",
+          "url": "https://catl.com",
+          "time": "今日",
+          "tag": "电池",
+          "image": "https://picsum.photos/seed/energy1/400/250"
+        },
+        {
+          "title": "特斯拉储能业务季度收入首次突破 10 亿美元",
+          "summary": "Megapack 需求强劲，储能业务成为公司新增长引擎。",
+          "source": "Tesla",
+          "url": "https://tesla.com",
+          "time": "昨日",
+          "tag": "Tesla",
+          "image": "https://picsum.photos/seed/energy2/400/250"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-05-13T09:53:09.468Z",
+  "version": "3.0.0",
+  "source": "mock"
+}
