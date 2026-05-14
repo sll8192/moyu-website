@@ -13,8 +13,9 @@ const path = require('path');
 // 加载环境变量
 require('dotenv').config();
 
-const { generateDailyNews, getMockNews, saveData } = require('./scraper');
+const { generateDailyNews, getMockNews, getSources, saveData } = require('./scraper');
 const { generateAllMoyuContent, MOCK_DATA } = require('./moyu-scraper');
+const { formatGithubTrending } = require('../utils/real-api');
 
 // 路径配置
 const PATHS = {
@@ -391,6 +392,54 @@ ul { list-style: none; }
 }
 .footer-link:hover { opacity: 0.8; }
 
+/* ===== GitHub Trending Card ===== */
+.github-card {
+  background: #1E293B; border-radius: 16px; padding: 20px 24px;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.github-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.github-card-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.github-card-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px; font-weight: 600; color: #22C55E;
+  word-break: break-all;
+}
+.github-card-stars {
+  display: flex; align-items: center; gap: 4px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 14px; font-weight: 600; color: #FBBF24;
+  white-space: nowrap;
+}
+.github-card-desc {
+  font-size: 14px; color: #94A3B8; line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.github-card-meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  font-size: 12px; color: #64748B;
+}
+.github-card-lang {
+  display: flex; align-items: center; gap: 6px;
+}
+.github-card-lang-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  display: inline-block;
+}
+.github-card-topic {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  padding: 3px 10px; border-radius: 12px;
+  font-size: 11px; font-weight: 500;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .navbar { padding: 0 16px; height: 64px; }
@@ -672,6 +721,71 @@ function renderQiushiSection(items) {
 }
 
 /**
+ * 生成 GitHub 热榜区块 HTML
+ */
+function renderGithubSection(items) {
+  if (!items || items.length === 0) return '';
+
+  // 语言颜色映射
+  const langColors = {
+    'JavaScript': '#F7DF1E', 'TypeScript': '#3178C6', 'Python': '#3572A5',
+    'Rust': '#DEA584', 'Go': '#00ADD8', 'Java': '#B07219', 'C++': '#F34B7D',
+    'C': '#555555', 'C#': '#178600', 'Ruby': '#701516', 'PHP': '#4F5D95',
+    'Swift': '#F05138', 'Kotlin': '#A97BFF', 'Dart': '#00B4AB',
+    'Shell': '#89E051', 'Vue': '#41B883', 'HTML': '#E34C26', 'CSS': '#563D7C',
+    'Unknown': '#64748B'
+  };
+
+  let html = `
+    <div class="section" id="section-github">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🔥</span>
+          <h2 class="section-title">GitHub 热榜</h2>
+          <span class="section-badge">${items.length} 个项目</span>
+        </div>
+        <div class="card-grid">
+  `;
+
+  for (const item of items) {
+    const name = escapeHtml(item.title || item.name || '');
+    const desc = escapeHtml(item.description || '');
+    const url = item.url || `https://github.com/${name}`;
+    const stars = item.stars || '0';
+    const lang = escapeHtml(item.language || 'Unknown');
+    const langColor = langColors[lang] || langColors['Unknown'] || '#64748B';
+    const topics = (item.topics || []).slice(0, 3);
+
+    html += `
+          <a href="${url}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="github-card">
+              <div class="github-card-header">
+                <span class="github-card-name">📦 ${name}</span>
+                <span class="github-card-stars">⭐ ${stars}</span>
+              </div>
+              <div class="github-card-desc">${desc || '暂无描述'}</div>
+              <div class="github-card-meta">
+                <span class="github-card-lang">
+                  <span class="github-card-lang-dot" style="background:${langColor}"></span>
+                  ${lang}
+                </span>
+                ${topics.map(t => `<span class="github-card-topic">${escapeHtml(t)}</span>`).join('')}
+              </div>
+            </div>
+          </a>
+    `;
+  }
+
+  html += `
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  `;
+  return html;
+}
+
+/**
  * 生成摸鱼指南区块 HTML - 带数字编号步骤卡片
  */
 function renderGuideSection() {
@@ -748,6 +862,7 @@ function generateFullHTML(newsData, moyuData) {
     }
   }
   navLinks.push(`<a href="#section-moyu">摸鱼</a>`);
+  navLinks.push(`<a href="#section-github">GitHub</a>`);
 
   // 页脚分类
   const footerCats = [];
@@ -756,13 +871,14 @@ function generateFullHTML(newsData, moyuData) {
       footerCats.push(`<a href="#section-${cat.id}">${cat.icon} ${cat.name}</a>`);
     }
   }
+  footerCats.push(`<a href="#section-github">🔥 GitHub 热榜</a>`);
 
   return `<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="摸鱼观察室 - AI日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科，每天自动更新">
+  <meta name="description" content="摸鱼观察室 - AI日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub热榜，每天自动更新">
   <meta name="theme-color" content="#0F172A">
   <title>摸鱼观察室 - ${dateDisplay}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -786,7 +902,7 @@ function generateFullHTML(newsData, moyuData) {
   <section class="hero">
     <div class="hero-content">
       <h1>摸鱼观察室</h1>
-      <p>AI 行业日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科，每天自动更新，打工人的精神食粮</p>
+      <p>AI 行业日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub 热榜，每天自动更新，打工人的精神食粮</p>
       <div class="hero-stats">
         <div class="hero-stat">
           <div class="num">${totalNews}</div>
@@ -797,7 +913,7 @@ function generateFullHTML(newsData, moyuData) {
           <div class="label">摸鱼内容</div>
         </div>
         <div class="hero-stat">
-          <div class="num">9</div>
+          <div class="num">10</div>
           <div class="label">板块</div>
         </div>
       </div>
@@ -819,6 +935,9 @@ function generateFullHTML(newsData, moyuData) {
 
   <!-- ===== 糗事百科 ===== -->
   ${renderQiushiSection(moyuData.qiushi)}
+
+  <!-- ===== GitHub 热榜 ===== -->
+  ${renderGithubSection(moyuData.github)}
 
   <!-- ===== 摸鱼指南 ===== -->
   ${renderGuideSection()}
@@ -886,7 +1005,7 @@ async function main() {
       moyuData = await generateAllMoyuContent();
     } else {
       // 使用内置的丰富 mock 数据
-      const SOURCES = require('./scraper').SOURCES || {};
+      const SOURCES = require('./scraper').getSources() || {};
       const mockCategories = [];
       for (const [key, config] of Object.entries(SOURCES)) {
         const items = getMockNews(key);
@@ -903,6 +1022,19 @@ async function main() {
         categories: mockCategories
       };
       moyuData = { ...MOCK_DATA };
+      // 添加 GitHub 热榜 mock 数据
+      if (!moyuData.github || moyuData.github.length === 0) {
+        moyuData.github = [
+          { title: 'vercel/ai', description: 'Build AI-powered applications with React, Svelte, Vue, and Solid', url: 'https://github.com/vercel/ai', stars: '28.5k', language: 'TypeScript', topics: ['ai', 'llm', 'react'] },
+          { title: 'ollama/ollama', description: 'Get up and running with Llama 3, Mistral, and other large language models', url: 'https://github.com/ollama/ollama', stars: '105k', language: 'Go', topics: ['llm', 'ai', 'local'] },
+          { title: 'langgenius/dify', description: 'Dify is an open-source LLM app development platform', url: 'https://github.com/langgenius/dify', stars: '62k', language: 'TypeScript', topics: ['ai', 'llm', 'agent'] },
+          { title: 'browser-use/browser-use', description: 'Make websites accessible for AI agents', url: 'https://github.com/browser-use/browser-use', stars: '55k', language: 'Python', topics: ['ai', 'agent', 'browser'] },
+          { title: 'anthropics/claude-code', description: 'An agentic coding tool that lives in your terminal', url: 'https://github.com/anthropics/claude-code', stars: '35k', language: 'Python', topics: ['ai', 'coding', 'agent'] },
+          { title: 'open-webui/open-webui', description: 'User-friendly AI Interface for LLMs', url: 'https://github.com/open-webui/open-webui', stars: '80k', language: 'Svelte', topics: ['ai', 'llm', 'chat'] },
+          { title: 'All-Hands-AI/OpenHands', description: 'AI-powered software development agent', url: 'https://github.com/All-Hands-AI/OpenHands', stars: '45k', language: 'Python', topics: ['ai', 'agent', 'coding'] },
+          { title: 'shadcn-ui/ui', description: 'Beautifully designed components built with Radix and Tailwind CSS', url: 'https://github.com/shadcn-ui/ui', stars: '78k', language: 'TypeScript', topics: ['react', 'ui', 'tailwind'] }
+        ];
+      }
       console.log('📦 已加载内置 mock 数据\n');
     }
 
@@ -937,6 +1069,7 @@ module.exports = {
   renderBeautySection,
   renderJokesSection,
   renderQiushiSection,
+  renderGithubSection,
   renderGuideSection
 };
 

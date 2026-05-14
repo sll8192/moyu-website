@@ -177,7 +177,8 @@ async function fetchAllRealContent() {
     funny: [],
     jokes: [],
     qiushi: [],
-    shenhuifu: []
+    shenhuifu: [],
+    github: []
   };
   
   // 1. 美女图片 (动漫分类)
@@ -215,19 +216,153 @@ async function fetchAllRealContent() {
   }));
   console.log(`  ✅ 糗事: ${data.qiushi.length} 条`);
   
+  // 6. GitHub 热榜
+  console.log('📡 正在获取 GitHub 热榜...');
+  data.github = await fetchGithubTrending();
+  console.log(`  ✅ GitHub 热榜: ${data.github.length} 条`);
+  
   console.log('\n📊 真实内容统计:');
   console.log(`  👀 美女福利: ${data.beauty.length} 条`);
   console.log(`  😂 搞笑图片: ${data.funny.length} 条`);
   console.log(`  🤣 段子: ${data.jokes.length} 条`);
   console.log(`  💬 神回复: ${data.shenhuifu.length} 条`);
   console.log(`  😅 糗事: ${data.qiushi.length} 条`);
+  console.log(`  🔥 GitHub 热榜: ${data.github.length} 条`);
   
   return data;
+}
+
+// ============================================
+// GitHub Trending API
+// ============================================
+
+/**
+ * 延迟指定毫秒数
+ * @param {number} ms - 毫秒数
+ * @returns {Promise<void>}
+ */
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * 格式化 star 数量（如 1200 -> "1.2k"）
+ * @param {number} count - star 数量
+ * @returns {string} 格式化后的字符串
+ */
+function formatStars(count) {
+  if (count >= 1000) {
+    return (count / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  }
+  return String(count);
+}
+
+/**
+ * 通过 GitHub Search API 获取指定语言的近期热门仓库
+ * @param {string} language - 编程语言
+ * @param {number} perPage - 每页数量
+ * @returns {Promise<Array>} 仓库列表
+ */
+async function fetchTrendingByLanguage(language, perPage = 5) {
+  const sevenDaysAgo = new Date();
+  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+  const dateStr = sevenDaysAgo.toISOString().split('T')[0]; // e.g. "2026-05-06"
+
+  const query = encodeURIComponent(`created:>${dateStr}+stars:>50+language:${language}`);
+  const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=${perPage}`;
+
+  return new Promise((resolve) => {
+    const req = https.get(url, {
+      headers: {
+        'User-Agent': 'moyu-website'
+      }
+    }, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          if (json.items && json.items.length > 0) {
+            const repos = json.items.map(repo => ({
+              name: repo.full_name,
+              description: repo.description || '',
+              url: repo.html_url,
+              stars: repo.stargazers_count,
+              forks: repo.forks_count,
+              language: repo.language || 'Unknown',
+              topics: repo.topics || [],
+              createdAt: repo.created_at,
+              updatedAt: repo.updated_at
+            }));
+            resolve(repos);
+          } else {
+            resolve([]);
+          }
+        } catch (e) {
+          console.warn(`⚠️ GitHub API 解析失败 (${language}):`, e.message);
+          resolve([]);
+        }
+      });
+    });
+
+    req.on('error', (e) => {
+      console.warn(`⚠️ GitHub API 请求失败 (${language}):`, e.message);
+      resolve([]);
+    });
+  });
+}
+
+/**
+ * 获取多个编程语言的 GitHub 热门项目
+ * @param {Array<string>} languages - 编程语言列表
+ * @returns {Promise<Array>} 去重后的热门项目列表
+ */
+async function fetchGithubTrending(languages = ['javascript', 'python', 'typescript', 'rust', 'go']) {
+  const allRepos = [];
+  const seenNames = new Set();
+
+  for (const lang of languages) {
+    try {
+      const repos = await fetchTrendingByLanguage(lang, 5);
+      for (const repo of repos) {
+        if (!seenNames.has(repo.name)) {
+          seenNames.add(repo.name);
+          allRepos.push(repo);
+        }
+      }
+    } catch (e) {
+      console.warn(`⚠️ 获取 ${lang} 热门项目失败:`, e.message);
+    }
+    // GitHub API rate limit: 每次请求后延迟 1 秒
+    await delay(1000);
+  }
+
+  // 按 stars 降序排序，取前 20 个
+  allRepos.sort((a, b) => b.stars - a.stars);
+  return allRepos.slice(0, 20);
+}
+
+/**
+ * 格式化 GitHub Trending 数据，适合 generate.js 使用
+ * @param {Array} repos - 仓库列表
+ * @returns {Array} 格式化后的列表
+ */
+function formatGithubTrending(repos) {
+  return repos.map(repo => ({
+    title: repo.name,
+    description: repo.description,
+    url: repo.url,
+    stars: formatStars(repo.stars),
+    language: repo.language,
+    topics: repo.topics.slice(0, 3)
+  }));
 }
 
 module.exports = {
   fetchBeautyImages,
   fetchJokes,
   fetchShenhuifu,
-  fetchAllRealContent
+  fetchAllRealContent,
+  fetchGithubTrending,
+  formatGithubTrending
 };

@@ -209,7 +209,8 @@ async function generateAllMoyuContent(useRealApi = true) {
           funny: realData.funny.length > 0 ? realData.funny : MOCK_DATA.funny,
           beauty: realData.beauty.length > 0 ? realData.beauty : MOCK_DATA.beauty,
           jokes: jokes.length > 0 ? jokes : MOCK_DATA.jokes,
-          qiushi: realData.qiushi.length > 0 ? realData.qiushi : MOCK_DATA.qiushi
+          qiushi: realData.qiushi.length > 0 ? realData.qiushi : MOCK_DATA.qiushi,
+          github: realData.github && realData.github.length > 0 ? realData.github : []
         };
       }
     } catch (error) {
@@ -231,7 +232,7 @@ async function generateAllMoyuContent(useRealApi = true) {
     console.log(`  ${MOYU_SOURCES[key].icon} ${MOYU_SOURCES[key].name}: ${items.length} 条`);
   });
 
-  return data;
+  return { ...data, github: [] };
 }
 
 /**
