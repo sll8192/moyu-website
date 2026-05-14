@@ -34,123 +34,69 @@ function getDynamicYear() {
  * @returns {Object} SOURCES 配置对象
  */
 function getSources() {
-  const dateStr = getDynamicDateStr();
-  const year = getDynamicYear();
-
   return {
-    ai: {
-      name: 'AI 人工智能',
-      icon: '🤖',
+    news: {
+      name: '新闻',
+      icon: '📰',
       queries: [
-        `AI 大模型 最新进展 ${dateStr}`,
-        `人工智能 科技新闻 今日热点`,
-        `LLM GPT Claude Gemini 最新动态`,
-        `OpenAI Anthropic Google DeepMind AI 新闻`,
-        `AI 智能体 具身智能 机器人 ${year}`
+        'AI 人工智能 最新新闻',
+        '大模型 LLM 行业动态',
+        'OpenAI Google DeepMind Anthropic'
       ],
-      keywords: ['AI', '人工智能', '大模型', 'ChatGPT', 'Claude', 'OpenAI', '机器人', '智能体'],
+      keywords: ['AI', '人工智能', '大模型', 'LLM', 'GPT'],
       tagMapping: {
         'OpenAI': 'OpenAI',
         'Google': 'Google',
-        'Anthropic': 'Claude',
+        'Anthropic': 'Anthropic',
         'Meta': 'Meta',
-        'Microsoft': 'Microsoft',
-        'NVIDIA': 'NVIDIA',
-        'agent': 'Agent',
-        '智能体': 'Agent',
-        '机器人': '机器人',
-        '大模型': '大模型'
+        'Microsoft': 'Microsoft'
       }
     },
-    ecommerce: {
-      name: '跨境电商',
-      icon: '🌍',
+    project: {
+      name: '项目',
+      icon: '💻',
       queries: [
-        `跨境电商 最新资讯 ${dateStr}`,
-        `SHEIN Temu TikTok Shop 出海动态`,
-        `DTC 独立站 国际化 跨境`,
-        `跨境电商 物流 供应链 政策`,
-        `亚马逊 全球开店 出海 ${year}`
+        'GitHub AI 开源项目 热门',
+        '机器学习 深度学习 框架',
+        'LLM RAG Agent 开源'
       ],
-      keywords: ['跨境电商', '出海', 'SHEIN', 'Temu', '亚马逊', '独立站', 'DTC'],
+      keywords: ['GitHub', '开源', '项目', 'AI', 'ML'],
       tagMapping: {
-        'SHEIN': 'SHEIN',
-        'Temu': 'Temu',
-        'TikTok': 'TikTok',
-        'Amazon': 'Amazon',
-        'Shopify': 'Shopify',
-        '亚马逊': 'Amazon'
+        'GitHub': 'GitHub',
+        'HuggingFace': 'HuggingFace',
+        'PyTorch': 'PyTorch',
+        'TensorFlow': 'TensorFlow'
       }
     },
-    startup: {
-      name: '产品创业',
-      icon: '💡',
+    paper: {
+      name: '论文',
+      icon: '📄',
       queries: [
-        `创业融资 最新消息 ${dateStr}`,
-        `SaaS 产品增长 创业新闻`,
-        `科技创业 投资 A轮 B轮`,
-        `独角兽 IPO 收购 ${year}`,
-        `YC Y Combinator 创业项目 融资`
+        'AI 论文 arXiv 最新',
+        '深度学习 研究论文',
+        '大语言模型 论文'
       ],
-      keywords: ['创业', '融资', '独角兽', 'SaaS', 'PMF', '增长', '投资'],
+      keywords: ['论文', 'arXiv', '研究', 'paper'],
       tagMapping: {
-        'YC': 'YC',
-        'Y Combinator': 'YC',
-        'seed': '种子轮',
-        '种子轮': '种子轮',
-        'Series A': 'A轮',
-        'A轮': 'A轮',
-        'Series B': 'B轮',
-        'B轮': 'B轮',
-        'IPO': 'IPO'
+        'arXiv': 'arXiv',
+        'NeurIPS': 'NeurIPS',
+        'ICML': 'ICML',
+        'ACL': 'ACL'
       }
     },
-    web3: {
-      name: '区块链 Web3',
-      icon: '⛓️',
+    socialMedia: {
+      name: '社交',
+      icon: '💬',
       queries: [
-        `加密货币 比特币 以太坊 最新新闻 ${dateStr}`,
-        `DeFi Web3 区块链 动态`,
-        `加密 ETF 机构投资 监管`,
-        `NFT 元宇宙 数字资产`,
-        `比特币 减半 行情 ${year}`
+        'AI Twitter 社交媒体',
+        '科技大V AI 观点',
+        'Hacker News AI'
       ],
-      keywords: ['区块链', 'Web3', '加密货币', '比特币', '以太坊', 'DeFi', 'NFT', '元宇宙'],
+      keywords: ['Twitter', '社交媒体', '观点', 'Hacker News'],
       tagMapping: {
-        'Bitcoin': 'BTC',
-        'BTC': 'BTC',
-        '比特币': 'BTC',
-        'Ethereum': 'ETH',
-        'ETH': 'ETH',
-        '以太坊': 'ETH',
-        'Solana': 'SOL',
-        'DeFi': 'DeFi',
-        'NFT': 'NFT',
-        'ETF': 'ETF'
-      }
-    },
-    newenergy: {
-      name: '新能源',
-      icon: '⚡',
-      queries: [
-        `电动汽车 新能源车 最新消息 ${dateStr}`,
-        `电池技术 储能 固态电池`,
-        `光伏 风电 可再生能源`,
-        `特斯拉 比亚迪 宁德时代 动态`,
-        `碳中和 碳交易 新能源政策 ${year}`
-      ],
-      keywords: ['新能源', '电动车', '储能', '电池', '碳中和', '光伏', '氢能'],
-      tagMapping: {
-        'Tesla': 'Tesla',
-        '特斯拉': 'Tesla',
-        'BYD': 'BYD',
-        '比亚迪': 'BYD',
-        'CATL': 'CATL',
-        '宁德时代': 'CATL',
-        '固态电池': '固态电池',
-        'solid-state': '固态电池',
-        '光伏': '光伏',
-        '氢能': '氢能'
+        'Twitter': 'Twitter',
+        'Reddit': 'Reddit',
+        'HN': 'Hacker News'
       }
     }
   };
@@ -387,39 +333,35 @@ async function generateDailyNews(useRealSearch = false) {
 // 获取模拟新闻（用于测试或搜索失败时）
 function getMockNews(category) {
   const images = {
-    ai: [
-      'https://picsum.photos/seed/ai0/400/250',
-      'https://picsum.photos/seed/ai1/400/250',
-      'https://picsum.photos/seed/ai2/400/250',
-      'https://picsum.photos/seed/ai3/400/250',
-      'https://picsum.photos/seed/ai4/400/250',
-      'https://picsum.photos/seed/ai5/400/250'
+    news: [
+      'https://picsum.photos/seed/news0/400/250',
+      'https://picsum.photos/seed/news1/400/250',
+      'https://picsum.photos/seed/news2/400/250',
+      'https://picsum.photos/seed/news3/400/250',
+      'https://picsum.photos/seed/news4/400/250',
+      'https://picsum.photos/seed/news5/400/250'
     ],
-    ecommerce: [
-      'https://picsum.photos/seed/shop0/400/250',
-      'https://picsum.photos/seed/shop1/400/250',
-      'https://picsum.photos/seed/shop2/400/250',
-      'https://picsum.photos/seed/shop3/400/250'
+    project: [
+      'https://picsum.photos/seed/project0/400/250',
+      'https://picsum.photos/seed/project1/400/250',
+      'https://picsum.photos/seed/project2/400/250',
+      'https://picsum.photos/seed/project3/400/250',
+      'https://picsum.photos/seed/project4/400/250'
     ],
-    startup: [
-      'https://picsum.photos/seed/rocket0/400/250',
-      'https://picsum.photos/seed/rocket1/400/250',
-      'https://picsum.photos/seed/rocket2/400/250'
+    paper: [
+      'https://picsum.photos/seed/paper0/400/250',
+      'https://picsum.photos/seed/paper1/400/250',
+      'https://picsum.photos/seed/paper2/400/250',
+      'https://picsum.photos/seed/paper3/400/250',
+      'https://picsum.photos/seed/paper4/400/250'
     ],
-    web3: [
-      'https://picsum.photos/seed/crypto0/400/250',
-      'https://picsum.photos/seed/crypto1/400/250',
-      'https://picsum.photos/seed/crypto2/400/250',
-      'https://picsum.photos/seed/crypto3/400/250',
-      'https://picsum.photos/seed/crypto4/400/250'
-    ],
-    newenergy: [
-      'https://picsum.photos/seed/energy0/400/250',
-      'https://picsum.photos/seed/energy1/400/250',
-      'https://picsum.photos/seed/energy2/400/250',
-      'https://picsum.photos/seed/energy3/400/250',
-      'https://picsum.photos/seed/energy4/400/250',
-      'https://picsum.photos/seed/energy5/400/250'
+    socialMedia: [
+      'https://picsum.photos/seed/social0/400/250',
+      'https://picsum.photos/seed/social1/400/250',
+      'https://picsum.photos/seed/social2/400/250',
+      'https://picsum.photos/seed/social3/400/250',
+      'https://picsum.photos/seed/social4/400/250',
+      'https://picsum.photos/seed/social5/400/250'
     ]
   };
 
@@ -433,39 +375,35 @@ function getMockNews(category) {
   }
 
   const mockDB = {
-    ai: [
-      { title: '越南《人工智能法》正式生效，成东南亚首个 AI 专门立法国家', summary: '越南于3月1日正式实施《人工智能法》，标志着东盟 AI 治理进入新阶段。', source: '环球时报', url: googleSearchUrl('越南《人工智能法》正式生效，成东南亚首个 AI 专门立法国家'), time: '今日', tag: '政策', image: images.ai[0] },
-      { title: '荣耀发布机器人手机，AI 从"云端对话"走向"端侧执行"', summary: 'MWC 2026 上，荣耀推出融合具身智能的机器人手机，被视为 AI 智能体重要入口。', source: '新华网', url: googleSearchUrl('荣耀发布机器人手机 AI 端侧执行'), time: '今日', tag: '产品', image: images.ai[1] },
-      { title: '阿里千问大模型负责人林俊旸卸任', summary: '阿里巴巴最年轻 P10 级技术专家宣布离开千问团队，折射 AI 人才高流动性。', source: '上观新闻', url: googleSearchUrl('阿里千问大模型负责人林俊旸卸任'), time: '今日', tag: '人事', image: images.ai[2] },
-      { title: '黄仁勋：300 亿投资 OpenAI"可能是最后一次"', summary: '英伟达 CEO 表示，随着 OpenAI 准备上市，近期 300 亿美元投资可能是最后一次。', source: '新浪财经', url: googleSearchUrl('黄仁勋 300亿投资 OpenAI'), time: '今日', tag: '融资', image: images.ai[3] },
-      { title: '蚂蚁集团联合清华发布 AReaL v1.0 强化学习框架', summary: '首个全异步训推解耦的大模型强化学习训练系统，让智能体强化学习开箱即用。', source: '科创板日报', url: googleSearchUrl('蚂蚁集团 清华 AReaL 强化学习框架'), time: '昨日', tag: '开源', image: images.ai[4] },
-      { title: '我国首个国家级人形机器人标准体系发布', summary: '我国首个国家级"人形机器人与具身智能标准体系"正式发布。', source: '软盟资讯', url: googleSearchUrl('国家级人形机器人标准体系发布'), time: '3月2日', tag: '标准', image: images.ai[5] }
+    news: [
+      { title: 'OpenAI 发布 GPT-5，多模态能力大幅提升', summary: 'OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。', source: 'TechCrunch', url: googleSearchUrl('OpenAI 发布 GPT-5'), time: '今日', tag: 'OpenAI', image: images.news[0] },
+      { title: 'Google DeepMind 推出 Gemini 2.0 Ultra', summary: 'Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。', source: 'Google Blog', url: googleSearchUrl('Google DeepMind Gemini 2.0'), time: '今日', tag: 'Google', image: images.news[1] },
+      { title: 'Anthropic Claude 4 发布，安全对齐成亮点', summary: 'Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。', source: 'VentureBeat', url: googleSearchUrl('Anthropic Claude 4 发布'), time: '昨日', tag: 'Anthropic', image: images.news[2] },
+      { title: 'Meta 开源 Llama 4，参数规模达 400B', summary: 'Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。', source: 'Meta AI', url: googleSearchUrl('Meta Llama 4 开源'), time: '今日', tag: 'Meta', image: images.news[3] },
+      { title: '微软发布 Copilot Workspace，AI 编程再进化', summary: '微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。', source: 'Microsoft', url: googleSearchUrl('微软 Copilot Workspace'), time: '今日', tag: 'Microsoft', image: images.news[4] },
+      { title: '中国大模型榜单更新：通义千问位列前三', summary: '最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。', source: '机器之心', url: googleSearchUrl('中国大模型榜单 通义千问'), time: '昨日', tag: 'AI', image: images.news[5] }
     ],
-    ecommerce: [
-      { title: '深圳华强北发布 AI 硬件全球销售热力图', summary: '2026年1-2月数据显示，无人机海内外市场需求保持旺盛。', source: '新华社', url: googleSearchUrl('深圳华强北 AI 硬件全球销售热力图'), time: '今日', tag: '数据', image: images.ecommerce[0] },
-      { title: '雷军两会建议：提高人形机器人使用率', summary: '小米 CEO 提出 5 份建议，涉及智能制造应用和人才培养。', source: 'IT之家', url: googleSearchUrl('雷军两会建议 人形机器人'), time: '今日', tag: '政策', image: images.ecommerce[1] },
-      { title: '华为发布 Atlas 950 SuperPoD', summary: 'MWC 2026 期间，华为发布多款超节点产品，助力运营商智能化升级。', source: '华为官网', url: googleSearchUrl('华为发布 Atlas 950 SuperPoD'), time: '昨日', tag: '产品', image: images.ecommerce[2] },
-      { title: '千问"一句话下单"功能 DAU 突破 7300 万', summary: '超过 400 万 60 岁以上新用户通过 AI 完成外卖下单。', source: '新浪财经', url: googleSearchUrl('千问一句话下单 DAU 7300万'), time: '今日', tag: '数据', image: images.ecommerce[3] }
+    project: [
+      { title: 'LangChain v0.3 发布，Agent 能力全面升级', summary: 'LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。', source: 'GitHub', url: googleSearchUrl('LangChain v0.3 发布'), time: '今日', tag: 'GitHub', image: images.project[0] },
+      { title: 'HuggingFace Transformers 新增 100+ 模型支持', summary: 'HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。', source: 'HuggingFace', url: googleSearchUrl('HuggingFace Transformers 新模型'), time: '今日', tag: 'HuggingFace', image: images.project[1] },
+      { title: 'PyTorch 3.0 正式发布，编译器性能提升 2x', summary: 'PyTorch 新版本带来显著的性能优化，训练速度提升一倍。', source: 'PyTorch', url: googleSearchUrl('PyTorch 3.0 发布'), time: '昨日', tag: 'PyTorch', image: images.project[2] },
+      { title: 'TensorFlow 3.0 简化 API，更易上手', summary: 'Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。', source: 'TensorFlow', url: googleSearchUrl('TensorFlow 3.0 发布'), time: '今日', tag: 'TensorFlow', image: images.project[3] },
+      { title: 'vLLM 推理引擎更新，吞吐量提升 3 倍', summary: '高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。', source: 'GitHub', url: googleSearchUrl('vLLM 推理引擎更新'), time: '昨日', tag: 'GitHub', image: images.project[4] }
     ],
-    startup: [
-      { title: 'OpenAI 完成 1100 亿美元新一轮融资', summary: '该轮融资包括英伟达、亚马逊和软银的投资承诺。', source: '彭博社', url: googleSearchUrl('OpenAI 1100亿美元 新一轮融资'), time: '今日', tag: '融资', image: images.startup[0] },
-      { title: '北京数据和人工智能安全检测中心揭牌', summary: 'AI 产业迎来专业鉴定机构，七大创新成果发布。', source: '北京日报', url: googleSearchUrl('北京数据和人工智能安全检测中心揭牌'), time: '3月2日', tag: '政策', image: images.startup[1] },
-      { title: 'Honor 推出全球首款机器人手机', summary: '荣耀 CEO 表示，这是智能手机的"全新物种"。', source: 'MWC 2026', url: googleSearchUrl('Honor 全球首款机器人手机'), time: '今日', tag: '创新', image: images.startup[2] }
+    paper: [
+      { title: 'NeurIPS 2025 最佳论文：高效微调新方法', summary: '研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。', source: 'arXiv', url: googleSearchUrl('NeurIPS 2025 最佳论文 高效微调'), time: '今日', tag: 'NeurIPS', image: images.paper[0] },
+      { title: 'ICML 收录：多模态对齐新突破', summary: '论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。', source: 'arXiv', url: googleSearchUrl('ICML 多模态对齐'), time: '昨日', tag: 'ICML', image: images.paper[1] },
+      { title: 'ACL 2025：大语言模型推理能力深度分析', summary: '研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。', source: 'arXiv', url: googleSearchUrl('ACL 2025 LLM 推理能力'), time: '今日', tag: 'ACL', image: images.paper[2] },
+      { title: 'arXiv 热门：Mixture-of-Experts 优化策略', summary: '论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。', source: 'arXiv', url: googleSearchUrl('arXiv MoE 优化策略'), time: '今日', tag: 'arXiv', image: images.paper[3] },
+      { title: '深度学习可解释性研究取得重要进展', summary: '研究者提出新型可视化方法，揭示神经网络内部决策机制。', source: 'arXiv', url: googleSearchUrl('深度学习可解释性研究'), time: '昨日', tag: 'arXiv', image: images.paper[4] }
     ],
-    web3: [
-      { title: '比特币 ETF 资金流入创新高，机构配置加速', summary: '美国比特币 ETF 单日净流入超 10 亿美元，显示机构投资者持续加仓。', source: 'CoinDesk', url: googleSearchUrl('比特币 ETF 资金流入创新高'), time: '今日', tag: 'BTC', image: images.web3[0] },
-      { title: '以太坊 Dencun 升级完成，Layer2 费用大幅下降', summary: '升级引入 EIP-4844，使 Layer2 交易费用降低 90% 以上。', source: 'The Block', url: googleSearchUrl('以太坊 Dencun 升级 Layer2 费用下降'), time: '今日', tag: 'ETH', image: images.web3[1] },
-      { title: '香港证监会批准首批现货加密 ETF', summary: '香港正式批准比特币和以太坊现货 ETF，预计 4 月上市交易。', source: '南华早报', url: googleSearchUrl('香港证监会 批准 现货加密 ETF'), time: '昨日', tag: 'ETF', image: images.web3[2] },
-      { title: 'DeFi 协议总锁仓量突破 1000 亿美元', summary: '受市场回暖带动，DeFi 生态 TVL 创下近两年新高。', source: 'DeFiLlama', url: googleSearchUrl('DeFi 协议总锁仓量突破1000亿美元'), time: '今日', tag: 'DeFi', image: images.web3[3] },
-      { title: '央行数字货币跨境支付试点扩大', summary: '数字人民币跨境支付试点新增 5 个国家和地区。', source: '财新', url: googleSearchUrl('央行数字货币跨境支付试点扩大'), time: '3月3日', tag: 'CBDC', image: images.web3[4] }
-    ],
-    newenergy: [
-      { title: '宁德时代发布新一代固态电池技术', summary: '能量密度突破 500Wh/kg，预计 2027 年量产装车。', source: '证券时报', url: googleSearchUrl('宁德时代 新一代固态电池技术'), time: '今日', tag: '固态电池', image: images.newenergy[0] },
-      { title: '特斯拉上海储能超级工厂投产', summary: '年产能 40GWh，产品将面向全球市场供应。', source: '澎湃新闻', url: googleSearchUrl('特斯拉上海储能超级工厂投产'), time: '今日', tag: 'Tesla', image: images.newenergy[1] },
-      { title: '全国碳市场扩容，纳入钢铁水泥行业', summary: '碳交易市场覆盖范围扩大，推动高耗能行业绿色转型。', source: '生态环境部', url: googleSearchUrl('全国碳市场扩容 钢铁水泥'), time: '昨日', tag: '碳中和', image: images.newenergy[2] },
-      { title: '光伏组件出口量同比增长 35%', summary: '中国光伏产品海外需求持续旺盛，欧洲和新兴市场为主要增长点。', source: '光伏們', url: googleSearchUrl('光伏组件出口量同比增长35%'), time: '今日', tag: '光伏', image: images.newenergy[3] },
-      { title: '氢能源重卡商业化运营启动', summary: '首批 100 辆氢燃料电池重卡投入物流干线运营。', source: '中国汽车报', url: googleSearchUrl('氢能源重卡商业化运营启动'), time: '3月2日', tag: '氢能', image: images.newenergy[4] },
-      { title: '比亚迪发布第五代 DM 混动技术', summary: '百公里油耗降至 2.9L，综合续航超 2000 公里。', source: '比亚迪', url: googleSearchUrl('比亚迪 第五代 DM 混动技术'), time: '今日', tag: 'BYD', image: images.newenergy[5] }
+    socialMedia: [
+      { title: 'Sam Altman：AGI 可能比预期更早到来', summary: 'OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。', source: 'Twitter', url: googleSearchUrl('Sam Altman AGI Twitter'), time: '今日', tag: 'Twitter', image: images.socialMedia[0] },
+      { title: 'Yann LeCun：自回归模型不是 AGI 的正确路径', summary: 'Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。', source: 'Twitter', url: googleSearchUrl('Yann LeCun AGI 观点'), time: '昨日', tag: 'Twitter', image: images.socialMedia[1] },
+      { title: 'Hacker News 热议：AI 是否会取代程序员？', summary: 'HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。', source: 'Hacker News', url: googleSearchUrl('Hacker News AI 取代程序员'), time: '今日', tag: 'Hacker News', image: images.socialMedia[2] },
+      { title: 'Reddit：2026 年最值得学习的 AI 技能', summary: 'r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。', source: 'Reddit', url: googleSearchUrl('Reddit AI 技能学习'), time: '今日', tag: 'Reddit', image: images.socialMedia[3] },
+      { title: '科技大 V 讨论：AI 创业还有哪些机会？', summary: '多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。', source: 'Twitter', url: googleSearchUrl('AI 创业机会 科技大V'), time: '昨日', tag: 'Twitter', image: images.socialMedia[4] },
+      { title: 'Hacker News：最佳开源 LLM 排行榜', summary: '社区用户整理开源大模型性能对比，分享使用体验和部署建议。', source: 'Hacker News', url: googleSearchUrl('Hacker News 开源 LLM 排行'), time: '今日', tag: 'Hacker News', image: images.socialMedia[5] }
     ]
   };
 

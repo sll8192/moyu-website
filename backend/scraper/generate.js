@@ -856,7 +856,7 @@ function generateFullHTML(newsData, moyuData) {
   // 导航链接
   const navLinks = [];
   if (newsData.categories) {
-    const shortNames = { ai: 'AI', ecommerce: '电商', startup: '创业', web3: 'Web3', newenergy: '能源' };
+    const shortNames = { news: '新闻', project: '项目', paper: '论文', socialMedia: '社交' };
     for (const cat of newsData.categories) {
       navLinks.push(`<a href="#section-${cat.id}">${shortNames[cat.id] || cat.name}</a>`);
     }
