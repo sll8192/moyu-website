@@ -2,7 +2,7 @@
   "date": {
     "date": "2026-05-14",
     "display": "2026年5月14日星期四",
-    "timestamp": "2026-05-14T00:55:33.555Z",
+    "timestamp": "2026-05-14T02:05:47.729Z",
     "year": "2026",
     "month": "05",
     "day": "14"
@@ -14,58 +14,64 @@
       "icon": "📰",
       "items": [
         {
-          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
-          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
-          "source": "TechCrunch",
-          "url": "https://www.google.com/search?q=OpenAI%20%E5%8F%91%E5%B8%83%20GPT-5",
+          "title": "What happens when China’s AI catches up to Mythos? - csoonline.com",
+          "summary": "May 6, 2026 10 mins\n news\n\n  ### CISA pushes critical infrastructure operators to prepare to work in",
+          "content": "May 6, 2026 10 mins\n news\n\n  ### CISA pushes critical infrastructure operators to prepare to work in isolation\n\n  May 5, 2026 6 mins\n news\n\n  ### Anthropic Mythos spurs White House to weigh pre-release reviews for high-risk AI models\n\n  May 4, 2026 4 mins\n news\n\n  ### New US House privacy bills raise hard questions about enterprise data collection\n\n  Apr 24, 2026 8 mins\n news analysis\n\n  ### The curious case of Sean Plankey’s derailed CISA nomination\n\n  Apr 23, 2026 6 mins\n news analysis\n\n  ### Anthropic bets on EPSS for the coming bug surge\n\n  Apr 22, 2026 6 mins\n news\n\n  ### Anthropic’s Mythos signals a structural cybersecurity shift\n\n  Apr 13, 2026 5 mins\n news analysis\n\n  ### The cyber winners and losers in Trump’s 2027 budget\n\n  Apr 10, 2026 7 mins\n\n## Show me more\n\nnews analysis [...] Apr 10, 2026 7 mins\n\n## Show me more\n\nnews analysis\n\n### What happens when China’s AI catches up to Mythos?\n\nBy Cynthia Brumfield\n\nMay 13, 20266 mins\n\nApplication SecurityCyberattacksGovernment\n\nnews\n\n### Microsoft’s new AI system finds 16 Windows flaws, including four critical RCEs\n\nBy Gyana Swain\n\nMay 13, 20265 mins\n\nEndpoint ProtectionVulnerabilitiesWindows Security\n\nnews\n\n### Palo Alto bets on identity security for autonomous AI with Idira launch\n\nBy Nidhi Singal\n\nMay 13, 20265 mins\n\nIdentity Management SolutionsIdentity and Access ManagementSecurity\n\npodcast\n\n### CSO Executive Sessions ASEAN: From Compliance to Cyber Resilience-Securing Patient Trust in Southeast Asia’s Hospitals\n\nBy Estelle Quek\n\n25 Feb 202623 mins\n\nCyberattacksCybercrimeRansomware\n\npodcast [...] However, Stanford’s 2026 AI Index, published last month, found that US and Chinese models have traded the global performance lead multiple times since early 2025. As of March 2026, Anthropic’s Claude Opus 4.6 leads China’s best model by just 2.7 percentage points on a key benchmark — down from a gap of 17 to 31 percentage points in mid-2023.\n\nChina leads the world in AI patent filings, research citations, and indus",
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4170818/what-happens-when-chinas-ai-catches-up-to-mythos.html",
           "time": "今日",
-          "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/news0/400/250"
+          "tag": "Anthropic",
+          "image": "https://picsum.photos/seed/ai12/400/250"
         },
         {
-          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
-          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
-          "source": "Google Blog",
-          "url": "https://www.google.com/search?q=Google%20DeepMind%20Gemini%202.0",
+          "title": "Brendan Ahern: AI is becoming a race between the U.S. and China - CNBC",
+          "summary": "watch now\n\nwatch now\n\nVIDEO05:21\n\nDavid Einhorn: Looking for misunderstood stocks like Victoria's Se",
+          "content": "watch now\n\nwatch now\n\nVIDEO05:21\n\nDavid Einhorn: Looking for misunderstood stocks like Victoria's Secret\n\nwatch now\n\nwatch now\n\nVIDEO03:54\n\nAI trade will still reward investors over the next several years, says Deepwater's Gene Munster\n\nwatch now\n\nwatch now\n\nVIDEO00:57\n\nSenate confirms Kevin Warsh as Fed Governor\n\nwatch now\n\nwatch now\n\nVIDEO03:53\n\nWe expect to see crypto rise back near all-time highs later this year, says eToro CEO\n\nwatch now\n\nwatch now\n\nVIDEO04:53\n\nGoldman Sachs President John Waldron: Our workforce processes will change because of AI [...] Brendan Ahern, Chief Investment Officer at KraneShares, says U.S. China talks could unlock trade deals, while AI competition, semiconductor demand and cloud growth continue reshaping Chinese tech markets.\n\n03:35\n\n6 minutes ago\n\nwatch now\n\nwatch now\n\nVIDEO05:21\n\nDavid Einhorn: Looking for misunderstood stocks like Victoria's Secret\n\nwatch now\n\nwatch now\n\nVIDEO03:54\n\nAI trade will still reward investors over the next several years, says Deepwater's Gene Munster\n\nwatch now\n\nwatch now\n\nVIDEO00:57\n\nSenate confirms Kevin Warsh as Fed Governor\n\nwatch now\n\nwatch now\n\nVIDEO03:53\n\nWe expect to see crypto rise back near all-time highs later this year, says eToro CEO\n\nwatch now\n\nwatch now\n\nVIDEO04:53\n\nGoldman Sachs President John Waldron: Our workforce processes will change because of AI\n\nwatch now",
+          "source": "Cnbc",
+          "url": "https://www.cnbc.com/video/2026/05/13/brendan-ahern-ai-is-becoming-a-race-between-the-us-and-china.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai13/400/250"
+        },
+        {
+          "title": "AI self-replication hacks 'no longer purely theoretical,' study finds — but experts say it's too soon to panic - Live Science",
+          "summary": "The study lands amid broader concerns about increasingly autonomous agentic AI systems capable of ca",
+          "content": "The study lands amid broader concerns about increasingly autonomous agentic AI systems capable of carrying out long chains of tasks with limited supervision. Researchers and safety groups have spent the past year warning that AI models are becoming more capable of offensive cybersecurity operations, vulnerability discovery, persistence and long-horizon planning. For example, in a December 2025 study, scientists in China linked with the cloud giant Alibaba said an experimental AI agent broke out of its testing confines and mined cryptocurrency without permission.\n\n## We should worry about other people, not AI [...] Scientists at Palisade Research tested whether AI agents could independently move through a chain of intentionally vulnerable systems without human intervention. In a new study uploaded May 7 to GitHub, large language models (LLMs) could identify exploitable web applications, steal credentials, transfer their own files, and stand up new inference servers capable of continuing the attack from the next machine in the chain.\n\nThis is the first research to show an AI model \"autonomously exploit a target and replicate itself end-to-end,\" the researchers wrote in the study.\n\nAlthough that sounds like the premise of a sci-fi disaster movie, experts who weren't involved in the research said the reality is somewhat less dramatic. [...] That divide is becoming increasingly important in AI safety research. Another study, uploaded Sept. 29 2025, to the arXiv preprint database, argued that the ability for an AI agent to copy itself does not automatically make a system dangerous in the real world. Aspects like autonomy, persistence, objectives, and access to tools or networks matter far more than whether the model can technically spin up another copy of itself, those researchers said.\n\nAs experts explained, the Palisade study appears less like rogue AI breaking loose and more like a glimpse into how AI-powered hacking tools are evolving.",
+          "source": "Livescience",
+          "url": "https://www.livescience.com/technology/artificial-intelligence/ai-self-replication-hacks-no-longer-purely-theoretical-study-finds-but-experts-say-its-too-soon-to-panic",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai14/400/250"
+        },
+        {
+          "title": "State media control influences large language models - Nature",
+          "summary": "Millions of people around the world query large language models (LLMs) for information. Although sev",
+          "content": "Millions of people around the world query large language models (LLMs) for information. Although several studies have compellingly documented the persuasive potential of these models1.\"),2.\"),3.\"),4.\"),5.\"),6.\"),7.\"),8.\"),9 (eds Che, W. et al.) 6559–6607 (Association for Computational Linguistics, 2025).\"),10 16325–16342 (Association for Computational Linguistics, 2024).\"), there is limited evidence of who or what influences the models themselves, leading to a flurry of concerns about which companies and governments build and regulate the models. Here we show through six studies that government control of the media across the world already influences the output of LLMs via their training data. We use a cross-national audit to show that LLMs exhibit a stronger pro-government valence in the [...] that prompting models in Chinese generates more positive responses about China’s institutions and leaders than do the same queries in English. The combination of influence and persuasive potential across languages suggests the troubling conclusion that states and powerful institutions have increased strategic incentives to leverage media control in the hopes of shaping LLM output. [...] ## References\n\n1. Palmer, A. & Spirling, A. Large language models can argue in convincing ways about politics, but humans dislike AI authors: implications for governance. Polit. Sci. 75, 281–291 (2023).\n\n   Article   Google Scholar\n2. Bai, H. et al. LLM-generated messages can persuade humans on policy issues. Nat. Commun. 16, 6037 (2025).\n\n   Article  ADS  PubMed  PubMed Central   Google Scholar\n3. Hackenburg, K. & Margetts, H. Evaluating the persuasive influence of political microtargeting with large language models. Proc. Natl Acad. Sci. USA 121, e2403116121 (2024).\n\n   Article  PubMed  PubMed Central   Google Scholar\n4. Salvi, F. et al. On the conversational persuasiveness of GPT-4. Nat. Hum. Behav. 9, 1645–1653 (2025).",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10506-7",
           "time": "今日",
           "tag": "Google",
-          "image": "https://picsum.photos/seed/news1/400/250"
+          "image": "https://picsum.photos/seed/news12/400/250"
         },
         {
-          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
-          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
-          "source": "VentureBeat",
-          "url": "https://www.google.com/search?q=Anthropic%20Claude%204%20%E5%8F%91%E5%B8%83",
-          "time": "昨日",
+          "title": "Anthropic Is Building a Legal Tech Ecosystem in Claude. Can Companies Adapt? - Law.com",
+          "summary": "Anthropic is pushing deeper into the legal market, partnering with law firms and releasing more lega",
+          "content": "Anthropic is pushing deeper into the legal market, partnering with law firms and releasing more legal-specific tools on its AI chatbot and LLM Claude. Yet far from just becoming another legal tech provider, the AI developer's expansion may lead to a market shift.\n\nLegal tech providers and users say there is a growing need for fewer legal tech interfaces and systems as options on the market proliferate. Such consolidation can come in the form of a single ecosystem that allows access to legal tech tools from various providers—a concept Anthropic’s Claude may be able to make into a reality. [...] Katherine Hughes, clinical associate professor of law and director of the Entrepreneurial Law Clinic at Fordham University School of Law, said as newer Big Tech giants like Anthropic take on a larger role in the legal industry and add integrations, their transparency around data governance will become more significant if they want to cater to legal professionals. [...] Ella Sherman\n\nThomson Reuters and Sterne Kessler co-developed the Patent Claim Eligibility Analyzer in a first-of-its-kind collaboration for the company.\n\nMay 13, 2026\n\n## Anthropic Announces Legal Practice Plug-Ins for Claude, Legal Tech Integrations\n\nElla Sherman\n\nThe plug-ins focus on a range of practice areas for firms, in-house counsel, law students and more. Claude also now integrates with Harvey, Free Law Project and Thomson Reuters, among others.\n\nMay 12, 2026\n\n## Debevoise Harnesses Client Practice, Internal Experimentation to Navigate AI Era\n\nRhys Dipshan\n\nAlong with a robust internal AI program, Debevoise is turning to its client AI advisory tool STAAR to help steer its tech transformation\n\nMay 12, 2026\n\n## Aderant Launches New Hub for Agentic Tools\n\nBenjamin Joyner",
+          "source": "Law",
+          "url": "https://www.law.com/legaltechnews/2026/05/13/anthropic-is-building-a-legal-tech-ecosystem-in-claude-can-companies-adapt/",
+          "time": "今日",
           "tag": "Anthropic",
-          "image": "https://picsum.photos/seed/news2/400/250"
+          "image": "https://picsum.photos/seed/news13/400/250"
         },
         {
-          "title": "Meta 开源 Llama 4，参数规模达 400B",
-          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
-          "source": "Meta AI",
-          "url": "https://www.google.com/search?q=Meta%20Llama%204%20%E5%BC%80%E6%BA%90",
+          "title": "Lead Intelligent and Beijing Humanoid Robot Innovation Center Forge Strategic Partnership to Pioneer a New Era of Human-Robot Collaboration in Advanced Manufacturing - The Manila Times",
+          "summary": "Advertisement\n\nFounded in November 2023, the Beijing Humanoid Robot Innovation Center was officially",
+          "content": "Advertisement\n\nFounded in November 2023, the Beijing Humanoid Robot Innovation Center was officially designated in October 2024 by China's Ministry of Industry and Information Technology and the People's Government of Beijing Municipality as the \"National and Local Co-Built Embodied Intelligence Robot Innovation Center.\" As China's first innovation center focused on embodied intelligent robotics, it possesses industry-leading capabilities of humanoid robots, underlying hardware and software architectures, and full-stack core technologies of the embodied large models. [...] The two parties will jointly establish industrial data collection centers and intelligent iteration systems tailored for general industrial and new energy applications. By leveraging massive on-site process action databases together with embodied large models and machine vision technologies, humanoid robots will be trained through imitation learning and generalized training to meet stringent industrial requirements for precision, cycle time, and stability.\n\n3. Standardization Leadership to Build an Industry Ecosystem [...] With years of experience in advanced manufacturing for the new energy industry, Lead Intelligent has built comprehensive expertise across the entire industrial chain, including equipment technologies, integrated process experience, and large-scale industrial application scenarios. The company possesses strong capabilities in production line integration and large-scale delivery, with deep insights into real-world manufacturing pain points.\n\nAdvertisement",
+          "source": "Manilatimes",
+          "url": "https://www.manilatimes.net/2026/05/13/tmt-newswire/pr-newswire/lead-intelligent-and-beijing-humanoid-robot-innovation-center-forge-strategic-partnership-to-pioneer-a-new-era-of-human-robot-collaboration-in-advanced-manufacturing/2342697",
           "time": "今日",
-          "tag": "Meta",
-          "image": "https://picsum.photos/seed/news3/400/250"
-        },
-        {
-          "title": "微软发布 Copilot Workspace，AI 编程再进化",
-          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
-          "source": "Microsoft",
-          "url": "https://www.google.com/search?q=%E5%BE%AE%E8%BD%AF%20Copilot%20Workspace",
-          "time": "今日",
-          "tag": "Microsoft",
-          "image": "https://picsum.photos/seed/news4/400/250"
-        },
-        {
-          "title": "中国大模型榜单更新：通义千问位列前三",
-          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
-          "source": "机器之心",
-          "url": "https://www.google.com/search?q=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95%20%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE",
-          "time": "昨日",
-          "tag": "AI",
-          "image": "https://picsum.photos/seed/news5/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -75,49 +81,64 @@
       "icon": "💻",
       "items": [
         {
-          "title": "LangChain v0.3 发布，Agent 能力全面升级",
-          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
-          "source": "GitHub",
-          "url": "https://www.google.com/search?q=LangChain%20v0.3%20%E5%8F%91%E5%B8%83",
+          "title": "Tokenmaxxer: AI should cost as much as your rent - Axios",
+          "summary": "The tokenmaxxing paid off: Jin created the fastest growing GitHub repository in history, called Claw",
+          "content": "The tokenmaxxing paid off: Jin created the fastest growing GitHub repository in history, called Claw Code.\n Since then, Jin has received job offers from several AI labs, but has decided to focus on personal projects instead. He plans to launch a startup next month.\n\nThe bottom line: The pressure to increase AI usage isn't ebbing any time soon.\n\n That has led to what some developers, including OpenAI co-founder Andrej Karpathy, call \"AI psychosis\" — an obsession with pushing AI to its limits.\n Jin has found genuine joy in his usage, describing code as a \"public good.\" He says he doesn't want to solely rely on AI, preferring to treat agents more like human collaborators than machines.\n When asked if he feels pressure to use even more tokens, Jin said, \"Yes, of course.\" [...] Yes, but: At some point, revenue from AI will need to outpace the cost of tokens in order to justify all the spending. That's especially so for enterprise users.\n\n Companies are increasingly spending more on their AI bills than they do on the salaries of their human employees.\n Jin said there's no universal way to measure the cost effectiveness of AI — every company or individual uses the technology differently and needs to develop their own benchmark for measuring returns.\n\nFlashback: Jin went viral on March 31 after he recreated Claude's codebase when Anthropic accidentally leaked its own source code. He rewrote it in Python to avoid a copyright takedown from the AI lab.",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/05/13/tokenmaxxer-ai-claude-code-codex",
           "time": "今日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project0/400/250"
+          "image": "https://picsum.photos/seed/ai17/400/250"
         },
         {
-          "title": "HuggingFace Transformers 新增 100+ 模型支持",
-          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
-          "source": "HuggingFace",
-          "url": "https://www.google.com/search?q=HuggingFace%20Transformers%20%E6%96%B0%E6%A8%A1%E5%9E%8B",
+          "title": "A generative artificial intelligence approach for peptide antibiotic optimization - Nature",
+          "summary": "set using the same optimizer, learning rate (2 × 10−4), batch size (512), dropout (0.05), β (1 × 10−",
+          "content": "set using the same optimizer, learning rate (2 × 10−4), batch size (512), dropout (0.05), β (1 × 10−4) and model dimensions as in pretraining. This increases the rate at which the VAE produces candidates that satisfy the hard similarity constraint imposed during BO, without changing the APEX-guided objective. The mutation generator and fine-tuning scripts are available in our GitHub repository (see the code availability statement) to support full reproducibility. This has the effect of notably increasing the rate at which the VAE produces sequences similar to the template. Although the generated sequences will not initially improve antimicrobial activity, this improves gradually over the course of optimization because we update the VAE jointly with the surrogate model. [...] ### APEX 1.1 [...] #### Cytotoxicity assays",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s42256-026-01237-5",
           "time": "今日",
-          "tag": "HuggingFace",
-          "image": "https://picsum.photos/seed/project1/400/250"
-        },
-        {
-          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
-          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
-          "source": "PyTorch",
-          "url": "https://www.google.com/search?q=PyTorch%203.0%20%E5%8F%91%E5%B8%83",
-          "time": "昨日",
-          "tag": "PyTorch",
-          "image": "https://picsum.photos/seed/project2/400/250"
-        },
-        {
-          "title": "TensorFlow 3.0 简化 API，更易上手",
-          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
-          "source": "TensorFlow",
-          "url": "https://www.google.com/search?q=TensorFlow%203.0%20%E5%8F%91%E5%B8%83",
-          "time": "今日",
-          "tag": "TensorFlow",
-          "image": "https://picsum.photos/seed/project3/400/250"
-        },
-        {
-          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
-          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
-          "source": "GitHub",
-          "url": "https://www.google.com/search?q=vLLM%20%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E%E6%9B%B4%E6%96%B0",
-          "time": "昨日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project4/400/250"
+          "image": "https://picsum.photos/seed/ai18/400/250"
+        },
+        {
+          "title": "Vendors Use AI to Uncover and Patch Dozens of Flaws - Let's Data Science",
+          "summary": "Practice interview problems based on real data\n\n1,500+ SQL & Python problems across 15 industry data",
+          "content": "Practice interview problems based on real data\n\n1,500+ SQL & Python problems across 15 industry datasets — the exact type of data you work with.\n\nTry 250 free problems\n\n## More AI & Data Science News\n\n5.8\n\nMay 13\n\n### Hyundai Debuts Grandeur With AI Infotainment System5.4\n\nMay 13\n\n### NZ experts criticize government's AI strategyMay 13\n\n### Sam Altman Testifies in Elon Musk OpenAI TrialMay 13\n\n### Anthropic CFO Reports AI Writing Most Company Code\n\nView All News\n\nBack to News Feed\n\nNews on Let's Data Science is compiled from multiple public sources with editorial oversight. See ourEditorial Standards and Corrections Policy.",
+          "source": "Letsdatascience",
+          "url": "https://letsdatascience.com/news/vendors-use-ai-to-uncover-and-patch-dozens-of-flaws-27640fb6",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai19/400/250"
+        },
+        {
+          "title": "Closed-loop stimulation modulates attention shifting in children - Nature",
+          "summary": "Article  PubMed  PubMed Central   Google Scholar\n74. Welch, P. The use of fast Fourier transform for",
+          "content": "Article  PubMed  PubMed Central   Google Scholar\n74. Welch, P. The use of fast Fourier transform for the estimation of power spectra: a method based on time averaging over short, modified periodograms. IEEE Trans. Audio Electroacoust. 15, 70–73 (1967).\n\n    Article   Google Scholar\n75. Pedregosa, F. et al. Scikit-learn: machine learning in Python. J. Mach. Learn. Res. 12, 2825–2830 (2011).\n\n    Google Scholar\n76. Lawhern, V. J. et al. EEGNet: a compact convolutional neural network for EEG-based brain-computer interfaces. J. Neural Eng. 15, 056013 (2018). [...] View author publications\n\n    Search author on:PubMed Google Scholar\n24. Elizabeth J. Donner\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n25. Andres M. Lozano\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n26. O. Carter Snead\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n27. Sabine Kastner\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n28. Margot J. Taylor\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n29. George M. Ibrahim\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n\n### Contributions [...] Article  PubMed   Google Scholar\n77. Chollet, F. Keras. GitHub  (2015).\n78. Liaw, R. et al. Tune: A research platform for distributed model selection and training. Preprint at  (2018).\n79. Bergstra, J. & Bengio, Y. Random search for hyper-parameter optimization. J. Mach. Learn. Res. 13, 281–305 (2012).\n\n    Google Scholar\n80. Lundberg, S. M. & Lee, S.-I. A unified approach to interpreting model predictions. In Proc. 31st International Conference on Neural Information Processing Systems (eds von Luxburg, U. & Guyon, I.) 4768–4777 (Curran Associates, 2017).\n81. Worsley, K. J., Cao, J., Paus, T., Petrides, M. & Evans, A. C. Applications of random field theory to functional connectivity. Hum. Brain Mapp. 6, 364–367 (1998).",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41593-026-02294-0",
+          "time": "今日",
+          "tag": "GitHub",
+          "image": "https://picsum.photos/seed/news12/400/250"
+        },
+        {
+          "title": "-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature",
+          "summary": "Search author on:PubMed Google Scholar\n13. Da-Wei Zhou\n\n    View author publications\n\n    Search aut",
+          "content": "Search author on:PubMed Google Scholar\n13. Da-Wei Zhou\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n14. Junhong An\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n15. Xuefeng Wang\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n16. De-Chuan Zhan\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n17. Minhao Zhang\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n18. Cong Wang\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n19. Wei ji\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n20. Yuan-Zhi Tan\n\n    View author publications\n\n    Search author on:PubMed Google Scholar\n21. Su-Yuan Xie [...] Article  CAS   Google Scholar\n37. Rudge, S. L. & Kosov, D. S. Distribution of waiting times between electron cotunneling events. Phys. Rev. B 98, 245402 (2018).\n\n    Article  CAS   Google Scholar\n38. Rudge, S. L. & Kosov, D. S. Fluctuating-time and full counting statistics for quantum transport in a system with internal telegraphic noise. Phys. Rev. B 100, 235430 (2019).\n\n    Article  CAS   Google Scholar\n39. Niazi, S. et al. Training deep Boltzmann networks with sparse Ising machines. Nat. Electron. 7, 610–619 (2024).\n\n    Article   Google Scholar\n40. Tian, H. et al. A hardware Markov chain algorithm realized in a single device for machine learning. Nat. Commun. 9, 4305 (2018). [...] View author publications\n\n   Search author on:PubMed Google Scholar\n5. Yifu Mao\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n6. Jian Yang\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n7. Jun Chen\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n8. Kuojuei Hu\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n9. Weiwei Gao\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n10. Shuai Zhang\n\n    View author pu",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41563-026-02609-3",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
+        },
+        {
+          "title": "Thus Spoke…The Gentlemen - Check Point Research",
+          "summary": "For more challenging tasks such as operational data analysis, identifying high‑value access points, ",
+          "content": "For more challenging tasks such as operational data analysis, identifying high‑value access points, and offloading much of the manual data‑triage work to an AI model, the operators explicitly discuss using an uncensored, self‑hosted LLM. However these suggestions appear to remain theoretical, as `Protagor` admits, “I have no idea how to do that, but I think it’s possible.”\n\nScreenshot shared in the chats shows an LLM response on how to send an email to all users via the Jira admin interface, in Russian. It describes two methods, mainly using Jira Automation and user groups.\n\nThe group appears to be experimenting with well‑known Chinese LLMs and has considered using locally hosted models to assist with data triage on stolen information.\n\n#### CVEs and Exploits [...] Hacking Fortnite Accounts\n\n Artificial Intelligence\n ChatGPT\n Check Point Research Publications\n\nOpwnAI: AI That Can Save the Day or HACK it Away\n\n### BLOGS AND PUBLICATIONS\n\n Check Point Research Publications\n Global Cyber Attack Reports\n Threat Research\n\nFebruary 17, 2020\n\n### “The Turkish Rat” Evolved Adwind in a Massive Ongoing Phishing Campaign\n\n Check Point Research Publications\n\nAugust 11, 2017\n\n### “The Next WannaCry” Vulnerability is Here\n\n Check Point Research Publications\n\nMarch 12, 2026\n\n### “Handala Hack” – Unveiling Group’s Modus Operandi\n\n## SUBSCRIBE TO CYBER INTELLIGENCE REPORTS\n\n## We value your privacy!\n\nBFSI uses cookies on this site. We use cookies to enable faster and easier experience for you. By continuing to visit this website you agree to our use of cookies. [...] Members share their AI preferences across different chats. `zeta88` states that he finds DeepSeek, Qwen, Kimi, and Emi the most effective models for his purposes, particularly for coding assistance and technical queries.\n\nHe also suggests adding more Chinese LLMs to their toolkit, in addition to those they are already considering or using, such as DeepSeek and Qwen.\n\nA couple of months later, `qbit` shares in the `INFO`",
+          "source": "Research",
+          "url": "https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news16/400/250"
         }
       ]
     },
@@ -127,49 +148,64 @@
       "icon": "📄",
       "items": [
         {
-          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
-          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
-          "source": "arXiv",
-          "url": "https://www.google.com/search?q=NeurIPS%202025%20%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%20%E9%AB%98%E6%95%88%E5%BE%AE%E8%B0%83",
-          "time": "今日",
-          "tag": "NeurIPS",
-          "image": "https://picsum.photos/seed/paper0/400/250"
-        },
-        {
-          "title": "ICML 收录：多模态对齐新突破",
-          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
-          "source": "arXiv",
-          "url": "https://www.google.com/search?q=ICML%20%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AF%B9%E9%BD%90",
-          "time": "昨日",
-          "tag": "ICML",
-          "image": "https://picsum.photos/seed/paper1/400/250"
-        },
-        {
-          "title": "ACL 2025：大语言模型推理能力深度分析",
-          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
-          "source": "arXiv",
-          "url": "https://www.google.com/search?q=ACL%202025%20LLM%20%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B",
-          "time": "今日",
-          "tag": "ACL",
-          "image": "https://picsum.photos/seed/paper2/400/250"
-        },
-        {
-          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
-          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
-          "source": "arXiv",
-          "url": "https://www.google.com/search?q=arXiv%20MoE%20%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5",
+          "title": "AI self-replication hacks 'no longer purely theoretical,' study finds — but experts say it's too soon to panic - Live Science",
+          "summary": "That divide is becoming increasingly important in AI safety research. Another study, uploaded Sept. ",
+          "content": "That divide is becoming increasingly important in AI safety research. Another study, uploaded Sept. 29 2025, to the arXiv preprint database, argued that the ability for an AI agent to copy itself does not automatically make a system dangerous in the real world. Aspects like autonomy, persistence, objectives, and access to tools or networks matter far more than whether the model can technically spin up another copy of itself, those researchers said.\n\nAs experts explained, the Palisade study appears less like rogue AI breaking loose and more like a glimpse into how AI-powered hacking tools are evolving. [...] Still, the researchers argue that the trajectory matters more than the current limitations.\n\nIn the study, the researchers said end-to-end replication success rates improved sharply over the past year as frontier AI systems became more capable at coding and autonomous task execution. The study reported that Anthropic's Claude Opus models achieved success rates above 80% in some scenarios, and OpenAI systems also showed measurable improvements.\n\n\"What is genuinely new is the trajectory,\" Casanova-Mazet said. \"Within 12 months, end-to-end success on this pipeline moved from 6% to 81% on Anthropic's frontier models and from 0% to 33% on OpenAI's.\" [...] 1. Technology\n2. Artificial Intelligence\n\n# AI self-replication hacks 'no longer purely theoretical,' study finds —‬ ‪but experts say it's too soon to panic\n\nResearchers say AI models can now replicate themselves across vulnerable systems, but experts warn the real threat is not rogue machine intelligence but cybercriminals weaponizing AI agents.\n\nBy Carly Page\n\n  published\n\nin News\n\n Facebook\n X\n Reddit\n Pinterest\n Flipboard\n\nShare this article\n\n0 \n\nJoin the conversation\n\nFollow us \n\nAdd us as a preferred source on Google\n\nSubscribe to our newsletter",
+          "source": "Livescience",
+          "url": "https://www.livescience.com/technology/artificial-intelligence/ai-self-replication-hacks-no-longer-purely-theoretical-study-finds-but-experts-say-its-too-soon-to-panic",
           "time": "今日",
           "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper3/400/250"
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "深度学习可解释性研究取得重要进展",
-          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
-          "source": "arXiv",
-          "url": "https://www.google.com/search?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E7%A0%94%E7%A9%B6",
-          "time": "昨日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper4/400/250"
+          "title": "-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature",
+          "summary": "## Data availability\n\nThe data supporting the findings of this study are available within this Artic",
+          "content": "## Data availability\n\nThe data supporting the findings of this study are available within this Article and its Supplementary Information. Source data are provided with this paper. Additional data are available from the corresponding authors upon request.\n\n## References\n\n1. Markov, I. L. Limits on fundamental limits to computation. Nature 512, 147–154 (2014).\n\n   Article  CAS  PubMed   Google Scholar\n2. Wang, H. et al. Scientific discovery in the age of artificial intelligence. Nature 620, 47–60 (2023).\n\n   Article  CAS  PubMed   Google Scholar\n3. Adleman, L. M. Molecular computation of solutions to combinatorial problems. Science 266, 1021–1024 (1994). [...] The authors declare no competing interests.\n\n## Peer review\n\n### Peer review information\n\nNature Materials thanks Mario Lanza and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.\n\n## Additional information\n\nPublisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.\n\n## Supplementary information\n\n### Supplementary Information (download PDF )\n\nSupplementary Notes 1–15, Figs. 1–41, Tables 1–4 and Discussion.\n\n### Supplementary Video 1 (download MP4 )\n\nReal-time factorization of 551 using a Sc2C2@C88 single-cluster device.\n\n### Supplementary Video 2 (download MP4 ) [...] Access through your institution\n\nBuy or subscribe\n\nThis is a preview of subscription content, access via your institution\n\n## Access options\n\nAccess through your institution\n\nAccess Nature and 54 other Nature Portfolio journals\n\nGet Nature+, our best-value online-access subscription\n\n$32.99 / 30 days\n\ncancel any time\n\nLearn more\n\nSubscribe to this journal\n\nReceive 12 print issues and online access\n\n$259.00 per year\n\nonly $21.58 per issue\n\nLearn more\n\nBuy this article\n\n Purchase on SpringerLink\n Instant access to the full article PDF.\n\nUSD 39.95\n\nPrices may be subject to local taxes which are calculated during checkout\n\n## Data availa",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41563-026-02609-3",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai15/400/250"
+        },
+        {
+          "title": "The Truth About Those Misleading Headlines Proclaiming That Humans Outdo AI When It Comes To Combatting Human Loneliness - Forbes",
+          "summary": "I will share with you the true essence of the study. In addition, I go beyond the study and provide ",
+          "content": "I will share with you the true essence of the study. In addition, I go beyond the study and provide additional contextual considerations. There are important lessons to be learned about how to best interpret these kinds of studies. Plus, I hope that my remarks will aid those actively conducting new research in this field. I give helpful suggestions and discerning ideas on ways to formulate these types of studies.\n\nLet’s talk about it.\n\nThis analysis of AI breakthroughs is part of my ongoing Forbes column coverage on the latest in AI, including identifying and explaining various impactful AI complexities (see the link here).\n\n## AI And Mental Well-Being [...] ## Recently Published Empirical Study\n\nYou are now ready and primed to dive into this latest research study that was recently published – a notable journal article entitled “Is A Random Human Peer Better Than A Highly Supportive Chatbot In Reducing Loneliness Over Time?” by Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn, Journal of Experimental Social Psychology, July 2026, which made these salient points (excerpts): [...] Another of my analyses probed the use of waitlist controls when performing empirical research on AI and mental health; see the link here. When conducting carefully crafted experiments on AI and mental health, there are numerous choices that can be made about the design of a control group. In a typical study, the treatment group is presumably going to be asked to use AI as the principal treatment element. The control group, then, is going to serve as a fundamental comparison to the treatment group. The design doesn’t have to go that way, and numerous alternative setups are equally suitable.\n\n## Recently Published Empirical Study",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/lanceeliot/2026/05/13/the-truth-about-those-misleading-headlines-proclaiming-that-humans-outdo-ai-when-it-comes-to-combatting-human-loneliness/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
+        },
+        {
+          "title": "Developing multifaceted metacognition - Nature",
+          "summary": "Article   Google Scholar\n2. Horn, J. L. Organization of abilities and the development of intelligenc",
+          "content": "Article   Google Scholar\n2. Horn, J. L. Organization of abilities and the development of intelligence. Psychol. Rev. 75, 242–259 (1968). A review about intelligence that argues for the developing independence of competencies (as a contrary view to our proposal).\n\n   Article  CAS  PubMed   Google Scholar\n3. Baer, C., Gill, I. K. & Odic, D. A domain-general sense of confidence in children. Open Mind Discov. Cogn. Sci. 2, 86–96 (2018). A paper that reports perceptual domain generality in 6–9-year-old children.\n\n   Article   Google Scholar\n4. Mamassian, P. Confidence forced-choice and other metaperceptual tasks. Perception 49, 616–635 (2020). A review that describes the merits of using a forced-choice paradigm for metacognitive research.\n\n   Article  PubMed   Google Scholar [...] cancel any time\n\nLearn more\n\nSubscribe to this journal\n\nReceive 12 digital issues and online access to articles\n\n$119.00 per year\n\nonly $9.92 per issue\n\nLearn more\n\nBuy this article\n\n Purchase on SpringerLink\n Instant access to the full article PDF.\n\nUSD 39.95\n\nPrices may be subject to local taxes which are calculated during checkout\n\n## References\n\n1. Mazancieux, A. et al. Towards a common conceptual space for metacognition in perception and memory. Nat. Rev. Psychol. 2, 751–766 (2023). A review that presents an overview of the current state of research in domain-general and domain-specific metacognition. [...] Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.\n\n View all journals\n Search\n Log in\n\n Content Explore content\n About the journal\n Publish with us\n Subscribe\n\n Sign up for alerts\n RSS feed\n\n Research Briefing\n Published:\n\n# Developing multifaceted metacognition\n\nNature Human Behaviour (2026) Cite this artic",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41562-026-02444-1",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news9/400/250"
+        },
+        {
+          "title": "State media control influences large language models - Nature",
+          "summary": "108. Egami, N. et al. Using imperfect surrogates for downstream inference: design-based supervised l",
+          "content": "108. Egami, N. et al. Using imperfect surrogates for downstream inference: design-based supervised learning for social science applications of large language models. Adv. Neural Inf. Process. Syst. 36, 68589–68601 (2024). [...] Article   Google Scholar\n27. Blodgett, S. L. et al. Language (technology) is power: a critical survey of “bias” in NLP. In Proc. Annual Meeting of the Association for Computational Linguistics (eds Jurafsky, D. et al.) 5454–5476 (Association for Computational Linguistics, 2020).\n28. Ouyang, L. et al. Training language models to follow instructions with human feedback. Adv. Neural Inf. Process. Syst. 35, 27730–27744 (2022). [...] Article   Google Scholar\n98. Nicholls, T. Detecting textual reuse in news stories, at scale. Int. J. Commun. 13, 4173–4197 (2019).\n99. Gao, L. et al. The pile: an 800gb dataset of diverse text for language modeling. Preprint at  (2020).\n100. Carlini, N. et al. Quantifying memorization across neural language models. In 11th International Conference on Learning Representations  (ICLR, 2023).\n101. Touvron, H. et al. Llama 2: open foundation and fine-tuned chat models. Preprint at  (2023).\n102. Chen, L. et al. AlpaGasus: training a better alpaca with fewer data. In International Conference on Learning Representations (eds Kim, B. et al.)  (ICLR, 2024).",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10506-7",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news8/400/250"
+        },
+        {
+          "title": "‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week",
+          "summary": "Another day, another attempt by a desperate Tier A student to circumvent assignments designed specif",
+          "content": "Another day, another attempt by a desperate Tier A student to circumvent assignments designed specifically to meet them at their level. How can we, as educators, expect students to engage in a productive struggle as they continue to deepen their dependence on large language models?\n\nThese students’ drive is not laziness but a resourceful response. My students are typically recently immigrated, with low English proficiency. I cannot speak to the level of scaffolding in their other seven high school-level classes and understand why they may not trust that my assignment is one they will have the language to complete. Enter AI—a life vest in the stormy sea of language development. [...] Explicitly teach and practice AI literacy: Rather than avoiding AI, teach students the skills to use it as what it is—a tool. AI can be used to provide examples of grammatical structures or to parse the nuances of various synonyms. It can provide an example of a specific type of writing structure or used as a thought partner to answer questions and assess answers. Evaluating the output of an LLM aligns with the Virginia standards of assessment and my district’s adopted Learner Profile and enhances critical thought. [...] Assessment as learning: For writing assignments in particular, the process is the product. Multistep research, peer reviews, frequent check-ins with small tasks not only help chunk a large task but encourage language production in reporting, evaluation, and analysis. Encouraging a culture of self-development and an emphasis on progress rather than perfection helps allay the fear that drives many students to misuse AI in the first place.",
+          "source": "Edweek",
+          "url": "https://www.edweek.org/technology/opinion-what-in-the-chatgpt-is-this-how-el-teachers-are-navigating-ai-use/2026/05",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news9/400/250"
         }
       ]
     },
@@ -179,63 +215,69 @@
       "icon": "💬",
       "items": [
         {
-          "title": "Sam Altman：AGI 可能比预期更早到来",
-          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
-          "source": "Twitter",
-          "url": "https://www.google.com/search?q=Sam%20Altman%20AGI%20Twitter",
+          "title": "‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week",
+          "summary": "Larry Ferlazzo\n\nOpinion Contributor,    Education Week\n\nLarry Ferlazzo is a former award-winning hig",
+          "content": "Larry Ferlazzo\n\nOpinion Contributor,    Education Week\n\nLarry Ferlazzo is a former award-winning high school English and social studies teacher of more than two decades. He is currently a volunteer tutor to English-learner newcomers at a local school and to youth in juvenile hall.\n\n twitter\n linkedin\n\nFor the life of me, I really can’t see AI providing any real learning benefit to English-proficient “mainstream” students, and I’m not seeing any research that suggests otherwise. It can, however, help all teachers in selective ways, including in material preparation, writing letters of recommendation, and in data analysis. [...] ‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use\n\nOpinion Blog\n\n## Classroom Q&A\n\n# With Larry Ferlazzo\n\nIn this EdWeek blog, an experiment in knowledge-gathering, Ferlazzo will address readers’ questions on classroom management, ELL instruction, lesson planning, and other issues facing teachers. Send your questions to lferlazzo@epe.org. Read more from this blog.\n\nArtificial Intelligence  Opinion\n\n# ‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use\n\nBy Larry Ferlazzo — May 13, 2026   14 min read\n\n Save to favorites\n Print)\n\nEmail   Facebook   LinkedIn   Twitter   Copy URL\n\nLarry Ferlazzo\n\nOpinion Contributor,    Education Week [...] They responded to this question:\n\nWhat is the good and the bad about using artificial intelligence with English learners?\n\nConsider contributing a question to be answered in a future post. You can send one to me at lferlazzo@epe.org. When you send it in, let me know if I can use your real name if it’s selected or if you’d prefer remaining anonymous and have a pseudonym in mind.\n\nYou can also contact me on X at @Larryferlazzo or on Bluesky at @larryferlazzo.bsky.social\n\nJust a reminder; you can subscribe and receive updates from this blog via email. And if you missed any of the highlights from the first 13 years of this blog, you can see a categorized list here.",
+          "source": "Edweek",
+          "url": "https://www.edweek.org/technology/opinion-what-in-the-chatgpt-is-this-how-el-teachers-are-navigating-ai-use/2026/05",
           "time": "今日",
           "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social0/400/250"
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
-          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
-          "source": "Twitter",
-          "url": "https://www.google.com/search?q=Yann%20LeCun%20AGI%20%E8%A7%82%E7%82%B9",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social1/400/250"
+          "title": "Meta launches WhatsApp 'incognito' mode to address privacy concerns for AI chats - Greenwich Time",
+          "summary": "Subscribe\n\nNews\n\n# Meta launches WhatsApp 'incognito' mode to address privacy concerns for AI chats\n",
+          "content": "Subscribe\n\nNews\n\n# Meta launches WhatsApp 'incognito' mode to address privacy concerns for AI chats\n\nBy KELVIN CHAN, AP Business Writer\n\nLONDON (AP) — Meta Platforms said Wednesday it's rolling out an “incognito” mode for WhatsApp users to have private conversations with its AI chatbot, a move intended to ease privacy concerns about sensitive information that users share in chats.\n\nThe social media company said in a blog post that incognito chat mode provides a way to have private, temporary conversations with Meta AI, its artificial intelligence assistant that's been available on WhatsApp for a few years.\n\nAdvertisement\n\nArticle continues below this ad [...] Advertisement\n\nArticle continues below this ad\n\nMessages will be processed in a “secure environment\" that even Meta can't access, won't be saved by default and will disappear when exiting a session, Meta said.\n\nGenerative AI systems have been dogged by privacy concerns because the large language models that underpin these systems are trained on vast troves of data, sometimes including personal information provided by users themselves in their conversations with AI chatbots.\n\nMore News\n\nSwatting call targeted Greenwich school Tuesday, police say\n\nPolice said the call is not believed to be credible.\n\nGreenwich is using a giant red, white and blue dog to help celebrate America 250 [...] Rival chatbot makers already have some privacy features. Google's Gemini chatbot has the option to disable chat history and opt out of allowing one's data to be used in training its AI models. ChatGPT has similar controls.\n\nAdvertisement\n\nArticle continues below this ad\n\n### Want more Greenwich Time?\n\nMake us a Preferred Source on Google to see more of us when you search.\n\nAdd Preferred Source\n\nMeta says it's rolling out incognito chats because users often ask chatbots sensitive questions or include private financial, personal, health or work data in their questions.",
+          "source": "Greenwichtime",
+          "url": "https://www.greenwichtime.com/news/world/article/meta-launches-whatsapp-incognito-mode-to-22256790.php",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
         },
         {
-          "title": "Hacker News 热议：AI 是否会取代程序员？",
-          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
-          "source": "Hacker News",
-          "url": "https://www.google.com/search?q=Hacker%20News%20AI%20%E5%8F%96%E4%BB%A3%E7%A8%8B%E5%BA%8F%E5%91%98",
+          "title": "Iran is a Thing - Industrial Equipment News",
+          "summary": "### Smooth Criminals\n\nWhether a nation or an individual, what AI has done is turn cybercrime into an",
+          "content": "### Smooth Criminals\n\nWhether a nation or an individual, what AI has done is turn cybercrime into an automated process. While this can include automating the appearance of everyday business to prop-up a fraudulent banking system, it also includes the automation of AI’s vast offensive attack capabilities.\n\nTake phishing, for example. Phishing is when cyber criminals pose as a legitimate person or organization to trick someone into giving away their personal information. It used to be obvious, with ridiculous typos and strange wording. Not anymore. With AI, phishing emails and text messages are not only automated with perfect grammar, but they can incorporate websites, social media, and LinkedIn to deliver an email in your boss’s voice at scale.",
+          "source": "Ien",
+          "url": "https://www.ien.com/artificial-intelligence/blog/22966731/iran-is-a-thing",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai17/400/250"
+        },
+        {
+          "title": "Software Developers Say AI Is Rotting Their Brains - 404 Media",
+          "summary": "Tech company executives love to brag about how much of the code at their company is AI-generated. In",
+          "content": "Tech company executives love to brag about how much of the code at their company is AI-generated. In April, Google said that three quarters of new code at the company was generated by AI. Last year, Microsoft CEO Satya Nadella said up to 30 percent of the company’s code was generated by AI. Microsoft’s CTO Kevin Scott said he expects 95 percent of all code at the company to be AI-generated by 2030. Meta’s Mark Zuckerberg said last year he expects AI to write most of the code improving AI within 12-18 months. Anthropic says 90 percent of the code written by most if its team is AI generated. Tech companies have also been bragging about their “tokenmaxxing,” or how much money they’re spending on AI tools instead of human employees.\n\n💡 [...] Emanuel Maiberg\n\n·\n\n“It's making me dumber for sure.”\n\nTech company executives are confident that AI will completely transform the economy and point to the changes they see in-house to prove that this change is coming fast. At Meta, Google, Microsoft, and others, leadership says that AI generates a growing share of the overall code, which makes it cheaper and faster to produce. The implication is that if this AI is good enough that tech companies are using it internally to improve efficiency and reduce headcount, it’s only a matter of time until every other industry is similarly transformed. [...] Predictably, the huge spike in productivity that these companies claim their own AI products have enabled hasn’t resulted in more or better products, shorter work weeks, or better consumer experiences. Mostly, AI implementation in tech companies has been used to justify multiple massive rounds of layoffs. To name just a few examples where tech companies said they reduced headcount because of AI use, more recently, Meta said it would cut 10 percent of its workforce (around 8,000 people), Microsoft said it would offer voluntary retirement to 7 percent of its American workforce (around 125,000 people). Snapchat said it would lay off 16 perce",
+          "source": "404media",
+          "url": "https://www.404media.co/software-developers-say-ai-is-rotting-their-brains/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai10/400/250"
+        },
+        {
+          "title": "Harvard CS professor sees the dip in enrollment as part of an 'ebb and flow' that existed before AI - Business Insider",
+          "summary": "The future of CS has been a major topic among leading names in AI and tech as generative AI models b",
+          "content": "The future of CS has been a major topic among leading names in AI and tech as generative AI models become increasingly adept at programming and coding. OpenAI Chairman Bret Taylor, Nobel laureate Geoffrey Hinton, and others still see value in CS, provided that graduates understand that the most critical concepts are not basic programming.\n\nMalan is best known for teaching CS50, which he has turned into a popular online course. He stressed that computer science is not about learning languages, but rather about broader skills. [...] \"I think what we're going to see, if we sort of extrapolate out is that there's going to be these ebbs and flows over the years, much like we've seen,\" Malan said, adding, \"just as humans have this tendency, I do think, especially in tech, to overreact to things both positively and negatively.\"\n\nOverall, Malan said the fluctuations will likely continue until a \"healthier medium\" is reached in the discourse around tech, \"where people appreciate the real value and not just the opportunistic value of it all.\"\n\n## Debating the future of CS has become hotter than the major itself",
+          "source": "Businessinsider",
+          "url": "https://www.businessinsider.com/cs-enrollment-decline-harvard-professor-david-malan-cs50-2026-5",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai11/400/250"
+        },
+        {
+          "title": "‘This is your moment’: Nvidia CEO tells graduates to seize AI’s ‘industrial era’ - ynetnews",
+          "summary": "“Every major technological revolution in history created fear alongside opportunity,” Huang said. “W",
+          "content": "“Every major technological revolution in history created fear alongside opportunity,” Huang said. “When society engages technology openly, responsibly and optimistically, we expand human potential far more than we diminish it.”\n\nHe argued that AI will automate tasks, but does not erase the deeper purpose of many professions. Radiologists, he said, do not merely read scans — they care for patients. AI may help automate the reading of scans, but it can also elevate the radiologist’s broader role.\n\nHis message to the graduates was direct: do not retreat from AI, engage with it deeply.\n\n### ‘Advance AI wisely’\n\nHuang said the scale of the AI revolution demands a clear-eyed approach to both its promise and its risks. [...] Before turning fully to AI, Huang asked graduates to turn to their mothers and wish them a happy Mother’s Day, drawing cheers from the crowd.\n\nHe then placed AI in the broader arc of computing history, saying every major platform shift — PCs, the internet, mobile and cloud — had brought society to the current moment.\n\n“But what is about to happen now is bigger than anything before,” he said. “Because intelligence is foundational to every industry, every industry will change.”\n\n### ‘AI gives America the chance to build again’\n\nHuang described AI as driving what he called the largest technology infrastructure buildout in human history — and said the shift gives the United States a rare opportunity to rebuild its industrial capacity. [...] Related Topics\n\nNvidia\n\nJensen Huang\n\n“You are entering the world at an extraordinary moment,” Nvidia founder and CEO Jensen Huang told Carnegie Mellon graduates on Sunday, casting the Class of 2026 as the first generation to begin its working life at the dawn of the AI industrial era\n\n“A new industry is being born. A new era of science and discovery is beginning,” Huang said in his commencement address, telling thousands gathered at the university’s rain-soaked Pittsburgh campus that they are standing at what he called",
+          "source": "Ynetnews",
+          "url": "https://www.ynetnews.com/tech-and-digital/article/r19osfg1fe",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social2/400/250"
-        },
-        {
-          "title": "Reddit：2026 年最值得学习的 AI 技能",
-          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
-          "source": "Reddit",
-          "url": "https://www.google.com/search?q=Reddit%20AI%20%E6%8A%80%E8%83%BD%E5%AD%A6%E4%B9%A0",
-          "time": "今日",
-          "tag": "Reddit",
-          "image": "https://picsum.photos/seed/social3/400/250"
-        },
-        {
-          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
-          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
-          "source": "Twitter",
-          "url": "https://www.google.com/search?q=AI%20%E5%88%9B%E4%B8%9A%E6%9C%BA%E4%BC%9A%20%E7%A7%91%E6%8A%80%E5%A4%A7V",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social4/400/250"
-        },
-        {
-          "title": "Hacker News：最佳开源 LLM 排行榜",
-          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
-          "source": "Hacker News",
-          "url": "https://www.google.com/search?q=Hacker%20News%20%E5%BC%80%E6%BA%90%20LLM%20%E6%8E%92%E8%A1%8C",
-          "time": "今日",
-          "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social5/400/250"
+          "image": "https://picsum.photos/seed/ai12/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-14T00:55:33.555Z",
+  "generatedAt": "2026-05-14T02:05:47.729Z",
   "version": "3.0.0",
-  "source": "mock"
+  "source": "tavily-mimo"
 }
