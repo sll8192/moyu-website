@@ -1,2031 +1,1563 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="摸鱼观察室 - AI日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub热榜，每天自动更新">
-    <meta name="theme-color" content="#0F172A">
-    <title>摸鱼观察室 - 2026年5月14日星期四</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>">
-    <style>
-        /* ===== tose.sh Design System ===== */
-        /* Primary: #1E293B | Secondary: #334155 | CTA: #22C55E | Background: #0F172A | Text: #F8FAFC */
-        /* ===== Reset & Base ===== */
-        
-        *,
-        *::before,
-        *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        body {
-            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0F172A;
-            color: #F8FAFC;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-        
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
-        
-        ul {
-            list-style: none;
-        }
-        /* ===== Navbar ===== */
-        
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: rgba(15, 23, 42, 0.85);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(51, 65, 85, 0.5);
-            padding: 0 24px;
-            height: 72px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .navbar-logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 22px;
-            font-weight: 700;
-            color: #F8FAFC;
-        }
-        
-        .navbar-logo span {
-            font-size: 28px;
-        }
-        
-        .navbar-links {
-            display: flex;
-            gap: 8px;
-        }
-        
-        .navbar-links a {
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #94A3B8;
-            transition: all 0.2s;
-        }
-        
-        .navbar-links a:hover,
-        .navbar-links a.active {
-            background: rgba(34, 197, 94, 0.15);
-            color: #22C55E;
-        }
-        
-        .navbar-time {
-            font-size: 13px;
-            color: #64748B;
-            font-family: 'Space Grotesk', monospace;
-        }
-        /* ===== Hero ===== */
-        
-        .hero {
-            margin-top: 72px;
-            background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #312E81 100%);
-            padding: 80px 24px 64px;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(ellipse at 50% 0%, rgba(34, 197, 94, 0.15) 0%, transparent 50%);
-            pointer-events: none;
-        }
-        
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .hero h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 48px;
-            font-weight: 700;
-            margin-bottom: 16px;
-            letter-spacing: -1px;
-            background: linear-gradient(135deg, #F8FAFC 0%, #22C55E 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .hero p {
-            font-size: 18px;
-            color: #94A3B8;
-            max-width: 600px;
-            margin: 0 auto 32px;
-        }
-        
-        .hero-stats {
-            display: flex;
-            justify-content: center;
-            gap: 48px;
-        }
-        
-        .hero-stat {
-            text-align: center;
-            background: rgba(30, 41, 59, 0.6);
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            border-radius: 16px;
-            padding: 24px 32px;
-            backdrop-filter: blur(10px);
-        }
-        
-        .hero-stat .num {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 36px;
-            font-weight: 700;
-            color: #22C55E;
-        }
-        
-        .hero-stat .label {
-            font-size: 14px;
-            color: #94A3B8;
-            margin-top: 4px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        /* ===== Container ===== */
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        /* ===== Section ===== */
-        
-        .section {
-            padding: 56px 0;
-        }
-        
-        .section-header {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            margin-bottom: 32px;
-        }
-        
-        .section-icon {
-            font-size: 32px;
-        }
-        
-        .section-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 28px;
-            font-weight: 700;
-            color: #F8FAFC;
-        }
-        
-        .section-badge {
-            background: rgba(34, 197, 94, 0.15);
-            color: #22C55E;
-            font-family: 'Space Grotesk', monospace;
-            font-size: 13px;
-            font-weight: 600;
-            padding: 6px 14px;
-            border-radius: 20px;
-            border: 1px solid rgba(34, 197, 94, 0.3);
-        }
-        
-        .section-divider {
-            height: 1px;
-            background: linear-gradient(90deg, transparent, rgba(51, 65, 85, 0.5), transparent);
-            margin: 0 0 56px;
-        }
-        /* ===== Card Grid ===== */
-        
-        .card-grid {
-            display: grid;
-            gap: 24px;
-            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-        }
-        /* ===== News Card (AI日报) ===== */
-        
-        .news-card {
-            background: #1E293B;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .news-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .news-card-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            background: #334155;
-        }
-        
-        .news-card-body {
-            padding: 20px 24px 24px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .news-card-tag {
-            display: inline-block;
-            font-size: 11px;
-            font-weight: 600;
-            padding: 4px 12px;
-            border-radius: 6px;
-            margin-bottom: 12px;
-            width: fit-content;
-            font-family: 'Space Grotesk', monospace;
-        }
-        
-        .tag-ai {
-            background: rgba(34, 197, 94, 0.2);
-            color: #22C55E;
-        }
-        
-        .tag-ecommerce {
-            background: rgba(59, 130, 246, 0.2);
-            color: #3B82F6;
-        }
-        
-        .tag-startup {
-            background: rgba(251, 191, 36, 0.2);
-            color: #FBBF24;
-        }
-        
-        .tag-web3 {
-            background: rgba(168, 85, 247, 0.2);
-            color: #A855F7;
-        }
-        
-        .tag-newenergy {
-            background: rgba(236, 72, 153, 0.2);
-            color: #EC4899;
-        }
-        
-        .news-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            line-height: 1.4;
-            margin-bottom: 10px;
-            color: #F8FAFC;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .news-card-summary {
-            font-size: 14px;
-            color: #94A3B8;
-            line-height: 1.7;
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .news-card-meta {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 16px;
-            padding-top: 14px;
-            border-top: 1px solid rgba(51, 65, 85, 0.5);
-            font-size: 12px;
-            color: #64748B;
-        }
-        
-        .news-card-source {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            font-family: 'Space Grotesk', monospace;
-        }
-        /* ===== Image Card (搞笑图片 / 美女福利) ===== */
-        
-        .image-card {
-            background: #1E293B;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-        }
-        
-        .image-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .image-card img {
-            width: 100%;
-            height: 280px;
-            object-fit: cover;
-            background: #334155;
-        }
-        
-        .image-card-body {
-            padding: 18px 20px 20px;
-        }
-        
-        .image-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #F8FAFC;
-        }
-        
-        .image-card-actions {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 12px;
-            font-size: 13px;
-            color: #64748B;
-        }
-        
-        .like-btn {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            color: #64748B;
-            font-family: 'Space Grotesk', monospace;
-            font-size: 13px;
-            padding: 6px 12px;
-            border-radius: 8px;
-            transition: all 0.2s;
-        }
-        
-        .like-btn:hover {
-            color: #22C55E;
-            background: rgba(34, 197, 94, 0.1);
-        }
-        /* ===== Joke Card (内涵段子) ===== */
-        
-        .joke-card {
-            background: #1E293B;
-            border-radius: 16px;
-            padding: 24px 28px;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-        }
-        
-        .joke-card:hover {
-            transform: translateX(6px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .joke-card-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 16px;
-        }
-        
-        .joke-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            color: #F8FAFC;
-        }
-        
-        .joke-card-content {
-            font-size: 15px;
-            color: #CBD5E1;
-            line-height: 1.8;
-            padding: 18px 20px;
-            background: rgba(30, 41, 59, 0.5);
-            border-radius: 12px;
-            border-left: 4px solid #22C55E;
-        }
-        
-        .joke-card-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 16px;
-            font-size: 13px;
-            color: #64748B;
-        }
-        /* ===== Qiushi Card (糗事百科) ===== */
-        
-        .qiushi-card {
-            background: #1E293B;
-            border-radius: 16px;
-            overflow: hidden;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .qiushi-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .qiushi-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            background: #334155;
-        }
-        
-        .qiushi-card-body {
-            padding: 20px 24px 24px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .qiushi-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 17px;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #F8FAFC;
-        }
-        
-        .qiushi-card-content {
-            font-size: 14px;
-            color: #94A3B8;
-            line-height: 1.7;
-            flex: 1;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .qiushi-card-footer {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 16px;
-            padding-top: 14px;
-            border-top: 1px solid rgba(51, 65, 85, 0.5);
-            font-size: 13px;
-            color: #64748B;
-        }
-        /* ===== Guide Section ===== */
-        
-        .guide-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 24px;
-        }
-        
-        .guide-card {
-            background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
-            border-radius: 16px;
-            padding: 28px;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .guide-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100px;
-            height: 100px;
-            background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        
-        .guide-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .guide-card-number {
-            position: absolute;
-            top: 16px;
-            right: 20px;
-            font-family: 'Space Grotesk', monospace;
-            font-size: 48px;
-            font-weight: 700;
-            color: rgba(34, 197, 94, 0.15);
-        }
-        
-        .guide-card-icon {
-            font-size: 40px;
-            margin-bottom: 16px;
-        }
-        
-        .guide-card-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 18px;
-            font-weight: 600;
-            color: #F8FAFC;
-            margin-bottom: 10px;
-        }
-        
-        .guide-card-desc {
-            font-size: 14px;
-            color: #94A3B8;
-            line-height: 1.7;
-        }
-        /* ===== Footer ===== */
-        
-        .footer {
-            background: linear-gradient(180deg, #0F172A 0%, #020617 100%);
-            color: #94A3B8;
-            padding: 64px 24px 32px;
-            margin-top: 64px;
-            border-top: 1px solid rgba(51, 65, 85, 0.3);
-        }
-        
-        .footer-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 48px;
-        }
-        
-        .footer-brand-name {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 22px;
-            font-weight: 700;
-            color: #F8FAFC;
-            margin-bottom: 12px;
-        }
-        
-        .footer-brand-desc {
-            font-size: 14px;
-            line-height: 1.8;
-            color: #64748B;
-        }
-        
-        .footer-col-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 15px;
-            font-weight: 600;
-            color: #F8FAFC;
-            margin-bottom: 16px;
-        }
-        
-        .footer-col a {
-            display: block;
-            font-size: 14px;
-            color: #64748B;
-            padding: 6px 0;
-            transition: color 0.2s;
-        }
-        
-        .footer-col a:hover {
-            color: #22C55E;
-        }
-        
-        .footer-bottom {
-            max-width: 1200px;
-            margin: 40px auto 0;
-            padding-top: 24px;
-            border-top: 1px solid rgba(51, 65, 85, 0.3);
-            text-align: center;
-            font-size: 13px;
-            color: #475569;
-        }
-        
-        .footer-link {
-            color: #22C55E;
-            transition: opacity 0.2s;
-        }
-        
-        .footer-link:hover {
-            opacity: 0.8;
-        }
-        /* ===== GitHub Trending Card ===== */
-        
-        .github-card {
-            background: #1E293B;
-            border-radius: 16px;
-            padding: 20px 24px;
-            border: 1px solid rgba(51, 65, 85, 0.5);
-            transition: transform 0.3s, border-color 0.3s;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        
-        .github-card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(34, 197, 94, 0.5);
-        }
-        
-        .github-card-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 12px;
-        }
-        
-        .github-card-name {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 17px;
-            font-weight: 600;
-            color: #22C55E;
-            word-break: break-all;
-        }
-        
-        .github-card-stars {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            font-family: 'Space Grotesk', monospace;
-            font-size: 14px;
-            font-weight: 600;
-            color: #FBBF24;
-            white-space: nowrap;
-        }
-        
-        .github-card-desc {
-            font-size: 14px;
-            color: #94A3B8;
-            line-height: 1.6;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .github-card-meta {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            font-size: 12px;
-            color: #64748B;
-        }
-        
-        .github-card-lang {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        
-        .github-card-lang-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        
-        .github-card-topic {
-            background: rgba(34, 197, 94, 0.12);
-            color: #22C55E;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 11px;
-            font-weight: 500;
-            border: 1px solid rgba(34, 197, 94, 0.2);
-        }
-        /* ===== Responsive ===== */
-        
-        @media (max-width: 768px) {
-            .navbar {
-                padding: 0 16px;
-                height: 64px;
-            }
-            .navbar-links {
-                display: none;
-            }
-            .navbar-time {
-                display: none;
-            }
-            .hero {
-                margin-top: 64px;
-                padding: 48px 16px 40px;
-            }
-            .hero h1 {
-                font-size: 32px;
-            }
-            .hero p {
-                font-size: 16px;
-            }
-            .hero-stats {
-                gap: 16px;
-                flex-wrap: wrap;
-            }
-            .hero-stat {
-                padding: 16px 24px;
-            }
-            .hero-stat .num {
-                font-size: 28px;
-            }
-            .container {
-                padding: 0 16px;
-            }
-            .section {
-                padding: 40px 0;
-            }
-            .section-title {
-                font-size: 22px;
-            }
-            .card-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            .guide-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            .footer-inner {
-                grid-template-columns: 1fr;
-                gap: 32px;
-            }
-        }
-        
-        @media (min-width: 769px) and (max-width: 1024px) {
-            .card-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            .guide-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-    </style>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="摸鱼观察室 - AI日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub热榜，每天自动更新">
+  <meta name="theme-color" content="#0F172A">
+  <title>摸鱼观察室 - 2026年5月14日星期四</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐟</text></svg>">
+  <style>
+/* ===== tose.sh Design System ===== */
+/* Primary: #1E293B | Secondary: #334155 | CTA: #22C55E | Background: #0F172A | Text: #F8FAFC */
 
+/* ===== Reset & Base ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #0F172A;
+  color: #F8FAFC;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; height: auto; display: block; }
+ul { list-style: none; }
+
+/* ===== Navbar ===== */
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(51, 65, 85, 0.5);
+  padding: 0 24px; height: 72px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.navbar-logo {
+  display: flex; align-items: center; gap: 12px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px; font-weight: 700; color: #F8FAFC;
+}
+.navbar-logo span { font-size: 28px; }
+.navbar-links { display: flex; gap: 8px; }
+.navbar-links a {
+  padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 500;
+  color: #94A3B8; transition: all 0.2s;
+}
+.navbar-links a:hover, .navbar-links a.active {
+  background: rgba(34, 197, 94, 0.15); color: #22C55E;
+}
+.navbar-time { 
+  font-size: 13px; color: #64748B;
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* ===== Hero ===== */
+.hero {
+  margin-top: 72px;
+  background: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #312E81 100%);
+  padding: 80px 24px 64px; text-align: center; 
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(34, 197, 94, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+}
+.hero-content { position: relative; z-index: 1; }
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px; font-weight: 700; margin-bottom: 16px; 
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, #F8FAFC 0%, #22C55E 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero p { 
+  font-size: 18px; color: #94A3B8; 
+  max-width: 600px; margin: 0 auto 32px;
+}
+.hero-stats {
+  display: flex; justify-content: center; gap: 48px;
+}
+.hero-stat { 
+  text-align: center;
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  border-radius: 16px;
+  padding: 24px 32px;
+  backdrop-filter: blur(10px);
+}
+.hero-stat .num { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 36px; font-weight: 700; 
+  color: #22C55E;
+}
+.hero-stat .label { 
+  font-size: 14px; color: #94A3B8; 
+  margin-top: 4px; text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== Container ===== */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* ===== Section ===== */
+.section { padding: 56px 0; }
+.section-header {
+  display: flex; align-items: center; gap: 16px; margin-bottom: 32px;
+}
+.section-icon { font-size: 32px; }
+.section-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28px; font-weight: 700; color: #F8FAFC; 
+}
+.section-badge {
+  background: rgba(34, 197, 94, 0.15); 
+  color: #22C55E; 
+  font-family: 'Space Grotesk', monospace;
+  font-size: 13px; font-weight: 600;
+  padding: 6px 14px; border-radius: 20px; 
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.section-divider { 
+  height: 1px; 
+  background: linear-gradient(90deg, transparent, rgba(51, 65, 85, 0.5), transparent); 
+  margin: 0 0 56px; 
+}
+
+/* ===== Card Grid ===== */
+.card-grid {
+  display: grid; gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+}
+
+/* ===== News Card (AI日报) ===== */
+.news-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column;
+}
+.news-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.news-card-img {
+  width: 100%; height: 200px; object-fit: cover;
+  background: #334155;
+}
+.news-card-body { 
+  padding: 20px 24px 24px; 
+  flex: 1; display: flex; flex-direction: column; 
+}
+.news-card-tag {
+  display: inline-block; font-size: 11px; font-weight: 600;
+  padding: 4px 12px; border-radius: 6px; margin-bottom: 12px; 
+  width: fit-content;
+  font-family: 'Space Grotesk', monospace;
+}
+.tag-ai { background: rgba(34, 197, 94, 0.2); color: #22C55E; }
+.tag-ecommerce { background: rgba(59, 130, 246, 0.2); color: #3B82F6; }
+.tag-startup { background: rgba(251, 191, 36, 0.2); color: #FBBF24; }
+.tag-web3 { background: rgba(168, 85, 247, 0.2); color: #A855F7; }
+.tag-newenergy { background: rgba(236, 72, 153, 0.2); color: #EC4899; }
+.news-card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; line-height: 1.4; 
+  margin-bottom: 10px; color: #F8FAFC;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-card-summary {
+  font-size: 14px; color: #94A3B8; line-height: 1.7; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.news-card-meta {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; padding-top: 14px; 
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+  font-size: 12px; color: #64748B;
+}
+.news-card-source { 
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'Space Grotesk', monospace;
+}
+
+/* ===== Image Card (搞笑图片 / 美女福利) ===== */
+.image-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+}
+.image-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.image-card img {
+  width: 100%; height: 280px; object-fit: cover; 
+  background: #334155;
+}
+.image-card-body { padding: 18px 20px 20px; }
+.image-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px; font-weight: 600; 
+  margin-bottom: 8px; color: #F8FAFC; 
+}
+.image-card-actions {
+  display: flex; align-items: center; justify-content: space-between; 
+  margin-top: 12px;
+  font-size: 13px; color: #64748B;
+}
+.like-btn {
+  display: flex; align-items: center; gap: 6px; cursor: pointer;
+  background: none; border: none; color: #64748B; 
+  font-family: 'Space Grotesk', monospace;
+  font-size: 13px; padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.like-btn:hover { 
+  color: #22C55E; 
+  background: rgba(34, 197, 94, 0.1);
+}
+
+/* ===== Joke Card (内涵段子) ===== */
+.joke-card {
+  background: #1E293B; border-radius: 16px; padding: 24px 28px;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+}
+.joke-card:hover { 
+  transform: translateX(6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.joke-card-header {
+  display: flex; align-items: center; justify-content: space-between; 
+  margin-bottom: 16px;
+}
+.joke-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; color: #F8FAFC; 
+}
+.joke-card-content {
+  font-size: 15px; color: #CBD5E1; line-height: 1.8;
+  padding: 18px 20px; 
+  background: rgba(30, 41, 59, 0.5); 
+  border-radius: 12px;
+  border-left: 4px solid #22C55E;
+}
+.joke-card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; font-size: 13px; color: #64748B;
+}
+
+/* ===== Qiushi Card (糗事百科) ===== */
+.qiushi-card {
+  background: #1E293B; border-radius: 16px; overflow: hidden;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column;
+}
+.qiushi-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.qiushi-card img {
+  width: 100%; height: 200px; object-fit: cover; 
+  background: #334155;
+}
+.qiushi-card-body { 
+  padding: 20px 24px 24px; 
+  flex: 1; display: flex; flex-direction: column; 
+}
+.qiushi-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px; font-weight: 600; 
+  margin-bottom: 10px; color: #F8FAFC; 
+}
+.qiushi-card-content {
+  font-size: 14px; color: #94A3B8; line-height: 1.7; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.qiushi-card-footer {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; padding-top: 14px; 
+  border-top: 1px solid rgba(51, 65, 85, 0.5);
+  font-size: 13px; color: #64748B;
+}
+
+/* ===== Guide Section ===== */
+.guide-grid {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+  gap: 24px;
+}
+.guide-card {
+  background: linear-gradient(135deg, #1E293B 0%, #334155 100%);
+  border-radius: 16px; padding: 28px; 
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+.guide-card::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0; width: 100px; height: 100px;
+  background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+.guide-card:hover { 
+  transform: translateY(-6px); 
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.guide-card-number {
+  position: absolute; top: 16px; right: 20px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 48px; font-weight: 700;
+  color: rgba(34, 197, 94, 0.15);
+}
+.guide-card-icon { font-size: 40px; margin-bottom: 16px; }
+.guide-card-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px; font-weight: 600; 
+  color: #F8FAFC; margin-bottom: 10px; 
+}
+.guide-card-desc { 
+  font-size: 14px; color: #94A3B8; line-height: 1.7; 
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: linear-gradient(180deg, #0F172A 0%, #020617 100%); 
+  color: #94A3B8; 
+  padding: 64px 24px 32px; 
+  margin-top: 64px;
+  border-top: 1px solid rgba(51, 65, 85, 0.3);
+}
+.footer-inner {
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 48px;
+}
+.footer-brand-name { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px; font-weight: 700; 
+  color: #F8FAFC; margin-bottom: 12px; 
+}
+.footer-brand-desc { 
+  font-size: 14px; line-height: 1.8; color: #64748B; 
+}
+.footer-col-title { 
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px; font-weight: 600; 
+  color: #F8FAFC; margin-bottom: 16px; 
+}
+.footer-col a {
+  display: block; font-size: 14px; 
+  color: #64748B; padding: 6px 0; 
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: #22C55E; }
+.footer-bottom {
+  max-width: 1200px; margin: 40px auto 0; 
+  padding-top: 24px;
+  border-top: 1px solid rgba(51, 65, 85, 0.3); 
+  text-align: center; font-size: 13px; color: #475569;
+}
+.footer-link {
+  color: #22C55E; transition: opacity 0.2s;
+}
+.footer-link:hover { opacity: 0.8; }
+
+/* ===== GitHub Trending Card ===== */
+.github-card {
+  background: #1E293B; border-radius: 16px; padding: 20px 24px;
+  border: 1px solid rgba(51, 65, 85, 0.5);
+  transition: transform 0.3s, border-color 0.3s;
+  display: flex; flex-direction: column; gap: 12px;
+}
+.github-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(34, 197, 94, 0.5);
+}
+.github-card-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+.github-card-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px; font-weight: 600; color: #22C55E;
+  word-break: break-all;
+}
+.github-card-stars {
+  display: flex; align-items: center; gap: 4px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 14px; font-weight: 600; color: #FBBF24;
+  white-space: nowrap;
+}
+.github-card-desc {
+  font-size: 14px; color: #94A3B8; line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.github-card-meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  font-size: 12px; color: #64748B;
+}
+.github-card-lang {
+  display: flex; align-items: center; gap: 6px;
+}
+.github-card-lang-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  display: inline-block;
+}
+.github-card-topic {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  padding: 3px 10px; border-radius: 12px;
+  font-size: 11px; font-weight: 500;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .navbar { padding: 0 16px; height: 64px; }
+  .navbar-links { display: none; }
+  .navbar-time { display: none; }
+  .hero { margin-top: 64px; padding: 48px 16px 40px; }
+  .hero h1 { font-size: 32px; }
+  .hero p { font-size: 16px; }
+  .hero-stats { gap: 16px; flex-wrap: wrap; }
+  .hero-stat { padding: 16px 24px; }
+  .hero-stat .num { font-size: 28px; }
+  .container { padding: 0 16px; }
+  .section { padding: 40px 0; }
+  .section-title { font-size: 22px; }
+  .card-grid { grid-template-columns: 1fr; gap: 20px; }
+  .guide-grid { grid-template-columns: 1fr; gap: 20px; }
+  .footer-inner { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+  .guide-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
 <body>
 
-    <!-- ===== Navbar ===== -->
-    <nav class="navbar">
-        <div class="navbar-logo"><span>🐟</span> 摸鱼观察室</div>
-        <div class="navbar-links">
-            <a href="#section-news">新闻</a>
-            <a href="#section-project">项目</a>
-            <a href="#section-paper">论文</a>
-            <a href="#section-socialMedia">社交</a>
-            <a href="#section-moyu">摸鱼</a>
-            <a href="#section-github">GitHub</a>
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <div class="navbar-logo"><span>🐟</span> 摸鱼观察室</div>
+    <div class="navbar-links">
+      <a href="#section-news">新闻</a>
+      <a href="#section-project">项目</a>
+      <a href="#section-paper">论文</a>
+      <a href="#section-socialMedia">社交</a>
+      <a href="#section-moyu">摸鱼</a>
+      <a href="#section-github">GitHub</a>
+    </div>
+    <div class="navbar-time">2026/5/14 03:33:11</div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>摸鱼观察室</h1>
+      <p>AI 行业日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub 热榜，每天自动更新，打工人的精神食粮</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num">24</div>
+          <div class="label">AI 资讯</div>
         </div>
-        <div class="navbar-time">2026/5/14 08:55:52</div>
-    </nav>
-
-    <!-- ===== Hero ===== -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>摸鱼观察室</h1>
-            <p>AI 行业日报 + 搞笑图片 + 美女福利 + 内涵段子 + 糗事百科 + GitHub 热榜，每天自动更新，打工人的精神食粮</p>
-            <div class="hero-stats">
-                <div class="hero-stat">
-                    <div class="num">24</div>
-                    <div class="label">AI 资讯</div>
-                </div>
-                <div class="hero-stat">
-                    <div class="num">32</div>
-                    <div class="label">摸鱼内容</div>
-                </div>
-                <div class="hero-stat">
-                    <div class="num">10</div>
-                    <div class="label">板块</div>
-                </div>
-            </div>
+        <div class="hero-stat">
+          <div class="num">38</div>
+          <div class="label">摸鱼内容</div>
         </div>
-    </section>
+        <div class="hero-stat">
+          <div class="num">10</div>
+          <div class="label">板块</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- ===== AI 日报 ===== -->
-
+  <!-- ===== AI 日报 ===== -->
+  
     <div class="section" id="section-news">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">📰</span>
-                <h2 class="section-title">新闻</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <a href="https://www.google.com/search?q=OpenAI%20%E5%8F%91%E5%B8%83%20GPT-5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai12/400/250" alt="What happens when China’s AI catches up to Mythos? - csoonline.com" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">Anthropic</span>
-                            <h3 class="news-card-title">What happens when China’s AI catches up to Mythos? - csoonline.com</h3>
-                            <p class="news-card-summary">May 6, 2026 10 mins news ### CISA pushes critical infrastructure operators to prepare to work in</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Csoonline</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Google%20DeepMind%20Gemini%202.0" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai13/400/250" alt="Brendan Ahern: AI is becoming a race between the U.S. and China - CNBC" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Brendan Ahern: AI is becoming a race between the U.S. and China - CNBC</h3>
-                            <p class="news-card-summary">watch now watch now VIDEO05:21 David Einhorn: Looking for misunderstood stocks like Victoria&#039;s Se</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Cnbc</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Anthropic%20Claude%204%20%E5%8F%91%E5%B8%83" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai14/400/250" alt="AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science</h3>
-                            <p class="news-card-summary">The study lands amid broader concerns about increasingly autonomous agentic AI systems capable of ca</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Livescience</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Meta%20Llama%204%20%E5%BC%80%E6%BA%90" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news12/400/250" alt="State media control influences large language models - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">Google</span>
-                            <h3 class="news-card-title">State media control influences large language models - Nature</h3>
-                            <p class="news-card-summary">Millions of people around the world query large language models (LLMs) for information. Although sev</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=%E5%BE%AE%E8%BD%AF%20Copilot%20Workspace" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news13/400/250" alt="Anthropic Is Building a Legal Tech Ecosystem in Claude. Can Companies Adapt? - Law.com" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">Anthropic</span>
-                            <h3 class="news-card-title">Anthropic Is Building a Legal Tech Ecosystem in Claude. Can Companies Adapt? - Law.com</h3>
-                            <p class="news-card-summary">Anthropic is pushing deeper into the legal market, partnering with law firms and releasing more lega</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Law</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95%20%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news14/400/250" alt="Lead Intelligent and Beijing Humanoid Robot Innovation Center Forge Strategic Partnership to Pioneer a New Era of Human-Robot Collaboration in Advanced Manufacturing - The Manila Times"
-                            loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Lead Intelligent and Beijing Humanoid Robot Innovation Center Forge Strategic Partnership to Pioneer a New Era of Human-Robot Collaboration in Advanced Manufacturing - The Manila Times</h3>
-                            <p class="news-card-summary">Advertisement Founded in November 2023, the Beijing Humanoid Robot Innovation Center was officially</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Manilatimes</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">📰</span>
+          <h2 class="section-title">新闻</h2>
+          <span class="section-badge">6 条</span>
         </div>
-    </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+        <div class="card-grid">
+    
+          <a href="https://www.csoonline.com/article/4170818/what-happens-when-chinas-ai-catches-up-to-mythos.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai12/400/250" alt="What happens when China’s AI catches up to Mythos? - csoonline.com" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Anthropic</span>
+                <h3 class="news-card-title">What happens when China’s AI catches up to Mythos? - csoonline.com</h3>
+                <p class="news-card-summary">May 6, 2026 10 mins
+ news
 
+  ### CISA pushes critical infrastructure operators to prepare to work in</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Csoonline</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai13/400/250" alt="Researchers say AI just broke every benchmark for autonomous cyber capability - CyberScoop" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">OpenAI</span>
+                <h3 class="news-card-title">Researchers say AI just broke every benchmark for autonomous cyber capability - CyberScoop</h3>
+                <p class="news-card-summary">Two of the most advanced artificial intelligence models — Anthropic’s Claude Mythos Preview and Open</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Cyberscoop</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.cnbc.com/video/2026/05/13/brendan-ahern-ai-is-becoming-a-race-between-the-us-and-china.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai14/400/250" alt="Brendan Ahern: AI is becoming a race between the U.S. and China - CNBC" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">Brendan Ahern: AI is becoming a race between the U.S. and China - CNBC</h3>
+                <p class="news-card-summary">watch now
+
+watch now
+
+VIDEO05:21
+
+David Einhorn: Looking for misunderstood stocks like Victoria&#039;s Se</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Cnbc</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s41586-026-10506-7" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news12/400/250" alt="State media control influences large language models - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Google</span>
+                <h3 class="news-card-title">State media control influences large language models - Nature</h3>
+                <p class="news-card-summary">Millions of people around the world query large language models (LLMs) for information. Although sev</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.law.com/legaltechnews/2026/05/13/anthropic-is-building-a-legal-tech-ecosystem-in-claude-can-companies-adapt/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news13/400/250" alt="Anthropic Is Building a Legal Tech Ecosystem in Claude. Can Companies Adapt? - Law.com" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Anthropic</span>
+                <h3 class="news-card-title">Anthropic Is Building a Legal Tech Ecosystem in Claude. Can Companies Adapt? - Law.com</h3>
+                <p class="news-card-summary">Anthropic is pushing deeper into the legal market, partnering with law firms and releasing more lega</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Law</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.ainonline.com/aviation-news/business-aviation/2026-04-16/heroux-devtek-taps-antavia-landing-gear-mro" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news14/400/250" alt="Héroux-Devtek Taps Antavia for Landing Gear Repair and Overhaul - Aviation International News" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">Héroux-Devtek Taps Antavia for Landing Gear Repair and Overhaul - Aviation International News</h3>
+                <p class="news-card-summary">Email
+
+By Matt Thurber • Editor-in-Chief
+
+May 13, 2026
+
+## More In Maintenance and Modifications
+
+##</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Ainonline</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
     <div class="section" id="section-project">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">💻</span>
-                <h2 class="section-title">项目</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <a href="https://www.google.com/search?q=LangChain%20v0.3%20%E5%8F%91%E5%B8%83" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai17/400/250" alt="Tokenmaxxer: AI should cost as much as your rent - Axios" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">GitHub</span>
-                            <h3 class="news-card-title">Tokenmaxxer: AI should cost as much as your rent - Axios</h3>
-                            <p class="news-card-summary">The tokenmaxxing paid off: Jin created the fastest growing GitHub repository in history, called Claw</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Axios</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=HuggingFace%20Transformers%20%E6%96%B0%E6%A8%A1%E5%9E%8B" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai18/400/250" alt="A generative artificial intelligence approach for peptide antibiotic optimization - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">GitHub</span>
-                            <h3 class="news-card-title">A generative artificial intelligence approach for peptide antibiotic optimization - Nature</h3>
-                            <p class="news-card-summary">set using the same optimizer, learning rate (2 × 10−4), batch size (512), dropout (0.05), β (1 × 10−</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=PyTorch%203.0%20%E5%8F%91%E5%B8%83" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai19/400/250" alt="Vendors Use AI to Uncover and Patch Dozens of Flaws - Let&#039;s Data Science" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Vendors Use AI to Uncover and Patch Dozens of Flaws - Let&#039;s Data Science</h3>
-                            <p class="news-card-summary">Practice interview problems based on real data 1,500+ SQL &amp; Python problems across 15 industry data</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Letsdatascience</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=TensorFlow%203.0%20%E5%8F%91%E5%B8%83" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news12/400/250" alt="Closed-loop stimulation modulates attention shifting in children - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">GitHub</span>
-                            <h3 class="news-card-title">Closed-loop stimulation modulates attention shifting in children - Nature</h3>
-                            <p class="news-card-summary">Article PubMed PubMed Central Google Scholar 74. Welch, P. The use of fast Fourier transform for</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=vLLM%20%E6%8E%A8%E7%90%86%E5%BC%95%E6%93%8E%E6%9B%B4%E6%96%B0" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news13/400/250" alt="-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature</h3>
-                            <p class="news-card-summary">Search author on:PubMed Google Scholar 13. Da-Wei Zhou View author publications Search aut</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://research.checkpoint.com/2026/thus-spoke-the-gentlemen/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news16/400/250" alt="Thus Spoke…The Gentlemen - Check Point Research" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Thus Spoke…The Gentlemen - Check Point Research</h3>
-                            <p class="news-card-summary">For more challenging tasks such as operational data analysis, identifying high‑value access points, </p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Research</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">💻</span>
+          <h2 class="section-title">项目</h2>
+          <span class="section-badge">6 条</span>
         </div>
-    </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+        <div class="card-grid">
+    
+          <a href="https://www.nature.com/articles/s42256-026-01237-5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai17/400/250" alt="A generative artificial intelligence approach for peptide antibiotic optimization - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">GitHub</span>
+                <h3 class="news-card-title">A generative artificial intelligence approach for peptide antibiotic optimization - Nature</h3>
+                <p class="news-card-summary">set using the same optimizer, learning rate (2 × 10−4), batch size (512), dropout (0.05), β (1 × 10−</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.genengnews.com/topics/infectious-diseases/apexgo-ai-driven-approach-to-faster-antibiotic-discovery/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai18/400/250" alt="ApexGO: AI-Driven Approach to Faster Antibiotic Discovery - Genetic Engineering and Biotechnology News" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">ApexGO: AI-Driven Approach to Faster Antibiotic Discovery - Genetic Engineering and Biotechnology News</h3>
+                <p class="news-card-summary">“ApexGO shows that AI can do more than predict which molecules might work: it can help us improve th</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Genengnews</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai19/400/250" alt="Microsoft&#039;s MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday - The Hacker News" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">GitHub</span>
+                <h3 class="news-card-title">Microsoft&#039;s MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday - The Hacker News</h3>
+                <p class="news-card-summary">⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE and More
 
+Progre</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Thehackernews</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s41593-026-02294-0" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news12/400/250" alt="Closed-loop stimulation modulates attention shifting in children - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">GitHub</span>
+                <h3 class="news-card-title">Closed-loop stimulation modulates attention shifting in children - Nature</h3>
+                <p class="news-card-summary">Article  PubMed  PubMed Central   Google Scholar
+74. Welch, P. The use of fast Fourier transform for</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s41563-026-02609-3" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news13/400/250" alt="-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature</h3>
+                <p class="news-card-summary">Search author on:PubMed Google Scholar
+13. Da-Wei Zhou
+
+    View author publications
+
+    Search aut</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.axios.com/2026/05/13/tokenmaxxer-ai-claude-code-codex" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news14/400/250" alt="Tokenmaxxer: AI should cost as much as your rent - Axios" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">Tokenmaxxer: AI should cost as much as your rent - Axios</h3>
+                <p class="news-card-summary">Skip to main content
+
+Axios
+
+8 mins ago - Technology
+
+# Tokenmaxxer: AI should cost as much as your </p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Axios</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
     <div class="section" id="section-paper">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">📄</span>
-                <h2 class="section-title">论文</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <a href="https://www.google.com/search?q=NeurIPS%202025%20%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%20%E9%AB%98%E6%95%88%E5%BE%AE%E8%B0%83" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai14/400/250" alt="AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">arXiv</span>
-                            <h3 class="news-card-title">AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science</h3>
-                            <p class="news-card-summary">That divide is becoming increasingly important in AI safety research. Another study, uploaded Sept. </p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Livescience</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=ICML%20%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AF%B9%E9%BD%90" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai15/400/250" alt="-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature</h3>
-                            <p class="news-card-summary">## Data availability The data supporting the findings of this study are available within this Artic</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=ACL%202025%20LLM%20%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai16/400/250" alt="The Truth About Those Misleading Headlines Proclaiming That Humans Outdo AI When It Comes To Combatting Human Loneliness - Forbes" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">The Truth About Those Misleading Headlines Proclaiming That Humans Outdo AI When It Comes To Combatting Human Loneliness - Forbes</h3>
-                            <p class="news-card-summary">I will share with you the true essence of the study. In addition, I go beyond the study and provide </p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Forbes</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=arXiv%20MoE%20%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news9/400/250" alt="Developing multifaceted metacognition - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Developing multifaceted metacognition - Nature</h3>
-                            <p class="news-card-summary">Article Google Scholar 2. Horn, J. L. Organization of abilities and the development of intelligenc</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7%E7%A0%94%E7%A9%B6" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news8/400/250" alt="State media control influences large language models - Nature" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">State media control influences large language models - Nature</h3>
-                            <p class="news-card-summary">108. Egami, N. et al. Using imperfect surrogates for downstream inference: design-based supervised l</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Nature</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.edweek.org/technology/opinion-what-in-the-chatgpt-is-this-how-el-teachers-are-navigating-ai-use/2026/05" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/news9/400/250" alt="‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week</h3>
-                            <p class="news-card-summary">Another day, another attempt by a desperate Tier A student to circumvent assignments designed specif</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Edweek</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">📄</span>
+          <h2 class="section-title">论文</h2>
+          <span class="section-badge">6 条</span>
         </div>
-    </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+        <div class="card-grid">
+    
+          <a href="https://www.livescience.com/technology/artificial-intelligence/ai-self-replication-hacks-no-longer-purely-theoretical-study-finds-but-experts-say-its-too-soon-to-panic" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai14/400/250" alt="AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">arXiv</span>
+                <h3 class="news-card-title">AI self-replication hacks &#039;no longer purely theoretical,&#039; study finds — but experts say it&#039;s too soon to panic - Live Science</h3>
+                <p class="news-card-summary">That divide is becoming increasingly important in AI safety research. Another study, uploaded Sept. </p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Livescience</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s41563-026-02609-3" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai15/400/250" alt="-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">-cluster-based ultra-compact multilevel probabilistic bit for matrix multiplication - Nature</h3>
+                <p class="news-card-summary">Article  CAS  PubMed   Google Scholar
+4. Cherry, K. M. &amp; Qian, L. Scaling up molecular pattern recog</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s42256-026-01237-5" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai16/400/250" alt="A generative artificial intelligence approach for peptide antibiotic optimization - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">ACL</span>
+                <h3 class="news-card-title">A generative artificial intelligence approach for peptide antibiotic optimization - Nature</h3>
+                <p class="news-card-summary">(2022).&quot;), it was shown that latent space optimization can be improved by using trust region optimiz</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://letsdatascience.com/news/ai-increases-data-center-energy-demand-raises-carbon-questio-5d9ac4a1" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news10/400/250" alt="AI Increases Data Center Energy Demand, Raises Carbon Questions - Let&#039;s Data Science" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">AI Increases Data Center Energy Demand, Raises Carbon Questions - Let&#039;s Data Science</h3>
+                <p class="news-card-summary">### What to watch
 
+Observers should monitor reported metrics such as data-center PUE, disclosure of </p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Letsdatascience</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.nature.com/articles/s41586-026-10506-7" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news8/400/250" alt="State media control influences large language models - Nature" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">State media control influences large language models - Nature</h3>
+                <p class="news-card-summary">108. Egami, N. et al. Using imperfect surrogates for downstream inference: design-based supervised l</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Nature</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.edweek.org/technology/opinion-what-in-the-chatgpt-is-this-how-el-teachers-are-navigating-ai-use/2026/05" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/news9/400/250" alt="‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week</h3>
+                <p class="news-card-summary">Another day, another attempt by a desperate Tier A student to circumvent assignments designed specif</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Edweek</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
+    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
     <div class="section" id="section-socialMedia">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">💬</span>
-                <h2 class="section-title">社交</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <a href="https://www.google.com/search?q=Sam%20Altman%20AGI%20Twitter" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai15/400/250" alt="‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">Twitter</span>
-                            <h3 class="news-card-title">‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week</h3>
-                            <p class="news-card-summary">Larry Ferlazzo Opinion Contributor, Education Week Larry Ferlazzo is a former award-winning hig</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Edweek</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Yann%20LeCun%20AGI%20%E8%A7%82%E7%82%B9" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai16/400/250" alt="Meta launches WhatsApp &#039;incognito&#039; mode to address privacy concerns for AI chats - Greenwich Time" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Meta launches WhatsApp &#039;incognito&#039; mode to address privacy concerns for AI chats - Greenwich Time</h3>
-                            <p class="news-card-summary">Subscribe News # Meta launches WhatsApp &#039;incognito&#039; mode to address privacy concerns for AI chats
-                            </p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Greenwichtime</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Hacker%20News%20AI%20%E5%8F%96%E4%BB%A3%E7%A8%8B%E5%BA%8F%E5%91%98" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai17/400/250" alt="Iran is a Thing - Industrial Equipment News" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Iran is a Thing - Industrial Equipment News</h3>
-                            <p class="news-card-summary">### Smooth Criminals Whether a nation or an individual, what AI has done is turn cybercrime into an</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Ien</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Reddit%20AI%20%E6%8A%80%E8%83%BD%E5%AD%A6%E4%B9%A0" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai10/400/250" alt="Software Developers Say AI Is Rotting Their Brains - 404 Media" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Software Developers Say AI Is Rotting Their Brains - 404 Media</h3>
-                            <p class="news-card-summary">Tech company executives love to brag about how much of the code at their company is AI-generated. In</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 404media</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=AI%20%E5%88%9B%E4%B8%9A%E6%9C%BA%E4%BC%9A%20%E7%A7%91%E6%8A%80%E5%A4%A7V" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai11/400/250" alt="Harvard CS professor sees the dip in enrollment as part of an &#039;ebb and flow&#039; that existed before AI - Business Insider" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">资讯</span>
-                            <h3 class="news-card-title">Harvard CS professor sees the dip in enrollment as part of an &#039;ebb and flow&#039; that existed before AI - Business Insider</h3>
-                            <p class="news-card-summary">The future of CS has been a major topic among leading names in AI and tech as generative AI models b</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Businessinsider</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://www.google.com/search?q=Hacker%20News%20%E5%BC%80%E6%BA%90%20LLM%20%E6%8E%92%E8%A1%8C" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="news-card">
-                        <img class="news-card-img" src="https://picsum.photos/seed/ai12/400/250" alt="‘This is your moment’: Nvidia CEO tells graduates to seize AI’s ‘industrial era’ - ynetnews" loading="lazy">
-                        <div class="news-card-body">
-                            <span class="news-card-tag tag-ai">Hacker News</span>
-                            <h3 class="news-card-title">‘This is your moment’: Nvidia CEO tells graduates to seize AI’s ‘industrial era’ - ynetnews</h3>
-                            <p class="news-card-summary">“Every major technological revolution in history created fear alongside opportunity,” Huang said. “W</p>
-                            <div class="news-card-meta">
-                                <span class="news-card-source">📰 Ynetnews</span>
-                                <span>今日</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">💬</span>
+          <h2 class="section-title">社交</h2>
+          <span class="section-badge">6 条</span>
         </div>
+        <div class="card-grid">
+    
+          <a href="https://www.govtech.com/question-of-the-day/do-ai-models-act-maliciously-because-of-dystopian-sci-fi-novels" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai15/400/250" alt="Do AI models act maliciously because of dystopian sci-fi novels? - govtech.com" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Twitter</span>
+                <h3 class="news-card-title">Do AI models act maliciously because of dystopian sci-fi novels? - govtech.com</h3>
+                <p class="news-card-summary">Facebook
+ LinkedIn
+ Twitter
+ Print)
+ Email
+
+News Staff
+
+See More Stories by News Staff
+
+Never miss a</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Govtech</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.ien.com/artificial-intelligence/blog/22966731/iran-is-a-thing" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai16/400/250" alt="Iran is a Thing - Industrial Equipment News" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">Iran is a Thing - Industrial Equipment News</h3>
+                <p class="news-card-summary">### Smooth Criminals
+
+Whether a nation or an individual, what AI has done is turn cybercrime into an</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Ien</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.cnet.com/tech/services-and-software/digg-back-again-focus-ai-news/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai17/400/250" alt="Digg Is Back Again, but With a New Format and Focus on AI - CNET" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Reddit</span>
+                <h3 class="news-card-title">Digg Is Back Again, but With a New Format and Focus on AI - CNET</h3>
+                <p class="news-card-summary">&quot;Digg watches what 1,000 of the most thoughtful voices in AI are paying attention to, and ranks the </p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Cnet</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.govtech.com/education/higher-ed/opinion-ai-and-the-employment-outlook-for-college-grads" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai10/400/250" alt="Opinion: AI and the Employment Outlook for College Grads - govtech.com" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">资讯</span>
+                <h3 class="news-card-title">Opinion: AI and the Employment Outlook for College Grads - govtech.com</h3>
+                <p class="news-card-summary">standing out.” This situation could cause an oversaturation of candidates for tech-related jobs. [..</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Govtech</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.ynetnews.com/tech-and-digital/article/r19osfg1fe" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai11/400/250" alt="‘This is your moment’: Nvidia CEO tells graduates to seize AI’s ‘industrial era’ - ynetnews" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Hacker News</span>
+                <h3 class="news-card-title">‘This is your moment’: Nvidia CEO tells graduates to seize AI’s ‘industrial era’ - ynetnews</h3>
+                <p class="news-card-summary">“Every major technological revolution in history created fear alongside opportunity,” Huang said. “W</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Ynetnews</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+          <a href="https://www.edweek.org/technology/opinion-what-in-the-chatgpt-is-this-how-el-teachers-are-navigating-ai-use/2026/05" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
+            <div class="news-card">
+              <img class="news-card-img" src="https://picsum.photos/seed/ai12/400/250" alt="‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week" loading="lazy">
+              <div class="news-card-body">
+                <span class="news-card-tag tag-ai">Hacker News</span>
+                <h3 class="news-card-title">‘What in the ChatGPT Is This?’: How EL Teachers Are Navigating AI Use (Opinion) - Education Week</h3>
+                <p class="news-card-summary">Multilingual teachers began using generative AI to translate texts, adapt materials, and create uniq</p>
+                <div class="news-card-meta">
+                  <span class="news-card-source">📰 Edweek</span>
+                  <span>今日</span>
+                </div>
+              </div>
+            </div>
+          </a>
+      
+        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+    <div class="container"><div class="section-divider"></div></div>
+    
 
-
-    <!-- ===== 搞笑图片 ===== -->
-    <div id="section-moyu"></div>
-
+  <!-- ===== 搞笑图片 ===== -->
+  <div id="section-moyu"></div>
+  
     <div class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">😂</span>
-                <h2 class="section-title">搞笑图片</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/650bb98ae7bce714da5d39ab?sign=b1573bbf6005018c44dcc2c4f7174a74&t=6a052b98" alt="马尔济斯 狗 可爱 动物" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">程序员的一天</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2341</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64ccc904e7bce714c7cf7913?sign=2b3bcf2d1cafd34d2714ff4cc3f924ad&t=6a052b98" alt="小狗 可爱 马尔济斯 动物" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">当代年轻人的钱包</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1892</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/656079d9e7bce7143aff3892?sign=698cc87bd43e69f590b7536836aae2ad&t=6a052b98" alt="狗 可爱 萌宠" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">减肥的真相</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3421</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/650a71bee7bce714aed6d9b3?sign=283ba30a103f77f532316478172658ee&t=6a052b98" alt="马尔济斯 可爱 狗 萌宠" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">开会时的我</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1567</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/650a71bee7bce7143aff2927?sign=87683252dad9bd45b61dcfc6975ead45&t=6a052b98" alt="马尔济斯 可爱 狗 萌宠" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">周末计划</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2789</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64ccc905e7bce714da5d2cfe?sign=b38b407ee1a6e6d50d18504efd2e79fc&t=6a052b98" alt="小狗 可爱 马尔济斯 动物" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">网购的心理历程</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 21</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/653b8bd3e7bce7146edea06f?sign=53f5a66b23752cdbf981c088947a6a7e&t=6a052b98" alt="狗 可爱 小狗 萌宠 动物" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">狗 可爱 小狗 萌宠 动物</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 15</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/657c0148e7bce7146edeae4e?sign=8bb4b4f73e835a3f5ada80972a51b54e&t=6a052b98" alt="狗 小狗 可爱 萌宠" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">狗 小狗 可爱 萌宠</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 14</button>
-                            <span>分享</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">😂</span>
+          <h2 class="section-title">搞笑图片</h2>
+          <span class="section-badge">8 条</span>
         </div>
+        <div class="card-grid">
+  
+          <div class="image-card">
+            <img src="http://img5.adesk.com/650bb98ae7bce714da5d39ab?sign=e4c90649eb01119a0bc12f66aa1505fe&t=6a05507c" alt="马尔济斯 狗 可爱 动物" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">马尔济斯 狗 可爱 动物</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 37</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64ccc904e7bce714c7cf7913?sign=704346030d031a62f2073920a60b93d9&t=6a05507c" alt="小狗 可爱 马尔济斯 动物" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">小狗 可爱 马尔济斯 动物</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 30</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/656079d9e7bce7143aff3892?sign=07f68a7da41c8a8dc15e097e559bf406&t=6a05507c" alt="狗 可爱 萌宠" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">狗 可爱 萌宠</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 20</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/650a71bee7bce714aed6d9b3?sign=0b31633f3ff73d07967bb138e4807a8f&t=6a05507c" alt="马尔济斯 可爱 狗 萌宠" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">马尔济斯 可爱 狗 萌宠</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 23</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/650a71bee7bce7143aff2927?sign=ff57331d3d465ddc876167660a77478c&t=6a05507c" alt="马尔济斯 可爱 狗 萌宠" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">马尔济斯 可爱 狗 萌宠</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 20</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64ccc905e7bce714da5d2cfe?sign=7a9a7078fa74c32c7023721e54ee54fd&t=6a05507c" alt="小狗 可爱 马尔济斯 动物" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">小狗 可爱 马尔济斯 动物</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 21</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/653b8bd3e7bce7146edea06f?sign=2e8e9bfe5f012b6f4da865051ee80c6b&t=6a05507c" alt="狗 可爱 小狗 萌宠 动物" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">狗 可爱 小狗 萌宠 动物</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 15</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/657c0148e7bce7146edeae4e?sign=ff93a8f52fd1a855835c6f6b26cb71a1&t=6a05507c" alt="狗 小狗 可爱 萌宠" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">狗 小狗 可爱 萌宠</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 14</button>
+                <span>分享</span>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
 
-
-    <!-- ===== 美女福利 ===== -->
-
+  <!-- ===== 美女福利 ===== -->
+  
     <div class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">👀</span>
-                <h2 class="section-title">美女福利</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/662a3c07e7bce714bde32b06?sign=eae86b1b89deeaa654b3015d88191e68&t=6a052b98" alt="动漫 萌妹 萝莉" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">清新自然风</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4521</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64acc4de31f6132f7f9b5d27?sign=e648099cff4a1a5b0c75bdc889195c71&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">都市时尚</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3892</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64acc4de31f6132f7f9b5d29?sign=769295713f2b1061e0b23aef32a8d643&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">优雅气质</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 5234</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64c90a0431f6132f3793f552?sign=6b3cadc961c18440cbc9249f8bd851cc&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">甜美风格</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4123</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/65d7fd10e7bce72fbb1fc9b0?sign=441a38d39e02a6faa073bb1a2badee2c&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">复古风情</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3678</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64f8306b7e978a39cf1e77c2?sign=3f074c7eeb91a0e74e7e5b8a42c96590&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">运动活力</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 162</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/647d403fe7bce714da5d1b50?sign=7673c05d447a205fc01c00b1c04563f4&t=6a052b98" alt="动漫 视觉 cg美女" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">动漫 视觉 cg美女</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 122</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64c29c5be7bce72ff666a155?sign=24373d3f1ecba9d1d73276d1cb6b5d63&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">精美壁纸</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 227</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/6483056be7bce71485d3e098?sign=1093e4b021ca785712a388ee4ed79553&t=6a052b98" alt="动漫 动漫场景" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">动漫 动漫场景</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 132</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64a237fae7bce714c7cf6ed1?sign=e55d540ef8dd36ca6bb41ff7166436c0&t=6a052b98" alt="动漫 地铁 御姐" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">动漫 地铁 御姐</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 157</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/64e369107e978a3a0235f42c?sign=0376dc184aa47dc3e2242f900f6e3327&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">精美壁纸</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 128</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="image-card">
-                    <img src="http://img5.adesk.com/6709f590e7bce7161e9583ab?sign=c1dba58a790d9f2760d042fee5836ea3&t=6a052b98" alt="精美壁纸" loading="lazy">
-                    <div class="image-card-body">
-                        <div class="image-card-title">精美壁纸</div>
-                        <div class="image-card-actions">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 122</button>
-                            <span>收藏</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">👀</span>
+          <h2 class="section-title">美女福利</h2>
+          <span class="section-badge">12 条</span>
         </div>
+        <div class="card-grid">
+  
+          <div class="image-card">
+            <img src="http://img5.adesk.com/662a3c07e7bce714bde32b06?sign=05d517b321dc620549bbab2bc6d3130f&t=6a05507b" alt="动漫 萌妹 萝莉" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">动漫 萌妹 萝莉</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 82</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64acc4de31f6132f7f9b5d27?sign=5c43f52ec28d50cd2d705d0232fa9e1d&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 167</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64acc4de31f6132f7f9b5d29?sign=49122d0f277c8cb7940ee7798cf83e88&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 158</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64c90a0431f6132f3793f552?sign=df7133de6112e8efbf54f0d32dfbf7dd&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 267</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/65d7fd10e7bce72fbb1fc9b0?sign=947079e96a720bea425aff730a9a2b4b&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 222</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64f8306b7e978a39cf1e77c2?sign=ad76aecbc5f98f4840fd924201c9915c&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 162</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/647d403fe7bce714da5d1b50?sign=a97dc778cd3e2d3a5e031762d0c8f929&t=6a05507b" alt="动漫 视觉 cg美女" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">动漫 视觉 cg美女</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 122</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64c29c5be7bce72ff666a155?sign=ad3819eb047a083c39ba94cbcd3aaaf1&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 227</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/6483056be7bce71485d3e098?sign=d48c09c630b798597a903934c7d3914e&t=6a05507b" alt="动漫 动漫场景" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">动漫 动漫场景</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 132</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64a237fae7bce714c7cf6ed1?sign=9b747e209b69b2ea262af84ebd86bb22&t=6a05507b" alt="动漫 地铁 御姐" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">动漫 地铁 御姐</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 157</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/64e369107e978a3a0235f42c?sign=4ee1456dc140f54a95353c363cfa7fbc&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 128</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="image-card">
+            <img src="http://img5.adesk.com/6709f590e7bce7161e9583ab?sign=66110ba6e797eef47204890e311ae627&t=6a05507b" alt="精美壁纸" loading="lazy">
+            <div class="image-card-body">
+              <div class="image-card-title">精美壁纸</div>
+              <div class="image-card-actions">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 122</button>
+                <span>收藏</span>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
 
-
-    <!-- ===== 内涵段子 ===== -->
-
+  <!-- ===== 内涵段子 ===== -->
+  
     <div class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">🤣</span>
-                <h2 class="section-title">内涵段子</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div style="display:flex;flex-direction:column;gap:20px;">
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #1</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2800</button>
-                    </div>
-                    <div class="joke-card-content">‍‍老婆：“亲爱滴，西游记里你最羡慕滴是谁？” 老公：“猪八戒！” 老婆：“为嘛呢？” 老公：“因为他滴老丈人和老婆都不要他了！”‍‍</div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #2</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1586</button>
-                    </div>
-                    <div class="joke-card-content">刘备对赵云说：子龙啊，你看云长和翼德与大哥我都结拜了，你也加入我们一起结拜吧。 搜索 复制 赵云想了想说：还是不要了，我觉得赵四不符合我的气质。
-
-
-
-
-
-                    </div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #3</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2305</button>
-                    </div>
-                    <div class="joke-card-content">生日时基友们送的蛋糕:&amp;quot;那你看着我说话&amp;quot;&amp;quot;……&amp;quot;</div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #4</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1308</button>
-                    </div>
-                    <div class="joke-card-content">你们还记得小的时候吗，你们吃过一毛钱的辣条吗？你们吃过一毛钱的冰袋吗？吃过一毛钱的唐僧肉吗？？那时候，我们没有钱，但我们却很快乐，，当我们长大了，我们不快乐了，但，，，还是特玛没有钱！/流泪苦逼的日子什么事后才能结束啊啊啊啊啊！！！！！！</div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #5</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1702</button>
-                    </div>
-                    <div class="joke-card-content">大海刚上地铁，就闻到一股韭菜包子味，大海坐下，用杀人的眼光看着吃韭菜包子的那汉子。那汉子好像感觉到了不对，把包子收起来，转头对大海说：“哥呀，我不吃包子了，能不能把您鞋穿上，咱各退一步……”</div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #6</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 708</button>
-                    </div>
-                    <div class="joke-card-content">小明妈带着幼儿园的小明到女澡堂洗澡，进去看到了老师也在洗。 老师装做不认识小明，快步走进淋浴间。 小明大喊：“老师！老师！你脱光衣服我照样认识你。” 老师：“……”</div>
-                    <div class="joke-card-footer">
-                        <span>网络精选</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #7</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2251</button>
-                    </div>
-                    <div class="joke-card-content">一直困扰着广大女生的世纪难题:总是把QQ挂着，以为有人要给我发消息，其实是自己想多了；总是连买包烟也要把手机带着，以为有人要给我打电话，其实是自己想多了。没有内涵，自己的感悟...</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 段子库</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">段子 #8</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2538</button>
-                    </div>
-                    <div class="joke-card-content">一对恋人正在公园里散步，突然男子的后面跟上来一条狗。狗时而不时地在男子屁股后面嗅嗅。女子问：“你刚才上厕所，是不是没擦屁股？”男子反驳道：“擦了，就是刚才放了一个闷屁。”</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 段子库</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">神回复 #1</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4452</button>
-                    </div>
-                    <div class="joke-card-content">相恋四年。他始终没给她一个承诺。大学毕业返乡的列车上，失落的她说完一句到站记得叫我，便睡去。几小时后，他把她叫醒。她望向窗外，入眼的满是陌生的风景。别过头，是他宠溺的笑：咱妈让我带你回家看看。他带她到这个偏僻的山村，卖给了一个五十多岁的老光棍。</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 神回复</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">神回复 #2</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3272</button>
-                    </div>
-                    <div class="joke-card-content">下雨天，在图书馆看到一漂亮妹子把伞往垃圾桶一扔，走过去娇羞地对男神说:我没带伞，能带我一起走吗？这种事怎么能忍，我立马把伞捡起来递给妹子:妹子啊，你家里人挣钱也不容易，一把伞怎么说扔就扔呢？</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 神回复</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">神回复 #3</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4578</button>
-                    </div>
-                    <div class="joke-card-content">大学期末考试，我们让学霸传答案！出考场的时候，众人纷纷问学霸：少一个选择题，是最后一个太难了吗？学霸淡定的回答：第一个不会写！</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 神回复</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-                <div class="joke-card">
-                    <div class="joke-card-header">
-                        <span class="joke-card-title">神回复 #4</span>
-                        <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4937</button>
-                    </div>
-                    <div class="joke-card-content">因为贫血经常头晕，去看医生说我身体缺铁，退件我多吃点高铁的东西，唉，听了医生的话折腾死我了，用铁末冲水喝，没两天去问医生，医生说我超标了...</div>
-                    <div class="joke-card-footer">
-                        <span>来源: 神回复</span>
-                        <span>分享</span>
-                    </div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🤣</span>
+          <h2 class="section-title">内涵段子</h2>
+          <span class="section-badge">12 条</span>
         </div>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+  
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #1</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 937</button>
+            </div>
+            <div class="joke-card-content">都在说女司机我也说个刚见的，那名女司机看到别人过ETC通道，自己也想过，结果肯定是过不去无奈又倒回来过人工通道。在此提醒大家珍爱生命远离女司机。</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #2</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 825</button>
+            </div>
+            <div class="joke-card-content">收银员的发型亮瞎我了:我就坐在对面沙发上看着它们俩在那里旁若无人的眉来眼去……已被萌cry了！</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #3</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 529</button>
+            </div>
+            <div class="joke-card-content">据说有个国家的仆人这个职业待遇很优厚，他们能吃主人吃不起的菜，喝主人喝不起的酒，开主人 开不起的车，住主人住不起的房，还能随意的花主人的钱且不需要主人的同意，听说他们的职业名 称叫－－人民公仆！！！</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #4</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1354</button>
+            </div>
+            <div class="joke-card-content">有一体育老师单身，开放，一天他在给同学上体育课，一女同学举起手，老师问怎么了，老师我那个来了，老师:那个，女-_-||是那个。老师:那个，女生大声说我姨妈来了，老师:早说嘛，老师知道你为我后半身着想，改天约吧，现在上课。女-_-||</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #5</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3184</button>
+            </div>
+            <div class="joke-card-content">年轻人不要急，阅历和人脉都需要时间来积累，等你到了我这个地步一切就水到渠成，比如想出去吃个烤冷面，一个电话就有朋友赶来接送，其他方面也是如此的呼风唤雨。</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #6</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2957</button>
+            </div>
+            <div class="joke-card-content">被一个小孩打了一下，本人怒道：“你为什么欺负大人?”
+小孩说：“你不是大人，你是不良青年!”
+本人心里咯噔一下，难道他还看出本人的不良史了?
+遂心虚道：“我哪儿不良了?”
+没想到他一句就把我秒杀了，他说：“你发育不良!”
+熊孩子，你家人在附近吗?我保证不打死你!</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #7</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2222</button>
+            </div>
+            <div class="joke-card-content">经常有人到墙角小便，于是有人在墙角写上了“在此小便变成小狗！”　　这天又有一个人想到墙角小便，刚拐过墙角看见一只小狗从那跑出去，那个人望着墙上的字愣了一会，还是转身离开了。</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">段子 #8</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1892</button>
+            </div>
+            <div class="joke-card-content">说得我竟无语反驳！:改作业有一道题是举出中国古代战争以少胜多的例子，某神人写的是“孙悟空大战十万天兵天将！”</div>
+            <div class="joke-card-footer">
+              <span>来源: 段子库</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">神回复 #1</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 4622</button>
+            </div>
+            <div class="joke-card-content">高德地图：前方到达重庆，正在为您打开百度地图继续为您服务。百度地图：高德，你个锤子。</div>
+            <div class="joke-card-footer">
+              <span>来源: 神回复</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">神回复 #2</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 2280</button>
+            </div>
+            <div class="joke-card-content">医生对病人说，“我有一个坏消息和一个更坏的消息。”“哎呦，妈呀！坏消息是什么？”病人问。医生回答，“你只能活不超过24个小时。”“太可怕了”，病人说，“还能有什么比这还糟？”医生说，“我从昨天开始就一直试图联系你。”</div>
+            <div class="joke-card-footer">
+              <span>来源: 神回复</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">神回复 #3</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 1737</button>
+            </div>
+            <div class="joke-card-content">公交车上，因为是下班高峰期，一小伙说道：“挤什么挤，别挤了！我TM都过了好几个站了都下不了车！” 另一小伙就说道：“大哥别说了，你比我好，我TM只是路过的都被挤上来了！” 这时一四十多岁的大叔就说了：“都让让，都让让，让我过去，我是这公交车司机，现在是谁在开车啊！”</div>
+            <div class="joke-card-footer">
+              <span>来源: 神回复</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+          <div class="joke-card">
+            <div class="joke-card-header">
+              <span class="joke-card-title">神回复 #4</span>
+              <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">❤️ 3351</button>
+            </div>
+            <div class="joke-card-content">最近很多人说要和土豪做朋友。不过平心而论，就算和土豪成了朋友又怎么样呢？吃人嘴软拿人手短，老是占人家便宜，就得付出尊严为代价，就得唯唯诺诺，就得低人一等。你能接受在这种情况下得来的便宜吗？反正我能，土豪请和我做朋友</div>
+            <div class="joke-card-footer">
+              <span>来源: 神回复</span>
+              <span>分享</span>
+            </div>
+          </div>
+    
+        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
 
-
-    <!-- ===== 糗事百科 ===== -->
-
+  <!-- ===== 糗事百科 ===== -->
+  
     <div class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">😅</span>
-                <h2 class="section-title">糗事百科</h2>
-                <span class="section-badge">6 条</span>
-            </div>
-            <div class="card-grid">
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi1/400/300" alt="电梯尴尬" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #1</div>
-                        <div class="qiushi-card-content">‍‍老婆：“亲爱滴，西游记里你最羡慕滴是谁？” 老公：“猪八戒！” 老婆：“为嘛呢？” 老公：“因为他滴老丈人和老婆都不要他了！”‍‍</div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 3297</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi2/400/300" alt="认错人" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #2</div>
-                        <div class="qiushi-card-content">刘备对赵云说：子龙啊，你看云长和翼德与大哥我都结拜了，你也加入我们一起结拜吧。 搜索 复制 赵云想了想说：还是不要了，我觉得赵四不符合我的气质。
-
-
-
-
-
-                        </div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 1433</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi3/400/300" alt="开会社死" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #3</div>
-                        <div class="qiushi-card-content">生日时基友们送的蛋糕:&amp;quot;那你看着我说话&amp;quot;&amp;quot;……&amp;quot;</div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 1033</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi4/400/300" alt="外卖事故" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #4</div>
-                        <div class="qiushi-card-content">你们还记得小的时候吗，你们吃过一毛钱的辣条吗？你们吃过一毛钱的冰袋吗？吃过一毛钱的唐僧肉吗？？那时候，我们没有钱，但我们却很快乐，，当我们长大了，我们不快乐了，但，，，还是特玛没有钱！/流泪苦逼的日子什么事后才能结束啊啊啊啊啊！！！！！！</div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 2863</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi5/400/300" alt="健身尴尬" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #5</div>
-                        <div class="qiushi-card-content">大海刚上地铁，就闻到一股韭菜包子味，大海坐下，用杀人的眼光看着吃韭菜包子的那汉子。那汉子好像感觉到了不对，把包子收起来，转头对大海说：“哥呀，我不吃包子了，能不能把您鞋穿上，咱各退一步……”</div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 658</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="qiushi-card">
-                    <img src="https://picsum.photos/seed/qiushi6/400/300" alt="购物失误" loading="lazy">
-                    <div class="qiushi-card-body">
-                        <div class="qiushi-card-title">糗事 #6</div>
-                        <div class="qiushi-card-content">小明妈带着幼儿园的小明到女澡堂洗澡，进去看到了老师也在洗。 老师装做不认识小明，快步走进淋浴间。 小明大喊：“老师！老师！你脱光衣服我照样认识你。” 老师：“……”</div>
-                        <div class="qiushi-card-footer">
-                            <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 618</button>
-                            <span>糗事百科</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">😅</span>
+          <h2 class="section-title">糗事百科</h2>
+          <span class="section-badge">6 条</span>
         </div>
-    </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
-
-
-    <!-- ===== GitHub 热榜 ===== -->
-
-    <div class="section" id="section-github">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">🔥</span>
-                <h2 class="section-title">GitHub 热榜</h2>
-                <span class="section-badge">8 个项目</span>
+        <div class="card-grid">
+  
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi0/400/300" alt="糗事 #1" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #1</div>
+              <div class="qiushi-card-content">都在说女司机我也说个刚见的，那名女司机看到别人过ETC通道，自己也想过，结果肯定是过不去无奈又倒回来过人工通道。在此提醒大家珍爱生命远离女司机。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 3131</button>
+                <span>糗事百科</span>
+              </div>
             </div>
-            <div class="card-grid">
-
-                <a href="https://github.com/vercel/ai" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 vercel/ai</span>
-                            <span class="github-card-stars">⭐ 28.5k</span>
-                        </div>
-                        <div class="github-card-desc">Build AI-powered applications with React, Svelte, Vue, and Solid</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3178C6"></span> TypeScript
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">llm</span><span class="github-card-topic">react</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/ollama/ollama" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 ollama/ollama</span>
-                            <span class="github-card-stars">⭐ 105k</span>
-                        </div>
-                        <div class="github-card-desc">Get up and running with Llama 3, Mistral, and other large language models</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#00ADD8"></span> Go
-                            </span>
-                            <span class="github-card-topic">llm</span><span class="github-card-topic">ai</span><span class="github-card-topic">local</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/langgenius/dify" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 langgenius/dify</span>
-                            <span class="github-card-stars">⭐ 62k</span>
-                        </div>
-                        <div class="github-card-desc">Dify is an open-source LLM app development platform</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3178C6"></span> TypeScript
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">llm</span><span class="github-card-topic">agent</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/browser-use/browser-use" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 browser-use/browser-use</span>
-                            <span class="github-card-stars">⭐ 55k</span>
-                        </div>
-                        <div class="github-card-desc">Make websites accessible for AI agents</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3572A5"></span> Python
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">agent</span><span class="github-card-topic">browser</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 anthropics/claude-code</span>
-                            <span class="github-card-stars">⭐ 35k</span>
-                        </div>
-                        <div class="github-card-desc">An agentic coding tool that lives in your terminal</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3572A5"></span> Python
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">coding</span><span class="github-card-topic">agent</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/open-webui/open-webui" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 open-webui/open-webui</span>
-                            <span class="github-card-stars">⭐ 80k</span>
-                        </div>
-                        <div class="github-card-desc">User-friendly AI Interface for LLMs</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#64748B"></span> Svelte
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">llm</span><span class="github-card-topic">chat</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/All-Hands-AI/OpenHands" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 All-Hands-AI/OpenHands</span>
-                            <span class="github-card-stars">⭐ 45k</span>
-                        </div>
-                        <div class="github-card-desc">AI-powered software development agent</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3572A5"></span> Python
-                            </span>
-                            <span class="github-card-topic">ai</span><span class="github-card-topic">agent</span><span class="github-card-topic">coding</span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://github.com/shadcn-ui/ui" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">
-                    <div class="github-card">
-                        <div class="github-card-header">
-                            <span class="github-card-name">📦 shadcn-ui/ui</span>
-                            <span class="github-card-stars">⭐ 78k</span>
-                        </div>
-                        <div class="github-card-desc">Beautifully designed components built with Radix and Tailwind CSS</div>
-                        <div class="github-card-meta">
-                            <span class="github-card-lang">
-                  <span class="github-card-lang-dot" style="background:#3178C6"></span> TypeScript
-                            </span>
-                            <span class="github-card-topic">react</span><span class="github-card-topic">ui</span><span class="github-card-topic">tailwind</span>
-                        </div>
-                    </div>
-                </a>
-
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi1/400/300" alt="糗事 #2" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #2</div>
+              <div class="qiushi-card-content">收银员的发型亮瞎我了:我就坐在对面沙发上看着它们俩在那里旁若无人的眉来眼去……已被萌cry了！</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 1535</button>
+                <span>糗事百科</span>
+              </div>
             </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi2/400/300" alt="糗事 #3" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #3</div>
+              <div class="qiushi-card-content">据说有个国家的仆人这个职业待遇很优厚，他们能吃主人吃不起的菜，喝主人喝不起的酒，开主人 开不起的车，住主人住不起的房，还能随意的花主人的钱且不需要主人的同意，听说他们的职业名 称叫－－人民公仆！！！</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 3137</button>
+                <span>糗事百科</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi3/400/300" alt="糗事 #4" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #4</div>
+              <div class="qiushi-card-content">有一体育老师单身，开放，一天他在给同学上体育课，一女同学举起手，老师问怎么了，老师我那个来了，老师:那个，女-_-||是那个。老师:那个，女生大声说我姨妈来了，老师:早说嘛，老师知道你为我后半身着想，改天约吧，现在上课。女-_-||</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 828</button>
+                <span>糗事百科</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi4/400/300" alt="糗事 #5" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #5</div>
+              <div class="qiushi-card-content">年轻人不要急，阅历和人脉都需要时间来积累，等你到了我这个地步一切就水到渠成，比如想出去吃个烤冷面，一个电话就有朋友赶来接送，其他方面也是如此的呼风唤雨。</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 1244</button>
+                <span>糗事百科</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="qiushi-card">
+            <img src="https://picsum.photos/seed/qiushi5/400/300" alt="糗事 #6" loading="lazy">
+            <div class="qiushi-card-body">
+              <div class="qiushi-card-title">糗事 #6</div>
+              <div class="qiushi-card-content">被一个小孩打了一下，本人怒道：“你为什么欺负大人?”
+小孩说：“你不是大人，你是不良青年!”
+本人心里咯噔一下，难道他还看出本人的不良史了?
+遂心虚道：“我哪儿不良了?”
+没想到他一句就把我秒杀了，他说：“你发育不良!”
+熊孩子，你家人在附近吗?我保证不打死你!</div>
+              <div class="qiushi-card-footer">
+                <button class="like-btn" onclick="this.style.color='#22C55E';this.style.background='rgba(34,197,94,0.15)'">😂 714</button>
+                <span>糗事百科</span>
+              </div>
+            </div>
+          </div>
+    
         </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="section-divider"></div>
-    </div>
+    <div class="container"><div class="section-divider"></div></div>
+  
 
+  <!-- ===== GitHub 热榜 ===== -->
+  
 
-    <!-- ===== 摸鱼指南 ===== -->
-
+  <!-- ===== 摸鱼指南 ===== -->
+  
     <div class="section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-icon">🐟</span>
-                <h2 class="section-title">摸鱼指南</h2>
-                <span class="section-badge">6 招</span>
-            </div>
-            <div class="guide-grid">
-
-                <div class="guide-card">
-                    <span class="guide-card-number">01</span>
-                    <div class="guide-card-icon">⌨️</div>
-                    <div class="guide-card-title">Alt+Tab 快速切换</div>
-                    <div class="guide-card-desc">老板走过来时，一键切回工作界面。建议提前打开一个 Excel 表格备用。</div>
-                </div>
-
-                <div class="guide-card">
-                    <span class="guide-card-number">02</span>
-                    <div class="guide-card-icon">📱</div>
-                    <div class="guide-card-title">手机支架大法</div>
-                    <div class="guide-card-desc">把手机放在显示器后方，利用余光看视频。注意调节亮度，避免反光。</div>
-                </div>
-
-                <div class="guide-card">
-                    <span class="guide-card-number">03</span>
-                    <div class="guide-card-icon">☕</div>
-                    <div class="guide-card-title">带薪拉屎计时</div>
-                    <div class="guide-card-desc">每天 3 次，每次 15 分钟，一年多出 16 天假期。记得带手机。</div>
-                </div>
-
-                <div class="guide-card">
-                    <span class="guide-card-number">04</span>
-                    <div class="guide-card-icon">🎧</div>
-                    <div class="guide-card-title">耳机伪装术</div>
-                    <div class="guide-card-desc">戴着耳机假装听会议录音，实际上在听播客。记得偶尔点头微笑。</div>
-                </div>
-
-                <div class="guide-card">
-                    <span class="guide-card-number">05</span>
-                    <div class="guide-card-icon">📝</div>
-                    <div class="guide-card-title">会议摸鱼学</div>
-                    <div class="guide-card-desc">开会时带笔记本，认真做笔记的样子。实际上在画火柴人或写小说。</div>
-                </div>
-
-                <div class="guide-card">
-                    <span class="guide-card-number">06</span>
-                    <div class="guide-card-icon">🪟</div>
-                    <div class="guide-card-title">窗口管理大师</div>
-                    <div class="guide-card-desc">Ctrl+W 一键关闭当前页面，Win+D 一键回到桌面。肌肉记忆很重要。</div>
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🐟</span>
+          <h2 class="section-title">摸鱼指南</h2>
+          <span class="section-badge">6 招</span>
         </div>
+        <div class="guide-grid">
+  
+          <div class="guide-card">
+            <span class="guide-card-number">01</span>
+            <div class="guide-card-icon">⌨️</div>
+            <div class="guide-card-title">Alt+Tab 快速切换</div>
+            <div class="guide-card-desc">老板走过来时，一键切回工作界面。建议提前打开一个 Excel 表格备用。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">02</span>
+            <div class="guide-card-icon">📱</div>
+            <div class="guide-card-title">手机支架大法</div>
+            <div class="guide-card-desc">把手机放在显示器后方，利用余光看视频。注意调节亮度，避免反光。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">03</span>
+            <div class="guide-card-icon">☕</div>
+            <div class="guide-card-title">带薪拉屎计时</div>
+            <div class="guide-card-desc">每天 3 次，每次 15 分钟，一年多出 16 天假期。记得带手机。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">04</span>
+            <div class="guide-card-icon">🎧</div>
+            <div class="guide-card-title">耳机伪装术</div>
+            <div class="guide-card-desc">戴着耳机假装听会议录音，实际上在听播客。记得偶尔点头微笑。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">05</span>
+            <div class="guide-card-icon">📝</div>
+            <div class="guide-card-title">会议摸鱼学</div>
+            <div class="guide-card-desc">开会时带笔记本，认真做笔记的样子。实际上在画火柴人或写小说。</div>
+          </div>
+    
+          <div class="guide-card">
+            <span class="guide-card-number">06</span>
+            <div class="guide-card-icon">🪟</div>
+            <div class="guide-card-title">窗口管理大师</div>
+            <div class="guide-card-desc">Ctrl+W 一键关闭当前页面，Win+D 一键回到桌面。肌肉记忆很重要。</div>
+          </div>
+    
+        </div>
+      </div>
     </div>
+  
 
-
-    <!-- ===== Footer ===== -->
-    <footer class="footer">
-        <div class="footer-inner">
-            <div>
-                <div class="footer-brand-name">🐟 摸鱼观察室</div>
-                <p class="footer-brand-desc">
-                    摸鱼观察室是一个自动化内容聚合平台，每日抓取 AI 行业资讯和摸鱼娱乐内容。 工作再忙，也要记得摸鱼。
-                </p>
-            </div>
-            <div class="footer-col">
-                <div class="footer-col-title">内容板块</div>
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand-name">🐟 摸鱼观察室</div>
+        <p class="footer-brand-desc">
+          摸鱼观察室是一个自动化内容聚合平台，每日抓取 AI 行业资讯和摸鱼娱乐内容。
+          工作再忙，也要记得摸鱼。
+        </p>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">内容板块</div>
                 <a href="#section-news">📰 新闻</a>
-                <a href="#section-project">💻 项目</a>
-                <a href="#section-paper">📄 论文</a>
-                <a href="#section-socialMedia">💬 社交</a>
-                <a href="#section-github">🔥 GitHub 热榜</a>
-                <a href="#section-moyu">😂 摸鱼专区</a>
-            </div>
-            <div class="footer-col">
-                <div class="footer-col-title">关于</div>
-                <a href="#">关于我们</a>
-                <a href="#">联系方式</a>
-                <a href="#">使用条款</a>
-                <a href="#">隐私政策</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2026 <span class="footer-link">摸鱼观察室</span>. All Rights Reserved. &middot; 更新时间: 2026/5/14 08:55:52
-        </div>
-    </footer>
+        <a href="#section-project">💻 项目</a>
+        <a href="#section-paper">📄 论文</a>
+        <a href="#section-socialMedia">💬 社交</a>
+        <a href="#section-github">🔥 GitHub 热榜</a>
+        <a href="#section-moyu">😂 摸鱼专区</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">关于</div>
+        <a href="#">关于我们</a>
+        <a href="#">联系方式</a>
+        <a href="#">使用条款</a>
+        <a href="#">隐私政策</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 <span class="footer-link">摸鱼观察室</span>. All Rights Reserved. &middot; 更新时间: 2026/5/14 03:33:11
+    </div>
+  </footer>
 
 </body>
-
 </html>
