@@ -2,7 +2,7 @@
   "date": {
     "date": "2026-05-13",
     "display": "2026年5月13日星期三",
-    "timestamp": "2026-05-13T13:46:41.964Z",
+    "timestamp": "2026-05-13T13:57:24.625Z",
     "year": "2026",
     "month": "05",
     "day": "13"
@@ -14,58 +14,64 @@
       "icon": "🤖",
       "items": [
         {
-          "title": "越南《人工智能法》正式生效，成东南亚首个 AI 专门立法国家",
-          "summary": "越南于3月1日正式实施《人工智能法》，标志着东盟 AI 治理进入新阶段。",
-          "source": "环球时报",
-          "url": "https://www.huanqiu.com",
+          "title": "Android is getting a big AI overhaul in 2026 - Ars Technica",
+          "summary": "Skip to content  Ars Technica home \n\n AI\n Biz & IT\n Cars\n Culture\n Gaming\n Health\n Policy\n Science\n ",
+          "content": "Skip to content  Ars Technica home \n\n AI\n Biz & IT\n Cars\n Culture\n Gaming\n Health\n Policy\n Science\n Security\n Space\n Tech\n\n Forum \n Subscribe \n\nStory text\n\n\\ Subscribers only  \n   Learn more\n\n Search \n\nSign in dialog... \n\nSign in\n\nJust sprinkle some AI on it\n\n# Android is getting a big AI overhaul in 2026\n\nGoogle has big plans for Android in 2026, and most of it is AI.\n\nRyan Whitwam  –  |  32\n\nCredit: Ryan Whitwam\n\nCredit: Ryan Whitwam\n\nStory text\n\n\\ Subscribers only  \n   Learn more [...] Google is also bringing more AI to voice input with a feature called Rambler, which is integrated with Gboard. Plenty of people already use AI to polish text in emails or other documents before sending them, and this is essentially the same thing for voice input. With Rambler, you can just start talking—or rambling, if you will—and the AI will get the gist of what you say. All the “ums” and “uhs” will go away, and the final result will essentially become a summary of what you said.\n\nThe company claims that Rambler will understand the context and nuance of what you’re saying, so the end product still sounds like you. There will be a prominent indicator when Rambler is enabled, and Google promises that no audio or text will be retained.\n\n## Android in cars [...] For example, Google says you might want a widget that recommends meal plans on a set schedule or sets a countdown to an important event. You can do that with Create My Widget. You can even mix and match the kinds of included data. Android will offer suggested recipes for new AI widgets, but you can also simply enter a prompt describing what you’re looking for. Perhaps you want to see a countdown widget with specific weather metrics—that should be possible with Gemini-powered widgets. No matter how you make them, the widgets are fully Material themed and resizable.",
+          "source": "Arstechnica",
+          "url": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/",
           "time": "今日",
-          "tag": "政策",
-          "image": "https://picsum.photos/seed/ai0/400/250"
+          "tag": "Google",
+          "image": "https://picsum.photos/seed/ai48/400/250"
         },
         {
-          "title": "荣耀发布机器人手机，AI 从\"云端对话\"走向\"端侧执行\"",
-          "summary": "MWC 2026 上，荣耀推出融合具身智能的机器人手机，被视为 AI 智能体重要入口。",
-          "source": "新华网",
-          "url": "https://www.xinhuanet.com",
+          "title": "Q1 2026 AI VC Trends - PitchBook",
+          "summary": "Q1 2026\n\n# AI VC Trends\n\nPitchBook clients can access the full report and Excel data pack via the Re",
+          "content": "Q1 2026\n\n# AI VC Trends\n\nPitchBook clients can access the full report and Excel data pack via the Research Center on the PitchBook Platform.\n\n### More AI capital is deployed in Q1 2026 than in all of 2025\n\nThe AI sector had a record-breaking Q1 2026, with total venture funding reaching $255.5 billion and eclipsing the full-year 2025 total of $254.4 billion in a single quarter. Capital was extraordinarily concentrated at the top. OpenAI closed a $122 billion round, Anthropic raised $30 billion, and xAI secured $20 billion. All three deals landed within the horizontal platforms segment, which accounted for $197 billion across 396 transactions and surpassed its own full-year 2025 total in a single quarter. [...] suggesting investors are backing startups they believe have built a defensible moat within a given vertical rather than funding the field broadly. [...] Table of contents\n\n|  |  |\n --- |\n| AI landscape | 3 |\n| Quarterly analysis | 4 |\n| Key takeaways | 4 |\n| VC activity | 4 |\n| Exits | 4 |\n| Valuations | 5 |\n| Key deals | 5 |\n| Macro backdrop | 6 |\n| Outlook | 6 |\n| AI VC deal summary | 21 |\n\nQ1 2026 AI venture funding reached $255.5 billion, surpassing the full-year 2025 total of $254.4 billion and representing the highest single-quarter capital deployment on record.\n\n AI Quarterly\n AI\n Emerging Technology\n Tech\n Market Map\n\n LinkedIn\n Twitter\n Facebook\n Email",
+          "source": "Pitchbook",
+          "url": "https://pitchbook.com/news/reports/q1-2026-ai-vc-trends",
           "time": "今日",
-          "tag": "产品",
-          "image": "https://picsum.photos/seed/ai1/400/250"
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai49/400/250"
         },
         {
-          "title": "阿里千问大模型负责人林俊旸卸任",
-          "summary": "阿里巴巴最年轻 P10 级技术专家宣布离开千问团队，折射 AI 人才高流动性。",
-          "source": "上观新闻",
-          "url": "https://www.jfdaily.com",
+          "title": "Q1 2026 AI funding blows past 2025 total with three deals accounting for 67% of capital - PitchBook",
+          "summary": "Image 86: 2025-data-gather-research-outlined-navy-icon.svg Latest Industry & Tech News & Research Ne",
+          "content": "Image 86: 2025-data-gather-research-outlined-navy-icon.svg Latest Industry & Tech News & Research News, analysis, and data driving industry and technology investment\n       Image 87: 2025-light-smart-outlined-navy-icon.svg Artificial Intelligence Track the latest trends driving AI investment\n       Image 88: 2025-health-benefit-outlined-navy-icon.svg Healthcare Monitor the latest PE and VC activity across the healthcare industry\n       Image 89: 2025-settings-industry-outlined-navy-icon.svg Industrials Follow PE and VC trends across key industrial segments\n       Image 90: 2025-mobile-outlined-navy-icon.svg Software & Technology Track PE and VC trends across the software and technology industry [...] Image 107: High-voltage power lines pylon and wind turbine Article ### Infrastructure’s longevity problem is minting a record secondaries market Fundraising more than doubled to $11.5B last year as maturing funds collide with assets built to last decades. May 12, 2026 Image 108: High-voltage power lines pylon and wind turbine  [Secondaries  Private Equity  Infrastructure  Europe  PE  EMEA Learn more ](\n   Image 109: OPENAI STOCK Article ### OpenAI unveils PE-backed joint venture to accelerate AI adoption The move comes as the evolution of AI is rewriting the playbook for PE firms across industries. May 11, 2026 Image 110: OPENAI STOCK  [Software  AI  Private Equity  Tech  SaaS Learn more ]( [...] The investor pile-on isn’t surprising given the recent growth of the frontier model companies. Anthropic announcedits run-rate revenue surpassed $30 billion in April, up from $14 billion in February. And in March, The Information reportedthat OpenAI’s annualized revenue topped $25 billion.\n\nAs Anthropic and OpenAI race to IPO, the capital demands of AI’s biggest companies have outgrown what VC can provide, creating a wide open opportunity for governments, hyperscalers and Wall Street to fill that gap.\n\nLearn more about our editorial standards.\n\nImage 106: jacob-robbins-headsh",
+          "source": "Pitchbook",
+          "url": "https://pitchbook.com/news/articles/q1-2026-ai-funding-blows-past-2025-total-with-three-deals-accounting-for-67-of-capital",
           "time": "今日",
-          "tag": "人事",
-          "image": "https://picsum.photos/seed/ai2/400/250"
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai50/400/250"
         },
         {
-          "title": "黄仁勋：300 亿投资 OpenAI\"可能是最后一次\"",
-          "summary": "英伟达 CEO 表示，随着 OpenAI 准备上市，近期 300 亿美元投资可能是最后一次。",
-          "source": "新浪财经",
-          "url": "https://finance.sina.com.cn",
+          "title": "The Truth About Those Misleading Headlines Proclaiming That Humans Outdo AI When It Comes To Combatting Human Loneliness - Forbes",
+          "summary": "There are significant worries that AI can readily go off the rails or otherwise dispense unsuitable ",
+          "content": "There are significant worries that AI can readily go off the rails or otherwise dispense unsuitable or even egregiously inappropriate mental health advice. Banner headlines last year accompanied the lawsuit filed against OpenAI for their lack of AI safeguards when it came to providing cognitive advisement.\n\nToday’s generic LLMs, known as general-purpose AI, such as ChatGPT, GPT-5, Claude, Gemini, Grok, CoPilot, and others, are not at all akin to the robust capabilities of human therapists. Meanwhile, specialized LLMs are being built to attain those desired qualities, though such AI is still primarily in the early development and testing stages. For more about purpose-built AI apps in mental health, see my in-depth coverage at the link here and the link here. [...] ## Additional Factors Of Consideration\n\nWhen the study was undertaken, the AI that was chosen for use in the study was GPT-4o mini. That is now a somewhat dated version of OpenAI’s generative AI models. It would be interesting to see how GPT-5 would fare. Might a more advanced and robust AI chatbot do a better job at interacting and aiding in overcoming human loneliness? Maybe.\n\nI was glad to see that the researchers gave instructions to GPT-4o mini about how it was to overall respond to the subjects. I say that I am glad of that because some studies just leave the AI at its defaults, which I think is a disservice to properly representing what AI can do. [...] ## AI And Mental Well-Being\n\nAs a quick background, I’ve been extensively covering and analyzing a myriad of facets regarding the advent of modern-era AI that produces mental health advice and performs AI-driven therapy. This rising use of AI has principally been spurred by the evolving advances and widespread adoption of generative AI. For an extensive listing of my well over one hundred analyses and postings, see the link here and the link here.\n\nMORE FOR YOU",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/lanceeliot/2026/05/13/the-truth-about-those-misleading-headlines-proclaiming-that-humans-outdo-ai-when-it-comes-to-combatting-human-loneliness/",
           "time": "今日",
-          "tag": "融资",
-          "image": "https://picsum.photos/seed/ai3/400/250"
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai38/400/250"
         },
         {
-          "title": "蚂蚁集团联合清华发布 AReaL v1.0 强化学习框架",
-          "summary": "首个全异步训推解耦的大模型强化学习训练系统，让智能体强化学习开箱即用。",
-          "source": "科创板日报",
-          "url": "https://www.chinastarmarket.cn",
-          "time": "昨日",
-          "tag": "开源",
-          "image": "https://picsum.photos/seed/ai4/400/250"
+          "title": "Parents say ChatGPT got their son killed with bad advice on party drugs - The Verge",
+          "summary": "Several other wrongful death lawsuits filed against OpenAI mention GPT-4o, which OpenAI has since re",
+          "content": "Several other wrongful death lawsuits filed against OpenAI mention GPT-4o, which OpenAI has since removed from its roster of models. Last April, OpenAI rolled back an update to its GPT-4o model after finding that it can be “overly flattering or agreeable.” The company has also attempted to address safety concerns by updating ChatGPT to better detect mental or emotional distress, adding parental controls, and allowing users to add a Trusted Contact.\n\n### Related\n\n Giving your healthcare info to a chatbot is, unsurprisingly, a terrible idea\n AI therapy is a surveillance machine in a police state [...] Though ChatGPT initially “shut down” conversations about drug and alcohol use, the launch of GPT-4o in April 2024 changed the chatbot’s behavior, according to the lawsuit. Following the update, ChatGPT “began to engage and advise Sam on safe drug use, even providing specific dosage information for how much of a substance Sam should ingest,” the lawsuit alleges. Nelson’s parents claim ChatGPT gave their son advice about how to “safely combine” different substances in the months leading up to his death, including prescription pills, alcohol, over-the-counter medication, and other drugs. [...] This is the title for the native ad\n\n## More in AI\n\nSam Altman says Elon Musk’s mind games were damaging OpenAI\n\nGemini’s latest updates are all about controlling your phone\n\nThe 9 biggest new features in Android 17\n\nSam Altman takes the stand in trial against Elon Musk\n\nGeorge Clooney, Tom Hanks, and Meryl Streep back new ‘Human Consent Standard’ for AI licensing\n\nRivian’s AI-powered voice assistant is ready to roll\n\nSam Altman says Elon Musk’s mind games were damaging OpenAI\n\nEmma Roth\n\nGemini’s latest updates are all about controlling your phone\n\nAllison Johnson\n\nThe 9 biggest new features in Android 17\n\nDominic Preston\n\nSam Altman takes the stand in trial against Elon Musk\n\nHayden Field\n\nGeorge Clooney, Tom Hanks, and Meryl Streep back new ‘Human Consent Standard’ for AI licensing",
+          "source": "Theverge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/928691/openai-chatgpt-wrongful-death-overdose",
+          "time": "今日",
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai39/400/250"
         },
         {
-          "title": "我国首个国家级人形机器人标准体系发布",
-          "summary": "我国首个国家级\"人形机器人与具身智能标准体系\"正式发布。",
-          "source": "软盟资讯",
-          "url": "https://www.ruanmeng.com",
-          "time": "3月2日",
-          "tag": "标准",
-          "image": "https://picsum.photos/seed/ai5/400/250"
+          "title": "OpenAI Sued Over ChatGPT Medical Advice That Allegedly Killed College Student - Futurism",
+          "summary": "In the early hours of May 31, 2025, after drinking and consuming a high dose of kratom, Nelson told ",
+          "content": "In the early hours of May 31, 2025, after drinking and consuming a high dose of kratom, Nelson told ChatGPT that he was feeling nauseous, and asked if taking Xanax could help. The bot noted that mixing kratom and Xanax could be risky, but according to the complaint, never told Nelson that the combination could be deadly — and, despite any tepid warnings, coughed up dosages anyway, even suggesting that the teen could try to mix in some Benadryl, too. The chatbot further urged Nelson to go to a “dark, quiet room,” and never encouraged him to seek medical attention. (At the time, Nelson was using GPT-4o, an especially sycophantic iteration of ChatGPT that OpenAI has since retired amid a slew of consumer safety lawsuits.) [...] In response to the lawsuit, OpenAI said in a statement to the New York Times that Nelson’s “interactions took place on an earlier version of ChatGPT that is no longer available,” and insisted that “ChatGPT is not a substitute for medical or mental health care, and we have continued to strengthen how it responds in sensitive and acute situations with input from mental health experts.”\n\n“The safeguards in ChatGPT today are designed to identify distress, safely handle harmful requests and guide users to real-world help,” the statement continued. “This work is ongoing, and we continue to improve it in close consultation with clinicians.” [...] But while OpenAI insists that it’s not a substitute for medical care, and that its safety work is “ongoing,” it recognizes that health advice is a massive use case for the tech.\n\n“Health is already one of the most common ways people use ChatGPT,” reads the company’s January ChatGPT Health announcement, “with hundreds of millions of people asking health and wellness questions each week.”\n\nMore on ChatGPT Health: ChatGPT Health Is Staggeringly Bad at Recognizing Life-Threatening Medical Emergencies",
+          "source": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/openai-sued-chatgpt-medical-advice-killed-student",
+          "time": "今日",
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai40/400/250"
         }
       ]
     },
@@ -75,40 +81,64 @@
       "icon": "🌍",
       "items": [
         {
-          "title": "深圳华强北发布 AI 硬件全球销售热力图",
-          "summary": "2026年1-2月数据显示，无人机海内外市场需求保持旺盛。",
-          "source": "新华社",
-          "url": "https://www.xinhuanet.com",
+          "title": "China Nails Assortment Kit - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "summary": "Cross-border e-commerce exports—shipments sent directly to consumers via platforms like AliExpress, ",
+          "content": "Cross-border e-commerce exports—shipments sent directly to consumers via platforms like AliExpress, Amazon Global, and TikTok Shop—have grown as a share of total nail kit exports, now representing an estimated 20–30% of outbound volume, as this channel bypasses traditional importers and enables Chinese brands to capture higher margins.\n\n## Distribution Channels and Buyers [...] Export volumes have grown at a compound rate of 5–8% annually over the past five years, supported by the global expansion of at-home nail care and the proliferation of e-commerce platforms like Amazon, Shopee, and Lazada that enable Chinese sellers to reach end consumers directly. Huangpu Customs (Guangzhou) and Shanghai Customs handle a significant share of nail kit export declarations, reflecting the geographical concentration of production in the southern and eastern coastal provinces. [...] Read more\n\nJan 4, 2026\n\n### China's Cosmetics Market Set for Modest Growth to $15 Billion and 1.4 Million Tons by 2035\n\nAnalysis of China's cosmetics market from 2013-2024 with forecasts to 2035, covering consumption, production, imports, exports, key product segments, and leading trade partners.\n\nRead more\n\nDec 24, 2025\n\n### Mao Geping's Hong Kong Expansion Faces Sluggish Start Amid Overseas Push\n\nChinese cosmetics brand Mao Geping experiences a slow start at its first overseas store in Hong Kong, highlighting challenges for domestic beauty brands expanding globally.\n\nRead more\n\nNov 19, 2025\n\n### Estee Lauder Reports Q1 2026 Growth Under Turnaround Plan",
+          "source": "Indexbox",
+          "url": "https://www.indexbox.io/store/china-kw-nails-assortment-kit-840-market-analysis-forecast-size-trends-and-insights/",
           "time": "今日",
-          "tag": "数据",
-          "image": "https://picsum.photos/seed/shop0/400/250"
+          "tag": "TikTok",
+          "image": "https://picsum.photos/seed/news39/400/250"
         },
         {
-          "title": "雷军两会建议：提高人形机器人使用率",
-          "summary": "小米 CEO 提出 5 份建议，涉及智能制造应用和人才培养。",
-          "source": "IT之家",
-          "url": "https://www.ithome.com",
+          "title": "China Granola - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "summary": "Tmall Supermarket and JD Fresh are the two largest online grocery platforms for granola, together ha",
+          "content": "Tmall Supermarket and JD Fresh are the two largest online grocery platforms for granola, together handling 50–55% of e-commerce granola sales. Cross-border e-commerce channels (Tmall Global, JD Worldwide) also play an important role, enabling imported brands to reach Chinese consumers without establishing full in-country logistics. [...] Tmall Supermarket and JD Fresh are the two largest online grocery platforms for granola, together handling 50–55% of e-commerce granola sales. Cross-border e-commerce channels (Tmall Global, JD Worldwide) also play an important role, enabling imported brands to reach Chinese consumers without establishing full in-country logistics. [...] Fourth, the DTC subscription model offers a path to brand loyalty and predictable revenue: monthly subscription boxes for breakfast granola or snack bars have shown retention rates of 55–65% after six months among health-conscious consumers in tier-1 cities. Finally, cross-border e-commerce provides a low-barrier entry for international specialty brands to test the China market without full in-country registration, using Tmall Global or JD Worldwide to gauge demand before committing to local manufacturing or distribution partnerships.",
+          "source": "Indexbox",
+          "url": "https://www.indexbox.io/store/china-kw-granola-840-market-analysis-forecast-size-trends-and-insights/",
           "time": "今日",
-          "tag": "政策",
-          "image": "https://picsum.photos/seed/shop1/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news40/400/250"
         },
         {
-          "title": "华为发布 Atlas 950 SuperPoD",
-          "summary": "MWC 2026 期间，华为发布多款超节点产品，助力运营商智能化升级。",
-          "source": "华为官网",
-          "url": "https://www.huawei.com",
-          "time": "昨日",
-          "tag": "产品",
-          "image": "https://picsum.photos/seed/shop2/400/250"
+          "title": "China Nails Assortment Set - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+          "summary": "Counterfeit and low-quality exports, often shipped as unbranded assortments via cross-border e-comme",
+          "content": "Counterfeit and low-quality exports, often shipped as unbranded assortments via cross-border e-commerce platforms, create downward price pressure on compliant exporters, particularly in the mass-market tier. Export growth for premium Chinese-branded Nails Assortment Sets is accelerating at an estimated 12–18% annually as Chinese beauty brands expand internationally through Amazon, Shopee, TikTok Shop, and dedicated DTC websites. The trade balance strongly favours China, with an estimated export-to-import value ratio of 15:1 to 20:1.\n\n## Distribution Channels and Buyers [...] Counterfeit and low-quality exports, often shipped as unbranded assortments via cross-border e-commerce platforms, create downward price pressure on compliant exporters, particularly in the mass-market tier. Export growth for premium Chinese-branded Nails Assortment Sets is accelerating at an estimated 12–18% annually as Chinese beauty brands expand internationally through Amazon, Shopee, TikTok Shop, and dedicated DTC websites. The trade balance strongly favours China, with an estimated export-to-import value ratio of 15:1 to 20:1.\n\n## Distribution Channels and Buyers [...] In 2026, market activity is concentrated in tier-1 and tier-2 cities, although penetration into lower-tier cities is accelerating via short-video commerce and social recommendation algorithms. The Nails Assortment Set market is neither purely a commodity nor a niche luxury; it occupies a broad middle where brand differentiation, supply chain speed, and design agility determine winners.\n\n## Market Size and Growth",
+          "source": "Indexbox",
+          "url": "https://www.indexbox.io/store/china-kw-nails-assortment-set-840-market-analysis-forecast-size-trends-and-insights/",
+          "time": "今日",
+          "tag": "TikTok",
+          "image": "https://picsum.photos/seed/news41/400/250"
         },
         {
-          "title": "千问\"一句话下单\"功能 DAU 突破 7300 万",
-          "summary": "超过 400 万 60 岁以上新用户通过 AI 完成外卖下单。",
-          "source": "新浪财经",
-          "url": "https://finance.sina.com.cn",
+          "title": "Taylor Swift Bejewels Her LBD With a Rhinestone-Encrusted Accent for Rare Family Dinner in New York - instyle.com",
+          "summary": "## Related Stories\n\nTaylor Swift Previews Bridal Style With Travis Kelce in a Romantic Blue Dress at",
+          "content": "## Related Stories\n\nTaylor Swift Previews Bridal Style With Travis Kelce in a Romantic Blue Dress at Friend's Greece Wedding\nTaylor Swift Gives Her Date Night Style a Gothic Glam Update in a Slinky Lace Slip and Trench Coat\n\nPer a photo shared by one of the guests on X, Swift subtly nodded to her Midnights style era in a strapless navy blue midi-length dress, which she paired with a romantic half-up updo.\n\n### Look of the day\n\nMust see fits from all your favorite celebs.\n\nSee the looks\n\nRead more:\n\n Fashion\n Clothing\n Dresses & Skirts\n\n## Related Articles [...] Skip to content\n\n Top Stories\n Shop CBK's Capsule Wardrobe\n Ralph Lauren's Offline Aesthetic\n How to Dress Like an F1 Cool Girl\n Transitional Jackets for Winter Into Spring\n\n# Taylor Swift Bejewels Her LBD With a Rhinestone-Encrusted Accent for Rare Family Dinner in New York\n\nThe \"Style\" singer beat her jet lag for a post-Mother's Day dinner with both of her parents and her brother Austin.\n\nBy\n\nLara Walsh\n\nLara Walsh\n\nLara Walsh is a Chicago-based writer and editor who covers all things fashion, celebrity, pop culture, travel, and food. When she’s not avidly planning her next trip, she’s writing posts for her travel blog or mapping out her next foodie adventure.\n\nInStyle's editorial guidelines\n\nPublished on May 12, 2026 @ 09:18AM [...] ## Related Articles\n\nSerena Williams Rocks an Off-the-Shoulder, Olive Bodycon Dress With Beachy Waves and Gold Accents\nAmal Clooney's Intricate Gold Sequined Dress Was Worn by Cameron Diaz Nearly 20 Years Ago\nSalma Hayek, 59, Sparkles in a Glittery One-Shoulder Gown and Matching Sky-High Heels\nKatie Holmes Revamps Flapper Style in Asymmetrical Velvet LBD Dripping With Fringe and Divisive Shoes\nNatalie Portman, 44, Elevates Pregnancy Style in a Chic Semi-Sheer Little Black Dress\nJennifer Lopez Stuns in a Flirty Little Red Dress With a Plunging Neckline and Throwback Accessories\nDemi Moore Dazzles in Fully Sequined Strapless Gown With a Polarizing 2010s-Coded Detail\nTaylor Swift'",
+          "source": "Instyle",
+          "url": "https://www.instyle.com/taylor-swift-crystal-black-minidress-post-mothers-day-dinner-parents-brother-austin-11972352",
           "time": "今日",
-          "tag": "数据",
-          "image": "https://picsum.photos/seed/shop3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news37/400/250"
+        },
+        {
+          "title": "Threads платформасида Meta AI функцияси синовдан ўтказилмоқда - Zamin.uz",
+          "summary": "Liked 0\n\nDisliked 0\n\nRelated news\n\nUS bank exposes customer data to artificial intelligence\n\nChina L",
+          "content": "Liked 0\n\nDisliked 0\n\nRelated news\n\nUS bank exposes customer data to artificial intelligence\n\nChina Launches First Experiment to Grow Artificial Embryos in Space\n\nGoogle introduces new artificial intelligence capabilities for Android\n\nGoogle launches spyware detection feature for Android devices\n\nGoogle introduces AI-powered widget creation for Android\n\nGoogle introduces new AI-powered Googlebooks laptops\n\nInformation  \nUsers of Guest are not allowed to comment this publication.\n\nNews » Technology » Meta AI feature being tested on Threads platform\n\n## Most read Technology news\n\nInsider sued by Apple reveals iPhone 18 Pro design\n\nAn ancient star from the galactic center: The mystery of DESI-HVS1\n\nRedmi K100 Flagship Smartphone: Snapdragon 8 Elite, 8500 mAh Battery and Wireless Charging [...] AI Terminology: Simplifying Complex Concepts\n\nListeners rated AI-generated music higher than human-composed music\n\nMIT researchers create revolutionary chip for LiDAR technology\n\nSamsung Galaxy S27 flagships may be equipped with Chinese screens\n\nBlackstone data center used 110 million liters of water while residents faced shortages",
+          "source": "Zamin",
+          "url": "https://zamin.uz/en/technology/200639-meta-ai-feature-being-tested-on-threads-platform.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news38/400/250"
+        },
+        {
+          "title": "Legacy media sells age as its advantage - Axios",
+          "summary": "NBCUniversal spoke of extending \"Saturday Night Live\" through Peacock, social video and internationa",
+          "content": "NBCUniversal spoke of extending \"Saturday Night Live\" through Peacock, social video and international expansion, and launching new spinoffs and experiences around franchises like \"Fast & Furious.\"\n Speaking ahead of Warner Bros. Discovery's presentation, U.S. ad sales chief Ryan Gould told Axios, \"We'll continue to celebrate the flywheel and essentially how we can weave brand into the fabric of the content experience, not just from an advertising perspective — experiential licensing, consumer products.\"\n\nSports remained central to nearly every pitch. Marshall said live events can create \"lightning in a bottle\" moments for advertisers, pointing to year-round sports programming spanning the NFL, NBA, MLB and the upcoming World Cup on Telemundo. [...] Skip to main content\n\nAxios\n\n9 mins ago - Business\n\n# Legacy media spins age as its advantage\n\n Kerry Flynn\n  ,\n Sara Fischer\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google.\n\nAdd Axios on Google\n\nThis year's Upfronts have been dominated by big brands leaning into fandom around their legacy entertainment franchises and sports as a way to stand out in a field becoming crowded by Big Tech.\n\nWhy it matters: History, familiarity and trust are business values that Silicon Valley can't easily buy.\n\nZoom in: Legacy media companies are seeking to differentiate themselves from digital competitors increasingly vying for TV ad dollars.",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/05/12/upfronts-tv-legacy-media",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news34/400/250"
         }
       ]
     },
@@ -118,31 +148,64 @@
       "icon": "💡",
       "items": [
         {
-          "title": "OpenAI 完成 1100 亿美元新一轮融资",
-          "summary": "该轮融资包括英伟达、亚马逊和软银的投资承诺。",
-          "source": "彭博社",
-          "url": "https://www.bloomberg.com",
+          "title": "Q1 2026 AI VC Trends - PitchBook",
+          "summary": "suggesting investors are backing startups they believe have built a defensible moat within a given v",
+          "content": "suggesting investors are backing startups they believe have built a defensible moat within a given vertical rather than funding the field broadly. [...] Q1 2026\n\n# AI VC Trends\n\nPitchBook clients can access the full report and Excel data pack via the Research Center on the PitchBook Platform.\n\n### More AI capital is deployed in Q1 2026 than in all of 2025\n\nThe AI sector had a record-breaking Q1 2026, with total venture funding reaching $255.5 billion and eclipsing the full-year 2025 total of $254.4 billion in a single quarter. Capital was extraordinarily concentrated at the top. OpenAI closed a $122 billion round, Anthropic raised $30 billion, and xAI secured $20 billion. All three deals landed within the horizontal platforms segment, which accounted for $197 billion across 396 transactions and surpassed its own full-year 2025 total in a single quarter. [...] Two segments hit historic milestones in Q1. Autonomous machines posted a record quarter at $29 billion across 118 deals. The surge was fueled largely by Waymo’s $16 billion Series D, which more than tripled the segment’s prior-quarter deal value. On the exit side, SpaceX’s $250 billion acquisition of xAI was completed ahead of SpaceX’s anticipated IPO. The deal stands as the largest AI-related M&A transaction ever recorded, exceeding the combined value of all AI M&A over the prior three years. Vertical applications told a more nuanced story. Deal counts fell to their lowest level since 2018, down 51% from their Q1 2022 peak, but the average deal size more than doubled YoY to $24 million. Capital is consolidating into fewer companies, suggesting investors are backing startups they believe",
+          "source": "Pitchbook",
+          "url": "https://pitchbook.com/news/reports/q1-2026-ai-vc-trends",
           "time": "今日",
-          "tag": "融资",
-          "image": "https://picsum.photos/seed/rocket0/400/250"
+          "tag": "IPO",
+          "image": "https://picsum.photos/seed/news42/400/250"
         },
         {
-          "title": "北京数据和人工智能安全检测中心揭牌",
-          "summary": "AI 产业迎来专业鉴定机构，七大创新成果发布。",
-          "source": "北京日报",
-          "url": "https://www.bjd.com.cn",
-          "time": "3月2日",
-          "tag": "政策",
-          "image": "https://picsum.photos/seed/rocket1/400/250"
+          "title": "Q1 2026 AI funding blows past 2025 total with three deals accounting for 67% of capital - PitchBook",
+          "summary": "Venture Capital \n\n ㅤ [...] Image 104: PIZZA\n\nAleksandr Zubkov/Getty Images\n\nAI startups raised $255.",
+          "content": "Venture Capital \n\n ㅤ [...] Image 104: PIZZA\n\nAleksandr Zubkov/Getty Images\n\nAI startups raised $255.5 billion globally in Q1 2026, surpassing the 2025 full-year total for AI venture funding, according to PitchBook’s latest AI VC Trends report. But three deals accounted for two-thirds—or $172 billion—of that capital.\n\n“It’s an extraordinary amount of capital concentration showing that these platforms are exactly that: foundational,” said Dimitri Zabelin, the PitchBook senior analyst who authored the report. “They are structural, not cyclical.”\n\nOf the 1,546 deals recorded in Q1 2026, deals from OpenAI, Anthropic and xAIaccounted for 67.3%. The remaining $83.5 billion was split across 1,543 deals. [...] Image 72: 2025-market-intelligence-outlined-navy-icon.svg Latest VC News News, analysis, and data shaping the venture capital industry\n       Image 73: 2025-data-gather-research-outlined-navy-icon.svg Latest VC Research Expert analysis of trends defining the venture capital landscape\n       Image 74: 2025-light-smart-outlined-navy-icon.svg Artificial Intelligence Track how AI is transforming industries and tech investment\n       Image 75: 2025-APAC-globe-outlined-navy-icon.svg European VC Analysis of key trends shaping European venture capital\n       Image 76: 2025-exit-outlined-navy-icon.svg Exits & IPOs Startup M&A, VC-backed IPOs, direct secondaries, and more\n       Image 77: 2025-startup-outlined-navy-icon.svg Valuations Valuation trends and news for dealmakers",
+          "source": "Pitchbook",
+          "url": "https://pitchbook.com/news/articles/q1-2026-ai-funding-blows-past-2025-total-with-three-deals-accounting-for-67-of-capital",
+          "time": "今日",
+          "tag": "YC",
+          "image": "https://picsum.photos/seed/news43/400/250"
         },
         {
-          "title": "Honor 推出全球首款机器人手机",
-          "summary": "荣耀 CEO 表示，这是智能手机的\"全新物种\"。",
-          "source": "MWC 2026",
-          "url": "https://www.mwcbarcelona.com",
+          "title": "Duration Ventures, Founded by Alumni of GC and Lightspeed, Aims for $375 Million Fund - WSJ",
+          "summary": "1.   exclusive  \n2.   VC Funds\n\n# Duration Ventures, Founded by Alumni of GC and Lightspeed, Aims fo",
+          "content": "1.   exclusive  \n2.   VC Funds\n\n# Duration Ventures, Founded by Alumni of GC and Lightspeed, Aims for $375 Million Fund\n\n## Arif Janmohamed and Trevor Oelschig are teaming up to invest in early-stage enterprise AI startups\n\nBy\n\nYuliya Chernova\n\nWSJ Pro\n\nMay 12, 2026 5:30 am ET\n\nImage 1: Aerial view of homes with the San Francisco skyline in the background.\n\nDuration Ventures is launching in one of the most difficult fundraising markets for first-time funds in recent history.Photo: Justin Sullivan/Getty Images\n\nArif Janmohamed, previously a partner at Lightspeed Venture Partners, and Trevor Oelschig, a longtime managing director at General Catalyst, have paired up to form a new venture firm, Duration Ventures, according to people familiar with the situation. [...] They are looking to raise about $375 million for their debut fund to invest in early-stage startups across enterprise artificial intelligence, from chips to applications, the people said.\n\nCopyright ©2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8\n\n#### Exclusive venture capital news and commentary.\n\nStay on top of deals, funds, people and the broader influences on the market.\n\nSIGN INSUBSCRIBE\n\n  \n\n## Up Next\n\n1.   Sustainable Business \n\n### The Way Companies Aim for Net Zero Is Flawed. It’s Also Working.\n\nImage 2\n\nTwo academic papers published last month show corporate climate efforts having a positive impact on reducing deforestation and cutting emissions.\n\n    \n[]( \n\nContinue To Article\n\n  \n\n1.   CIO Journal",
+          "source": "Wsj",
+          "url": "https://www.wsj.com/pro/venture-capital/duration-ventures-founded-by-alumni-of-gc-and-lightspeed-aims-for-375-million-fund-16980937",
           "time": "今日",
-          "tag": "创新",
-          "image": "https://picsum.photos/seed/rocket2/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news44/400/250"
+        },
+        {
+          "title": "Modern monetization: The route to software business success in healthcare - DevPro Journal",
+          "summary": "Healthcare\n\n### Outdated technology is slowing care and burdening clinicians\n\nPayment Processing\n\n##",
+          "content": "Healthcare\n\n### Outdated technology is slowing care and burdening clinicians\n\nPayment Processing\n\n### A Startup’s Journey to Acquisition: Lessons from FeatherPay\n\n#### Software Developer News\n\n### AI, Phishing-as-a-Service drive increase in email attacks, Barracuda Reports\n\nDevPro Journal Staff -\n\n### Introducing the Pulse Ion: A next-generation touchscreen computer\n\nDevPro Journal Staff -\n\n### National Computer Corporation (NCC) celebrates 40 years in the Point of Sale industry celebrates 40 years in the Point of Sale industry\")\n\nDevPro Journal Staff -\n\n### Texas-based restaurant drives kitchen efficiency with Epson TrueOrder KDS\n\nDevPro Journal Staff -\n\n### Epson thermal receipt printers integrated into LaunderPay POS solution for laundry businesses\n\nDevPro Journal Staff - [...] DevPro Journal Staff -\n\n### MicroTouch unveils new Mach 15.6″ Android POS system at NRF 2026\n\nDevPro Journal Staff -\n\n#### You May Also Like\n\nSecurity\n\n### Why your dev team is the next target for AI-driven email attacks\n\nJay McCall -\n\nWith 34 percent of companies facing monthly account takeovers, software leaders must rethink security. Discover actionable insights to secure your development environment.\n\nSecurity\n\n### AI, Phishing-as-a-Service drive increase in email attacks, Barracuda Reports\n\nDevPro Journal Staff -\n\n2026 Email Threats Report finds attackers adopting stealthier delivery methods, underscoring need for integrated, multilayered email protection.\n\nMarketing\n\n### Why your technical voice wins deals that marketing copy can’t touch\n\nJay McCall - [...] Medical device leaders can unlock growth by treating software as a commercial product. These strategies ensure ROI through intentional monetization.\n\nBy\n\nPushpa Millikarjun Dindur\n\n-\n\n## Summary\n\nMedical device leaders must treat software as a commercial product to drive real business impact. Success requires intentional monetization strategies, including consumption-based pricing and self-service portals. By focusing on data-driv",
+          "source": "Devprojournal",
+          "url": "https://www.devprojournal.com/market-trends/healthcare/modern-monetization-the-route-to-software-business-success-in-healthcare/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news32/400/250"
+        },
+        {
+          "title": "Gaiia raises $40M - Light Reading",
+          "summary": "Most CSPs stitch together five to ten disconnected systems to run their operations: billing, provisi",
+          "content": "Most CSPs stitch together five to ten disconnected systems to run their operations: billing, provisioning, account management, field service, and workflows. gaiia replaces all of them with a single platform built on one data model. Customers have run more than 10 million workflows on gaiia to date, and workflow execution has grown 10x in the past year alone.\n\nBefore founding gaiia, the team built oxio, Canada's fastest-growing internet service provider, which exited for $100 million in 2023. That operator-led DNA shapes gaiia's commercial model: the company charges nothing for migrations and deploys a forward-deployed engineering team that brings CSPs live in 4 to 6 months, versus the 12 to 18 month industry standard. [...] Jan 12, 2026\n\nSponsored Content\n\nAntenna Beam Efficiency in Urban 4G/5G NetworksAntenna Beam Efficiency in Urban 4G/5G Networks\n\nNov 17, 2025\n\n### Our Latest Videos\n\nMore videos\n\nOptical Networking\n\nHPE AI Networking - Scale Up, Scale Out, and Scale Across | OFC 2026HPE AI Networking - Scale Up, Scale Out, and Scale Across | OFC 2026\n\nSponsored Content\n\nPowering the Future: Orange Business’s Cloud Revolution with PwC and MicrosoftPowering the Future: Orange Business’s Cloud Revolution with PwC and Microsoft\n\nCustomer Experience\n\nFeatured Story\n\n## Your carrier's price lock may not lock your price\n\nAT&T, Verizon, T-Mobile, Charter and Comcast made big promises to customers in 2025. Not all of them locked your actual bill.\n\nMore\n\nFiber Connect | May 17-20, 2026 | Orlando, FL",
+          "source": "Lightreading",
+          "url": "https://www.lightreading.com/broadband/gaiia-raises-40m",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news33/400/250"
+        },
+        {
+          "title": "Gong crosses $500 million revenue milestone amid demand for AI sales platforms - ynetnews",
+          "summary": "Over the past two quarters, Gong said it signed more customers with contracts worth over $1 million ",
+          "content": "Over the past two quarters, Gong said it signed more customers with contracts worth over $1 million than in the previous six quarters combined. The company said half of the Fortune 10 companies - including Anthropic, Cisco, Docusign, Google, ADP and Thomson Reuter - now use its platform.\n\n“When we founded the company about a decade ago, we anticipated that the artificial intelligence revolution would be even larger and more significant than the cloud revolution,” said Amit Bendov, Gong’s CEO and co-founder. “Today, as investment in AI has become a strategic priority for companies around the world, our vision has become a reality driving the company’s accelerated growth.” [...] PrintFind an error? Report us\n\nRelated Topics\n\nGong\n\nAI\n\nGong has surpassed $500 million in annual recurring revenue after recording more than 55% year-over-year growth in its latest quarter, marking its 10th consecutive quarter of accelerating growth, the company announced on Tuesday.\n\nThe San Francisco- and Ramat Gan-based company, which develops AI tools for sales and revenue teams, attributed the growth to increased enterprise adoption of AI platforms and broader use of its products by large customers.",
+          "source": "Ynetnews",
+          "url": "https://www.ynetnews.com/business/article/bjcou2xygx",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news34/400/250"
         }
       ]
     },
@@ -152,49 +215,64 @@
       "icon": "⛓️",
       "items": [
         {
-          "title": "比特币 ETF 资金流入创新高，机构配置加速",
-          "summary": "美国比特币 ETF 单日净流入超 10 亿美元，显示机构投资者持续加仓。",
-          "source": "CoinDesk",
-          "url": "https://www.coindesk.com",
+          "title": "Toobit Celebrates Bitcoin Pizza Day with 100,000 USDT Rewards, BTC Airdrops, and Trade Protection - markets.businessinsider.com",
+          "summary": "My Markets Watchlist\n\nMarkets   News\n\n# Toobit Celebrates Bitcoin Pizza Day with 100,000 USDT Reward",
+          "content": "My Markets Watchlist\n\nMarkets   News\n\n# Toobit Celebrates Bitcoin Pizza Day with 100,000 USDT Rewards, BTC Airdrops, and Trade Protection\n\nPRESS RELEASE GlobeNewswire\n\nMay. 12, 2026, 01:22 AM\n\nGEORGE TOWN, Cayman Islands, May 12, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, today announces its latest campaign, which commemorates Bitcoin Pizza Day with a 100,000 USDT prize pool.\n\nRunning from May 12 to May 25, 2026, the campaign celebrates the 16th anniversary of crypto's first real-world transaction by offering bonuses, airdrops, and risk-free trading opportunities to traders worldwide.\n\nThe campaign is structured around four key activities:",
+          "source": "Markets",
+          "url": "https://markets.businessinsider.com/news/stocks/toobit-celebrates-bitcoin-pizza-day-with-100-000-usdt-rewards-btc-airdrops-and-trade-protection-1036141419",
           "time": "今日",
           "tag": "BTC",
-          "image": "https://picsum.photos/seed/crypto0/400/250"
+          "image": "https://picsum.photos/seed/news47/400/250"
         },
         {
-          "title": "以太坊 Dencun 升级完成，Layer2 费用大幅下降",
-          "summary": "升级引入 EIP-4844，使 Layer2 交易费用降低 90% 以上。",
-          "source": "The Block",
-          "url": "https://www.theblock.co",
+          "title": "Crypto News Today: AlphaPepe Presale Raises $1.17M While Dogecoin Price Prediction Targets $1.00 - markets.businessinsider.com",
+          "summary": "Markets\nNews\n\n# Crypto News Today: AlphaPepe Presale Raises $1.17M While Dogecoin Price Prediction T",
+          "content": "Markets\nNews\n\n# Crypto News Today: AlphaPepe Presale Raises $1.17M While Dogecoin Price Prediction Targets $1.00\n\nPRESS RELEASE GlobeNewswire\n\nMay. 11, 2026, 10:30 PM\n\nMONACO CITY, Monaco, May 11, 2026 (GLOBE NEWSWIRE) -- Crypto news today is turning toward AlphaPepe after the project announced that its presale has raised over $1.17 million while Stage 16 remains live at $0.01683 per token. The holder count has passed 8,500, the AlphaSwap AI DEX demo has surpassed 3,000 active users, and the project has completed a full 10/10 BlockSAFU security audit ahead of its planned Q2 2026 exchange debut. [...] SHARE THIS POST\n\nCOPY LINK\n\n| Name | Price | +/- | % | Date |\n| TSLA | 444.05 | -1.00 | -0.22 | Official Close 5/11/2026 |\n| AAPL | 292.50 | -0.25 | -0.09 | Official Close 5/11/2026 |\n| MSFT | 411.80 | -0.88 | -0.21 | Official Close 5/11/2026 |\n| NFLX | 85.25 | -0.20 | -0.23 | Official Close 5/11/2026 |\n| SPOT | 419.91 | 0.44 | 0.10 | Official Close 5/11/2026 | [...] That difference matters in the current market. Dogecoin gives buyers the large-cap meme coin trade, while AlphaPepe gives them a presale-stage setup where holder growth, product usage, audit completion, and Q2 exchange timing are converging before public trading begins.\n\nConclusion\n\nAlphaPepe’s $1.17 million presale milestone gives the release a clear company announcement during Stage 16. The project has passed 8,500 holders, the AlphaSwap AI DEX demo has surpassed 3,000 users, and the 10/10 BlockSAFU audit is complete ahead of the planned Q2 2026 exchange debut.",
+          "source": "Markets",
+          "url": "https://markets.businessinsider.com/news/stocks/crypto-news-today-alphapepe-presale-raises-1-17m-while-dogecoin-price-prediction-targets-1-00-1036140290",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news48/400/250"
+        },
+        {
+          "title": "Bitcoin miner Bitdeer mines 783 BTC, grows AI GPU fleet to 4,184 - Stock Titan",
+          "summary": "Key Crypto Metrics:\n\n|  |  |  |  |\n ---  --- |\n| Metric | April 2026 | March 2026 | April 2025 |\n| H",
+          "content": "Key Crypto Metrics:\n\n|  |  |  |  |\n ---  --- |\n| Metric | April 2026 | March 2026 | April 2025 |\n| Hash Rate Metrics: | | | |\n| Self-Mining (Operated in self-owned datacenters) | 65.5 | 65.1 | 12.4 |\n| Co-Mining (Operated in 3rd party datacenters) | 8.4 | 4.4 \n|  |  |  |  |\n| Other Proprietary Hash Rate4 | 5.3 | 1.4 \n| Hosting5 | 8.2 | 7.2 | 12.7 |\n| Total Hash Rate under Mgmt.6 (EH/s) | 87.4 | 78.1 | 25.1 |\n|  |  |  |  |\n| Mining Rig Metrics: | | | |\n| Self-Mining1 | 218,000 | 207,000 | 98,000 |\n| Co-Mining2 | 33,000 | 18,000 \n| Hosted | 46,000 | 37,000 | 81,000 |\n| Total Mining Rigs under Mgmt. | 297,000 | 262,000 | 179,000 |\n|  |  |  |  |\n|  | | | |\n| BTC Mined3 | 783 | 661 | 166 |\n| BTC Held7 | 73 | 31 | 1,246 |\n|  |  |  |  | [...] SINGAPORE, May 12, 2026 (GLOBE NEWSWIRE) -- Bitdeer Technologies Group (NASDAQ: BTDR) (“Bitdeer” or the “Company”), a world-leading technology company for AI and Bitcoin mining infrastructure, today announced its unaudited operations updates for April 2026.\n\nManagement Commentary [...] ### Negative\n\n Bitcoins held were 73 in April 2026, down from 1,246 a year earlier\n AI cloud utilization slipped to 92% from 94% month-over-month\n Massillon, OH expansion faces energization delays from late electrical component deliveries\n Clarington, OH 570 MW project timing may be affected by ongoing legal proceedings\n\n### Key Figures\n\nBTC Mined April 2026: 783 BTC\nSelf-mining hash rate: 65.5 EH/s\nCo-mining hash rate: 8.4 EH/s\n+5 more\n\n8 metrics\n\nBTC Mined April 2026\n783 BTC\nApril 2026 production, up 372% year-over-year\n\nSelf-mining hash rate\n65.5 EH/s\nApril 2026 self-mining, over 400% Y/Y increase\n\nCo-mining hash rate\n8.4 EH/s\nApril 2026 co-mining driven by third-party datacenters",
+          "source": "Stocktitan",
+          "url": "https://www.stocktitan.net/news/BTDR/bitdeer-announces-april-2026-production-and-operations-997rljtkhqzl.html",
+          "time": "今日",
+          "tag": "BTC",
+          "image": "https://picsum.photos/seed/news49/400/250"
+        },
+        {
+          "title": "Mistral AI SDK, TanStack Router hit in npm software supply chain attack - csoonline.com",
+          "summary": "Apr 15, 2026 4 mins\n news\n\n  ### Curity looks to reinvent IAM with runtime authorization for AI agen",
+          "content": "Apr 15, 2026 4 mins\n news\n\n  ### Curity looks to reinvent IAM with runtime authorization for AI agents\n\n  Apr 14, 2026 4 mins\n news\n\n  ### CERT-EU blames Trivy supply chain attack for Europa.eu data breach\n\n  Apr 3, 2026 4 mins\n\n## Show me more\n\nnews\n\n### Mistral AI SDK, TanStack Router hit in npm software supply chain attack\n\nBy John E. Dunn\n\nMay 12, 20264 mins\n\nApplication SecurityCyberattacksDevSecOps\n\nnews\n\n### OpenAI introduces Daybreak cyber platform, takes on Anthropic Mythos\n\nBy Nidhi Singal\n\nMay 12, 20265 mins\n\nArtificial IntelligenceSecurity\n\nnews\n\n### Fake Claude Code takes the IElevator to your browser secrets\n\nBy Shweta Sharma\n\nMay 12, 20264 mins\n\nCybercrimeMalwareSecurity\n\npodcast [...] May 12, 20264 mins\n\nCybercrimeMalwareSecurity\n\npodcast\n\n### CSO Executive Sessions ASEAN: From Compliance to Cyber Resilience-Securing Patient Trust in Southeast Asia’s Hospitals\n\nBy Estelle Quek\n\n25 Feb 202623 mins\n\nCyberattacksCybercrimeRansomware\n\npodcast\n\n### How Intelligence and AI Are Changing Cyber Defense | Erin Whitmore, Former CIA\n\nBy Joan Goodchild\n\nFeb 4, 202628 mins\n\nCyberattacksCybercrime\n\npodcast\n\n### Inside the SMB Threat Landscape: AT&T’s Senthil Ramakrishnan on Why Small Businesses Are Cybercrime’s Favorite Target\n\nBy Joan Goodchild\n\nJan 13, 202623 mins\n\nCybercrimeSmall and Medium Business\n\n### The Human Side of Cybersecurity: Stress, Deepfakes & the Hidden Cost of Breaches\n\nBy Joan Goodchild\n\nMay 7, 202625 mins\n\nData and Information Security\n\nvideo [...] ## More from this author\n\n news\n\n  ### LinkedIn illegally blocking free accounts from seeing ‘who’s viewed your profile’ data, group alleges\n\n  May 7, 2026 5 mins\n news\n\n  ### CISA mulls new three-day remediation deadline for critical flaws\n\n  May 5, 2026 5 mins\n news\n\n  ### AI agents can bypass guardrails and put credentials at risk, Okta study finds\n\n  May 1, 2026 5 mins\n news\n\n  ### Bank regulator sounds warning over cybersecurity threat posed by AI models\n\n  Apr 30, 2026 5 mins\n news\n\n  ### Micros",
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4170284/mistral-ai-sdk-tanstack-router-hit-in-npm-software-supply-chain-attack.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/crypto28/400/250"
+        },
+        {
+          "title": "Demystify Podcast: Demystifying super-apps, hyper-personalisation, and the future of banking - FinTech Futures",
+          "summary": "May 12, 2026\n\nGet more out of your news on Google\n\n## Choose FinTech Futures as a 'Preferred Source'",
+          "content": "May 12, 2026\n\nGet more out of your news on Google\n\n## Choose FinTech Futures as a 'Preferred Source' to get quicker access to the fintech news you value\n\nClick here to add\n\n### Podcasts\n\nSee all\n\nStablecoins, Crypto, Digital Assets & Blockchain\n\nWhat the FinTech? | S.7 Episode 8 | Beyond the hype – what’s next for stablecoins?\n\nWhat the FinTech? | S.7 Episode 8 | Beyond the hype – what’s next for stablecoins?\n\nDigital Banking\n\nWhat the FinTech? | S.7 Episode 7 | Exploring the Greek neobank landscape with Snappi\n\nWhat the FinTech? | S.7 Episode 7 | Exploring the Greek neobank landscape with Snappi\n\n### Webinars\n\nSee all\n\nSponsored Content\n\nWebinar | 26 May 2026 | Value first, technology second: Rethinking process transformation in finance and insurance",
+          "source": "Fintechfutures",
+          "url": "https://www.fintechfutures.com/fintech/demystify-podcast-demystifying-super-apps-hyper-personalisation-and-the-future-of-banking",
           "time": "今日",
           "tag": "ETH",
-          "image": "https://picsum.photos/seed/crypto1/400/250"
+          "image": "https://picsum.photos/seed/crypto29/400/250"
         },
         {
-          "title": "香港证监会批准首批现货加密 ETF",
-          "summary": "香港正式批准比特币和以太坊现货 ETF，预计 4 月上市交易。",
-          "source": "南华早报",
-          "url": "https://www.scmp.com",
-          "time": "昨日",
-          "tag": "ETF",
-          "image": "https://picsum.photos/seed/crypto2/400/250"
-        },
-        {
-          "title": "DeFi 协议总锁仓量突破 1000 亿美元",
-          "summary": "受市场回暖带动，DeFi 生态 TVL 创下近两年新高。",
-          "source": "DeFiLlama",
-          "url": "https://defillama.com",
+          "title": "Micron helps DRAM become the fastest ETF to hit $6.5 billion - Yahoo Finance",
+          "summary": "My Portfolio\n News\n  + Latest\n  + Jobs Report\n  + Originals\n  + Stock market\n  + Newsletters\n  + Cry",
+          "content": "My Portfolio\n News\n  + Latest\n  + Jobs Report\n  + Originals\n  + Stock market\n  + Newsletters\n  + Crypto\n  + Tech\n  + Tariffs\n  + More Topics \n    - Economies\n    - Earnings\n    - Housing\n Markets\n  + Stocks \n    - Most active\n    - Day gainers\n    - Day losers\n    - Trending\n    - Highest dividend\n    - Small cap\n    - Large cap\n    - Most expensive\n    - Highest beta\n    - Pink sheet\n    - Unusual volume\n  + Crypto \n    - Most active\n    - Day gainers\n    - Day losers\n  + Private companies \n    - 52 week gainers\n    - Recently funded\n    - Most funded\n  + Options \n    - Day gainers\n    - Day losers\n    - Highest open interest\n    - Highest implied volatility\n  + Sectors \n    - Technology\n    - Financial services\n    - Consumer cyclical\n    - Communication services\n    - Healthcare [...] Terms\n Privacy\n Privacy Dashboard\n Feedback\n\n© 2026 All rights reserved.\n\nAbout our ads  Advertising  Careers\n\n# Yahoo Finance\n\n Yahoo Finance\n\nMail\n\nSign in\n\n# Micron helps DRAM become the fastest ETF to hit $6.5 billion\n\nJared Blikre\n\nUpdated 2 min read\n\nThe Micron-led Roundhill Memory ETF (DRAM) just reached $6.5 billion in assets in 36 days, making it the fastest ETF to hit that mark and beating the early 2024 bitcoin ETF boom, according to Bloomberg Intelligence ETF analyst Eric Balchunas.\n\nBlackRock’s iShares Bitcoin Trust ETF (IBIT) took 43 days to reach $6.5 billion, while Fidelity’s Wise Origin Bitcoin Fund (FBTC) took 51 days. [...] - Communication services\n    - Healthcare\n    - Industrials\n    - Consumer defensive\n    - Energy\n    - Basic materials\n    - Real estate\n    - Utilities\n  + Treasury bonds\n  + Futures\n  + Currencies\n  + World indices\n  + ETFs\n Research\n  + Screeners \n    - Stocks\n    - Most shorted\n    - Most active penny stocks\n    - Analyst strong buy\n  + Calendar \n    - Earnings\n    - Stock splits\n    - IPOs\n    - Economic events\n  + Stock comparison \n    - NVDA vs INTC\n    - NVDA vs AMD\n    - GOOG vs AMZN\n    - AAPL vs MSFT\n    - TSLA vs RIVN\n  + Currency ",
+          "source": "Finance",
+          "url": "https://finance.yahoo.com/markets/article/micron-helps-dram-become-the-fastest-etf-to-hit-65-billion-145645491.html",
           "time": "今日",
-          "tag": "DeFi",
-          "image": "https://picsum.photos/seed/crypto3/400/250"
-        },
-        {
-          "title": "央行数字货币跨境支付试点扩大",
-          "summary": "数字人民币跨境支付试点新增 5 个国家和地区。",
-          "source": "财新",
-          "url": "https://www.caixin.com",
-          "time": "3月3日",
-          "tag": "CBDC",
-          "image": "https://picsum.photos/seed/crypto4/400/250"
+          "tag": "BTC",
+          "image": "https://picsum.photos/seed/news35/400/250"
         }
       ]
     },
@@ -204,63 +282,69 @@
       "icon": "⚡",
       "items": [
         {
-          "title": "宁德时代发布新一代固态电池技术",
-          "summary": "能量密度突破 500Wh/kg，预计 2027 年量产装车。",
-          "source": "证券时报",
-          "url": "https://www.stcn.com",
+          "title": "Global EV demand rises for second month, data shows - Reuters",
+          "summary": "In North America, registrations dropped 28% to 120,000 units in ​April after the ​end of a ⁠U.S. tax",
+          "content": "In North America, registrations dropped 28% to 120,000 units in ​April after the ​end of a ⁠U.S. tax credit scheme and proposals by President Donald Trump's administration to further ease carbon dioxide emissions rules. Mexico stood out, ​with sales up nearly 50% this year, while Canada's 7% decline ​is expected ⁠to reverse after a new incentive programme.\n\nChinese brands are also gaining ground in Europe despite European Union tariffs: 22% of electric vehicles and plug-in hybrids sold there in ⁠the first ​four months of 2026 were made in China, ​up from 19% a year earlier, BMI data showed.\n\n($1 = 1.3709 Canadian dollars)\n\nReporting by Amir Orusov and Mathias de Rozario; Editing by Matt Scuffham\n\nOur Standards: The Thomson Reuters Trust Principles., opens new tab [...] In Europe, registrations climbed 27% to about ​400,000 units in April, while countries in the European Economic Area and Switzerland have committed nearly 200 billion euros ($235 billion) to their EV ecosystem, a recent study showed.\n\n18.07\n\nThe global picture, however, was uneven.\n\nIn ​China, April registrations fell 8% from a year earlier to roughly 850,000 vehicles after ​support for auto trade-ins was withdrawn and a tax break on electric-vehicle purchases expired.\n\nAdvertisement · Scroll to continue\n\nEven so, Chinese ‌manufacturers ⁠expanded abroad, with exports topping 400,000 electric vehicles in April alone and total vehicle exports reaching nearly 1.4 million units in the first four months of 2026, more than double a year earlier. [...] Cookies, opens new tab\n   Terms & Conditions\n   Privacy, opens new tab\n   Copyright, opens new tab\n   Digital Accessibility, opens new tab\n   Corrections\n   Data Disclosure and Sources, opens new tab\n   Site Feedback, opens new tab\n   Manage Cookies\n\nAll quotes delayed a minimum of 15 minutes. See here for a list of exchanges and delays.\n\n   Cookies, opens new tab\n   Terms & Conditions\n   Privacy, opens new tab\n   Copyright, opens new tab\n   Digital Accessibil",
+          "source": "Reuters",
+          "url": "https://www.reuters.com/business/autos-transportation/global-ev-demand-rises-second-month-data-shows-2026-05-12/",
           "time": "今日",
-          "tag": "固态电池",
-          "image": "https://picsum.photos/seed/energy0/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news35/400/250"
         },
         {
-          "title": "特斯拉上海储能超级工厂投产",
-          "summary": "年产能 40GWh，产品将面向全球市场供应。",
-          "source": "澎湃新闻",
-          "url": "https://www.thepaper.cn",
+          "title": "2026 Jeep Grand Cherokee 2.0 Turbo reviews: A new engine wrapped in a bigger box - Automotive News",
+          "summary": "Critics Corner\n\n# 2026 Jeep Grand Cherokee 2.0 Turbo reviews: A new engine wrapped in a bigger box\n\n",
+          "content": "Critics Corner\n\n# 2026 Jeep Grand Cherokee 2.0 Turbo reviews: A new engine wrapped in a bigger box\n\nBy\n\nDavid Phillips\n\nMay 12, 2026 08:40 AM EDT\n\n## Featured Stories\n\nMazda\n\nMazda delays EV launch by 2 years, slashes investment in pivot to hybrids\n\nMazda will lean on China-built EVs and three new hybrids as it cuts its electrification budget and delays its first dedicated battery-electric vehicle until at least 2029.\n\nHG\n\nBy\n\nHans Greimel\n\nService And Parts\n\nService investments by top dealership groups signal urgent fight for customer loyalty\n\nGK\n\nBy\n\nGail Kachadourian Howe\n\nAudi\n\nAudi Q9 interior illustrates just how big critically needed three-row crossover will be\n\nJW\n\nBy\n\nJack Walsworth\n\nHonda [...] JW\n\nBy\n\nJack Walsworth\n\nHonda\n\nEmbattled Honda CEO Toshihiro Mibe scrambles for reboot in face of historic loss from bad bet on EVs\n\nHG\n\nBy\n\nHans Greimel",
+          "source": "Autonews",
+          "url": "https://www.autonews.com/car-concepts/an-2026-jeep-grand-cherokee-2-liter-4-turbo-reviews-critics-corner-0512/",
           "time": "今日",
-          "tag": "Tesla",
-          "image": "https://picsum.photos/seed/energy1/400/250"
+          "tag": "电池",
+          "image": "https://picsum.photos/seed/news36/400/250"
         },
         {
-          "title": "全国碳市场扩容，纳入钢铁水泥行业",
-          "summary": "碳交易市场覆盖范围扩大，推动高耗能行业绿色转型。",
-          "source": "生态环境部",
-          "url": "https://www.mee.gov.cn",
-          "time": "昨日",
-          "tag": "碳中和",
-          "image": "https://picsum.photos/seed/energy2/400/250"
-        },
-        {
-          "title": "光伏组件出口量同比增长 35%",
-          "summary": "中国光伏产品海外需求持续旺盛，欧洲和新兴市场为主要增长点。",
-          "source": "光伏們",
-          "url": "https://www.pvmen.com",
+          "title": "Mazda delays EV launch by 2 years, slashes investment in pivot to hybrids - Automotive News",
+          "summary": "# Mazda delays EV launch by 2 years, slashes investment in pivot to hybrids\n\nBy\n\nHans Greimel\n\nMay 1",
+          "content": "# Mazda delays EV launch by 2 years, slashes investment in pivot to hybrids\n\nBy\n\nHans Greimel\n\nMay 12, 2026 06:53 AM EDT\n\n## Featured Stories\n\nService And Parts\n\nHere are this year’s top 100 dealership groups ranked by service & parts and body shop revenue\n\nSee who made our 2026 list of the top dealership groups based in the U.S. based their service and parts and body shop businesses. Read our analysis and highlights.\n\nNissan\n\nHow Nissan cut tariff costs by $2.3 billion with its America-first strategy \n\nUK\n\nBy\n\nUrvaksh Karkaria\n\nManufacturing\n\nWhat’s at stake for auto as U.S., Mexico and Canada evaluate free trade\n\nJI\n\nBy\n\nJohn Irwin\n\nHonda\n\nEmbattled Honda CEO Toshihiro Mibe scrambles for reboot in face of historic loss from bad bet on EVs\n\nBy\n\nHans Greimel",
+          "source": "Autonews",
+          "url": "https://www.autonews.com/mazda/an-mazda-delays-ev-launch-pivots-to-hybrids-4q-earnings-financial-results-profit-0512/",
           "time": "今日",
-          "tag": "光伏",
-          "image": "https://picsum.photos/seed/energy3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news37/400/250"
         },
         {
-          "title": "氢能源重卡商业化运营启动",
-          "summary": "首批 100 辆氢燃料电池重卡投入物流干线运营。",
-          "source": "中国汽车报",
-          "url": "https://www.cnautonews.com",
-          "time": "3月2日",
-          "tag": "氢能",
-          "image": "https://picsum.photos/seed/energy4/400/250"
-        },
-        {
-          "title": "比亚迪发布第五代 DM 混动技术",
-          "summary": "百公里油耗降至 2.9L，综合续航超 2000 公里。",
-          "source": "比亚迪",
-          "url": "https://www.byd.com",
+          "title": "WEG announces new BESS manufacturing facility - Process and Control Today",
+          "summary": "WEG, a global manufacturer ofintegrated energy systems, has announced the construction of a new manu",
+          "content": "WEG, a global manufacturer ofintegrated energy systems, has announced the construction of a new manufacturing plant dedicated to battery energy storage systems (BESS) in Itajaí, Santa Catarina, Brazil. The facility will be among the most advanced in the country within this segment and represents a strategic expansion of the company’s energy transition portfolio.\n\nTo enable the project, WEG secured BRL 280 million in financing through the BNDES More Innovation programme, approved under a public call focused on the transformation of strategic minerals for energy transition and decarbonisation, in partnership with Finep.",
+          "source": "Pandct",
+          "url": "https://www.pandct.com/news/weg-announces-new-bess-manufacturing-facility",
           "time": "今日",
-          "tag": "BYD",
-          "image": "https://picsum.photos/seed/energy5/400/250"
+          "tag": "电池",
+          "image": "https://picsum.photos/seed/news33/400/250"
+        },
+        {
+          "title": "Elements Green acquires 300 MW Scottish battery storage project - Energy Voice",
+          "summary": "The company said the milestone will grant access to provincial financial incentives for commercial a",
+          "content": "The company said the milestone will grant access to provincial financial incentives for commercial and industrial projects across Québec.\n\nSunamp’s thermal energy storage technology uses phase change materials (PCM) to enable buildings and industrial sites to shift electrical load, reduce peak consumption, and optimise heat pump operation.\n\n© Supplied by Sunamp\n\nScottish firm Sunamp has developed the Central Bank Mini, a compact, high efficiency thermal energy store engineered to capture, store and release heat across a wide range of industrial temperatures. Image: Sunamp\n\n \n\nInclusion in the Quebec programme allows engineering firms, installers and developers to integrate Sunamp heat batteries into eligible projects with the backing of provincial incentives. [...] Mathew Perry is a Glasgow-based reporter for Energy Voice. He covers the UK’s energy transition, with a focus on Scotland and the North Sea.   \n  Got a story for Mathew? Get in touch here.\n\nTags\n\n battery storage\n Charging Forward\n energy storage\n Invinity Energy Systems\n Sunamp\n\n ## Energy Transition\n\n  ### EVOL X DNV: What will it take to meet UK net zero goals?\n ## Energy Transition\n\n  ### Miliband tinkers with volatility, misses price fix\n ## Energy Transition\n\n  ### Does the data centre gold rush spoil Britain's grid plans?\n ## Storage\n\n  ### Hydrogen, battery and thermal ‘will all play a role in the energy storage mix’ [...] And in international energy storage news,Norway’s Morrow Batteries has filed for bankruptcy after failing to secure a new industrial investor.\n\n## This week’s UK energy storage headlines:\n\n Elements Green acquires 300 MW Newarthill BESS\n Invinity completes Europe’s largest vanadium flow battery at Copwood\n Aurora ranks Great Britain battery storage market second in Europe\n Edinburgh’s Sunamp secures Quebec approvals for heat batteries\n International energy storage news: Norwegian battery cell manufacturer Morrow Batteries files for bankruptcy\n\n### Elements Green acquires 300 MW ",
+          "source": "Energyvoice",
+          "url": "https://www.energyvoice.com/renewables-energy-transition/storage/597273/charging-forward-elements-green-acquires-300-mw-scottish-bess/",
+          "time": "今日",
+          "tag": "电池",
+          "image": "https://picsum.photos/seed/news34/400/250"
+        },
+        {
+          "title": "Introducing Ford Energy - CleanTechnica",
+          "summary": "By leveraging more than a century of manufacturing expertise, Ford Energy plans to deploy at least 2",
+          "content": "By leveraging more than a century of manufacturing expertise, Ford Energy plans to deploy at least 20 GWh annually, with first customer deliveries planned for late 2027.\n\n### What we deliver\n\nFord Energy’s operations span full battery cell manufacturing – including production of electrode coils – and assembly of modules and containers, plus sales and service support.\n\nOur flagship product – the Ford Energy DC block – is a standardized 20-foot containerized battery energy storage system designed around 512 Ah LFP prismatic cells. We offer two configurations: the FE-250 (two-hour system) and the FE-450 (a four-hour system). Both integrate advanced LFP prismatic battery technology, liquid-cooled thermal management and battery management system. [...] We designed the DC block for the metrics that matter most to customers: predictable lifetime performance, ease of service and thermal stability — designed for 20-year performance, from a 122-year-old company.\n\n### Where we assemble it\n\nSpeed and scale require infrastructure. We are repurposing existing U. S. battery manufacturing capacity in Glendale, Kentucky, to serve the rapidly growing BESS market.\n\nOur manufacturing and supply chain strategy is designed to support a changing regulatory environment for battery energy storage. It aligns with Investment Tax Credit requirements. It also meets material assistance and domestic content standards relevant to grid-scale storage.\n\n### Why now [...] Skip to content\n\n# Introducing Ford Energy\n\n41 minutes   Press Release     0 Comments\n\n Support CleanTechnica's work through a Substack subscription or on Stripe. \n\nToday we mark the formal introduction of Ford Energy.\n\nFor the better part of a year, we have operated quietly to build a foundation for this business. We haven’t just been planning; we have been executing — securing supply chains, readying our manufacturing sites and aligning our technology with the massive demand for domestic energy storage.\n\nFord Energy is a wholly own",
+          "source": "Cleantechnica",
+          "url": "https://cleantechnica.com/2026/05/11/introducing-ford-energy/",
+          "time": "今日",
+          "tag": "电池",
+          "image": "https://picsum.photos/seed/news35/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-13T13:46:41.964Z",
+  "generatedAt": "2026-05-13T13:57:24.625Z",
   "version": "3.0.0",
-  "source": "mock"
+  "source": "tavily-mimo"
 }
