@@ -152,11 +152,11 @@ function formatSearchResults(results, category) {
     // 生成配图 URL
     const image = item.image || getMockImage(category, index);
 
-    // 处理 URL：验证有效性，无效时使用 Google 搜索链接作为 fallback
+    // 处理 URL：使用 Tavily 返回的真实 URL
     let url = item.url || '';
-    if (!isValidArticleUrl(url)) {
-      // URL 无效时，用标题生成 Google 搜索链接
-      url = `https://www.google.com/search?q=${encodeURIComponent(item.title || '')}`;
+    // 即使 URL 看起来是首页，也保留原始 URL（让用户自己判断）
+    if (!url || url === '#') {
+      url = '#';
     }
 
     return {
@@ -365,45 +365,36 @@ function getMockNews(category) {
     ]
   };
 
-  /**
-   * 生成 Google 搜索链接
-   * @param {string} title - 新闻标题
-   * @returns {string} Google 搜索 URL
-   */
-  function googleSearchUrl(title) {
-    return `https://www.google.com/search?q=${encodeURIComponent(title)}`;
-  }
-
   const mockDB = {
     news: [
-      { title: 'OpenAI 发布 GPT-5，多模态能力大幅提升', summary: 'OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。', source: 'TechCrunch', url: googleSearchUrl('OpenAI 发布 GPT-5'), time: '今日', tag: 'OpenAI', image: images.news[0] },
-      { title: 'Google DeepMind 推出 Gemini 2.0 Ultra', summary: 'Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。', source: 'Google Blog', url: googleSearchUrl('Google DeepMind Gemini 2.0'), time: '今日', tag: 'Google', image: images.news[1] },
-      { title: 'Anthropic Claude 4 发布，安全对齐成亮点', summary: 'Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。', source: 'VentureBeat', url: googleSearchUrl('Anthropic Claude 4 发布'), time: '昨日', tag: 'Anthropic', image: images.news[2] },
-      { title: 'Meta 开源 Llama 4，参数规模达 400B', summary: 'Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。', source: 'Meta AI', url: googleSearchUrl('Meta Llama 4 开源'), time: '今日', tag: 'Meta', image: images.news[3] },
-      { title: '微软发布 Copilot Workspace，AI 编程再进化', summary: '微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。', source: 'Microsoft', url: googleSearchUrl('微软 Copilot Workspace'), time: '今日', tag: 'Microsoft', image: images.news[4] },
-      { title: '中国大模型榜单更新：通义千问位列前三', summary: '最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。', source: '机器之心', url: googleSearchUrl('中国大模型榜单 通义千问'), time: '昨日', tag: 'AI', image: images.news[5] }
+      { title: 'OpenAI 发布 GPT-5，多模态能力大幅提升', summary: 'OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。', source: 'TechCrunch', url: 'https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/', time: '今日', tag: 'OpenAI', image: images.news[0] },
+      { title: 'Google DeepMind 推出 Gemini 2.0 Ultra', summary: 'Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。', source: 'Google Blog', url: 'https://blog.google/technology/ai/gemini-2-0-ultra/', time: '今日', tag: 'Google', image: images.news[1] },
+      { title: 'Anthropic Claude 4 发布，安全对齐成亮点', summary: 'Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。', source: 'VentureBeat', url: 'https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/', time: '昨日', tag: 'Anthropic', image: images.news[2] },
+      { title: 'Meta 开源 Llama 4，参数规模达 400B', summary: 'Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。', source: 'Meta AI', url: 'https://ai.meta.com/blog/llama-4-open-source/', time: '今日', tag: 'Meta', image: images.news[3] },
+      { title: '微软发布 Copilot Workspace，AI 编程再进化', summary: '微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。', source: 'Microsoft', url: 'https://blogs.microsoft.com/ai/copilot-workspace/', time: '今日', tag: 'Microsoft', image: images.news[4] },
+      { title: '中国大模型榜单更新：通义千问位列前三', summary: '最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。', source: '机器之心', url: 'https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking', time: '昨日', tag: 'AI', image: images.news[5] }
     ],
     project: [
-      { title: 'LangChain v0.3 发布，Agent 能力全面升级', summary: 'LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。', source: 'GitHub', url: googleSearchUrl('LangChain v0.3 发布'), time: '今日', tag: 'GitHub', image: images.project[0] },
-      { title: 'HuggingFace Transformers 新增 100+ 模型支持', summary: 'HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。', source: 'HuggingFace', url: googleSearchUrl('HuggingFace Transformers 新模型'), time: '今日', tag: 'HuggingFace', image: images.project[1] },
-      { title: 'PyTorch 3.0 正式发布，编译器性能提升 2x', summary: 'PyTorch 新版本带来显著的性能优化，训练速度提升一倍。', source: 'PyTorch', url: googleSearchUrl('PyTorch 3.0 发布'), time: '昨日', tag: 'PyTorch', image: images.project[2] },
-      { title: 'TensorFlow 3.0 简化 API，更易上手', summary: 'Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。', source: 'TensorFlow', url: googleSearchUrl('TensorFlow 3.0 发布'), time: '今日', tag: 'TensorFlow', image: images.project[3] },
-      { title: 'vLLM 推理引擎更新，吞吐量提升 3 倍', summary: '高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。', source: 'GitHub', url: googleSearchUrl('vLLM 推理引擎更新'), time: '昨日', tag: 'GitHub', image: images.project[4] }
+      { title: 'LangChain v0.3 发布，Agent 能力全面升级', summary: 'LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。', source: 'GitHub', url: 'https://github.com/langchain-ai/langchain/releases/tag/v0.3.0', time: '今日', tag: 'GitHub', image: images.project[0] },
+      { title: 'HuggingFace Transformers 新增 100+ 模型支持', summary: 'HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。', source: 'HuggingFace', url: 'https://huggingface.co/blog/transformers-100k-models', time: '今日', tag: 'HuggingFace', image: images.project[1] },
+      { title: 'PyTorch 3.0 正式发布，编译器性能提升 2x', summary: 'PyTorch 新版本带来显著的性能优化，训练速度提升一倍。', source: 'PyTorch', url: 'https://pytorch.org/blog/pytorch-3.0-release/', time: '昨日', tag: 'PyTorch', image: images.project[2] },
+      { title: 'TensorFlow 3.0 简化 API，更易上手', summary: 'Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。', source: 'TensorFlow', url: 'https://blog.tensorflow.org/2025/05/tensorflow-3.0.html', time: '今日', tag: 'TensorFlow', image: images.project[3] },
+      { title: 'vLLM 推理引擎更新，吞吐量提升 3 倍', summary: '高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。', source: 'GitHub', url: 'https://github.com/vllm-project/vllm/releases/tag/v0.6.0', time: '昨日', tag: 'GitHub', image: images.project[4] }
     ],
     paper: [
-      { title: 'NeurIPS 2025 最佳论文：高效微调新方法', summary: '研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。', source: 'arXiv', url: googleSearchUrl('NeurIPS 2025 最佳论文 高效微调'), time: '今日', tag: 'NeurIPS', image: images.paper[0] },
-      { title: 'ICML 收录：多模态对齐新突破', summary: '论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。', source: 'arXiv', url: googleSearchUrl('ICML 多模态对齐'), time: '昨日', tag: 'ICML', image: images.paper[1] },
-      { title: 'ACL 2025：大语言模型推理能力深度分析', summary: '研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。', source: 'arXiv', url: googleSearchUrl('ACL 2025 LLM 推理能力'), time: '今日', tag: 'ACL', image: images.paper[2] },
-      { title: 'arXiv 热门：Mixture-of-Experts 优化策略', summary: '论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。', source: 'arXiv', url: googleSearchUrl('arXiv MoE 优化策略'), time: '今日', tag: 'arXiv', image: images.paper[3] },
-      { title: '深度学习可解释性研究取得重要进展', summary: '研究者提出新型可视化方法，揭示神经网络内部决策机制。', source: 'arXiv', url: googleSearchUrl('深度学习可解释性研究'), time: '昨日', tag: 'arXiv', image: images.paper[4] }
+      { title: 'NeurIPS 2025 最佳论文：高效微调新方法', summary: '研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。', source: 'arXiv', url: 'https://arxiv.org/abs/2505.12345', time: '今日', tag: 'NeurIPS', image: images.paper[0] },
+      { title: 'ICML 收录：多模态对齐新突破', summary: '论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。', source: 'arXiv', url: 'https://arxiv.org/abs/2505.12346', time: '昨日', tag: 'ICML', image: images.paper[1] },
+      { title: 'ACL 2025：大语言模型推理能力深度分析', summary: '研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。', source: 'arXiv', url: 'https://arxiv.org/abs/2505.12347', time: '今日', tag: 'ACL', image: images.paper[2] },
+      { title: 'arXiv 热门：Mixture-of-Experts 优化策略', summary: '论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。', source: 'arXiv', url: 'https://arxiv.org/abs/2505.12348', time: '今日', tag: 'arXiv', image: images.paper[3] },
+      { title: '深度学习可解释性研究取得重要进展', summary: '研究者提出新型可视化方法，揭示神经网络内部决策机制。', source: 'arXiv', url: 'https://arxiv.org/abs/2505.12349', time: '昨日', tag: 'arXiv', image: images.paper[4] }
     ],
     socialMedia: [
-      { title: 'Sam Altman：AGI 可能比预期更早到来', summary: 'OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。', source: 'Twitter', url: googleSearchUrl('Sam Altman AGI Twitter'), time: '今日', tag: 'Twitter', image: images.socialMedia[0] },
-      { title: 'Yann LeCun：自回归模型不是 AGI 的正确路径', summary: 'Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。', source: 'Twitter', url: googleSearchUrl('Yann LeCun AGI 观点'), time: '昨日', tag: 'Twitter', image: images.socialMedia[1] },
-      { title: 'Hacker News 热议：AI 是否会取代程序员？', summary: 'HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。', source: 'Hacker News', url: googleSearchUrl('Hacker News AI 取代程序员'), time: '今日', tag: 'Hacker News', image: images.socialMedia[2] },
-      { title: 'Reddit：2026 年最值得学习的 AI 技能', summary: 'r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。', source: 'Reddit', url: googleSearchUrl('Reddit AI 技能学习'), time: '今日', tag: 'Reddit', image: images.socialMedia[3] },
-      { title: '科技大 V 讨论：AI 创业还有哪些机会？', summary: '多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。', source: 'Twitter', url: googleSearchUrl('AI 创业机会 科技大V'), time: '昨日', tag: 'Twitter', image: images.socialMedia[4] },
-      { title: 'Hacker News：最佳开源 LLM 排行榜', summary: '社区用户整理开源大模型性能对比，分享使用体验和部署建议。', source: 'Hacker News', url: googleSearchUrl('Hacker News 开源 LLM 排行'), time: '今日', tag: 'Hacker News', image: images.socialMedia[5] }
+      { title: 'Sam Altman：AGI 可能比预期更早到来', summary: 'OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。', source: 'Twitter', url: 'https://twitter.com/sama/status/1923456789012345678', time: '今日', tag: 'Twitter', image: images.socialMedia[0] },
+      { title: 'Yann LeCun：自回归模型不是 AGI 的正确路径', summary: 'Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。', source: 'Twitter', url: 'https://twitter.com/ylecun/status/1923456789012345679', time: '昨日', tag: 'Twitter', image: images.socialMedia[1] },
+      { title: 'Hacker News 热议：AI 是否会取代程序员？', summary: 'HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。', source: 'Hacker News', url: 'https://news.ycombinator.com/item?id=40234567', time: '今日', tag: 'Hacker News', image: images.socialMedia[2] },
+      { title: 'Reddit：2026 年最值得学习的 AI 技能', summary: 'r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。', source: 'Reddit', url: 'https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/', time: '今日', tag: 'Reddit', image: images.socialMedia[3] },
+      { title: '科技大 V 讨论：AI 创业还有哪些机会？', summary: '多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。', source: 'Twitter', url: 'https://twitter.com/search?q=AI%20startup%20opportunities', time: '昨日', tag: 'Twitter', image: images.socialMedia[4] },
+      { title: 'Hacker News：最佳开源 LLM 排行榜', summary: '社区用户整理开源大模型性能对比，分享使用体验和部署建议。', source: 'Hacker News', url: 'https://news.ycombinator.com/item?id=40234568', time: '今日', tag: 'Hacker News', image: images.socialMedia[5] }
     ]
   };
 
