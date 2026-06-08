@@ -1,11 +1,11 @@
 {
   "date": {
-    "date": "2026-06-07",
-    "display": "2026年6月7日星期日",
-    "timestamp": "2026-06-07T04:02:04.064Z",
+    "date": "2026-06-08",
+    "display": "2026年6月8日星期一",
+    "timestamp": "2026-06-08T04:06:20.205Z",
     "year": "2026",
     "month": "06",
-    "day": "07"
+    "day": "08"
   },
   "categories": [
     {
@@ -14,64 +14,58 @@
       "icon": "📰",
       "items": [
         {
-          "title": "AI Is New And Not New 05/27/2026 - MediaPost",
-          "summary": "by J. Walker Smith\n  , Op-Ed Contributor,\n  May 27, 2026\n\nPerhaps the most\ninteresting thing about A",
-          "content": "by J. Walker Smith\n  , Op-Ed Contributor,\n  May 27, 2026\n\nPerhaps the most\ninteresting thing about AI is that it is new yet nothing new.\n\nAI is certainly new to marketing, and bringing all sorts of new challenges with it, although it may not be as big as\nheadlines would have us believe.\n\nLast year, the CMO Survey of the American Marketing Association, conducted in partnership with Duke and\nDeloitte, found a mere 17.2% of marketers reporting the use of AI to optimize or automate marketing.\n\nPerhaps the percentage this year will be a step-change higher, but the self-estimated\nthree-year projection by marketers last year was only 44.2%.\n\nNonetheless, AI is breaking out all over. It is a new force to be reckoned with. But in many ways, AI is nothing but the\nsame reckoning as before. [...] So, there is nothing new about this\nconcern when it comes to AI. Brands will have to manage consistency differently for AI, but the issue of consistency is an age-old challenge in marketing.\n\nIn these ways and others,\nAI is not new at all. Yet, there is one thing about AI that is very different and new. In years past, humans have been the audience for awareness, attention, recommendations, consideration, influence\nand consistency. That’s true for AI right now, but this is sure to change.\n\nThe way I’ve described it before is to say that marketers will have to learn how to\n“advertise to algorithms.” Which is to say that AI is going to transform shoppers into agents as consumers delegate shopping and buying. Hence, much of the marketplace ahead will be\nAI-to-AI. [...] Everything about marketing in the past has been designed for human audiences. Every theoretical concept, every practical application, everything has been about\npersuading humans.\n\nSo far, AI is just another tool for persuading humans, and thus the same challenges as ever. But when consumers hand off shopping and buying to AI agents, humans will be\ncompletely out of the loop.\n\nThis is not an issue that marketers have had to f",
-          "source": "Mediapost",
-          "url": "https://www.mediapost.com/publications/article/415336/ai-is-new-and-not-new.html?edition=142729",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai12/400/250"
-        },
-        {
-          "title": "The AI vibe shift is real: Why the backlash is growing - Mashable",
-          "summary": "This week alone, Senator Bernie Sanders came out in favor of the U.S. public owning a 50 percent sta",
-          "content": "This week alone, Senator Bernie Sanders came out in favor of the U.S. public owning a 50 percent stake in AI companies, former presidential candidate Andrew Yang proposed an AI tax\"), and President Trump finally signed an executive order on AI regulation that his AI czar, Silicon Valley titan David Sacks, has long opposed. Finally, on Friday, New York State legislators sent a one-year data center moratorium to the governor's desk.\n\nThe White House's AI executive order was even announced while Microsoft CEO Satya Nadella was making rosy pronouncements on AI at Build, adding to the surreal sense that we're watching a tale of two worlds — the anti-AI people versus an out-of-touch AI regime that says, essentially, let them eat tokens. [...] You May Also Like \n\n---\n\nInvestors, too, showed little sign of losing their AI optimism this week. Nvidia stock tumbled for a few days, but rallied after CEO Jensen Huang insisted AI agents will run everything, everywhere\") in the future (presumably once they've stopped deleting databases\")). Anthropic, OpenAI, and SpaceX continue to chase trillion-dollar IPOs, the latter based in large part on the untested concept of AI data centers in space.\n\nSEE ALSO:  Elon Musk found the cheat code for capitalism. The SpaceX IPO proves it.\n\nBut outside the AI bubble, a backlash is brewing, and not only among students booing pro-AI commencement speakers\"). [...] Both conferences also centered claims about frontier AI that are dubious to say the least. DeepMind CEO Demis Hassabis at Google I/O: \"Artificial General Intelligence is just a few years away... we are standing in the foothills of the Singularity.\")\" Microsoft AI CEO Mustafa Suleyman: \"scaling laws are holding... we are building towards what we call Humanist Superintelligence\").\"\n\n You May Also Like \n\n---",
-          "source": "Mashable",
-          "url": "https://mashable.com/tech/ai-backlash-vibe-shift",
+          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
+          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/",
           "time": "今日",
           "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/ai13/400/250"
+          "image": "https://picsum.photos/seed/news0/400/250"
         },
         {
-          "title": "Anthropic issues AI ‘self-improvement without human intervention' caution, calls for global slowdown in development | World News - Hindustan Times",
-          "summary": "“AI labs are a mix of things,” said Mollick, whose book about AI, “Co-Existence,” is set to be relea",
-          "content": "“AI labs are a mix of things,” said Mollick, whose book about AI, “Co-Existence,” is set to be released in the fall.\n\nThe AI industry has long been divided over how close current systems are to achieving milestones such as artificial general intelligence (AGI) - a level of intelligence comparable to humans - or reaching the stage of recursive self-improvement.\n\n Artificial Intelligence\n Anthropic\n\nGet the latest headlines from US news and global updates from Pakistan, Nepal, UK, Bangladesh, Russia, and get all the latest headlines in one place on Hindustan Times.\n\nHome/World News/Anthropic Issues AI ‘self-improvement Without Human Intervention' Caution, Calls For Global Slowdown In Development [...] # Anthropic issues AI ‘self-improvement without human intervention' caution, calls for global slowdown in development\n\n## Anthropic said the ability to slow global AI development would “likely be a good thing.”\n\nUpdated on: Jun 06, 2026 1:50 PM IST\n\nWritten by Priyanjali Narayan\n\nShare via\n\nCopy link\n\nAnthropic has urged the world's leading artificial intelligence companies to consider mechanisms to slow the development of increasingly powerful AI systems, warning that rapid advances could eventually enable models to improve themselves without human intervention and pose significant societal risks.\n\nAlso Read | Anthropic warns of ‘faster than society can manage risks’ in AI advances, calls for coordinated halt in development",
-          "source": "Hindustantimes",
-          "url": "https://www.hindustantimes.com/world-news/anthropic-issues-ai-self-improvement-without-human-intervention-caution-calls-for-global-slowdown-in-development-101780729261046.html",
+          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
+          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
+          "source": "Google Blog",
+          "url": "https://blog.google/technology/ai/gemini-2-0-ultra/",
           "time": "今日",
+          "tag": "Google",
+          "image": "https://picsum.photos/seed/news1/400/250"
+        },
+        {
+          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
+          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/",
+          "time": "昨日",
           "tag": "Anthropic",
-          "image": "https://picsum.photos/seed/ai14/400/250"
+          "image": "https://picsum.photos/seed/news2/400/250"
         },
         {
-          "title": "High-fee legal opinions roil South Korea’s major corporate lawsuits - CHOSUNBIZ - Chosunbiz",
-          "summary": "An attorney at a large law firm said, \"Not every university professor can be approached; the pool is",
-          "content": "An attorney at a large law firm said, \"Not every university professor can be approached; the pool is extremely limited,\" and added, \"Neither the expense nor the length is fixed for each case.\"\n\nThe practice of high-priced opinion letters has already been aired once. During Supreme Court Justice Kwon Young-jun's confirmation hearing in 2023, controversy erupted after it emerged that from 2018 to 2022, while serving as a professor at the Seoul National University School of Law, Kwon wrote 63 opinion letters for large law firms and others and received about 1.8 billion won. [...] Thus, the more a case requires understanding of industry practice or lies in an area without clear academic precedents, the more useful expert opinion letters become. From the court's standpoint, materials to consult are needed to organize complex issues.\n\n◇ Seeking judges' mentors and academic authorities: opinion letters also become a battle of connections\n\nThe issue lies in how the letters are prepared. Large law firms often look for scholars who can support their client's claims and ask them to write opinion letters. In legal circles, it is said that scholars in their 50s or older who have published many papers, or professors well known in the field, tend to be primary targets for outreach. [...] High-fee legal opinions roil South Korea’s major corporate lawsuits - CHOSUNBIZ\n\nEnglishSociety\n\n# High-fee legal opinions roil South Korea's major corporate lawsuits\n\nCalls grow for transparency on paid academic opinions influencing complex corporate trials\n\nBy \n\nLee Yoo-kyung\n\nPublished 2026.06.07. 06:01\n\nDebate is growing over \"high-priced legal opinion letters\" written by academics such as university professors in large lawsuits between corporations. Expert opinions are References submitted to help the court understand complex legal theories or foreign cases.",
-          "source": "Biz",
-          "url": "https://biz.chosun.com/en/en-society/2026/06/07/K42PPHCHDZC3BA7ZBVX6N6ITGU/",
+          "title": "Meta 开源 Llama 4，参数规模达 400B",
+          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
+          "source": "Meta AI",
+          "url": "https://ai.meta.com/blog/llama-4-open-source/",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news12/400/250"
+          "tag": "Meta",
+          "image": "https://picsum.photos/seed/news3/400/250"
         },
         {
-          "title": "From the Bookshelves: The Legal Career: Knowing the Business, Thriving in Practice by Katrina Lee (3rd edition 2026) - TaxProf Blog",
-          "summary": "“This business of law course book, a leading pioneering text adopted in law schools across the count",
-          "content": "“This business of law course book, a leading pioneering text adopted in law schools across the country, covers critical topics in the evolving legal profession. A fascinating, informative read for any law student or lawyer or person hoping to learn more about today’s legal landscape, the book features chapters on the structure and business of a law firm; the corporate law department; the emergence of law companies; ethics in the legal profession; legal technology; access to justice; employment in the legal profession; lawyer well-being; and legal education. Students will learn from detailed, insightful interviews of people working in law, including a co-founder of a law company; a chief operating officer of a legal technology company; a financial technology in-house lawyer; a national pro [...] Share on Facebook (Opens in new window)Facebook\n Share on LinkedIn (Opens in new window)LinkedIn\n Share on Mastodon (Opens in new window)Mastodon\n Share on Bluesky (Opens in new window)Bluesky\n Share on Mail (Opens in new window)Mail\n Share on Print (Opens in new window)Print\n\n## About the Author\n\nKevin R Johnson [...] # TaxProf Blog\n\n# From the Bookshelves: The Legal Career: Knowing the Business, Thriving in Practice by Katrina Lee (3rd edition 2026)\n\nKevin R Johnson\n\nLegal Education\n\nWhen I served as a dean, I was unaware of the earlier editions of this book as. The current one sure is informative.\n\nApplicants, law students, and many rankings focus on the ability of law graduates to land jobs. The law job market is constantly changing. The Legal Career: Knowing the Business, Thriving in Practice by Katrina Lee (West, 3rd edition 2026) fills us in on the latest. Here is the publisher’s pitch for the book:",
-          "source": "Taxprofblog",
-          "url": "https://taxprofblog.aals.org/2026/06/06/from-the-bookshelves-the-legal-career-knowing-the-business-thriving-in-practice-by-katrina-lee-3rd-edition-2026/",
+          "title": "微软发布 Copilot Workspace，AI 编程再进化",
+          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
+          "source": "Microsoft",
+          "url": "https://blogs.microsoft.com/ai/copilot-workspace/",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news13/400/250"
+          "tag": "Microsoft",
+          "image": "https://picsum.photos/seed/news4/400/250"
         },
         {
-          "title": "Kito Crosby Acquisition Boosts Industrial Manufacturer Performance - asatunews.co.id",
-          "summary": "9 minutes ago\n\nFinance & Insurance\n\n## SpaceX, Anthropic, and OpenAI Plan Massive IPOs Amid AI Boom\n",
-          "content": "9 minutes ago\n\nFinance & Insurance\n\n## SpaceX, Anthropic, and OpenAI Plan Massive IPOs Amid AI Boom\n\n13 minutes ago\n\nSport\n\n## KL Rahul Avoids Dismissal as Afghanistan Forgoes Review in Test Match\n\n14 minutes ago\n\nFinance & Insurance\n\n## Global Health Insurance Costs Rise as UnitedHealth Group Boosts Dividend\n\n14 minutes ago\n\nSport\n\n## Canada Ties Republic of Ireland in Final World Cup Warm-Up\n\n14 minutes ago\n\nSport\n\n## Milwaukee Brewers Defeat Colorado Rockies After Late Inning Rally\n\n15 minutes ago\n\nFinance & Insurance\n\n## Chinese Solar Firms Expand Battery Exports Amid Slowing Photovoltaic Sales\n\n16 minutes ago\n\nSport\n\n## Short-Handed Phoenix Mercury Defeat Portland Fire Behind DeWanna Bonner's Season-High 19 Points\n\n16 minutes ago\n\n### Other Latest [...] 16 minutes ago\n\n### Other Latest\n\n## Freddie Freeman Blasts Walk Off Home Run as Dodgers Beat Angels\n\n## Brewers Rally Late to Stun Rockies in 10 Innings at Coors Field\n\n## Chicago Sky Edge Connecticut Sun to Snap Five-Game Losing Streak\n\n## Wyatt Rouamba Breaks State Record at Track Championship\n\n## Poet Technologies Rebounds Despite Tech Stock Sell Off\n\n## New York Knicks Defeat San Antonio Spurs to Take Series Lead\n\n## FreightWaves Announces 2026 AI Excellence Supply Chain Award\n\n## Robert De Niro Debunks Bruce Springsteen Taxi Driver Myth\n\n## Dallas Wings Defeat Los Angeles Sparks for Fourth Straight Victory\n\n## SpaceX, Anthropic, and OpenAI Plan Massive IPOs Amid AI Boom\n\n## KL Rahul Avoids Dismissal as Afghanistan Forgoes Review in Test Match [...] ## Global Health Insurance Costs Rise as UnitedHealth Group Boosts Dividend\n\n### Most Viewed\n\nNews\n\n## Boutique Champagne Closes Abruptly Leaving Customers Without Dresses\n\n16 hours ago\n\nFinance & Insurance\n\n## Dow Jones Hits Record High While Nasdaq Slides on Tech Weakness\n\n8 hours ago",
-          "source": "Asatunews",
-          "url": "https://www.asatunews.co.id/en/kito-crosby-acquisition-boosts-performance",
-          "time": "今日",
-          "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/news14/400/250"
+          "title": "中国大模型榜单更新：通义千问位列前三",
+          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
+          "source": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking",
+          "time": "昨日",
+          "tag": "AI",
+          "image": "https://picsum.photos/seed/news5/400/250"
         }
       ]
     },
@@ -81,64 +75,49 @@
       "icon": "💻",
       "items": [
         {
-          "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs - The Hacker News",
-          "summary": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer\n\nMicrosoft Slams Pu",
-          "content": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer\n\nMicrosoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal\n\nThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More\n\nMalicious npm Package Stole Files From Claude AI User Directory via GitHub\n\nGlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure\n\nAI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites\n\nMicrosoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions\n\n⭐ Featured Resources\n\nYour Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report\n\nLearn How to Stop Attacks Before They Reach Your EDR – With PHASR [...] The highest-severity bugs were mostly internal finds: of roughly 90 high-severity bugs, only 10 came from outside researchers, and 19 of the 22 critical ones were Google's own. The AI connection is more about volume than authorship.\n\nGoogle hasn't tied the 429 to AI; the on-record signal is the bounty overhaul it made in April, prompted by a flood of AI-generated submissions and now asking for a concise reproducer over the long writeups AI churns out.\n\nGoogle's Big Sleep agent reported a run of FFmpeg bugs last year, now visible on the project's security page tagged BIGSLEEP, and Anthropic's Mythos model pulled a 16-year-old H.264 flaw and others out of FFmpeg for about $10,000, three of which shipped in FFmpeg 8.1, per its own writeup. [...] Only the FFmpeg bugs were found by AI. Chrome's record landed after Google overhauled its bounty program to cope with a flood of AI-generated reports. The mechanisms differ, but the pressure is the same: AI is putting more vulnerabilities in front of the people who have to deal with them, and faster than before.\n\nThe FFmpeg findings come from depthfirst, whose autonomous security agent scanned the project's roughly 1.5 million lines of C and produced 21 confirmed zero-days, each with a reproduc",
-          "source": "Thehackernews",
-          "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+          "title": "LangChain v0.3 发布，Agent 能力全面升级",
+          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
+          "source": "GitHub",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/v0.3.0",
           "time": "今日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/ai17/400/250"
+          "image": "https://picsum.photos/seed/project0/400/250"
         },
         {
-          "title": "Bitfarms Rebrands to Keel Infrastructure and Shifts Focus to AI Power - sekbernews.id",
-          "summary": "Editors Team\n\nBagas Nurcahyo, S.H., M.H   Author\n\n### What's Your Reaction?\n\n 0\n\n  Like\n 0\n\n  Dislik",
-          "content": "Editors Team\n\nBagas Nurcahyo, S.H., M.H   Author\n\n### What's Your Reaction?\n\n 0\n\n  Like\n 0\n\n  Dislike\n 0\n\n  Funny\n 0\n\n  Angry\n 0\n\n  Sad\n 0\n\n  Wow\n\n### Recommended\n\nSport\n\n## Nasser Hussain Criticizes Umpires Over Bizarre Rain Delay Lunch Decision\n\nJust Now\n\nSport\n\n## Boston Red Sox Weigh Trade Deadline Options Amid Postseason Push\n\n2 minutes ago\n\nFinance & Insurance\n\n## Standard Chartered Bullish Despite Bitcoin Crash Below $61,500\n\n2 minutes ago\n\nSport\n\n## French Open 2026 Prize Money and Trophies Detailed\n\n2 minutes ago\n\nSport\n\n## Kim Kardashian Supports Lewis Hamilton at Monaco Grand Prix Paddock\n\n3 minutes ago\n\nNews\n\n## Daimler Truck North America Names New Engineering Senior Vice President\n\n3 minutes ago\n\nFinance & Insurance [...] 3 minutes ago\n\nFinance & Insurance\n\n## TMC The Metals Company Secures Accelerated Pathway for Pacific Deep Sea Mining\n\n4 minutes ago\n\nSport\n\n## Detroit Lions All Pro Projections Spark Debate After Myles Garrett Trade\n\n5 minutes ago\n\nTech & Software\n\n## Broadcom Stock Slumps Despite Massive $10.8 Billion AI Chip Revenue\n\n5 minutes ago [...] ## Detroit Lions All Pro Projections Spark Debate After Myles Garrett Trade\n\n## Broadcom Stock Slumps Despite Massive $10.8 Billion AI Chip Revenue\n\n## Russell Wilson Retires From NFL to Join CBS Sports Broadcasting\n\n### Most Viewed\n\nSport\n\n## Nasser Hussain Criticizes Umpires Over Bizarre Rain Delay Lunch Decision\n\nJust Now\n\nSport\n\n## Boston Red Sox Weigh Trade Deadline Options Amid Postseason Push\n\n2 minutes ago\n\nFinance & Insurance\n\n## Standard Chartered Bullish Despite Bitcoin Crash Below $61,500\n\n2 minutes ago\n\nSport\n\n## French Open 2026 Prize Money and Trophies Detailed\n\n2 minutes ago\n\nSport\n\n## Kim Kardashian Supports Lewis Hamilton at Monaco Grand Prix Paddock\n\n3 minutes ago\n\nNews\n\n## Daimler Truck North America Names New Engineering Senior Vice President\n\n3 minutes ago",
-          "source": "Sekbernews",
-          "url": "https://www.sekbernews.id/en/bitfarms-rebrands-keel-infrastructure-ai-power",
+          "title": "HuggingFace Transformers 新增 100+ 模型支持",
+          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
+          "source": "HuggingFace",
+          "url": "https://huggingface.co/blog/transformers-100k-models",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai18/400/250"
+          "tag": "HuggingFace",
+          "image": "https://picsum.photos/seed/project1/400/250"
         },
         {
-          "title": "Shenzhen Tech Trailblazer RobotAnno Revolutionizes 24/7 Service with Multi-Scenario AI Drink Kiosks - The National Law Review",
-          "summary": "Legal Disclaimer:\n\nEIN Presswire provides this news content \"as is\" without warranty of any kind. We",
-          "content": "Legal Disclaimer:\n\nEIN Presswire provides this news content \"as is\" without warranty of any kind. We do not accept any responsibility or liability  \n for the accuracy, content, images, videos, licenses, completeness, legality, or reliability of the information contained in this  \n article. If you have any complaints or copyright issues related to this article, kindly contact the author above.\n\n Print\n\nWe collaborate with the world's leading lawyers to deliver news tailored for you. Sign Up for any (or all) of our 25+ Newsletters.\n\nFB twt mast link home\n\nCookies & Privacy [...] Founded in April 2017, RobotAnno (Shenzhen) Co., Ltd. is a National High-Tech Enterprise and a \"Specialized, Fined, Peculiar, and Innovative\" (SRDI) enterprise. With a focus on desktop-level robotic arms and AI-driven smart retail solutions, the company has secured over 70 national patents. Their mission is clear: to utilize advanced robotics to provide integrated, intelligent commercial solutions that drive the comprehensive digital transformation of enterprises. [...] Flower Foods Inc. v. Brock: A Missed Opportunity to for Guidance Regarding the FAA’s Transportation Worker Exemption\n\nCMS Proposes Caps on Medicaid State Directed Payments and Fee for Service Supplemental Payments, Further Cutting Federal Funding of Medicaid\n\nPatentee That Retains Exclusionary Rights has Constitutional Standing Notwithstanding Broad License Grant\n\n### Shenzhen Tech Trailblazer RobotAnno Revolutionizes 24/7 Service with Multi-Scenario AI Drink Kiosks\n\n### Shenzhen Tech Trailblazer RobotAnno Revolutionizes 24/7 Service with Multi-Scenario AI Drink Kiosks\n\nPress Release Date 06-06-2026",
-          "source": "Natlawreview",
-          "url": "https://natlawreview.com/press-releases/shenzhen-tech-trailblazer-robotanno-revolutionizes-247-service-multi",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai19/400/250"
+          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
+          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
+          "source": "PyTorch",
+          "url": "https://pytorch.org/blog/pytorch-3.0-release/",
+          "time": "昨日",
+          "tag": "PyTorch",
+          "image": "https://picsum.photos/seed/project2/400/250"
         },
         {
-          "title": "When AI talks to itself: Internal dialogue shapes the future of intelligent systems - Digital Journal",
-          "summary": "In the research, Dr. Jeffrey Queißer and colleagues describe a framework in which AI models are trai",
-          "content": "In the research, Dr. Jeffrey Queißer and colleagues describe a framework in which AI models are trained to generate internal signals. These are described as “mumbling”, a process that guides their reasoning process across multiple steps. The signals are not exposed externally; rather, they act as a scaffolding mechanism, allowing the model to organise information, maintain context, and revisit intermediate states.\n\nThis shifts the emphasis from raw computation toward structured cognition within the model. In enterprise terms, this resembles the difference between a task completed in a single pass and one supported by internal checks, notes, and staged decision-making.\n\n## Working Memory as a Core Architecture Layer [...] ## From Output Optimisation to Internal Dynamics\n\nTraditional machine learning architectures emphasise external inputs (or, more crudely, data in, predictions out). Performance improvements have largely depended on increasing dataset size, model complexity, and computational scale. The OIST research introduces a complementary perspective. This is, how a system processes its own intermediate steps matters just as much as the final output. [...] ## Working Memory as a Core Architecture Layer\n\nThe second component of the research is working memory. In humans, working memory supports tasks such as following instructions, manipulating information, and maintaining focus across multiple steps. AI systems have historically struggled with these capabilities, particularly when tasks extend beyond simple pattern recognition.\n\nThe OIST team implemented a system with multiple working memory “slots”—temporary storage units that allow the model to hold and manipulate several pieces of information simultaneously. This architecture proved particularly effective for sequence reversal tasks, pattern reconstruction, and for solving multi-step reasoning problems.",
-          "source": "Digitaljournal",
-          "url": "https://www.digitaljournal.com/article/when-ai-talks-to-itself-internal-dialogue-shapes-the-future-of-intelligent-systems/",
+          "title": "TensorFlow 3.0 简化 API，更易上手",
+          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
+          "source": "TensorFlow",
+          "url": "https://blog.tensorflow.org/2025/05/tensorflow-3.0.html",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news12/400/250"
+          "tag": "TensorFlow",
+          "image": "https://picsum.photos/seed/project3/400/250"
         },
         {
-          "title": "Predictive surrogates could cut quantum computing measurement overhead by more than 99.97% - Phys.org",
-          "summary": "Huang and his colleagues wanted to address some of the well-documented limitations of quantum comput",
-          "content": "Huang and his colleagues wanted to address some of the well-documented limitations of quantum computers. To do this, they tried to develop classical machine learning models that would learn the typical behavior of a specific quantum processor, so well that it could accurately predict its outcomes.\n\n\"We developed a new framework called predictive surrogates,\" explained Huang. \"A key feature of this framework is that it comes with rigorous theoretical guarantees. Once trained on a relatively small amount of data collected from a quantum processor, predictive surrogates can predict the outcomes of many future computations entirely on the classical side. [...] \"A less visible but equally important issue is that quantum processors themselves do not run especially fast,\" said Huang. \"In superconducting systems, for example, a full quantum circuit is often repeated only at kilohertz rates. When a task requires millions of repetitions, this quickly turns into a serious practical bottleneck.\"\n\nImage 10: New models could improve the efficiency of quantum computing\n\n Conceptual illustration of the predictive surrogate framework. Predictive surrogates learn from limited interactions with a quantum processor and can subsequently predict the outcomes of many new quantum computations using only classical inference. Credit: Liao et al., _Nature Communications_ 17, 4731 (2026). \n\n## New classical learning models that reproduce quantum processor behavior [...] \"Second, we want to extend the framework beyond standard qubit-based quantum computing to other important platforms, such as continuous-variable systems and fermionic systems. Third, we want to make these surrogates more powerful and more broadly useful, so they can support a wider range of practical, utility-scale quantum tasks while still retaining strong theoretical guarantees.\"\n\nFrom an experimental standpoint, the researchers would like to explore the possibility of using similar computational techniques for realizing faul",
-          "source": "Phys",
-          "url": "https://phys.org/news/2026-06-surrogates-quantum-overhead.html",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news13/400/250"
-        },
-        {
-          "title": "Researchers detect hidden self-harm histories with ML - Let's Data Science",
-          "summary": "The University of New Mexico School of Medicine led a study analyzing electronic health records for ",
-          "content": "The University of New Mexico School of Medicine led a study analyzing electronic health records for more than 1.3 million patients served by the Veterans Health Administration, according to a UNM press release. The researchers reported that diagnosis codes captured 1.85% of patients with documented self-harm history, while their machine learning method estimated documented self-harm in 7.9% of patients, over four times higher, per the study published in the Journal of Medical Internet Research (reported by News-Medical and UNM). The team combined a novel machine learning approach with expert chart review and statistical calibration, the UNM release states. The study also found that among veterans with a diagnosis code for self-harm, only 22.6% had self-harm listed on the VHA problem list.",
-          "source": "Letsdatascience",
-          "url": "https://letsdatascience.com/news/researchers-detect-hidden-self-harm-histories-with-ml-04eced15",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news14/400/250"
+          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
+          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
+          "source": "GitHub",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.0",
+          "time": "昨日",
+          "tag": "GitHub",
+          "image": "https://picsum.photos/seed/project4/400/250"
         }
       ]
     },
@@ -148,54 +127,49 @@
       "icon": "📄",
       "items": [
         {
-          "title": "Anthropic Admitted Claude Is Close To Self-Improvement — Here’s What That Means - Dallas Express",
-          "summary": "Tiffany Chartier - Senior Production Editor  | Jun 6, 2026\n\nShare On\n\nAnthropic Admitted Claude Is C",
-          "content": "Tiffany Chartier - Senior Production Editor  | Jun 6, 2026\n\nShare On\n\nAnthropic Admitted Claude Is Close To Self-Improvement | Image by Canva\n\nAnthropic, the artificial intelligence company behind the Claude family of models, has urged top AI labs worldwide to consider a coordinated slowdown or temporary pause in developing the most powerful systems.\n\nThe company cited advancing capabilities that could soon allow AI to improve itself with minimal human oversight.\n\nIn a detailed blog post published on June 4, 2026, Anthropic researchers Marina Favaro and Jack Clark wrote: “We believe it would be good for the world to have the option to slow or temporarily pause frontier AI development to enable societal structures and alignment research to keep up with the advance of the technology.” [...] June 6, 2026\n\nNewsletter\n\n© 2026 Dallas Express. All rights reserved.\n\n Terms of Service\n Code of Ethics\n Privacy Policy\n Advertising with Dallas Express\n\n×\n\n## Fight for The Truth\n\n### The Dallas Express reports what Legacy Media won’t.\n\nKeep us going strong with just $5.\n\nGive now [...] The company warned that unilateral action by a single lab or nation would likely fail, as competitors would continue to race ahead.\n\n### Anthropic Details Claude’s Accelerating Autonomy\n\nAnthropic’s report speaks to internal experiments demonstrating Claude’s growing independence in research and coding tasks. In April 2026, Claude-powered agents completed an open-ended AI safety research project—human researchers selected the topic and scoring rubric, but the AI proposed hypotheses, designed experiments, ran tests, iterated with parallel agents, and delivered results. Two human researchers recovered about 23% of the performance gap over a week; the Claude agents recovered 97%.",
-          "source": "Dallasexpress",
-          "url": "https://dallasexpress.com/business-markets/anthropic-admitted-claude-is-close-to-self-improvement-heres-what-that-means/",
+          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
+          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12345",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai14/400/250"
+          "tag": "NeurIPS",
+          "image": "https://picsum.photos/seed/paper0/400/250"
         },
         {
-          "title": "When AI talks to itself: Internal dialogue shapes the future of intelligent systems - Digital Journal",
-          "summary": "## From Output Optimisation to Internal Dynamics\n\nTraditional machine learning architectures emphasi",
-          "content": "## From Output Optimisation to Internal Dynamics\n\nTraditional machine learning architectures emphasise external inputs (or, more crudely, data in, predictions out). Performance improvements have largely depended on increasing dataset size, model complexity, and computational scale. The OIST research introduces a complementary perspective. This is, how a system processes its own intermediate steps matters just as much as the final output. [...] ## Generalisation and Task Switching\n\nA central challenge in AI deployment is generalisation—the ability to apply learned knowledge to new, unfamiliar scenarios. Many systems perform well within narrowly defined tasks but degrade when conditions change.\n\nThe OIST study targets this limitation through what the researchers describe as content-agnostic processing. Rather than encoding knowledge tied to specific examples, the system learns general rules that can be applied across contexts. [...] Skip to content\n\n Facebook\n Instagram\n X\n LinkedIn\n\nHome » News » World\n\n# When AI talks to itself: Internal dialogue shapes the future of intelligent systems\n\nDr. Tim Sandle\n\nArtificial intelligence has long been evaluated by the quality of its outputs, such as how accurately it classifies, predicts, or generates. A new line of research shifts attention inward, asking what happens when AI systems are designed not just to process information, but to interact with their own internal states.",
-          "source": "Digitaljournal",
-          "url": "https://www.digitaljournal.com/article/when-ai-talks-to-itself-internal-dialogue-shapes-the-future-of-intelligent-systems/",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai16/400/250"
+          "title": "ICML 收录：多模态对齐新突破",
+          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12346",
+          "time": "昨日",
+          "tag": "ICML",
+          "image": "https://picsum.photos/seed/paper1/400/250"
         },
         {
-          "title": "Predictive surrogates could cut quantum computing measurement overhead by more than 99.97% - Phys.org",
-          "summary": "\"We view this work as an early step toward a broader ecosystem of AI for quantum science, and we pla",
-          "content": "\"We view this work as an early step toward a broader ecosystem of AI for quantum science, and we plan to continue advancing this direction from both theoretical and experimental perspectives.\"\n\nHuang and his colleagues plan to continue improving and assessing their algorithms. In addition, some team members will be conducting theoretical studies aimed at better understanding how predictive surrogates work.\n\n\"First, we want to understand predictive surrogates more deeply from the perspective of learning theory, including why they can reach beyond what classical simulation can do easily, and how their performance connects to ideas from quantum resource theory,\" added Yuxuan Du, co-author of the paper. [...] Importantly, the performance of predictive surrogates is insensitive to the quantum system size, underlying their potentials to handle large-scale quantum processors with thousands of qubits.\n\nDiscover the latest in science, tech, and space with over 100,000 subscribers who rely on Phys.org for daily insights. Sign up for our free newsletter and get updates on breakthroughs, innovations, and research that matter—daily or weekly.\n\nSubscribe\n\n## Initial assessments of predictive surrogates",
-          "source": "Phys",
-          "url": "https://phys.org/news/2026-06-surrogates-quantum-overhead.html",
+          "title": "ACL 2025：大语言模型推理能力深度分析",
+          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12347",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news10/400/250"
+          "tag": "ACL",
+          "image": "https://picsum.photos/seed/paper2/400/250"
         },
         {
-          "title": "Revenge of the AI bubble - Axios",
-          "summary": "Skip to main content\n\nAxios\n\n8 mins ago - Technology\n\n# Revenge of the AI bubble\n\n Zachary Basu\n\nAdd",
-          "content": "Skip to main content\n\nAxios\n\n8 mins ago - Technology\n\n# Revenge of the AI bubble\n\n Zachary Basu\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google.\n\nAdd Axios on Google\n\nThe AI bubble debate has lurched through at least three frenzied phases in the span of three years:\n\n1. Suspicion: Historic sums of capital poured into AI before anyone proved it could reliably automate work. A violent market correction felt inevitable.\n2. Mania: Claude Code and autonomous agents made the early skepticism look outdated, fueling a corporate scramble to embed AI everywhere and maximize usage.\n3. Reckoning: Companies discovered that AI can be extraordinary when aimed precisely — and ruinously expensive when treated as a universal productivity machine. [...] Why it matters: The first phase doubted the technology. The second phase worshipped it. The third phase — currently gaining steam across Corporate America — questions whether AI's immense power is worth the price.\n\nZoom in: The case against AI used to come from outsiders — Luddites, \"doomers,\" short sellers betting on a crash. Its newest skeptics are emerging from inside the boom. [...] The intrigue: Even OpenAICEO Sam Altman has acknowledged the new concerns, calling the question of whether AI spending will show up in revenue \"the most fair criticism\" of the moment.\n\nReality check: The companies sounding the alarm are the early adopters. Most of the economy is still at the starting line, while the pioneers are the ones absorbing the cost shocks, wasted tokens and employee backlash.\n\n AI is already creating real value for chipmakers, model labs and some power users. The harder question is whether that value spreads across the companies paying to deploy it.\n\nBy the numbers: Wall Street got a fresh reminder Friday of how much AI optimism is baked into markets.",
-          "source": "Axios",
-          "url": "https://www.axios.com/2026/06/06/ai-bubble-economy-growth",
+          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
+          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12348",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news11/400/250"
+          "tag": "arXiv",
+          "image": "https://picsum.photos/seed/paper3/400/250"
         },
         {
-          "title": "Alex Karp compares tokenmaxxing to a porn addiction: People are just 'like sitting there all day' - Business Insider",
-          "summary": "\"More tokens means more slop,\" Sankar said. \"And the more commodity cognition you consume, the more ",
-          "content": "\"More tokens means more slop,\" Sankar said. \"And the more commodity cognition you consume, the more you need a system that can prevent the economic harm, so you can harness the economic value.\"\n\nTokens are the building blocks of large language models, which break down words into numerical units. A single token is roughly 3/4ths of a word. AI companies and AI model providers often charge based on the number of tokens consumed and the model that was used.\n\nIn the last few weeks, parts of Silicon Valley and the tech community have swung hard against \"tokenmaxxing,\" the culture that championed almost unfettered AI usage to match the rise and capability of AI agents.\n\n### Explore BI Games\n\nTake a smarter break in your day - and see how far you get.\n\nPlay now [...] \"'I want to understand the specialized way I drill for oil and gas that's both legal, ethical, and reduces the cost of production. I want to change the supply chain of my industry, whether that's military or whether that's building boxes or whether that's cars.' These things require actual, precise ongoing processes,\" Karp said. \"They are enhanced by large language models. They are not replaced by large language models.\"\n\n## Read next\n\n### Business Insider tells the innovative stories you want to know\n\n### Business Insider tells the innovative stories you want to know\n\n### Business Insider tells the innovative stories you want to know\n\n### Business Insider tells the innovative stories you want to know\n\nBrent D. Griffiths",
-          "source": "Businessinsider",
-          "url": "https://www.businessinsider.com/alex-karp-compares-tokenmaxxing-to-porn-addiction-2026-6",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news9/400/250"
+          "title": "深度学习可解释性研究取得重要进展",
+          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12349",
+          "time": "昨日",
+          "tag": "arXiv",
+          "image": "https://picsum.photos/seed/paper4/400/250"
         }
       ]
     },
@@ -205,69 +179,63 @@
       "icon": "💬",
       "items": [
         {
-          "title": "The AI vibe shift is real: Why the backlash is growing - Mashable",
-          "summary": "Read Full Bio\n\n on\n\nShare on Facebook\")   Share on Twitter\")   Share on Flipboard\")\n\nA scene from a ",
-          "content": "Read Full Bio\n\n on\n\nShare on Facebook\")   Share on Twitter\")   Share on Flipboard\")\n\nA scene from a data center protest in Tucson, Arizona. Credit: Mamta Popat/Arizona Daily Star via Getty Images\n\nYou've heard of AI vibe coding, one dictionary's phrase of the year for 2025. As of this week, 2026 is shaping up to be the year of the AI vibe shift.\n\nYou wouldn't know the shift existed from the tech world's top pronouncements of late; it is, after all, always sunny in Silicon Valley. Microsoft's Build conference, like Google I/O in May, featured tons of techies talking about tokens, the metric by which AI prompts and answers are measured (a token, weirdly, is about three-quarters of a word on average). [...] In particular, OpenAI has long been losing more than a billion dollars a month — the cost of serving ChatGPT for free to hundreds of millions of people.\n\n> This Tweet is currently unavailable. It might be loading or has been removed. (opens in a new window)\")\n\nFinancial bubbles built around technologies invariably end with an Emperor's New Clothes moment. Eventually, enough people are pointing and laughing that courtiers can't carry off the hype any longer. [...] The biggest stories of the day delivered to your inbox.\n\nThese newsletters may contain advertising, deals, or affiliate links. By clicking Subscribe, you confirm you are 16+ and agree to our Terms of Use\") and Privacy Policy\").\n\nThanks for signing up. See you at your inbox!",
-          "source": "Mashable",
-          "url": "https://mashable.com/tech/ai-backlash-vibe-shift",
+          "title": "Sam Altman：AGI 可能比预期更早到来",
+          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
+          "source": "Twitter",
+          "url": "https://twitter.com/sama/status/1923456789012345678",
           "time": "今日",
           "tag": "Twitter",
-          "image": "https://picsum.photos/seed/ai15/400/250"
+          "image": "https://picsum.photos/seed/social0/400/250"
         },
         {
-          "title": "AI’s elite celebrated in Washington as the public sours on data centers and chatbots - NBC News",
-          "summary": "CNN’s Pamela Brown, who presided over some of the affair, asked the crowd to “just quiet down so I c",
-          "content": "CNN’s Pamela Brown, who presided over some of the affair, asked the crowd to “just quiet down so I can tell you this secret,” which turned out to be new polling from the Washington AI Network and research organization Morning Consult about Americans’ views on AI. The poll found that AI lost every head-to-head matchup with other American institutions like Congress on matters of trust. The recent online poll of around 1,500 American adults also found that 70% of Americans are concerned about AI’s impact on the upcoming elections, with specific worries about deepfakes and AI-fueled personal campaign ad targeting. [...] “I understand people’s concerns about it, but it’s going to be overwhelmingly positive for our society,” said Wright. “It’s a beautiful event.”\n\nHeld in the Waldorf Astoria — formerly the Trump International Hotel — steps away from the White House, the Washington AI Honors black-tie gala brought together an eclectic mix of billionaires, elected politicians, industry insiders, lobbyists, administration officials and a handful of scientists to schmooze, snack and exchange information about AI deals and development. [...] Attendees seemed keen to squeeze as much networking as possible out of the gala, often chatting with their associates and neighbors during speakers’ remarks. The chatter caused the emcees to not-so-playfully shush the crowd several times.\n\nThe Vatican’s incoming ambassador to Washington, Gabriele Caccia, fought to be heard during his opening speech. “At every stage, the development and application of artificial intelligence must be guided by the dignity of the human person, by the common good of the human family,” Caccia said over the din of clattering silverware and business-card swapping.",
-          "source": "Nbcnews",
-          "url": "https://www.nbcnews.com/tech/tech-news/ai-washington-data-center-chatbots-kevin-oleary-oz-rcna348625",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai16/400/250"
+          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
+          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
+          "source": "Twitter",
+          "url": "https://twitter.com/ylecun/status/1923456789012345679",
+          "time": "昨日",
+          "tag": "Twitter",
+          "image": "https://picsum.photos/seed/social1/400/250"
         },
         {
-          "title": "I’m A Psychologist. What Teens Told Me About How They Are Using AI Chatbots Should Terrify You. - AOL.com",
-          "summary": "News: OpenAI To Roll Out Parental Controls For ChatGPT\n\nNow I knew I was cooked (did I use that righ",
-          "content": "News: OpenAI To Roll Out Parental Controls For ChatGPT\n\nNow I knew I was cooked (did I use that right?) years ago when I was still using Google for answers the teens had moved on to TikTok for, but I didn't fully appreciate ― until these conversations ― just how all-consuming the use of Chat was in their everyday lives.\n\nSo I was also surprised to find out they are overwhelmingly using Chat as not just a friend, but a mental health provider.",
-          "source": "Aol",
-          "url": "https://www.aol.com/articles/m-psychologist-teens-told-using-115617000.html",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai17/400/250"
-        },
-        {
-          "title": "Revenge of the AI bubble - Axios",
-          "summary": "Why it matters: The first phase doubted the technology. The second phase worshipped it. The third ph",
-          "content": "Why it matters: The first phase doubted the technology. The second phase worshipped it. The third phase — currently gaining steam across Corporate America — questions whether AI's immense power is worth the price.\n\nZoom in: The case against AI used to come from outsiders — Luddites, \"doomers,\" short sellers betting on a crash. Its newest skeptics are emerging from inside the boom. [...] Bain surveyed 951 large companies and found AI savings falling well below projections, even as most firms planned to spend more. \"The technology worked. The value didn't arrive,\" the report concluded. [...] Skip to main content\n\nAxios\n\n8 mins ago - Technology\n\n# Revenge of the AI bubble\n\n Zachary Basu\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google.\n\nAdd Axios on Google\n\nThe AI bubble debate has lurched through at least three frenzied phases in the span of three years:\n\n1. Suspicion: Historic sums of capital poured into AI before anyone proved it could reliably automate work. A violent market correction felt inevitable.\n2. Mania: Claude Code and autonomous agents made the early skepticism look outdated, fueling a corporate scramble to embed AI everywhere and maximize usage.\n3. Reckoning: Companies discovered that AI can be extraordinary when aimed precisely — and ruinously expensive when treated as a universal productivity machine.",
-          "source": "Axios",
-          "url": "https://www.axios.com/2026/06/06/ai-bubble-economy-growth",
+          "title": "Hacker News 热议：AI 是否会取代程序员？",
+          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=40234567",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/ai10/400/250"
+          "image": "https://picsum.photos/seed/social2/400/250"
         },
         {
-          "title": "When AI talks to itself: Internal dialogue shapes the future of intelligent systems - Digital Journal",
-          "summary": "A study from the Okinawa Institute of Science and Technology (OIST), published in Neural Computation",
-          "content": "A study from the Okinawa Institute of Science and Technology (OIST), published in Neural Computation, explores this idea through the introduction of “inner speech” mechanisms—structured, self-directed signals that resemble a form of computational self-talk. When combined with working memory, these internal exchanges enable AI systems to perform more effectively across a range of tasks, particularly those requiring adaptation, sequencing, and multitasking.\n\nFor enterprise technology leaders, the implications extend beyond academic novelty. This work points toward a different model of AI deployment: one where systems are not just trained on large datasets, but are engineered to reason, rehearse, and adapt internally, reducing reliance on data volume while improving operational flexibility. [...] ## Design Implications for Enterprise AI Systems\n\nThe study has direct implications for how organisations design AI systems. The prevailing approach—large models trained on extensive datasets—may be complemented by architectures that focus on internal processing dynamics. For technology leaders, this raises several design considerations, including placing a focus on cognitive architecture. This refers to updating system design so it focuses on how models organise and process information internally, rather than solely on scale or parameter count. A second area with embedding reasoning processes; this is where AI systems can be structured to simulate step-by-step reasoning, improving transparency and traceability in decision-making. [...] In this emerging model, the question is no longer just what AI produces, but how it arrives there—and how those internal processes can be shaped to meet the demands of real-world applications.\n\nWhat does this really mean?\n\nSign up for our weekly newsletter where we look at the technology stories reshaping how Canadian businesses operate and compete, and what they mean for the people running them.\n\nWe land in your inbox on Tuesdays. You can unsu",
-          "source": "Digitaljournal",
-          "url": "https://www.digitaljournal.com/article/when-ai-talks-to-itself-internal-dialogue-shapes-the-future-of-intelligent-systems/",
+          "title": "Reddit：2026 年最值得学习的 AI 技能",
+          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/",
+          "time": "今日",
+          "tag": "Reddit",
+          "image": "https://picsum.photos/seed/social3/400/250"
+        },
+        {
+          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
+          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
+          "source": "Twitter",
+          "url": "https://twitter.com/search?q=AI%20startup%20opportunities",
+          "time": "昨日",
+          "tag": "Twitter",
+          "image": "https://picsum.photos/seed/social4/400/250"
+        },
+        {
+          "title": "Hacker News：最佳开源 LLM 排行榜",
+          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=40234568",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/ai11/400/250"
-        },
-        {
-          "title": "Geode Capital Management LLC Has $120.52 Million Position in Cipher Mining Inc. $CIFR - MarketBeat",
-          "summary": "Skip to main content\n\nAI Server Earnings: Wall Street Sees One Clear Standout\n\nTrump Takes Emergency",
-          "content": "Skip to main content\n\nAI Server Earnings: Wall Street Sees One Clear Standout\n\nTrump Takes Emergency Action - Plus Elon Musk's New Venture (Ad)\n\nBuy the Dip? Broadcom's AI Moat Is Wider Than Ever\n\nNVIDIA Sends a Message With RTX Spark—This Is What It Says\n\nTrump Admin to Pump $1 Billion into this “Off-the-Radar” AI Stock (Ad)\n\nThe Market Has Ollie’s Bargain Outlet Completely Wrong\n\nNavitas: NVIDIA’s AI Power Broker?\n\nTrump’s secret China deal (Ad)\n\nNVIDIA's New Power Play: Why Fluence Is Surging\n\nBroadcom's Whiplash: Shares Tank After Pre-Earnings Surge\n\n→ Read now. Do not delete. You’ve been warned.  (From Porter & Company) (Ad)",
-          "source": "Marketbeat",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-geode-capital-management-llc-has-12052-million-position-in-cipher-mining-inc-cifr-2026-06-06/",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai12/400/250"
+          "image": "https://picsum.photos/seed/social5/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-06-07T04:02:04.064Z",
+  "generatedAt": "2026-06-08T04:06:20.205Z",
   "version": "3.0.0",
   "source": "tavily-mimo"
 }
