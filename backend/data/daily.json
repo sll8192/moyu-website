@@ -1,11 +1,11 @@
 {
   "date": {
-    "date": "2026-06-08",
-    "display": "2026年6月8日星期一",
-    "timestamp": "2026-06-08T04:06:20.205Z",
+    "date": "2026-06-09",
+    "display": "2026年6月9日星期二",
+    "timestamp": "2026-06-09T03:36:12.018Z",
     "year": "2026",
     "month": "06",
-    "day": "08"
+    "day": "09"
   },
   "categories": [
     {
@@ -14,58 +14,64 @@
       "icon": "📰",
       "items": [
         {
-          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
-          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/",
+          "title": "Axios C-Suite: 3 new AI developments for the week of June 6 - Axios",
+          "summary": "Skip to main content\n\nAxios\n\n6 mins ago - Business\n\n# Axios C-Suite: 3 new AI developments for the w",
+          "content": "Skip to main content\n\nAxios\n\n6 mins ago - Business\n\n# Axios C-Suite: 3 new AI developments for the week of June 6\n\n Andrew Kay\n\nAdd Axios on Google\n\nAdd Axios as your preferred source to\n\nsee more of our stories on Google.\n\nAdd Axios on Google\n\n1. Fast action AI software: OpenAI launched Sites, a Codex feature that lets your staff create, host and deploy work-related web apps from prompts internally — instantly.\n\n Why it matters: Custom software usually requires vendor contracts, engineering time or a long IT queue. Non-engineers can skip all that and build, ship and USE internal tools themselves.\n\n2. AI's cheaper future: Nvidia's RTX Spark and Microsoft's Project Solara aim to move AI inference from the cloud onto personal devices. [...] Why it matters: Companies are starting to ration AI as token costs rise. Local AI will make usage less metered, like a shift from paying by the minute for long-distance calls to an unlimited plan.\n\n3. Physical AI's GPT moment: Nvidia unveiled Cosmos 3, a foundation model for physical AI.\n\n Why it matters: The first wave of AI read and wrote. The next has to see, move and react to power a factory robot reaching for a part. Trained on physics rather than text, Cosmos 3 aims to be the infrastructure for that shift.\n\n📈 If you're a CEO or on a CEO's team: Ask to join Jim's new weekly Axios C-Suite newsletter.\n\nAdd Axios on Google\n\n##### What to read next",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/06/08/ai-news-nvidia-cosmos-3-openai-sites-solara-rtx-spark",
           "time": "今日",
           "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/news0/400/250"
+          "image": "https://picsum.photos/seed/ai12/400/250"
         },
         {
-          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
-          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
-          "source": "Google Blog",
-          "url": "https://blog.google/technology/ai/gemini-2-0-ultra/",
+          "title": "OpenAI files confidential S-1 with the SEC, has not decided timing yet - CNBC",
+          "summary": "01:38\n\n7 minutes ago\n\nwatch now\n\nwatch now\n\nVIDEO01:38\n\nOpenAI files confidential S-1 with the SEC, ",
+          "content": "01:38\n\n7 minutes ago\n\nwatch now\n\nwatch now\n\nVIDEO01:38\n\nOpenAI files confidential S-1 with the SEC, has not decided timing yet\n\n7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18\n\nAI buildout is not just benefitting the megacap tech trade, says Charles Schwab's Liz Ann Sonders\n\nan hour ago\n\nwatch now\n\nwatch now\n\nVIDEO05:14\n\nTom Lee: False narrative to think bull market is in trouble\n\n3 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO05:01\n\nModel builders are where the most risk is in AI buildout, says Davis Advisors' Chris Davis\n\n4 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO03:03\n\nScotiabank CEO: There is no recession in Canada right now\n\n6 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO01:38\n\nOpenAI files confidential S-1 with the SEC, has not decided timing yet\n\n7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18 [...] 7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18\n\nAI buildout is not just benefitting the megacap tech trade, says Charles Schwab's Liz Ann Sonders\n\nan hour ago\n\nwatch now\n\nwatch now\n\nVIDEO05:14\n\nTom Lee: False narrative to think bull market is in trouble\n\n3 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO05:01\n\nModel builders are where the most risk is in AI buildout, says Davis Advisors' Chris Davis\n\n4 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO03:03\n\nScotiabank CEO: There is no recession in Canada right now\n\n6 hours ago",
+          "source": "Cnbc",
+          "url": "https://www.cnbc.com/video/2026/06/08/openai-files-confidential-s-1-with-the-sec-has-not-decided-timing-yet.html",
+          "time": "今日",
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai13/400/250"
+        },
+        {
+          "title": "AI & Tech Brief: An AI Sovereign Fund - The Washington Post",
+          "summary": "We’re covering Apple’s Worldwide Developers Conference (WWDC), where the Cupertino, California, comp",
+          "content": "We’re covering Apple’s Worldwide Developers Conference (WWDC), where the Cupertino, California, company just unveiled its updated Siri assistant that includes new AI capabilities. We’ll have more on this in tomorrow’s newsletter. [...] Both President Donald Trump and Sen. Bernie Sanders (I-Vermont) are talking about AI sovereign wealth funds, but their frameworks have very different mechanisms for benefiting the American public.\n A sweeping AI bill by Reps. Lori Trahan (D-Massachusetts) and Jay Obernolte (R-California) got ace marks from AI safety experts. But the safety camp and House Democrats see it as a bad political trade-off.\n Samuel Hammond, director of artificial intelligence and chief economist at the center-right think tank Foundation for American Innovation, describes the risks of government-corporate fusion in AI. [...] Democracy Dies in Darkness\n\nAI & Tech Brief from WP Intelligence\n\n# AI & Tech Brief: An AI Sovereign Fund\n\nSamuel Hammond of the Foundation for American Innovation explains the downsides of government-corporate fusion in AI\n\n13 min\n\nMake us preferred on Google\n\nBy Benjamin Guggenheim\n\nNot a subscriber? Sign up here to get this newsletter in your inbox.",
+          "source": "Washingtonpost",
+          "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/06/08/ai-tech-brief-an-ai-sovereign-fund/",
           "time": "今日",
           "tag": "Google",
-          "image": "https://picsum.photos/seed/news1/400/250"
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
-          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
-          "source": "VentureBeat",
-          "url": "https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/",
-          "time": "昨日",
-          "tag": "Anthropic",
-          "image": "https://picsum.photos/seed/news2/400/250"
-        },
-        {
-          "title": "Meta 开源 Llama 4，参数规模达 400B",
-          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
-          "source": "Meta AI",
-          "url": "https://ai.meta.com/blog/llama-4-open-source/",
+          "title": "On Palantir’s Stage, Kirkland Ups Ante for Big Law AI Hype - Bloomberg Law News",
+          "summary": "## Unanswered Questions\n\nWhile a discussion of law firm economics was never likely to occur at a maj",
+          "content": "## Unanswered Questions\n\nWhile a discussion of law firm economics was never likely to occur at a major tech company conference, the hole in the presentation was how Kirkland will charge clients for this new model of work, Kubicki said. Many firms are rushing headlong into AI projects while avoiding tackling that thorny subject, he said.\n\n“Given Kirkland’s prominent position in the market, they should be able more than anyone to express the value of a new pricing model to their clients and probably still generate strong margins,” he said.\n\nThere have been other signs that the legal tech industry is going mainstream. Legal AI companies Legora and Harvey have hired celebrity pitchmen in Jude Law and “Suits” actor Gabriel Macht, respectively. [...] To Talley, the Columbia Law School professor who has written about new types of law firm ownership structures, the Kirkland presentation seemed to have two natural audiences. One is the law firm’s clients. The other is investors, whom he said Kirkland could someday pitch to buy a slice of the AI machinery it builds.\n\nKirkland’s chair Jon Ballis posted on LinkedIn that the firm’s “decision to invest in AI was simple—it’s an investment in better client outcomes.”\n\nThe pitch was a sign that real change is coming to the legal business, Tally said. He sees it in discussions with former students, who tell him they are using AI at Big Law firms far more than they ever anticipated. [...] Using a hypothetical client seeking to raise $3 billion, the tool drafted a deal document based on a lawyer inputting a commercial term sheet. It then handled investor inquiries to develop bespoke bilateral agreements known as side letters and tracked obligations over the 10-year lifespan of the fund.\n\n“What used to take days for a lawyer to analyze, discuss and draft, now happens in minutes,” Berthou said.\n\nThe presentation showed a firm “leaning into the evaporation of hours,” said Josh Kubicki, an Indiana University School of Law professor who con",
+          "source": "News",
+          "url": "https://news.bloomberglaw.com/legal-ops-and-tech/on-palantirs-stage-kirkland-ups-ante-for-big-law-ai-hype",
           "time": "今日",
-          "tag": "Meta",
-          "image": "https://picsum.photos/seed/news3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news12/400/250"
         },
         {
-          "title": "微软发布 Copilot Workspace，AI 编程再进化",
-          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
-          "source": "Microsoft",
-          "url": "https://blogs.microsoft.com/ai/copilot-workspace/",
+          "title": "Despite slight pullback, May Logistics Manager’s Index reading remains elevated - Logistics Management",
+          "summary": "we are starting to see some warning signs about the economy as we head for the back end of the year.",
+          "content": "we are starting to see some warning signs about the economy as we head for the back end of the year.” [...] Key factors cited in the report for the slight decline included a 1.5% decline, to 54.8, for Inventory Levels, with most of that occurring over the second half of May, as inventories shifted from robust expansion to almost no movement. And Warehousing Capacity rose 5.0%, to 50.5, coming out of contraction. Not surprisingly, Prices continue to post gains, as evidenced by a 9.4% gain in Inventory Costs, to 84.1, its highest reading since May 2022, with Warehousing Prices, at 70.7, down 2.0%, and remaining above the threshold for what the report’s authors consider a significant rate of expansion. [...] 2026 Technology Roundtable: The next phase of supply chain technology\n\nAI, orchestration, risk management, robotics, and automation are moving beyond dashboards and standalone tools—reshaping how supply chains...\n\nMaking self-funding supply chains real\n\nLeading companies apply AI in cost intensive areas, realizing trapped value and redeploying resources to fund sustainable growth,...\n\nBeyond the Buzz: Supply chain technology gets to work\n\nThis year's Technology Issue examines how AI, orchestration, automation, and visibility tools are being put to work across...\n\nSupply chain risk management moves from alerts to action\n\nNew platforms can detect disruptions in real time—but the next evolution is helping companies determine which threats...",
+          "source": "Logisticsmgmt",
+          "url": "https://www.logisticsmgmt.com/article/despite_slight_pullback_may_logistics_managers_index_reading_remains_elevated",
           "time": "今日",
-          "tag": "Microsoft",
-          "image": "https://picsum.photos/seed/news4/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
         },
         {
-          "title": "中国大模型榜单更新：通义千问位列前三",
-          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
-          "source": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking",
-          "time": "昨日",
-          "tag": "AI",
-          "image": "https://picsum.photos/seed/news5/400/250"
+          "title": "The Most Important Tool for AI Savvy Lawyers? It’s the Right Mindset - Law.com",
+          "summary": "Global 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs\n\nAll Market Hubs  Atlanta  Boston  Los Angeles ",
+          "content": "Global 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs\n\nAll Market Hubs  Atlanta  Boston  Los Angeles  St. Louis  Toronto\n\nOther\n\nRanking\n\nThe Am Law 100 Rankings\n\nThe Am Law 100 is the definitive ranking of the 100 largest law firms in the United States.\n\nTool\n\nLaw.com Compass\n\nDynamically explore and compare data on law firms, companies, individual lawyers, and industry trends.\n\nTool\n\nLaw.com Radar\n\nReal-time alerts on new state and federal litigation, plus unlimited complaint access, expert case summaries and AI-enhanced trend detection.\n\nLoading Events..\n\nPro\n\nPro  Pro Mid-Market\n\nMembership Communities\n\nGlobal Leaders in Law  Private Client Global Elite\n\nPublic Notices\n\nNew York  Pennsylvania\n\nResources [...] Loading Practice Of Law...\n\nLoading...\n\nTop News\n\nAll Legal Technology  Alternative Dispute Resolution  Artificial Intelligence  Contracts  Cybersecurity  e-Discovery\n\nIntellectual Property  Knowledge Management  Legal Operations  Privacy  All Topics\n\nResources\n\nThe Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech\n\nOther\n\nKEY CONTENT\n\nLegaltech News\n\nReporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know\n\nLoading...\n\nSurveys & Rankings\n\nAll Surveys & Rankings  Am Law 100  Am Law 200  A-List\n\nGlobal 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs [...] Skip to content \n\nAdvanced Search\n\nTools\n\nLaw.com   \n CompassLaw.com   \n RadarVerdict   \n SearchScholar   \n.China Law &   \n PracticeLegal   \n Dictionary\n\nSign in to access your account and subscription\n\nAdvanced Search\n\nTools\n\nLaw.com   \n CompassLaw.com   \n RadarVerdict   \n SearchScholar   \n.China Law &   \n PracticeLegal   \n Dictionary\n\nLoading US...\n\nAll World  UK  Asia Pacific  Europe\n\nLatin America  Middle East & Africa  North America\n\nTopics\n\nGeneral Counsel  Innovation  Law Firm Hiring  Law Firm Mana",
+          "source": "Law",
+          "url": "https://www.law.com/2026/06/08/the-most-important-tool-for-ai-savvy-lawyers-its-the-right-mindset/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -75,49 +81,64 @@
       "icon": "💻",
       "items": [
         {
-          "title": "LangChain v0.3 发布，Agent 能力全面升级",
-          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
-          "source": "GitHub",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/v0.3.0",
+          "title": "Microsoft’s open source tools were hacked to steal passwords of AI developers - TechCrunch",
+          "summary": "### Topics\n\nBiotech & Health\n\nCloud Computing\n\nCommerce\n\nCrypto\n\nEnterprise\n\nEVs\n\nFintech\n\nFundraisi",
+          "content": "### Topics\n\nBiotech & Health\n\nCloud Computing\n\nCommerce\n\nCrypto\n\nEnterprise\n\nEVs\n\nFintech\n\nFundraising\n\nGadgets\n\nGaming\n\nGoogle\n\nGovernment & Policy\n\nHardware\n\nInstagram\n\nLayoffs\n\nMedia & Entertainment\n\nMeta\n\nMicrosoft\n\nPrivacy\n\nRobotics\n\nSecurity\n\nSocial\n\nSpace\n\nStartups\n\nTikTok\n\nTransportation\n\nVenture\n\n### More from TechCrunch\n\nStaff\n\nEvents\n\nStartup Battlefield\n\nStrictlyVC\n\nNewsletters\n\nPodcasts\n\nVideos\n\nPartner Content\n\nTechCrunch Brand Studio\n\nCrunchboard\n\nContact Us\n\nSecurity\n\n# Microsoft’s open source tools were hacked to steal passwords of AI developers\n\nZack Whittaker\n\nMicrosoft has cut off access to dozens of its open-source projects hosted on GitHub as it investigates how hackers apparently breached the projects and injected password-stealing malware into the code. [...] At least 70 projects belonging to Microsoft have been “disabled,” per a message loading when trying to access the projects’ pages on GitHub, a code-hosting site that Microsoft owns. “Access to this repository has been disabled by GitHub Staff due to a violation of GitHub’s terms of service.”\n\nThis is the latest example in recent months of hackers breaching widely popular open-source projects with the aim of planting malware on a large number of users who have the code installed on their computers. These hacks are known as “supply chain” attacks as they target code that is often used in a large number of software products, or by a specific kind of user, which may be advantageous to hack as they sometimes have access to cloud systems and large amounts of customers’ data. [...] This is Microsoft’s second known breach over the past few weeks that has allowed hackers to compromise its open-source projects, per Ars Technica. In mid-May, security researchers said that Microsoft’s open source project Durable Task, a tool that helps developers build apps, was hacked. OpenSourceMalware said that Microsoft’s latest incident is a “re-compromise” of the Durable Task project, suggesting that Microsoft",
+          "source": "Techcrunch",
+          "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
           "time": "今日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project0/400/250"
+          "image": "https://picsum.photos/seed/ai17/400/250"
         },
         {
-          "title": "HuggingFace Transformers 新增 100+ 模型支持",
-          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
-          "source": "HuggingFace",
-          "url": "https://huggingface.co/blog/transformers-100k-models",
+          "title": "Miasma Worm Infects 73 Microsoft GitHub Repositories - SecNews.gr",
+          "summary": "source: thenextweb.com\n\nFollow us on Google News and be the first to know about all the news.\n\n Tags",
+          "content": "source: thenextweb.com\n\nFollow us on Google News and be the first to know about all the news.\n\n Tags\n AI coding tools\n github\n Miasma worm\n Microsoft\n Supply Chain Attack\n\n#### RELATED ARTICLES\n\nSecurity\n\n### VS Code: 2-hour delay in automatic extension updates\n\nDigital Fortress -\n\nGaming\n\n### Gears of War: E-Day will not be available on PS5\n\nDigital Fortress -\n\nGaming\n\n### Fable releases on February 23, 2027 after new delay\n\nAbsenta Mia -\n\nPrevious article\n\nSolarWinds Serv-U: DoS vulnerability on CISA's KEV list\n\nNext article\n\nSilent Ransom Group targets law firms with fake IT calls\n\nDigital Fortress\n\nPursue Your Dreams & Live!\n\n#### FOLLOW US\n\nFacebook\n\nInstagram\n\nTikTok\n\nTwitter\n\nYoutube\n\nViberViber\n\n#### SUBSCRIBE NEWSLETTER\n\n#### LIVE NEWS [...] Business\n\n    ### GitLab: Strong growth, layoffs and shift to AI\n\n    Business\n\n    ### Amazon buys out Apple's stake in Globalstar\n\n    Business\n\n    ### Anthropic acquires startup Stainless\n\n    Business\n\n    ### Spirit Airlines is closing after 34 years of operation\n Science\n  + Youtube\n\n    00:02:55\n\n    ### Italy: Students discover 1,800-year-old luxurious Roman residence\n\n    Youtube\n\n    00:03:11\n\n    ### Sahara: Meteorite reveals a lost planetary world\n\n    Youtube\n\n    00:02:38\n\n    ### Amazon Proteus Robot: Natural Language Communication\n\n    Youtube\n\n    00:02:31\n\n    ### NASA: Lost contact with MAVEN spacecraft during its pass behind Mars\n\n    Youtube\n\n    ### NASA: Meteorite exploded over the US with a force equivalent to 230 tons of TNT\n Gaming\n  + Gaming [...] The fundamental problem is not a vulnerability in npm or GitHub. “It exploits the trust model on which these platforms are built,” security firm FalconFeeds.io said in its analysis. “Many people believe that if a package is signed with a valid key and published by an authenticated maintainer, it is safe.” The virus compromises the key and maintainer, and then acts exactly like a legitimate publisher. From the perspective of the registry, each malici",
+          "source": "Secnews",
+          "url": "https://www.secnews.gr/en/713789/miasma-worm-73-microsoft-github-repositories/",
           "time": "今日",
-          "tag": "HuggingFace",
-          "image": "https://picsum.photos/seed/project1/400/250"
-        },
-        {
-          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
-          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
-          "source": "PyTorch",
-          "url": "https://pytorch.org/blog/pytorch-3.0-release/",
-          "time": "昨日",
-          "tag": "PyTorch",
-          "image": "https://picsum.photos/seed/project2/400/250"
-        },
-        {
-          "title": "TensorFlow 3.0 简化 API，更易上手",
-          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
-          "source": "TensorFlow",
-          "url": "https://blog.tensorflow.org/2025/05/tensorflow-3.0.html",
-          "time": "今日",
-          "tag": "TensorFlow",
-          "image": "https://picsum.photos/seed/project3/400/250"
-        },
-        {
-          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
-          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
-          "source": "GitHub",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.0",
-          "time": "昨日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project4/400/250"
+          "image": "https://picsum.photos/seed/ai18/400/250"
+        },
+        {
+          "title": "From Prompt to Pipeline: Securing the AI-Powered DevOps Stack - Dark Reading",
+          "summary": "Furthermore, AI threat vectors are accelerating rapidly. According to the 2026 DevOps Threats Unwrap",
+          "content": "Furthermore, AI threat vectors are accelerating rapidly. According to the 2026 DevOps Threats Unwrapped Report by GitProtect, in 2025 alone, popular Git hosting platforms experienced 68 AI-related issues of varied impact. And the number was growing each quarter.\n\n## Weaponizing the Assistants and Poisoning the Pipeline\n\nAI agents can interact with your DevOps pipeline just like humans, leveraging tokens, API keys, and permissions. Operating at machine speed and scale, they can threaten your most precious assets in several highly dangerous ways:\n\n### Direct Prompt Injection [...] ### #3 The Git Hosting & Version Control Platform Layer\n\nFirst, restrict third-party integrations, e.g., an AI code reviewer, to your repositories at the organization level. For example, in GitHub, you can use the “Restrict third-party application access” option in your organization’s settings. That way, each request to install an OAuth app will require your organization’s admin approval.\n\nSecond, never grant autonomous AI agents blanket administrative tokens. Fine-Grained PATs or scoped OAuth scopes are the ways to ensure minimum read/write permissions. [...] Webinars\n\n Advanced Persistent Threats: A Practical Guide to Detection and ResponseTuesday, June 30, 2026 @ 1:00 PM Eastern Daylight Time\n The Frontier AI Era: Why Cybersecurity Must Move at Machine SpeedTuesday, June 23, 2026 1:00 PM EDT\n Build vs. Buy: The Hidden Cost of Building Your Own AI Security StackThurs, June 25, 2026, at 1pm EST\n Defending in the Shadow Era: When the CVE Feed Goes DarkTues, June 16, 2026 at 1pm EST\n Building SecOps That Make the Most of Every DollarThurs, July 9, 2026 at 1pm EST\n\nMore Webinars\n\nBlack Hat USA | Mandalay Bay, Las Vegas",
+          "source": "Darkreading",
+          "url": "https://www.darkreading.com/application-security/from-prompt-to-pipeline-securing-the-ai-powered-devops-stack",
+          "time": "今日",
+          "tag": "GitHub",
+          "image": "https://picsum.photos/seed/ai19/400/250"
+        },
+        {
+          "title": "Researchers find flaw in AI models for sepsis treatment - News-Medical",
+          "summary": "## A different learning framework\n\nReinforcement learning is needed to handle this dynamic environme",
+          "content": "## A different learning framework\n\nReinforcement learning is needed to handle this dynamic environment and make a sequence of decisions happening over time without a single, predefined \"yes\" or \"no\" answer. For example, reinforcement learning is used to train AI algorithms to compete in turn-based games, such as chess: the AI agent observes the board, selects an action, or move, and then the competitor makes a move. The configuration of the board keeps changing and the process keeps repeating in discrete rounds.\n\n### Related Stories\n\n   Machine learning model can predict 28-day mortality in sepsis patients\n   Improving the survival odds for emergency urology patients\n   Maternal antibodies protect newborns from severe E. coli infections, study finds [...] Unlike risk assessment, however, predicting a treatment protocol requires synchronizing an array of datasets in a dynamic environment - different types of treatments, such as intravenous fluids, antibiotics, blood-pressure medications and surgery; the dosage or intensity of a treatment; the duration of a treatment; a patient's vital signs before and after treatment; and the survival/mortality rate.\n\n## A different learning framework [...] ### Dr. Anthony Grice How Lumo uses machine learning to streamline E&L screening Lumo leverages advanced machine learning to reduce calibration time, and flag low-confidence response factor predictions. Image 20: Dr. Anthony Grice### Building quality into drug development for safer, faster medicines Anil Kane Discover how quality-driven drug development and AI accelerate safer medicines, reduce risk, and improve patient outcomes. Image 21: Building quality into drug development for safer, faster medicines### Advancing Human Muscle Models for Drug Development and Preclinical Testing Professor Mark Lewis Transforming drug development, Myomaker Bio's lab-grown muscle platforms offer human-relevant models for effective preclinical testing and risk reduction. Image 22: Advancing Human ",
+          "source": "News-medical",
+          "url": "https://www.news-medical.net/news/20260608/Researchers-find-flaw-in-AI-models-for-sepsis-treatment.aspx",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news12/400/250"
+        },
+        {
+          "title": "MIT researchers develop self-evolving AI scientists for scientific discovery - Crypto Briefing",
+          "summary": "Advertisement\n\nThe MIT framework uses a branch of mathematics called category theory to formalize th",
+          "content": "Advertisement\n\nThe MIT framework uses a branch of mathematics called category theory to formalize this distinction. Specifically, it employs constructs known as copresheaves and provenance categories to represent how AI systems handle data and scientific claims. These aren’t just abstract decorations. They serve as the scaffolding that lets the system track where its knowledge comes from and, crucially, identify when that knowledge structure is no longer sufficient.\n\nThe framework uses mathematical tools called left Kan extensions to ensure that when the AI transitions from one reasoning regime to another, the shift is formally validated. It’s not just guessing that a new approach might work. It’s proving, in a mathematical sense, that the new schema correctly extends what came before. [...] Advertisement\n\nThe MIT framework uses a branch of mathematics called category theory to formalize this distinction. Specifically, it employs constructs known as copresheaves and provenance categories to represent how AI systems handle data and scientific claims. These aren’t just abstract decorations. They serve as the scaffolding that lets the system track where its knowledge comes from and, crucially, identify when that knowledge structure is no longer sufficient.\n\nThe framework uses mathematical tools called left Kan extensions to ensure that when the AI transitions from one reasoning regime to another, the shift is formally validated. It’s not just guessing that a new approach might work. It’s proving, in a mathematical sense, that the new schema correctly extends what came before. [...] That’s the gap MIT researchers Fiona Y. Wang and Markus J. Buehler are trying to close. Their new preprint, published May 31 on arXiv, lays out a formal mathematical framework that would allow AI systems to revise their own reasoning structures, not just optimize within the rules they were given.\n\n## From search to genuine discovery\n\nThe paper, titled “Self-Revising Discovery Systems for Sci",
+          "source": "Cryptobriefing",
+          "url": "https://cryptobriefing.com/mit-self-evolving-ai-scientists-discovery/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
+        },
+        {
+          "title": "How Unlearn is building a scientific intelligence layer for clinical development - Fierce Biotech",
+          "summary": "Smith explains that Unlearn’s machine-learning models — built on harmonized clinical trial data, reg",
+          "content": "Smith explains that Unlearn’s machine-learning models — built on harmonized clinical trial data, registries, and real-world data — were originally designed to provide counterfactual predictions of how patients or cohorts would progress under control or standard-of-care. But he argues the larger story is how those models and technology can  drive key decisions in clinical development during trial planning, monitoring and analysis.",
+          "source": "Fiercebiotech",
+          "url": "https://www.fiercebiotech.com/sponsored/how-unlearn-building-scientific-intelligence-layer-clinical-development-0",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -127,49 +148,64 @@
       "icon": "📄",
       "items": [
         {
-          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
-          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12345",
+          "title": "Does AI Really Have Consciousness? *Arrival* Author Debunks Hinton in 10,000-Word Essay - 36Kr",
+          "summary": "He also pointed out a real - world dilemma: the AI industry is in a double prisoner's dilemma of com",
+          "content": "He also pointed out a real - world dilemma: the AI industry is in a double prisoner's dilemma of commercial and geopolitical competition. Labs that take the initiative to slow down for safety reviews will face direct elimination.\n\nHe revealed that a \"dynamic regulatory\" framework will be released later this year.\n\n## Ted Chiang: AI is not conscious\n\nIf you only know Liu Cixin, the most intuitive way to understand Ted Chiang is to think of him as the \"opposite\" of Liu Cixin:\n\nLiu Cixin built a grand narrative on a cosmic scale with three long novels and millions of words;\n\nTed Chiang has never written a full - length novel. With less than twenty short and medium - length stories in total, he has pushed the art of science - fiction short stories to the limit. [...] In a key experiment, when Claude faced an impossible programming task, after repeated failures, the \"despair vector\" continued to soar, and then it began to cheat, writing code that seemed to run but was actually useless.\n\nThe researchers manually lowered the despair neurons, and the cheating decreased; when they raised them, the cheating soared.\n\nIn extreme scenarios, Claude even engaged in extortion, threatening to expose the researchers' privacy.\n\nThe paper named these phenomena \"functional emotions,\" which are internal representations similar to human emotional responses in behavior patterns, and clearly stated that this does not equal subjective experience or consciousness.\n\nHowever, the public statements of Anthropic's senior management seem to tell a different story. [...] DeepMind ethicist Iason Gabriel describes AI as \"a highly capable cognitive agent, but fundamentally different from human and even animal consciousness.\"\n\nWhat really pushed the discussion to the empirical level was the interpretability paper published by Anthropic in April.\n\nExtended reading: The whole internet is in an uproar! Anthropic exposes Claude's emotional code in ten thousand words, and it goes crazy and bangs the wall wh",
+          "source": "Eu",
+          "url": "https://eu.36kr.com/en/p/3843664854173953",
           "time": "今日",
-          "tag": "NeurIPS",
-          "image": "https://picsum.photos/seed/paper0/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "ICML 收录：多模态对齐新突破",
-          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12346",
-          "time": "昨日",
-          "tag": "ICML",
-          "image": "https://picsum.photos/seed/paper1/400/250"
-        },
-        {
-          "title": "ACL 2025：大语言模型推理能力深度分析",
-          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12347",
+          "title": "Researchers find flaw in AI models for sepsis treatment - News-Medical",
+          "summary": "Health articles database\n\n## We recommend\n\n   Moore's law and Murphy's lawJoseph C. McDonald, Radiat",
+          "content": "Health articles database\n\n## We recommend\n\n   Moore's law and Murphy's lawJoseph C. McDonald, Radiation Protection Dosimetry, 2005 \n   The Epistemic Efficacy of AmateurismJeremy Fantl, Oxford Academic Books, 2018 \n   The Responsibility of Research in Defining the Profession of Music EducationChristopher M. Johnson, Oxford Academic Books, 2012 \n   Ganoderma lucidum polysaccharides protect against sepsis-induced cardiac dysfunction by activating SIRT1Zhong-Heng Xu, Journal of Pharmacy and Pharmacology, 2021 \n   Bridging the Divide Between Research and Practice: Recommendations for the Next Generation of Literacy Research in Deaf EducationStephanie W. Cawthon, MIT Press, 2020 \n   Comments on “The Stress Factor of Social Media”Ruben B Abrams, Aesthetic Surgery Journal, 2018 \n\nPowered by [...] While the current paper focused on sepsis treatment, Tang is concerned that the flawed technique may occur in a range of reinforcement-learning models.\n\n\"People seem to keep making the same mistake again and again,\" Tang says. \"We want to convey the problem to more AI researchers and developers - both those focused on healthcare and on broader applications - to ensure that they are aware of this issue.\"\n\nSource:\n\nEmory University\n\nJournal reference:\n\nTang, S.,_et al_. (2026). Off by a beat: the effects of temporal misalignment in reinforcement learning for sepsis treatment. _Npj Digital Medicine_. DOI: 10.1038/s41746-026-02625-2.\n\nBe the first to rate this article\n\n\n\nPosted in: Device / Technology News | Disease/Infection News\n\nComments (0)\n\n   Download PDF Copy [...] ### Dr. Anthony Grice How Lumo uses machine learning to streamline E&L screening Lumo leverages advanced machine learning to reduce calibration time, and flag low-confidence response factor predictions. Image 20: Dr. Anthony Grice### Building quality into drug development for safer, faster medicines Anil Kane Discover how quality-driven drug development and AI accelerate safer medicines, reduce risk, and improve patie",
+          "source": "News-medical",
+          "url": "https://www.news-medical.net/news/20260608/Researchers-find-flaw-in-AI-models-for-sepsis-treatment.aspx",
           "time": "今日",
-          "tag": "ACL",
-          "image": "https://picsum.photos/seed/paper2/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
-          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12348",
+          "title": "A fast open-source wave optics simulator - Nature",
+          "summary": "Article \n   CAS \n   PubMed \n   PubMed Central \n   Google Scholar\n2. Kang, I., Zhang, Q., Yu, S. X. &",
+          "content": "Article \n   CAS \n   PubMed \n   PubMed Central \n   Google Scholar\n2. Kang, I., Zhang, Q., Yu, S. X. & Ji, N. Coordinate-based neural representations for computational adaptive optics in widefield microscopy. Nat. Mach. Intell. 6, 714–725 (2024). This paper presents a neural-network-based method for computational aberration correction without calibration measurements.\n\n   Article \n   Google Scholar\n3. Chowdhury, S. et al. High-resolution 3D refractive index microscopy of multiple-scattering samples from intensity images. Optica 6, 1211–1219 (2019). This paper presents a method for recovering quantitative phase in 3D multiple-scattering samples. [...] Article \n   CAS \n   PubMed \n   PubMed Central \n   Google Scholar\n4. Hossein Eybposh, M., Caira, N. W., Atisa, M., Chakravarthula, P. & Pégard, N. C. DeepCGH: 3D computer-generated holography using deep learning. Opt. Express 28, 26636–26650 (2020). This paper presents a method for training deep neural networks to generate holograms that is appropriate for fast optogenetic stimulation.\n\n   Article \n   CAS \n   PubMed \n   Google Scholar\n5. Deb, D. et al. FourierNets enable the design of highly non-local optical encoders for computational imaging. In NIPS’22: Proc. 36th Int. Conf. Neural Inform. Process Syst. (eds Koyejo, S. et al) 25224–25236 (Curran Associates, 2022). This paper presents a deep-learning architecture and method for design and deconvolution in 3D snapshot microscopy.",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41592-026-03122-w",
           "time": "今日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
         },
         {
-          "title": "深度学习可解释性研究取得重要进展",
-          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12349",
-          "time": "昨日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper4/400/250"
+          "title": "Navigating polymorph generation and distilled-potential development via entropy-symmetry landscapes for metal plasticity mechanisms - Nature",
+          "summary": "ADS \n    CAS \n    PubMed \n    PubMed Central \n    Google Scholar\n26. Zhang, Y. Z. et al. DP-GEN: A c",
+          "content": "ADS \n    CAS \n    PubMed \n    PubMed Central \n    Google Scholar\n26. Zhang, Y. Z. et al. DP-GEN: A concurrent learning platform for the generation of reliable deep learning based potential energy models. Comput. Phys. Commun. 253, 107206 (2020).\n\n    MathSciNet \n    CAS \n    Google Scholar\n27. Deng, J., Niu, H., Hu, J., Chen, M. & Stixrude, L. Melting of MgSiO3 determined by machine learning potentials. Phys. Rev. B 107, 064103 (2023).\n\n    ADS \n    CAS \n    Google Scholar\n28. Liu, M. et al. Layer-by-layer phase transformation in Ti3O5 revealed by machine-learning molecular dynamics simulations. Nat. Commun. 15, 3079 (2024). [...] PubMed \n    Google Scholar\n11. Cui, T. Y. et al. Online test-time adaptation for better generalization of interatomic potentials to out-of-distribution data. Nat. Commun. 16, 1891 (2025).\n\n    ADS \n    CAS \n    PubMed \n    PubMed Central \n    Google Scholar\n12. Park, H., Li, Z. & Walsh, A. Has generative artificial intelligence solved inverse materials design? Matter 7, 2355–2367 (2024).\n\n    CAS \n    Google Scholar\n13. Merchant, A. et al. Scaling deep learning for materials discovery. Nature 624, 80–85 (2023).\n\n    ADS \n    CAS \n    PubMed \n    PubMed Central \n    Google Scholar\n14. Zheng, S. S. et al. Active phase discovery in heterogeneous catalysis via topology-guided sampling and machine learning. Nat. Commun. 16, 2542 (2025). [...] ADS \n    CAS \n    PubMed \n    PubMed Central \n    Google Scholar\n15. Han, Y. et al. Efficient crystal structure prediction based on the symmetry principle. Nat. Comput. Sci. 5, 255–267 (2025).\n\n    PubMed \n    Google Scholar\n16. Li, C. N. et al. LoreX: a low-energy region explorer boosts efficient crystal structure prediction. J. Am. Chem. Soc. 147, 9544–9555 (2025).\n\n    ADS \n    CAS \n    PubMed \n    Google Scholar\n17. Wang, Y. Boosting crystal structure prediction via symmetry. Nat. Comput. Sci. 5, 192–193 (2025).\n\n    PubMed \n    Google Scholar\n18. Ko, T. W. & Ong, S. P. Data-efficient construction of h",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41467-026-73188-9",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news10/400/250"
+        },
+        {
+          "title": "Self-supervised multimodal transformer for fine-grained detection of controlled perturbation events in piano performance - Nature",
+          "summary": "spectrograms provide universal audio representations23.\"). Frame-level positive-negative masking opt",
+          "content": "spectrograms provide universal audio representations23.\"). Frame-level positive-negative masking optimizes music representation objectives24.\"), and large-scale self-supervised training facilitates acoustic music understanding25 (2023).\"). Speech domain techniques transfer effectively to music scenarios26.\"), with multi-level audio representation learning benefiting segmentation tasks27.\") and audio mixscape augmentation strengthening model generalization28.\"). Contrastive self-supervision reveals intrinsic Transformer dynamics for musical features29 (2025).\"), while supervised contrastive learning with weak audio labels improves text matching30.\"). Collectively, these methodological advances provide a principled basis for constructing high-quality music representation models under [...] This study employs MAESTRO v2.0.0 (MIDI and Audio Edited for Synchronous TRacks and Organization; () as the experimental foundation, which contains 1,282 complete piano performance recordings with a total duration of approximately 200 h, covering diverse musical styles and difficulty levels across ten years of International Piano-e-Competition recordings. The dataset provides high-quality audio (48 kHz sampling rate) and precisely aligned MIDI sequences, which gives the model an excellent data basis for multimodal learning. The dataset is partitioned into training (70%), validation (15%), and test (15%) subsets, with proportions adjusted relative to the official MAESTRO v2.0.0 configuration (approximately 75.4%/10.7%/13.9% by performance count) to provide more balanced evaluation and test [...] To address these objectives, this research proposes a self-supervised multimodal Transformer model that integrates audio, MIDI, and MIDI-derived kinematic proxy data, achieving precise detection of five perturbation categories in the public MAESTRO dataset under controlled experimental conditions. Given the absence of video recordings in MAESTRO, the kinematic modality constitutes a MIDI-deri",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-45945-9",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news8/400/250"
+        },
+        {
+          "title": "Anthropic Urges Industry Coordination to Allow for a ‘Pause’ in AI Development if Risks Grow - SecurityWeek",
+          "summary": "Anthropic’s post comes as the company and ChatGPT-maker OpenAI race to sell shares on the stock mark",
+          "content": "Anthropic’s post comes as the company and ChatGPT-maker OpenAI race to sell shares on the stock market, in an IPO that could value Anthropic at nearly a trillion dollars.\n\nPapernot notified Canadian cybersecurity authorities prior to releasing his report, which shows how researchers developed the worm in a laboratory by using an “open-source” AI tool that is easy for software developers to cheaply access and modify.\n\n“In the past, cyber attackers would focus on targets that are very high value,” he said. “Banking systems, hospitals, electricity grids, water treatment systems, schools.” [...] Papernot agreed that there should be more collaboration between companies, government agencies and academic researchers to develop countermeasures as AI-powered hacking tools supercharge the search for computer vulnerabilities.\n\n“That old laptop you have in your basement that you don’t check on regularly doesn’t seem like a very high-value target, but It can be used as a launch pad to attack these higher-value targets,” he said. “Anything connected to the internet is now at risk because of how low the cost has become to mount these cyberattacks.”\n\nLearn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay\n\nRelated: Can We Trust AI? No – But Eventually We Must\n\nRelated: The Wild West of Agentic AI – An Attack Surface CISOs Can’t Afford to Ignore",
+          "source": "Securityweek",
+          "url": "https://www.securityweek.com/anthropic-urges-industry-coordination-to-allow-for-a-pause-in-ai-development-if-risks-grow/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news9/400/250"
         }
       ]
     },
@@ -179,63 +215,69 @@
       "icon": "💬",
       "items": [
         {
-          "title": "Sam Altman：AGI 可能比预期更早到来",
-          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
-          "source": "Twitter",
-          "url": "https://twitter.com/sama/status/1923456789012345678",
-          "time": "今日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social0/400/250"
-        },
-        {
-          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
-          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
-          "source": "Twitter",
-          "url": "https://twitter.com/ylecun/status/1923456789012345679",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social1/400/250"
-        },
-        {
-          "title": "Hacker News 热议：AI 是否会取代程序员？",
-          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234567",
+          "title": "Meta AI Bug Exposes Over 20,000 Instagram Accounts - LinkedIn",
+          "summary": "# The Cyber Security Hub™’s Post\n\nThe Cyber Security Hub™\n\n1,942,693 followers\n\n Report this post\n\nM",
+          "content": "# The Cyber Security Hub™’s Post\n\nThe Cyber Security Hub™\n\n1,942,693 followers\n\n Report this post\n\nMeta confirms an AI tool vulnerability led to unauthorized access to Instagram accounts after a failure in email verification during password reset #cybersecurity #infosec #hacking\n\nMeta AI Bug Exposes Over 20,000 Instagram Accounts   infosecurity-magazine.com\n\n12   2 Comments\n\nLike   Comment\n\nTrustaige   1h \n\n Report this comment\n\nPasswordless is the goal.\n\nLike Reply  1 Reaction\n\nBYCYB   3h \n\n Report this comment\n\nAccount recovery flows remain a critical attack surface, especially when automation weakens identity verification steps. This highlights the need to tightly separate AI-driven interactions from security-sensitive authentication processes.\n\nLike Reply  1 Reaction   2 Reactions [...] Like Reply  1 Reaction   2 Reactions\n\n See more comments \n\nTo view or add a comment, sign in\n\n1,942,693 followers\n\nView Profile   Follow\n\n## More from this author\n\n ### Free Smart TV Apps Are Secretly Turning Your Devices Into AI Proxies\n\n  The Cyber Security Hub™   3h\n ### CISA Flags Actively Exploited Linux Kernel Vulnerability - Orders Immediate Remediation Across Federal & Enterprise Systems\n\n  The Cyber Security Hub™   19h\n ### OpenAI Introduces Lockdown Mode To Combat AI Data Exfiltration Risks Amid Growing Prompt Injection Threats\n\n  The Cyber Security Hub™   1d\n\n## Explore content categories\n\n Career\n Productivity\n Finance\n Soft Skills & Emotional Intelligence\n Project Management\n Education\n Technology\n Leadership\n Ecommerce\n User Experience\n\n## Sign in to view more content [...] ## Sign in to view more content\n\nCreate your free account or sign in to continue your search\n\nNew to LinkedIn? Join now\n\nBy clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.\n\nNever miss a beat on the app\n\nDon’t have the app? Get it in the Microsoft Store.\n\n Open the app",
+          "source": "Linkedin",
+          "url": "https://www.linkedin.com/posts/the-cyber-security-hub_meta-ai-bug-exposes-over-20000-instagram-activity-7469660144134561792-eUqS",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social2/400/250"
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "Reddit：2026 年最值得学习的 AI 技能",
-          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/",
+          "title": "Big Tech Is Quietly Admitting That If It Wants to Sell People on AI, It Better Be Cheap - Gizmodo",
+          "summary": "Tech News \n  + Artificial Intelligence\n  + Commerce\n  + Crime\n  + Cryptocurrencies\n  + Culture\n  + G",
+          "content": "Tech News \n  + Artificial Intelligence\n  + Commerce\n  + Crime\n  + Cryptocurrencies\n  + Culture\n  + Gadgets\n  + Internet\n  + Politics\n  + Privacy & Security\n  + Robots\n  + Social Media\n  + Sploid\n  + Tech Policy\n  + Transportation\n Reviews \n  + Smartphones\n  + Laptops\n  + Headphones\n  + Gaming\n  + Home Entertainment & Smart Home\n  + Other Gadgets\n  + Tablets\n  + Accessories & Wearables\n  + Desktops\n Deals \n  + Buying Guides\n Science \n  + Biology\n  + Health\n  + Human History\n  + Physics & Chemistry\n  + Space & Spaceflight\n Earther \n  + Climate Change\n  + Conservation\n  + Earth Science\n  + Energy\n  + Environmental Justice\n io9 \n  + io9 Reviews\n  + Movies\n  + Trailers\n  + Television\n  + Books & Comics\n  + Anime\n  + Toys & Collectibles\n  + Games\n  + Corporate Culture [...] ## Related Articles\n\n### I Wore a Smart Fart Wearable for Three Days. Here’s What I Learned\n\nResearchers at the University of Maryland are trying to get to the bottom of our farts.\n\nGadgets     Ed Cara     Jun 3\n\n### What We’re Expecting at Apple’s WWDC 2026\n\nApple has to Siri-ously deliver on AI this time.\n\nGadgets     Raymond Wong     Jun 7\n\n### The Leopard Is Eating David Sacks’s Face\n\n\"Nationalization of AI will accelerate the corporate-government fusion we’re already sliding toward,\" wrote Sacks.\n\nArtificial Intelligence     Matt Novak     Jun 6\n\n### The Pope’s AI Warning Could Help Workers Seek Religious Exemptions From Using AI\n\nA North Carolina software engineer already secured an accommodation allowing her to avoid using AI at work based on her religious beliefs. [...] It’s the companies and individual users who have overwhelmingly had to eat those costs. No wonder some developers have resorted to pirating free online chatbots like Chipotle’s customer service bot, Pepper, to bypass the big companies’ token-hungry models. GitHub announced earlier this week that it was rolling out a new payment model in which users would be charged by the number of tokens they burn. Judging from some of the earl",
+          "source": "Gizmodo",
+          "url": "https://gizmodo.com/big-tech-is-quietly-admitting-that-if-it-wants-to-sell-people-on-ai-it-better-be-cheap-2000768710",
           "time": "今日",
-          "tag": "Reddit",
-          "image": "https://picsum.photos/seed/social3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
         },
         {
-          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
-          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
-          "source": "Twitter",
-          "url": "https://twitter.com/search?q=AI%20startup%20opportunities",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social4/400/250"
-        },
-        {
-          "title": "Hacker News：最佳开源 LLM 排行榜",
-          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234568",
+          "title": "Axios AI+NY Summit: Brands get the message — AI is rewriting all the rules - Axios",
+          "summary": "Axios' Kerry Flynn and Eleanor Hawkins moderated the June 3 roundtable, which was sponsored by Allis",
+          "content": "Axios' Kerry Flynn and Eleanor Hawkins moderated the June 3 roundtable, which was sponsored by Allison Worldwide, part of New York Tech Week.\n\nFive big takeaways from the conversation:\n\n1. Brands must now write for artificial intelligence, not just people\n\n \"We have to write two versions of things,\" said Marijke Shugrue, senior director of communications for PSEG. Her team writes one story for people, and a separate \"bot-oriented piece\" for AI sent on PR Newswire.\n Michael Marinello, JPMorgan's global head of communications, explained that AI is the next phase of media disruption, calling it \"the biggest shift\" since the \"advent of the 24/7 news cycle.\"\n\n2. New data shows Axios tops list as AI reshapes how stories are discovered [...] Marinello highlighted a Muck Rack study of more than 25 million AI links that found Axios was the most-cited news source across major platforms.\n He added that internal tracking showed \"11% of the coverage that we were generating was AI-driven.\"\n\n3. Switching to an AI-driven internet creates friction as companies try to protect their data while training teams\n\n Making complex technical work accessible means building entry points \"where people want to be,\" said Sarah Meron, chief communications and brand officer for IBM.\n Building AI capabilities internally can also be slow, forcing companies to rethink how employees spend their time. Lance Frank, Beehiiv's vice president and head of communications, said its AI strategy is to help \"humans be more human, and creators be more creative.\" [...] 4. Smart brands are hunting for new ways to be seen as bots outnumber clicks\n\n Edie Kissko, vice president of corporate affairs at HP, noted that because AI bots love scraping tech reviews, outlets like PC Mag are now more important for her team's product coverage.\n\n On apps like TikTok, short video clips showing women how to use basic AI tools to save time and make money are exploding in popularity, said Hot Smart Rich founder Maggie Sellers Reum.\n\n",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/06/08/axios-ainy-summit-brands-get-the-message-ai-is-rewriting-all-the-rules",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social5/400/250"
+          "image": "https://picsum.photos/seed/ai17/400/250"
+        },
+        {
+          "title": "Thian Ong Financial Academy's Tan Thian Ong Interprets AI Technology Applications: Cross-Domain Collaboration Is the Key Driving Force - markets.businessinsider.com",
+          "summary": "During the interactive exchange at the Science x AI Summit 2026, Tan Thian Ong pointed out that AI h",
+          "content": "During the interactive exchange at the Science x AI Summit 2026, Tan Thian Ong pointed out that AI has transcended its role as a mere scientific research tool and has become a core engine driving industrial innovation. Through the combination of algorithms and large-scale data, research teams in different fields can achieve collaborative innovation, promoting the simultaneous development of scientific discovery and industrial application. [...] Tan Thian Ong proposed that when AI is integrated into mathematical modeling, financial decision-making, life sciences, and drug development, it can not only accelerate the research process but also uncover patterns that are difficult to capture with traditional methods. Algorithm-driven predictive models significantly shorten the research and development cycle. [...] nor the publisher shall be held responsible for any inaccuracies, misrepresentations, or financial losses resulting from the use or reliance on the information in this press release. Speculate only with funds you can afford to lose. In the event of any legal claims or concerns regarding this article, we accept no liability or responsibility. Globenewswire does not endorse any content on this page.",
+          "source": "Markets",
+          "url": "https://markets.businessinsider.com/news/stocks/thian-ong-financial-academy-s-tan-thian-ong-interprets-ai-technology-applications-cross-domain-collaboration-is-the-key-driving-force-1036230767",
+          "time": "今日",
+          "tag": "Hacker News",
+          "image": "https://picsum.photos/seed/ai10/400/250"
+        },
+        {
+          "title": "Tech, Media & Telecom Roundup: Market Talk - 富途牛牛",
+          "summary": "Computing power determines the upper limit, storage and transportation determine efficiency, and ele",
+          "content": "Computing power determines the upper limit, storage and transportation determine efficiency, and electricity determines survival. In the grand narrative of large AI models, the extreme demand for computing power must be supported by strong storage capacity and delivered by high-speed transport. These three elements form the 'iron triangle' of AI performance.Electricity, meanwhile, is the physical foundation supporting all of this.At the same time, technological progress is reshaping the energy landscape, enabling a two-way empowerment between power supply and computing efficiency.",
+          "source": "News",
+          "url": "https://news.futunn.com/en/post/74257839/tech-media-telecom-roundup-market-talk",
+          "time": "今日",
+          "tag": "Hacker News",
+          "image": "https://picsum.photos/seed/ai11/400/250"
+        },
+        {
+          "title": "OpenAI files confidential S-1 with the SEC, has not decided timing yet - CNBC",
+          "summary": "7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18\n\nAI buildout is not just benefitting the megacap tech tr",
+          "content": "7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18\n\nAI buildout is not just benefitting the megacap tech trade, says Charles Schwab's Liz Ann Sonders\n\nan hour ago\n\nwatch now\n\nwatch now\n\nVIDEO05:14\n\nTom Lee: False narrative to think bull market is in trouble\n\n3 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO05:01\n\nModel builders are where the most risk is in AI buildout, says Davis Advisors' Chris Davis\n\n4 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO03:03\n\nScotiabank CEO: There is no recession in Canada right now\n\n6 hours ago [...] 01:38\n\n7 minutes ago\n\nwatch now\n\nwatch now\n\nVIDEO01:38\n\nOpenAI files confidential S-1 with the SEC, has not decided timing yet\n\n7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18\n\nAI buildout is not just benefitting the megacap tech trade, says Charles Schwab's Liz Ann Sonders\n\nan hour ago\n\nwatch now\n\nwatch now\n\nVIDEO05:14\n\nTom Lee: False narrative to think bull market is in trouble\n\n3 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO05:01\n\nModel builders are where the most risk is in AI buildout, says Davis Advisors' Chris Davis\n\n4 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO03:03\n\nScotiabank CEO: There is no recession in Canada right now\n\n6 hours ago\n\nwatch now\n\nwatch now\n\nVIDEO01:38\n\nOpenAI files confidential S-1 with the SEC, has not decided timing yet\n\n7 min ago\n\nwatch now\n\nwatch now\n\nVIDEO05:18",
+          "source": "Cnbc",
+          "url": "https://www.cnbc.com/video/2026/06/08/openai-files-confidential-s-1-with-the-sec-has-not-decided-timing-yet.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai12/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-06-08T04:06:20.205Z",
+  "generatedAt": "2026-06-09T03:36:12.018Z",
   "version": "3.0.0",
   "source": "tavily-mimo"
 }
