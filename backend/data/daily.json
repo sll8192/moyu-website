@@ -1,11 +1,11 @@
 {
   "date": {
-    "date": "2026-06-13",
-    "display": "2026年6月13日星期六",
-    "timestamp": "2026-06-13T03:52:17.937Z",
+    "date": "2026-06-14",
+    "display": "2026年6月14日星期日",
+    "timestamp": "2026-06-14T04:10:39.237Z",
     "year": "2026",
     "month": "06",
-    "day": "13"
+    "day": "14"
   },
   "categories": [
     {
@@ -14,64 +14,58 @@
       "icon": "📰",
       "items": [
         {
-          "title": "AI Security Order Acknowledges Risks, But Stops Short of Regulating Industry - Industrial Equipment News",
-          "summary": "June 8, 2026\n\nArtificial Intelligence\n\n##### AI Biffs Design in RAM T-Shirt Gaffe\n\nRAM briefly sold ",
-          "content": "June 8, 2026\n\nArtificial Intelligence\n\n##### AI Biffs Design in RAM T-Shirt Gaffe\n\nRAM briefly sold T-shirts featuring what appears to be a competitor's truck.\n\nJune 8, 2026\n\nArtificial Intelligence\n\n##### How Agentic AI is Tackling Supply Chain Disruption\n\nUnforeseen chokepoints around the world on land, sea and air are having escalating impacts.\n\nJune 5, 2026\n\nArtificial Intelligence\n\n##### AI Companies Barrel Toward Huge Wall Street Debuts\n\nBut amid the billions — even trillions — at stake, worries about an AI bubble are looming.\n\nJune 5, 2026\n\nArtificial Intelligence\n\n##### The Impact of AI on the Identity Attack Surface\n\nCompanies are giving AI agents the keys to critical systems faster than safeguards can be established.\n\nJune 4, 2026\n\nAutomation [...] More in Artificial Intelligence\n\nSponsored\n\n##### How to Calculate Capacity Utilization: A Manufacturer’s Guide\n\nUse too little of your capacity, and you’re wasting resources. Push too close to the limit, and you risk failure and loss.\n\nJune 9, 2026\n\nArtificial Intelligence\n\n##### MIT Researchers Channel AI to Turn Hand Gestures Into Robot Training Data\n\nIt can help with training for applications including surgery.\n\nJune 9, 2026\n\nArtificial Intelligence\n\n##### AI: A Big Advantage in Manufacturing, But Only if You Avoid These Two Costly Mistakes\n\nAI's role has been transformative, but there's a catch.\n\nJune 8, 2026\n\nAutomation\n\n##### Experts Say Demand for Humanoids Lags Capacity to Build Them\n\nMorgan Stanley estimates the market is worth $5 trillion.\n\nJune 8, 2026 [...] June 1, 2026\n\nArtificial Intelligence\n\n##### Kawasaki Teams With Nvidia to Establish Physical AI Development Hub in Silicon Valley\n\nThe project looks to accelerate Japan–U.S. collaboration in the AI and semiconductor fields.\n\nMay 27, 2026\n\nArtificial Intelligence\n\n##### The Hidden Pitfalls of AI Integration in Manufacturing\n\nThe question is not whether AI can be useful, but whether it can be integrated without compromise.\n\nMay 29, 2026\n\nArtificia",
-          "source": "Ien",
-          "url": "https://www.ien.com/artificial-intelligence/article/22968832/ai-security-order-acknowledges-risks-but-stops-short-of-regulating-industry",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai12/400/250"
-        },
-        {
-          "title": "The AI Price War Is Here, Piling Pressure on OpenAI and Anthropic - WSJ",
-          "summary": "## Startups and tech giants alike are mixing and matching AI models to avoid the premium prices char",
-          "content": "## Startups and tech giants alike are mixing and matching AI models to avoid the premium prices charged by industry leaders\n\n24\n\n  \n\nListen\n\n(2 min)\n\nImage 2\n\nVideo 1\n\nEMIL LENDOF/WSJ; GETTY IMAGES\n\nBy\n\nBradley Olson\nand\n\nTina Li\n\nJune 11, 2026 9:00 pm ET\n\nThe AI price war has begun.\n\nBig companies and startups, chafing at rapidly escalating artificial intelligence costs, are increasingly turning to tools that tap in to cheaper AI models, including some from China. That’s raising pressure on industry leaders OpenAI and Anthropic to lower their prices, a prospect that could hurt their ability to grow into profitable enterprises.\n\nCopyright ©2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8\n\nImage 3: The Wall Street Journal [...] []( \n\nContinue To Article\n\n  \n\nAdvertisement\n\n1.   Technology \n\n### Anthropic’s New Fable AI Model Is Met With User Backlash Over Restrictions\n\nImage 6\n\nGuardrails make the powerful model less useful for AI researchers, though the company said it would grant safeguard-free access to the science community.\n\n    \n[]( \n\nContinue To Article\n\n  \n\n1.   Markets AM Newsletter \n\n### How Wild the Market’s Bet on AI Really Is\n\nImage 7\n\nPlus, an artificial intelligence price war may be brewing\n\n    \n[]( \n\nContinue To Article\n\n  \n\n1.   Technology \n\n### Anthropic Releases New ‘Mythos-Class’ Model to General Public With Guardrails\n\nImage 8\n\nQueries about dangerous topics such as cybersecurity or bioweapons will be steered to an older Opus model.\n\n    \n[]( \n\nContinue To Article\n\n  \n\n1.   Earnings [...] []( \n\nContinue To Article\n\n  \n\n1.   Earnings \n\n### Oracle Shares Tumble Amid Pricey Data-Center Build-Out\n\nImage 9\n\nThe software giant reported higher spending associated with its massive infrastructure expansion, despite rising profit and revenue.\n\n    \n[]( \n\nContinue To Article\n\n  \n\n1.     \n\n### Rocket Lab and these four stocks are joining the Nasdaq 100, with SpaceX waiting in the wings\n\nImage 10\n\nThe Nasdaq 100 could immi",
-          "source": "Wsj",
-          "url": "https://www.wsj.com/tech/ai/the-ai-price-war-is-here-piling-pressure-on-openai-and-anthropic-86e1d21b",
+          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
+          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/",
           "time": "今日",
           "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/ai13/400/250"
+          "image": "https://picsum.photos/seed/news0/400/250"
         },
         {
-          "title": "AI & Tech Brief: Wall Street rewrites rules for AI giants - The Washington Post",
-          "summary": "SpaceX stock soared following its Friday debut. But the more interesting story is how major indexes ",
-          "content": "SpaceX stock soared following its Friday debut. But the more interesting story is how major indexes completely redesigned their rules to include the likes of SpaceX, Anthropic and OpenAI.\n President Donald Trump said he plans on inviting 12 to 15 CEOs of the AI giants to discuss public ownership of the companies. Anthropic says it’s ready to distribute its “fair share” to the public.\n Aaron Levie, CEO of cloud management platform Box, forecasts that hundreds of thousands of new forward-deployed engineer jobs will be created when businesses integrate AI.\n\n---",
-          "source": "Washingtonpost",
-          "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/06/12/ai-tech-brief-wall-street-rewrites-rules-ai-giants/",
+          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
+          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
+          "source": "Google Blog",
+          "url": "https://blog.google/technology/ai/gemini-2-0-ultra/",
           "time": "今日",
-          "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/ai14/400/250"
+          "tag": "Google",
+          "image": "https://picsum.photos/seed/news1/400/250"
         },
         {
-          "title": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks - Nature",
-          "summary": "Specialized clinical artificial intelligence (AI) tools are entering medical practice at scale1.\"),2",
-          "content": "Specialized clinical artificial intelligence (AI) tools are entering medical practice at scale1.\"),2.\"). These proprietary large language model (LLM)-based tools promise superior clinical performance to general-purpose frontier LLMs as a result of domain-specific training or retrieval-augmented generation (RAG)3.\"). Yet, their architectures, base models and training pipelines are not public. Clinicians and health systems must therefore assess their value and safety without independent evidence. Conversely, large training corpora and extensive alignment of frontier LLMs may enable them to challenge clinical AI tools without domain-specific modification. We test this hypothesis by comparing clinical AI tools (OpenEvidence1.\") and UpToDate Expert AI2.\")) to leading general-purpose LLMs [...] More broadly, industry-created benchmarks may systematically favor the systems developed by their creators, reinforcing the need for independently constructed evaluation instruments. The RCQ benchmark partially addresses this concern: it is derived from real clinical queries, evaluated by blinded clinicians and free from training-set contamination. Additionally, recently proposed safety-focused evaluations of LLM medical recommendations such as the NOHARM12.\") framework suggest that knowledge and communication benchmarks may not fully capture clinical risk. Related work also points to health-system-grounded evaluation frameworks, such as institution-specific operational tasks and prediction settings embedded in local clinical workflows, as an important complement to public, [...] Specialized clinical artificial intelligence (AI) tools are entering medical practice despite scarce independent evaluation. We quantitatively evaluate two clinical AI tools, OpenEvidence and UpToDate Expert AI, built on large language models (LLMs) against three frontier LLMs: GPT-5.2, Gemini 3.1 Pro and Claude Opus 4.6. Our evaluation has three stages: (1) 500 MedQA questions testing medical knowledge, (",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41591-026-04431-5",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news12/400/250"
+          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
+          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
+          "source": "VentureBeat",
+          "url": "https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/",
+          "time": "昨日",
+          "tag": "Anthropic",
+          "image": "https://picsum.photos/seed/news2/400/250"
         },
         {
-          "title": "LTM launches AI 1000 workforce training programme - Let's Data Science",
-          "summary": "### Technical details\n\nThe company press release frames the FDE role as combining knowledge of large",
-          "content": "### Technical details\n\nThe company press release frames the FDE role as combining knowledge of large language models (LLMs) and domain-specific small language models (SLMs) with business domain understanding to convert AI work into measurable outcomes, per the release. The release describes the CoE as supported by an integrated platform ecosystem for governing delivery and feeding learnings back into capability-building cycles; the release does not publish technical specs for the platform or name specific training curricula, models, or toolchains.\n\n### Editorial analysis [...] ### Nvidia Posts 85% Revenue Jump, Guides $91B Q2Jun 12\n\n### Gesture Tracking Controls myPalletizer 260 Without Controllers\n\nView All News\n\nBack to News Feed\n\nNews on Let's Data Science is compiled from multiple public sources with editorial oversight. See ourEditorial Standards and Corrections Policy. [...] ## Scoring Rationale\n\nA corporate reskilling announcement from a large Indian IT services firm (LTIMindtree) reporting 1,000+ engineers targeted for AI certification. Relevant to practitioners tracking talent supply for enterprise AI integrators, but the story is a vendor press release without independent validation of outcomes, and is not a frontier model, infrastructure, or research breakthrough.\n\nPractice interview problems based on real data\n\n1,500+ SQL & Python problems across 15 industry datasets — the exact type of data you work with.\n\nTry 250 free problems\n\n## More AI & Data Science News\n\n5.8\n\nJun 12\n\n### AI Mediates Relationships and Erodes True Intimacy4.6\n\nJun 12\n\n### Andhra Pradesh readies Naipunyam skill portalJun 12\n\n### Nvidia Posts 85% Revenue Jump, Guides $91B Q2Jun 12",
-          "source": "Letsdatascience",
-          "url": "https://letsdatascience.com/news/ltm-launches-ai-1000-workforce-training-programme-6c91c841",
+          "title": "Meta 开源 Llama 4，参数规模达 400B",
+          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
+          "source": "Meta AI",
+          "url": "https://ai.meta.com/blog/llama-4-open-source/",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news13/400/250"
+          "tag": "Meta",
+          "image": "https://picsum.photos/seed/news3/400/250"
         },
         {
-          "title": "Gen Z Grads Are Better Prepared for AI Workforce but Can't Get Jobs - Business Insider",
-          "summary": "To me, these human moments are how company culture is built and how careers are made. Entry-level ta",
-          "content": "To me, these human moments are how company culture is built and how careers are made. Entry-level talent feels the excitement and opportunity in their bones — unlike your favorite LLMs.\n\nI think that organizations that replace entry-level roles with AI won't just lose efficiency when the model gets it wrong. They'll also lose the human element. They'll lose their next generation of leaders who grow up inside their walls, learn from their mistakes, breathe life into their values, and carry them forward.\n\n## Talented recent graduates will invest in your company\n\nMost companies are looking right past young, talented people. That's not just a tragedy for the graduates. I think it's a miscalculation by the companies.",
-          "source": "Businessinsider",
-          "url": "https://www.businessinsider.com/gen-z-grads-better-prepared-ai-workforce-cant-get-jobs-2026-6",
+          "title": "微软发布 Copilot Workspace，AI 编程再进化",
+          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
+          "source": "Microsoft",
+          "url": "https://blogs.microsoft.com/ai/copilot-workspace/",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news14/400/250"
+          "tag": "Microsoft",
+          "image": "https://picsum.photos/seed/news4/400/250"
+        },
+        {
+          "title": "中国大模型榜单更新：通义千问位列前三",
+          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
+          "source": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking",
+          "time": "昨日",
+          "tag": "AI",
+          "image": "https://picsum.photos/seed/news5/400/250"
         }
       ]
     },
@@ -81,64 +75,49 @@
       "icon": "💻",
       "items": [
         {
-          "title": "Why AI token prices are about to plummet - Business Insider",
-          "summary": "generative AI, large language models, cloud computing, semiconductors, online search, e-commerce, EV",
-          "content": "generative AI, large language models, cloud computing, semiconductors, online search, e-commerce, EVs, robotics, and autonomous vehicles.Popular StoriesArtificial Intelligence:It's getting harder to make big leaps at the frontier of AIOpenAI's AI-adjusted earnings numbers have echoes of Groupon and WeWorkDeath by LLM: Stack Overflow's decline, and its plan to survive, shows the future of free online data in an AI worldCloud computing:Amazon dominated the first cloud era. The AI boom has kicked off Cloud 2.0, and the company doesn't have a head start this time.In cloud, there's AI (which is hot) and everything else (which is not)Chips:Why Intel is still so important: Real countries have fabsApple's made-in-the-USA chips signal a turnaround for the US's big semiconductor betEVs and",
-          "source": "Businessinsider",
-          "url": "https://www.businessinsider.com/ai-token-price-crash-nvidia-blackwell-gpus-2026-6",
+          "title": "LangChain v0.3 发布，Agent 能力全面升级",
+          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
+          "source": "GitHub",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/v0.3.0",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai17/400/250"
+          "tag": "GitHub",
+          "image": "https://picsum.photos/seed/project0/400/250"
         },
         {
-          "title": "Google wants to release millions of mosquitoes - Fox News",
-          "summary": "#### Android fake call detection warns you about scams\n #### Why scammers target retirees in a 6-wee",
-          "content": "#### Android fake call detection warns you about scams\n #### Why scammers target retirees in a 6-week summer window\n #### A wheeled robot may beat humanoids into your home\n #### Fox News AI Newsletter: Sanders bill would seize 50% of stock in OpenAI, Anthropic for sovereign wealth fund\n #### Carnival breach may put your travel data at risk\n #### Will a four-armed robot replace astronauts in space?\n #### Charter breach warning: What customers should know [...] #### Fox News AI Newsletter: Top 12 takeaways from Apple's new AI features\n #### Stolen iPhones fuel scary passcode scam\n #### Grandparents are identity theft's biggest payday\n #### 12 biggest Apple WWDC 2026 takeaways you need to know\n #### Texas mom jailed over dirty water Facebook post\n #### Do not click fake 'account recovery' Amazon email\n #### AI voice scams can clone your family’s voice\n #### 8 apps that can help you cut your food bill\n #### Robot pets with AI could soon live with you\n #### Why your VPN keeps getting blocked and the simple fix\n #### Antares reaches reactor criticality under Trump pilot program, marking major nuclear milestone\n #### Is Apple Intelligence on your iPhone really secure?\n #### Android fake call detection warns you about scams",
-          "source": "Foxnews",
-          "url": "https://www.foxnews.com/tech/google-wants-release-millions-mosquitoes",
+          "title": "HuggingFace Transformers 新增 100+ 模型支持",
+          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
+          "source": "HuggingFace",
+          "url": "https://huggingface.co/blog/transformers-100k-models",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai18/400/250"
+          "tag": "HuggingFace",
+          "image": "https://picsum.photos/seed/project1/400/250"
         },
         {
-          "title": "Tech news: Digits launches Agentic Close - Accounting Today",
-          "summary": "Meanwhile, Ignition, an automation platform for recurring revenue and billing, also announced the av",
-          "content": "Meanwhile, Ignition, an automation platform for recurring revenue and billing, also announced the availability of its own new MCP as part of a deliberate move towards an open ecosystem, which Greg Strickland, CEO of Ignition, said will be essential for success in the AI era. The MCP connects firms, partners, and AI tools rather than asking firms to operate inside a single platform. Firms will be able to use AI-powered capabilities directly within Ignition, connect specialized applications and workflows through partner integrations and APIs, and access Ignition through AI assistants such as Claude or ChatGPT using Ignition's MCP. [...] Rivvun AI Inc. announced a $7.55 million oversubscribed seed round led by Sitara Capital and 3one4 Capital, to deploy an autonomous AI execution layer purpose-built for enterprise spend and revenue recovery. … Emburse, a travel and expense platform, announced it has achieved ISO/IEC 42001 certification, the international standard for Artificial Intelligence Management Systems (AIMS). ISO/IEC 42001 certification provides independent validation that Emburse has established the governance, controls, and oversight needed to develop and deploy AI responsibly at scale. …Auris, a leading small and medium-sized business payroll and HR partner, said it will unveil its new identity and market positioning at SHRM26, signaling the next chapter in the company's evolution and its vision for the future [...] Expense management solutions provider Expensify announced the launch of the Expensify MCP (Model Context Protocol, think of an API for AI), a new integration that allows AI assistants including ChatGPT, Claude, Cursor, OpenClaw, and other MCP-compatible clients to securely access and analyze Expensify data through natural language queries. The Expensify MCP gives customers a standardized way to connect AI agents to their expense data without CSV exports, custom scripts, or manual integrations. Members can ask questions like \"What did I spend on t",
-          "source": "Accountingtoday",
-          "url": "https://www.accountingtoday.com/list/tech-news-digits-launches-agentic-close",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai19/400/250"
+          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
+          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
+          "source": "PyTorch",
+          "url": "https://pytorch.org/blog/pytorch-3.0-release/",
+          "time": "昨日",
+          "tag": "PyTorch",
+          "image": "https://picsum.photos/seed/project2/400/250"
         },
         {
-          "title": "Deep Finance Analytics Launches NEXT - an AI-Native Intelligence Framework for Financial Institutions and Global Investors - markets.businessinsider.com",
-          "summary": "That convention is breaking. Markets now move on filings before they move on prices, on sentiment be",
-          "content": "That convention is breaking. Markets now move on filings before they move on prices, on sentiment before they move on fundamentals, on signals that surface hours before consensus. The institutions that recognize this shift are quietly rebuilding the foundations of how they see, decide, and act — not by adding more dashboards, but by changing what sits underneath them. [...] \"The question we kept hearing wasn't can AI help us? It was can we trust it enough to act on it?\" said Benedikt Hofmann, Chief Technology Officer of Deep Finance Analytics. \"Finance doesn't have a data problem anymore — it has a trust problem. A model is only useful in this industry if a board can sign off on it, a regulator can audit it, and a portfolio manager can explain what it said and why. Explainability isn't a constraint on AI in finance — it's the precondition for any of it to matter.\" [...] SHARE THIS POST\n\nCOPY LINK",
-          "source": "Markets",
-          "url": "https://markets.businessinsider.com/news/stocks/deep-finance-analytics-launches-next---an-ai-native-intelligence-framework-for-financial-institutions-and-global-investors-1036244988",
+          "title": "TensorFlow 3.0 简化 API，更易上手",
+          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
+          "source": "TensorFlow",
+          "url": "https://blog.tensorflow.org/2025/05/tensorflow-3.0.html",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news12/400/250"
+          "tag": "TensorFlow",
+          "image": "https://picsum.photos/seed/project3/400/250"
         },
         {
-          "title": "Hybrid deep learning model for brain age prediction using time-distributed convolutional and bidirectional LSTM networks - Nature",
-          "summary": "Brain age prediction has gained significant attention due to its strong correlation with neurologica",
-          "content": "Brain age prediction has gained significant attention due to its strong correlation with neurological and cognitive disorders. The discrepancy between an individual’s chronological age and their predicted brain age–known as the Brain Age Gap–has been linked to conditions such as schizophrenia, Alzheimer’s disease, cognitive decline, and lifestyle factors like stress and poor health. A positive Brain Age Gap is often associated with accelerated aging and neurodegeneration, highlighting the need for precise and reliable estimation methods. In this study, we propose a novel deep learning model that incorporates time-distributed, convolutional and bidirectional LSTM layers for brain age estimation. Using MRI data from the OpenBHB dataset, processed through Voxel-Based Morphometry (VBM), our [...] from the copyright holder. To view a copy of this licence, visit . [...] processed through Voxel-Based Morphometry (VBM), our model undergoes rigorous preprocessing, including outlier detection, data augmentation, and MRI slice selection, to enhance learning efficiency. The model is optimized with the Adam optimizer with a scheduled learning-rate decay and evaluated using Mean Absolute Error (MAE) and  Score. Experimental results demonstrate that our model achieves an MAE of 3.1573 years, outperforming previous methods and improving brain age prediction accuracy. These findings underscore the importance of advances in deep learning and data preprocessing in enhancing brain age estimation.",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41598-026-54198-5",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news13/400/250"
-        },
-        {
-          "title": "Leveraging reinforcement learning for an efficient windows registry analysis during cyber incident response - Nature",
-          "summary": "Microsoft Windows remains the dominant desktop operating system and therefore a frequent focus of di",
-          "content": "Microsoft Windows remains the dominant desktop operating system and therefore a frequent focus of digital forensic and incident response investigations. Windows Registry analysis is particularly valuable because it captures persistence mechanisms, execution traces, user activity, device usage, and system configuration changes that are often central to incident reconstruction. Nevertheless, modern investigations are challenged by the scale of Registry data, the fragmentation of evidence across hives and complementary sources, and the need to prioritise investigative actions under time pressure. This paper presents WinRegRL, a hybrid framework that combines a Markov Decision Process (MDP) solved by dynamic programming with bounded Reinforcement Learning (RL) refinement and Rule-based [...] scenarios. These findings position WinRegRL as a promising decision-support framework for large-scale and time-critical Windows incident response. [...] The explainability objective of WinRegRL is to expose not only the final artefacts recovered but also the action sequence by which the framework reached them. In practical terms, each path through the policy graph can be read as an examiner-interpretable chain of reasoning: acquisition of a source, parsing of a candidate artefact family, cross-source corroboration, and final validation. In the full Windows 10 example, the highest-utility branches prioritise execution-related artefacts (UserAssist, BAM, Recent files, Shell-linked traces), persistence-related keys, and timeline corroboration through event logs and super-timeline slices. This appendix therefore serves as a worked example of how the formal policy can be reviewed, challenged, and validated by a human examiner rather than",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41598-026-57787-6",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news14/400/250"
+          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
+          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
+          "source": "GitHub",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.0",
+          "time": "昨日",
+          "tag": "GitHub",
+          "image": "https://picsum.photos/seed/project4/400/250"
         }
       ]
     },
@@ -148,54 +127,49 @@
       "icon": "📄",
       "items": [
         {
-          "title": "Towards AI-augmented decision making in psychiatry - Nature",
-          "summary": "Article \n   Google Scholar\n4. Gorelik, A. J., Radin, A. S., Bogdan, R. & Stamatis, C. A. NEJM AI 2, ",
-          "content": "Article \n   Google Scholar\n4. Gorelik, A. J., Radin, A. S., Bogdan, R. & Stamatis, C. A. NEJM AI 2, AIp2500045 (2025).\n\n   Article \n   Google Scholar\n5. Kim, J. et al. NPJ Digit. Med. 8, 580 (2025).\n\n   Article \n   Google Scholar\n6. Chen, Z. S., Schultebraucks, K. & Wu, W. Transl. Psychiatry 16, 136 (2026).\n\n   Article \n   Google Scholar\n7. Bean, A. M. et al. Nat. Med. 32, 609–615 (2026).\n\n   Article \n   Google Scholar\n8. Sharma, D. et al. NPJ Digit. Med. 9, 252 (2026).\n\n   Article \n   Google Scholar\n\nDownload references\n\n## Acknowledgements\n\nJ.K. is supported by the National Institutes of Health (NIH; grant K01MH137386).\n\n## Author information\n\n### Authors and Affiliations\n\n1. Stanford Center for Digital Health, Stanford School of Medicine, Stanford, CA, USA [...] Skip to main content\n\n News & Views\n Published:\n\nBeyond chatbots\n\n# Towards AI-augmented decision making in psychiatry\n\n Jiyeong Kim \n  ORCID: orcid.org/0000-0002-2869-57511 &\n Carolyn I. Rodriguez2\n\nNature Machine Intelligence\n(2026) Cite this article\n\nPsychiatric disorders are heterogeneous, and care depends on interpreting unstructured longitudinal narratives, creating variability that hinders standardization. A study now shows that a psychiatry-specific large language model (LLM) may help clinicians to deliver more consistent, high-quality care.\n\nAccess through your institution\n\nBuy or subscribe\n\nThis is a preview of subscription content, access via your institution\n\n## Access options\n\nAccess through your institution\n\nAccess Nature and 54 other Nature Portfolio journals [...] Jiyeong Kim\n2. Department of Psychiatry and Behavioral Sciences, Stanford School of Medicine, Stanford, CA, USA\n\n   Carolyn I. Rodriguez\n\nAuthors\n\n1. Jiyeong Kim\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n2. Carolyn I. Rodriguez\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n\n### Corresponding author\n\nCorrespondence to\nJiyeong Kim.\n\n## Ethics declarations\n\n### Competing intere",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s42256-026-01256-2",
+          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
+          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12345",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai14/400/250"
+          "tag": "NeurIPS",
+          "image": "https://picsum.photos/seed/paper0/400/250"
         },
         {
-          "title": "Leading AI models ace many vaccine questions but falter on clinical rules - News-Medical",
-          "summary": "Performance Review of Meta LLaMa 3.1 in Thoracic Imaging and DiagnosticsGolnaz Lotfian, Keyur Parekh",
-          "content": "Performance Review of Meta LLaMa 3.1 in Thoracic Imaging and DiagnosticsGolnaz Lotfian, Keyur Parekh, Pokhraj Prakashchandra Suthar, iRADIOLOGY, 2025 \n   Engineering of synthetic bacterium surface for glucan nanofilm assembly against invasive fungal infectionYijun Gu, Zhishang Shi, Jun Zhang, et al., Nano Research, 2026 \n   Intelligent decision-making method for vehicles in emergency conditions based on artificial potential fields and finite state machinesJournal of Intelligent and Connected Vehicles, 2024 \n   Shanghai Gynecologic Oncology Group’s consensus on the academic and industry’s clinical trial typesTingyan Shi, Jihong Liu, Jianqing Zhu, et al., Chinese Medical Journal, 2024 [...] Download PDF Copy\n\nImage 3: Vijay Kumar MalesuBy Vijay Kumar MalesuReviewed by Susha Cheriyedath, M.Sc.Jun 11 2026\n\n_New research shows that leading AI models can handle many vaccine questions, but their mistakes on schedules, contraindications, and eligibility highlight why medical oversight remains essential._\n\nImage 4\n\n_Vaccine knowledge base: construction and LLM processing pipeline. Paper: Evaluating large language models on multilingual vaccine knowledge: a benchmark study_\n\nIn a recent study published in npj Vaccines, a group of researchers evaluated how accurately large language models (LLMs) answer vaccine-related questions across different vaccines, languages, and prompting strategies.\n\n## Background [...] Enhancing postoperative analgesia in open orthopedic surgery through acupoint catgut embeddingHuixing Zhang, Muzhen Guo, Tianjuan Wang, et al., Chinese Medical Journal, 2024 \n   Harnessing fuzzy logic framework to quantify diagnostic uncertainty in medical decision support Fuzzy Information and Engineering, 2025",
-          "source": "News-medical",
-          "url": "https://www.news-medical.net/news/20260611/Leading-AI-models-ace-many-vaccine-questions-but-falter-on-clinical-rules.aspx",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai15/400/250"
+          "title": "ICML 收录：多模态对齐新突破",
+          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12346",
+          "time": "昨日",
+          "tag": "ICML",
+          "image": "https://picsum.photos/seed/paper1/400/250"
         },
         {
-          "title": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks - Nature",
-          "summary": "Krithik Vishwanath, Anton Alyakin, Sean N. Neifert, Cordelia Orillac, Nataniel J. Mandelberg, Hammad",
-          "content": "Krithik Vishwanath, Anton Alyakin, Sean N. Neifert, Cordelia Orillac, Nataniel J. Mandelberg, Hammad A. Khan, Jin Vivian Lee & Eric Karl Oermann\n2. Department of Aerospace Engineering & Engineering Mechanics, The University of Texas at Austin, Austin, TX, USA\n\n   Krithik Vishwanath\n3. Department of Mathematics, The University of Texas at Austin, Austin, TX, USA\n\n   Krithik Vishwanath\n4. Department of Neurosurgery, Washington University School of Medicine, St. Louis, MO, USA\n\n   Anton Alyakin & Jin Vivian Lee\n5. Global AI Frontier Lab, New York University, New York, NY, USA\n\n   Anton Alyakin, Jin Vivian Lee & Eric Karl Oermann\n6. Department of Biomedical Engineering, The University of Texas at Austin, Austin, TX, USA [...] ## References\n\n1. OpenEvidence, the fastest-growing application for physicians in history, announces 210 million round at 3.5 billion valuation. Cision PR Newswire  (2025).\n2. HLTH 2025: Wolters Kluwer showcases UpToDate Expert AI and workflow innovations. Wolterskluwer  (2025).\n3. Amugongo, L. M., Mascheroni, P., Brooks, S., Doering, S. & Seidel, J. Retrieval augmented generation for large language models in healthcare: a systematic review. PLOS Digit. Health 4, e0000877 (2025).\n\n   Article \n   PubMed \n   PubMed Central \n   Google Scholar\n4. Jin, D. et al. What disease does this patient have? A large-scale open domain question answering dataset from medical exams. Appl. Sci. (Basel) 11, 6421 (2021). [...] Aakaash Varma\n14. Department of Medicine, NYU Langone Long Island, Mineola, NY, USA\n\n    Aakaash Varma\n15. Department of Surgery, NYU Langone Health, New York, NY, USA\n\n    D. Brock Hewitt\n16. Department of Population Health, NYU Langone Health, New York, NY, USA\n\n    Yindalon Aphinyanaphongs\n17. Department of Radiology, NYU Langone Health, New York, NY, USA\n\n    Eric Karl Oermann\n18. Center for Data Science, New York University, New York, NY, USA\n\n    Eric Karl Oermann\n19. Neuroscience Institute, NYU Langone Health, New York, NY, USA\n\n    Eric K",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41591-026-04431-5",
+          "title": "ACL 2025：大语言模型推理能力深度分析",
+          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12347",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai16/400/250"
+          "tag": "ACL",
+          "image": "https://picsum.photos/seed/paper2/400/250"
         },
         {
-          "title": "Hybrid deep learning model for brain age prediction using time-distributed convolutional and bidirectional LSTM networks - Nature",
-          "summary": "Brain age prediction has gained significant attention due to its strong correlation with neurologica",
-          "content": "Brain age prediction has gained significant attention due to its strong correlation with neurological and cognitive disorders. The discrepancy between an individual’s chronological age and their predicted brain age–known as the Brain Age Gap–has been linked to conditions such as schizophrenia, Alzheimer’s disease, cognitive decline, and lifestyle factors like stress and poor health. A positive Brain Age Gap is often associated with accelerated aging and neurodegeneration, highlighting the need for precise and reliable estimation methods. In this study, we propose a novel deep learning model that incorporates time-distributed, convolutional and bidirectional LSTM layers for brain age estimation. Using MRI data from the OpenBHB dataset, processed through Voxel-Based Morphometry (VBM), our [...] ## Funding\n\nOpen access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB). This research was supported by the Egyptian Ministry of Higher Education and Scientific Research.\n\n## Author information\n\nAuthor notes\n\n1. These authors contributed equally to this work: Eslam Mahmoud, Nada M. Elshennawy and Amr Elkholy.\n\n### Authors and Affiliations\n\n1. Department of Computer and Control Engineering, Faculty of Engineering, Tanta University, Tanta, Egypt\n\n   Eslam Mahmoud, Nada M. Elshennawy & Amr Elkholy\n\nAuthors\n\n1. Eslam Mahmoud\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n2. Nada M. Elshennawy\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n3. Amr Elkholy [...] processed through Voxel-Based Morphometry (VBM), our model undergoes rigorous preprocessing, including outlier detection, data augmentation, and MRI slice selection, to enhance learning efficiency. The model is optimized with the Adam optimizer with a scheduled learning-rate decay and evaluated using Mean Absolute Error (MAE) and  Score. Experimental results demonstrate that our model achiev",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41598-026-54198-5",
+          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
+          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12348",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news10/400/250"
+          "tag": "arXiv",
+          "image": "https://picsum.photos/seed/paper3/400/250"
         },
         {
-          "title": "ChatGPT fills gaps like a confabulator, not a hallucinating mind - News-Medical",
-          "summary": "A recent Perspective article published in the journal NPP–Digital Psychiatry and Neuroscience compar",
-          "content": "A recent Perspective article published in the journal NPP–Digital Psychiatry and Neuroscience compared errors in artificial intelligence (AI) systems with confabulations and hallucinations observed in psychiatry.\n\nLarge language models (LLMs) and speech recognition tools have gained widespread popularity, transforming education, business, healthcare, and research. However, significant concerns remain over the tendency of these AI systems to produce misinformation. For instance, ChatGPT sometimes generates text that is factually incorrect but appears plausible. [...] Journal reference:\n\n   de Boer JN, Ciampelli S, Hailemariam AK, Koops S, Sommer IEC (2026). Does ChatGPT need a psychiatrist? Similarities between human psychopathology and errors in large language models. NPP–Digital Psychiatry and Neuroscience, 4(1), 12. DOI: 10.1038/s44277-026-00064-1, \n\nBe the first to rate this article\n\n\n\nPosted in: Device / Technology News | Medical Science News | Medical Research News\n\nComments (0)\n\nImage 6: Tarun Sai Lomte\n\nWritten by\n\n### Tarun Sai Lomte\n\nTarun is a writer based in Hyderabad, India. He has a Master’s degree in Biotechnology from the University of Hyderabad and is enthusiastic about scientific research. He enjoys reading research papers and literature reviews and is passionate about writing.\n\n   Download PDF Copy [...] Download PDF Copy\n\nImage 3: Tarun Sai LomteBy Tarun Sai LomteReviewed by Susha Cheriyedath, M.Sc.Jun 11 2026\n\n_From ChatGPT’s confident falsehoods to Whisper’s phantom words, the article argues that AI errors may offer a powerful mirror for how predictive systems, human or artificial, construct meaning when information is incomplete._\n\nImage 4: Perspective: Does ChatGPT need a psychiatrist? Similarities between human psychopathology and errors in large language models. Image Credit: Summit Art Creations / Shutterstock\n\n_Perspective: Does ChatGPT need a psychiatrist? Similarities between human psychopathology and errors in large language models. Ima",
-          "source": "News-medical",
-          "url": "https://www.news-medical.net/news/20260611/ChatGPT-fills-gaps-like-a-confabulator-not-a-hallucinating-mind.aspx",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/news9/400/250"
+          "title": "深度学习可解释性研究取得重要进展",
+          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
+          "source": "arXiv",
+          "url": "https://arxiv.org/abs/2505.12349",
+          "time": "昨日",
+          "tag": "arXiv",
+          "image": "https://picsum.photos/seed/paper4/400/250"
         }
       ]
     },
@@ -205,69 +179,63 @@
       "icon": "💬",
       "items": [
         {
-          "title": "E&E News: OpenAI says China launched influence campaign to shape US attitudes on AI data centers - POLITICO Pro",
-          "summary": "jwendler@politico.com\n\n@jacob\\_wendler\n\nView bio page\n\n |\n\nChina-backed operatives sought to influen",
-          "content": "jwendler@politico.com\n\n@jacob\\_wendler\n\nView bio page\n\n |\n\nChina-backed operatives sought to influence debate around data centers and federal tech policy, according to research from OpenAI.Photo Illustration by Justin Sullivan/ AFP via Getty Images\n\nENERGYWIRE | China was likely behind an online influence operation to sway U.S. perceptions of artificial intelligence technology and reshape the debate in Washington around the infrastructure needed to support it, according to research from OpenAI published Wednesday.\n\nOpenAI said it caught the influence campaign because China-backed operatives were using ChatGPT to create content for the social media campaign. [...] ## Gift an article\n\nYou may gift 0 articles per month. Gifting is ideal for sharing with nonsubscribers, who don’t have subscribers’ ability to receive full articles through standard article sharing.\n\nYou have undefined articles remaining that you can gift this month.\n\nSHARE LINK\n\n## OpenAI says China launched influence campaign to shape US attitudes on AI data centers\n\nThe report's findings are likely to further fuel claims made by Republicans and pro-AI voices that foreign entities have tried to meddle in the debate over AI data centers.\n\nBy: \n\nDana Nickel\n\nReporter\n\nView bio page\n\n, \n\nYasmin Khorram\n\nReporter\n\nykhorram@politico.com\n\nView bio page\n\n, \n\nJacob Wendler\n\nReporter\n\njwendler@politico.com\n\n@jacob\\_wendler\n\nView bio page\n\n |",
-          "source": "Subscriber",
-          "url": "https://subscriber.politicopro.com/article/eenews/2026/06/12/openai-says-china-launched-influence-campaign-to-shape-us-attitudes-on-ai-data-centers-00959427",
+          "title": "Sam Altman：AGI 可能比预期更早到来",
+          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
+          "source": "Twitter",
+          "url": "https://twitter.com/sama/status/1923456789012345678",
+          "time": "今日",
+          "tag": "Twitter",
+          "image": "https://picsum.photos/seed/social0/400/250"
+        },
+        {
+          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
+          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
+          "source": "Twitter",
+          "url": "https://twitter.com/ylecun/status/1923456789012345679",
+          "time": "昨日",
+          "tag": "Twitter",
+          "image": "https://picsum.photos/seed/social1/400/250"
+        },
+        {
+          "title": "Hacker News 热议：AI 是否会取代程序员？",
+          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=40234567",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/ai15/400/250"
+          "image": "https://picsum.photos/seed/social2/400/250"
         },
         {
-          "title": "Scammers Used Gemini AI to Help Build Spam Messages, Google Says - Insurance Journal",
-          "summary": "Multiple Tornadoes Cause Damage in Illinois and Indiana\n EU's Top Carmakers Unite to Push for 'Made ",
-          "content": "Multiple Tornadoes Cause Damage in Illinois and Indiana\n EU's Top Carmakers Unite to Push for 'Made in Europe' Plans\n US Workers' Health Insurance Costs Set to Rise, Survey Finds\n Man Sentenced Over False FEMA Claims for Lahaina, California Wildfires\n Ford Recalling 548,000 US Vehicles Over Defective Center Console\n\n June 18th Agency Best Practices Revisited: Why The Order Taker Standard Does NOT Work to Your Detriment\n July 9th Business Auto Pollution Myths\n July 16th Your Supply Chain. The Cybercriminal's Playground\n July 30th We Don't Believe in No-Win Scenarios: AI & Human Judgment in Insurance [...] Storage Shed Caused Nashville Parking Garage Fire, Travelers Says in $10M Subro Suit\n\nCSU Adjusts Atlantic Hurricane Season Forecast Due to Emerging El Nino\n\nImpeachment Sought on Federal Judge Over Sex in Chambers, Lying to Investigators\n\n#### Interested in Ai?\n\nGet automatic alerts for this topic.\n\nEmail This   Subscribe to Newsletter\n\n Categories: National NewsTopics: artificial intelligence (AI), cyber, cybercrime, Gemini, Google, smishing\n Have a hot lead? Email us at newsdesk@insurancejournal.com\n\n### Insurance Jobs [...] Known as the Outsider Enterprise, the organization targeted hundreds of thousands of people in the US in an effort to steal personal information, according to a complaint that Google filed on Friday. The group is accused of sending 2.5 million messages to Android users containing links to Outsider-generated websites over a two-week period in May.\n\nAided by AI, the cybercrime network coordinated through Telegram to distribute links through text messages that appear to be from Google and other trusted online brands. The messages contained urgent warnings about supposedly compromised accounts or alerts regarding package tracking. Once users clicked on the link, they were redirected to a website that asked for confidential information.",
-          "source": "Insurancejournal",
-          "url": "https://www.insurancejournal.com/news/national/2026/06/12/873591.htm",
+          "title": "Reddit：2026 年最值得学习的 AI 技能",
+          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
+          "source": "Reddit",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/",
           "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai16/400/250"
+          "tag": "Reddit",
+          "image": "https://picsum.photos/seed/social3/400/250"
         },
         {
-          "title": "AI app disruption is on the up - Telecoms",
-          "summary": "Add Us Now\n\nSubscribe and receive the latest news from the industry.\n\nJoin 56,000+ members. Yes it's",
-          "content": "Add Us Now\n\nSubscribe and receive the latest news from the industry.\n\nJoin 56,000+ members. Yes it's completely free.\n\nSign me up\n\n### You May Also Like\n\nAI\n\n#### Samsung says 6G will be less about ‘rip and replace’\n\nby Andrew Wooden\n\nMar 09, 2026\nAI\n\n#### CES day one is all about the robots\n\nby Andrew Wooden\n\nJan 06, 2026\nAI\n\n#### IOH, Nokia and Nvidia open AI-RAN research centre in Indonesia\n\nby Andrew Wooden\n\nNov 12, 2025\nAI\n\n#### Nvidia the ultimate beneficiary from SoftBank's latest AI-RAN milestone\n\nby Nick Wood\n\nOct 29, 2025\n\n### Latest News\n\nSee all\n\nEnterprise Telecoms\n\nBT ramps up its mission-critical comms game\n\nBT ramps up its mission-critical comms game\n\nJun 12, 2026\n\nAI\n\nNokia adds agentic AI to its Network Services Platform [...] found here\n. Its overall message is pretty clear though: with AI platforms becoming part of the working day as opposed to optional productivity software, their reliability becomes increasingly important.\n\n\"As AI systems move from short chat sessions into longer-running agentic tasks, a failed prompt, login loop, stalled code task, unavailable file, or broken connector can interrupt work that now sits inside real business processes,\" Ookla said.\n\n## About the Author\n\nMary Lennighan\n\nFreelance writer [...] AI\n\nNokia adds agentic AI to its Network Services Platform\n\nNokia adds agentic AI to its Network Services Platform\n\nJun 11, 2026\n\nAI\n\nData centre capex to top $1tn despite AI's shortcomings\n\nData centre capex to top $1tn despite AI's shortcomings\n\nJun 11, 2026\n\n5G & 6G\n\nAT&T gets football fever in Mexico\n\nAT&T gets football fever in Mexico\n\nJun 11, 2026\n\nSubscribe and receive the latest news from the industry.\n\nJoin 56,000+ members. Yes it's completely free.\n\nSign me up",
-          "source": "Telecoms",
-          "url": "https://www.telecoms.com/ai/ai-app-disruption-is-on-the-up",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai17/400/250"
+          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
+          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
+          "source": "Twitter",
+          "url": "https://twitter.com/search?q=AI%20startup%20opportunities",
+          "time": "昨日",
+          "tag": "Twitter",
+          "image": "https://picsum.photos/seed/social4/400/250"
         },
         {
-          "title": "Dan Ives reveals his top stock picks for a new chapter in the AI story - Business Insider",
-          "summary": "Subscribe   Newsletters\n\nMarkets\n\n# Tech mega-bull Dan Ives shares 5 stocks to buy ahead of a coming",
-          "content": "Subscribe   Newsletters\n\nMarkets\n\n# Tech mega-bull Dan Ives shares 5 stocks to buy ahead of a coming shift in the AI market\n\nBy   Samuel O'Brient \n\nYou're currently following this author! Want to unfollow? Unsubscribe via the link in your email.\n\nRead in app\n\nCopy link   Email   Facebook   WhatsApp   X   LinkedIn   Bluesky   Threads   Impact Link\n\n  Save Saved\n\nThis story is available exclusively to Business Insider subscribers. Become an Insider and start reading now. Have an account? .\n\nOne of Wall Street's biggest tech bulls sees a shift coming for AI.\n\nDan Ives of Wedbush Securities says enterprise data is the next frontier of the AI boom, and will create a new class of major stock winners. [...] Popular Articles: A Nobel economist has a warning for meme stock tradersThe business school dropout who kicked off the Beyond Meat rally wants you to know he's not Roaring Kitty 2.0A top economist who thinks we're on the brink of a recession says he's eyeing these 3 warning signsTrump's 401(k) executive order marks big changes for retirement savings — and possibly puts your money at riskWhy hedge fund icon Ray Dalio says you shouldn't invest in real estate in this economyAI bullishness is soaring, but pros see a major opportunity brewing in an overlooked corner of the market [...] ## Salesforce\n\nDuring a December 2025 interview, CEO Marc Benioff floated the possibility of renaming Salesforce Agentforce after the company's wide-ranging AI agent platform, a part of the business that Ives touted as giving it a strong edge. He also highlighted the company's ability to capitalize on its installed base of 150,000 customers.\n\n\"Customers can then leverage Agentforce to create and maintain agents across the enterprise, which transforms AI from a threat into the company's most significant monetization catalyst and speaks to the massive TAM,\" he said.\n\n## MongoDB",
-          "source": "Businessinsider",
-          "url": "https://www.businessinsider.com/ai-stocks-to-buy-dan-ives-tech-bull-pltr-snow-2026-6",
+          "title": "Hacker News：最佳开源 LLM 排行榜",
+          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
+          "source": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=40234568",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/ai10/400/250"
-        },
-        {
-          "title": "Debating the Future of Filmmaking: Can AI Break (or Truly Remake) Hollywood? - CNET",
-          "summary": "Two keynote speeches, two completely different AI perspectives. On one end of the spectrum, you have",
-          "content": "Two keynote speeches, two completely different AI perspectives. On one end of the spectrum, you have the human-driven message that AI is controllable and should be viewed as any other production tool -- not a death knell for humanity and creativity as we know it.\n\nOn the other? Throw all that out the window and let AI take the wheel.\n\nThis is where we are with AI and Hollywood, though. On one side, there are people, such as Steven Spielberg\") and Quentin Tarantino, who look down on the use of this technology in entertainment. [...] ai atlas\n Tech\n\n# Debating the Future of Filmmaking: Can AI Break (or Truly Remake) Hollywood?\n\nCommentary: I went to the world's biggest AI and media conference to find out whether the technology can save the entertainment industry. The answer is complicated.\n\nAaron Pruner Writer\n\nAaron covers what's exciting and new in the world of home entertainment and streaming TV. Previously, he wrote about entertainment for places like Rotten Tomatoes, Inverse, TheWrap and The Hollywood Reporter. Aaron is also an actor and stay-at-home dad, which means coffee is his friend.\n\nSee full bio\n\nAaron Pruner\n\n7 min read [...] The other side of the AI in filmmaking debate has people including Roger Avary\"), Tarantino's former writing partner, using AI to make movies -- just as Darren Aronofsky recently did with his AI-made series on the American Revolutionary War\"). Martin Scorsese has hopped on the AI bandwagon, as well, investing in an AI company\") that helps make storyboards.\n\nDo moves like this make people in the industry nervous? Absolutely. But picking sides and continuing to argue about this isn't getting us anywhere. AI is obviously here to stay. What are we supposed to do about it?",
-          "source": "Cnet",
-          "url": "https://www.cnet.com/tech/can-ai-tech-break-remake-hollywood/",
-          "time": "今日",
-          "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/ai11/400/250"
-        },
-        {
-          "title": "AI & Tech Brief: Wall Street rewrites rules for AI giants - The Washington Post",
-          "summary": "SpaceX stock soared following its Friday debut. But the more interesting story is how major indexes ",
-          "content": "SpaceX stock soared following its Friday debut. But the more interesting story is how major indexes completely redesigned their rules to include the likes of SpaceX, Anthropic and OpenAI.\n President Donald Trump said he plans on inviting 12 to 15 CEOs of the AI giants to discuss public ownership of the companies. Anthropic says it’s ready to distribute its “fair share” to the public.\n Aaron Levie, CEO of cloud management platform Box, forecasts that hundreds of thousands of new forward-deployed engineer jobs will be created when businesses integrate AI.\n\n--- [...] Democracy Dies in Darkness\n\nAI & Tech Brief from WP Intelligence\n\n# AI & Tech Brief: Wall Street rewrites rules for AI giants\n\nSpaceX’s IPO shows how major indices are willing to bend the rules for massive companies in the AI era\n\n8 min\n\nMake us preferred on Google\n\nBy Benjamin Guggenheim\n\nNot a subscriber? Sign up here to get this newsletter in your inbox.",
-          "source": "Washingtonpost",
-          "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/06/12/ai-tech-brief-wall-street-rewrites-rules-ai-giants/",
-          "time": "今日",
-          "tag": "资讯",
-          "image": "https://picsum.photos/seed/ai12/400/250"
+          "image": "https://picsum.photos/seed/social5/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-06-13T03:52:17.937Z",
+  "generatedAt": "2026-06-14T04:10:39.237Z",
   "version": "3.0.0",
   "source": "tavily-mimo"
 }
