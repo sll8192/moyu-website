@@ -1,11 +1,11 @@
 {
   "date": {
-    "date": "2026-06-14",
-    "display": "2026年6月14日星期日",
-    "timestamp": "2026-06-14T04:10:39.237Z",
+    "date": "2026-06-15",
+    "display": "2026年6月15日星期一",
+    "timestamp": "2026-06-15T04:22:24.762Z",
     "year": "2026",
     "month": "06",
-    "day": "14"
+    "day": "15"
   },
   "categories": [
     {
@@ -14,58 +14,64 @@
       "icon": "📰",
       "items": [
         {
-          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
-          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/",
+          "title": "‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers - Fortune",
+          "summary": "By Fortune Editors\n\nOctober 20, 2025\n\nFinance\n\nLorem ipsum dolor sit amet, consectetur adipiscing el",
+          "content": "By Fortune Editors\n\nOctober 20, 2025\n\nFinance\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam\n\nBy Fortune Editors\n\nOctober 20, 2025\n\nFinance\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam\n\nBy Fortune Editors\n\nOctober 20, 2025\n\nLatest in AI\n\n---\n\nAICanada\n\nCanadian Prime Minister Mark Carney warns U.S. restrictions on new Anthropic AI models show danger of relying too much on American providers\n\nBy Rob Gillies, Jason Ma and The Associated PressJune 14, 2026\n\n1 hour ago\n\nBankingWar\n\nWall Street is gaining access to new catastrophe models to help predict wars [...] By Gautam Naik and BloombergJune 14, 2026\n\n5 hours ago\n\nAIJobs\n\nAI job disruption is here. The problem may be compounded because nearly 75% of people don’t apply for unemployment benefits\n\nBy Jacqueline MunisJune 14, 2026\n\n5 hours ago\n\nPoliticsregulation\n\nJust months after Trump warned states not to regulate AI, Republican and Democratic lawmakers are doing it anyway\n\nBy Marc Levy and The Associated PressJune 14, 2026\n\n5 hours ago\n\nAINvidia\n\n‘The cost of compute is far beyond the costs of the employee’: Nvidia executive says right now AI is more expensive than paying human workers\n\nBy Sasha RogelbergJune 14, 2026\n\n5 hours ago\n\nAIOpenAI\n\nOpenAI hit with multistate probe into possible user harm, days after filing for a highly anticipated IPO [...] By Jason MaJune 13, 2026\n\n1 day ago\n\nStartups & Venture\n\nMelinda French Gates' advice to new IPO millionaires: 'Give half your money away'\n\nBy Emma HinchliffeJune 13, 2026\n\n1 day ago\n\nCEO of $20 billion AI firm Perplexity says the secret to success is ‘sleeping with that fear’ that your competitor will steal your idea\n\nBy Preston ForeJune 13, 2026\n\n1 day ago",
+          "source": "Fortune",
+          "url": "https://fortune.com/article/why-is-the-cost-of-ai-higher-than-human-workers-nvidia-executive/",
           "time": "今日",
           "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/news0/400/250"
+          "image": "https://picsum.photos/seed/ai12/400/250"
         },
         {
-          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
-          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
-          "source": "Google Blog",
-          "url": "https://blog.google/technology/ai/gemini-2-0-ultra/",
+          "title": "New Amazon AI search turns words into shoppable images - Fox News",
+          "summary": "#### Elementary school students honored by first lady Melania Trump for AI app\n #### Americans need ",
+          "content": "#### Elementary school students honored by first lady Melania Trump for AI app\n #### Americans need protection against ‘warrantless surveillance’: Rep Chip Roy\n #### Spencer Pratt’s use of AI to boost campaign sparks debate\n #### Google general counsel explains AI-powered phishing rise\n #### Brad Paisley speaks out against Nashville data center proposed near zoo\n #### Texas mom jailed over dirty water Facebook post\n #### Melania Trump honors next-generation AI innovators at White House challenge\n #### China approves world’s first commercial brain chip\n #### MASSIVE brawls breakout in NYC after Knicks loss\n #### China approves FIRST commercial BRAIN CHIP\n #### Teen boys swap real-world relationships for AI chatbots\n #### Homeowner comes FACE-TO-FACE with alligator at front door [...] #### Why your VPN keeps getting blocked and the simple fix\n #### Antares reaches reactor criticality under Trump pilot program, marking major nuclear milestone\n #### Is Apple Intelligence on your iPhone really secure?\n #### Android fake call detection warns you about scams\n #### Why scammers target retirees in a 6-week summer window\n #### A wheeled robot may beat humanoids into your home\n #### Fox News AI Newsletter: Sanders bill would seize 50% of stock in OpenAI, Anthropic for sovereign wealth fund\n #### Carnival breach may put your travel data at risk [...] #### Beware of hackers showing up pretending to be IT\n #### Robot soccer player dents wall with terrifying kicks\n #### Google wants to release millions of mosquitoes\n #### Fox News AI Newsletter: Top 12 takeaways from Apple's new AI features\n #### Stolen iPhones fuel scary passcode scam\n #### Grandparents are identity theft's biggest payday\n #### 12 biggest Apple WWDC 2026 takeaways you need to know\n #### Texas mom jailed over dirty water Facebook post\n #### Do not click fake 'account recovery' Amazon email\n #### AI voice scams can clone your family’s voice\n #### 8 apps that can help you cut your food bill\n #### Robot pets with AI ",
+          "source": "Foxnews",
+          "url": "https://www.foxnews.com/tech/new-amazon-ai-search-turns-words-shoppable-images-",
+          "time": "今日",
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai13/400/250"
+        },
+        {
+          "title": "I went to Walmart's HQ and saw how AI is changing what people see, buy, and how fast they get it - AOL.com",
+          "summary": "The training program is intended to help employees build practical confidence with AI. They learn to",
+          "content": "The training program is intended to help employees build practical confidence with AI. They learn to integrate the tools into the problems they face in the real world.\n\nAdvertisement\n\nThe company highlighted one such case: A logistics manager who completed a Google AI certification and used those skills to develop an agent that helps Walmart identify routes that would get drivers home faster with fewer empty trucks.\n\nEven the new delivery partnership with in-store Subway restaurants now comes with a hefty serving of AI.\n\nWalmart order pickers already follow an AI-generated route through the store to fill the basket, and Walmart's head of digital fulfillment, Greg Cathey, said AI now also finds the right moment in that route to queue Subway workers to make the order. [...] Thanks to AI, Jervis can tap into the 150,000-member group and extract not just what they're saying, but how they're saying it — the emotional register behind their feedback about the club's products and services.\n\nWalmart is also learning more about customers who use the company's new Sparky chatbot, which acts as a kind of personal shopping assistant.\n\n\"We're learning a ton just from how they're interacting with Sparky relative to ways that maybe historically they have interacted with us,\" Chief Growth Officer Seth Dallaire told reporters.\n\nThe value of that interaction is significant enough that the company is not rushing to serve ads in the chat, focusing instead on ensuring customers are getting what they want from the experience. [...] \"We see long natural language query strings that look very different than someone typing in 'men's shoes,'\" he said. \"That is in itself is a really interesting piece of information for us.\"\n\n## Betting big on smaller things\n\nIt's telling that on Friday, Furner handed the President's Innovation Award to Pfaffenberger and his colleague, John Choi, for their work on Code Puppy.\n\n\"A vibe-coding tool that turns associates into engineers,\" Chief Technology Officer Su",
+          "source": "Aol",
+          "url": "https://www.aol.com/articles/went-walmarts-hq-saw-ai-091201000.html",
           "time": "今日",
           "tag": "Google",
-          "image": "https://picsum.photos/seed/news1/400/250"
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
-          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
-          "source": "VentureBeat",
-          "url": "https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/",
-          "time": "昨日",
-          "tag": "Anthropic",
-          "image": "https://picsum.photos/seed/news2/400/250"
-        },
-        {
-          "title": "Meta 开源 Llama 4，参数规模达 400B",
-          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
-          "source": "Meta AI",
-          "url": "https://ai.meta.com/blog/llama-4-open-source/",
+          "title": "LVP taps OpenClaw, Claude in hybrid cloud AI play - iTnews",
+          "summary": "He quickly saw the potential of the open-source AI agent upon its release in February and set about ",
+          "content": "He quickly saw the potential of the open-source AI agent upon its release in February and set about experimenting to explore its potential to automate workflows at LVP.\n\n“I think we’ll see more hybrid setups going forward, where on-premise hardware running local models handles the confidential workloads and cloud is reserved for everything else.”\n\nThe difficult part then becomes a skills issue.\n\n“The question that creates is whether your workforce has the capability to actually secure that hardware and your internal network. That’s where most organisations will get stuck,” Wong said.\n\nStandardising on Claude, keeping the stack flexible\n\nOn the model side, LVP has narrowed in on a preferred large language model – Anthropic’s Claude. [...] ## ABC drops Salesforce for Braze\n\n  ## Stockland builds AI assistant as a bridge into SAP\n\n  ## Chemist Warehouse's AI tool for HR becoming a \"standard pattern\"\n\n  ## Virgin Australia, Wesfarmers strike OpenAI agreements\n ## HamiltonJet partners with digital services provider Fortude\n\n  ## SentinelOne signs distribution agreement with Sektor\n\n  ## Rapid7’s new SIEM combines exposure management with threat detection\n\n  ## The techpartner.news podcast, episode 3: Why security consultancy founder Kat McCrabb started with the hard stuff\n\n  ## Bluechip Infotech enters final stage of Goodson Imports acquisition\n ## Blackberry celebrates \"giant step forward\"\n\n  ## 'Touch-free' smartphone controlled with head movements\n\n  ## Photos: Australian industry explores data for net zero [...] ## Telstra Purple acquires IoT specialists Alliance Automation, Aqura Technologies\n\n  ## Govt launches consumer tech label program for smart devices",
+          "source": "Itnews",
+          "url": "https://www.itnews.com.au/news/lvp-taps-openclaw-claude-in-hybrid-cloud-ai-play-626309?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks",
           "time": "今日",
-          "tag": "Meta",
-          "image": "https://picsum.photos/seed/news3/400/250"
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/news12/400/250"
         },
         {
-          "title": "微软发布 Copilot Workspace，AI 编程再进化",
-          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
-          "source": "Microsoft",
-          "url": "https://blogs.microsoft.com/ai/copilot-workspace/",
+          "title": "Vale Launches AI-Powered “Usina Modelo” Facility in Itabira - SteelRadar",
+          "summary": "Significant gains were also achieved in product quality. Production of pellet feed, a key raw materi",
+          "content": "Significant gains were also achieved in product quality. Production of pellet feed, a key raw material for low-carbon steelmaking, increased by 40%. Environmental performance improved as well. Thanks to advanced analysis technologies used in ore processing, the iron content in waste was reduced by 26%, enhancing resource efficiency and reducing waste volumes.\n\nSubstantial progress was also made in water management. Approximately 92% of the water used at the facility is recovered and reused in the production process, minimizing natural resource consumption and supporting sustainability goals. [...] The project was developed in strategic partnership with ABB, which provided support in system integration, automation, and electrification, enabling different technologies to operate seamlessly together. Fausto Almeida, ABB’s Mining Director for South America, said the project offers a benchmark transformation model for the industry.\n\nThe Usina Modelo program also stands out for its investment in workforce development. More than 2,800 hours of training were delivered to the plant’s 122 employees, with a focus on strengthening digital competencies. Simulations and virtual reality-based training programs were used to facilitate adaptation to the new system.\n\n#### Comments\n\nNo comment yet.\n\n#### Only +plus subscribers can access this content. [...] 101.00 USD   Iron Ore 61% Fe  Iron Ore 61% Fe\n\nCATEGORIES \n\n CATEGORIES\n Latest News\n Iron and Steel Markets \n  + Rebar News\n  + Scrap News\n  + Iron Ore News\n  + Billet News\n  + Wire Rod News\n  + Wire Mesh News\n  + Sheet, Plate and Profile News\n  + Boru ve Profil Haberleri\n  + Steel Bracket News\n Economy\n Real Estate\n Sectoral\n Associations and Organizations\n Analysis\n Fair\n\n## Iron and Steel Markets\n\nFollow\n\n# Vale Launches AI-Powered “Usina Modelo” Facility in Itabira",
+          "source": "Steelradar",
+          "url": "https://www.steelradar.com/en/haber/vale-launches-ai-powered-usina-modelo-facility-in-itabira/",
           "time": "今日",
-          "tag": "Microsoft",
-          "image": "https://picsum.photos/seed/news4/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
         },
         {
-          "title": "中国大模型榜单更新：通义千问位列前三",
-          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
-          "source": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking",
-          "time": "昨日",
-          "tag": "AI",
-          "image": "https://picsum.photos/seed/news5/400/250"
+          "title": "SIJE Unveils Agentic AI and 470,000-Class Ontology Supply Chain Platform at VivaTech 2026, Redefining Global Apparel OEM Industry Standards - 에이빙",
+          "summary": "The middle tier is Monolis, a cloud-based integration Platform as a Service (iPaaS) web application.",
+          "content": "The middle tier is Monolis, a cloud-based integration Platform as a Service (iPaaS) web application. Honored with Germany’s prestigious iF Design Award 2024, Monolis continuously ingests raw telemetry streams from Monolog, as well as from localized factory ERP and MES databases. This creates a clean, real-time data link that allows remote executives to monitor daily output and achievement metrics. [...] Additional enterprise contracts ｉｎｃｌｕｄｅ hard integrations with Words Corporation (a specialized sub-contracting logistics subsidiary of Korean fashion unicorn MUSINSA), Geolim (driving automated forecasting for Vietnamese retail expansion), and GoodTrust. Internationally, on-site implementation is actively underway following a smart factory turnkey contract with PT ISTANA Garmindo Jaya in Indonesia. [...] # SIJE Unveils Agentic AI and 470,000-Class Ontology Supply Chain Platform at VivaTech 2026, Redefining Global Apparel OEM Industry Standards\n\n2026-06-15     DK Kim Reporter",
+          "source": "Kr",
+          "url": "https://kr.aving.net/news/articleViewAmp.html?idxno=1811717",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -75,49 +81,64 @@
       "icon": "💻",
       "items": [
         {
-          "title": "LangChain v0.3 发布，Agent 能力全面升级",
-          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
-          "source": "GitHub",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/v0.3.0",
+          "title": "I stopped using cloud image editors after I found this self-hosted alternative - MakeUseOf",
+          "summary": "The project is licensed under AGPLv3, which means it's free to self-host forever. It's built as a Ty",
+          "content": "The project is licensed under AGPLv3, which means it's free to self-host forever. It's built as a TypeScript monorepo with a Python layer for the AI features, and the entire stack compiles into a single Docker image. No Redis, no Postgres, no external services to babysit — just a single handy Docker container quietly humming away on your home server.\n\n##### SnapOtter\n\nOS\n:   Web-based\n\nDeveloper\n:   snapotter-hq\n\nPrice model\n:   Free, paid option's available\n\nSnapOtter is an open-source, self-hosted image editing and processing platform with 50+ tools, local AI features, pipelines, and a REST API that runs entirely on your own hardware.\n\nSee at SnapOtter See at GitHub\n\n## You'll have it running faster than expected\n\n### Deployment that doesn't require hours of troubleshooting [...] There's background removal, image upscaling with super-resolution, object erasure, face blur for personally-identifiable information (PII) redaction, OCR text extraction, AI colorization for black-and-white photos, photo restoration for damaged or scratched images, face enhancement, noise removal, red eye correction, content-aware resizing with seam carving, and AI canvas expansion, among others.\n\nThere are no API keys, no rate limits to worry about, no subscription fees to look out for, and no images heading off to a third-party server. You can remove the background from a thousand images in a batch without spending a cent or worrying what some company is doing with your images.\n\n## The API is where things get interesting [...] In addition to his journalism work, Yadullah is a full-stack developer with experience in JavaScript/TypeScript, Next.js, the MERN stack, Python, C/C++, and AI/ML. Whether he's analyzing malware, reviewing hardware, or building tools on GitHub, he brings a hands-on, developer’s perspective to tech journalism.",
+          "source": "Makeuseof",
+          "url": "https://www.makeuseof.com/stopped-using-cloud-image-editors-found-self-hosted-alternative/",
           "time": "今日",
           "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project0/400/250"
+          "image": "https://picsum.photos/seed/ai17/400/250"
         },
         {
-          "title": "HuggingFace Transformers 新增 100+ 模型支持",
-          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
-          "source": "HuggingFace",
-          "url": "https://huggingface.co/blog/transformers-100k-models",
+          "title": "AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics - AZoM",
+          "summary": "From Mesa Labs, Inc. 12 Jun 2026 \n\n### FT-NIR Spectroscopy for Polymer Manufacturing\n\n From Galaxy S",
+          "content": "From Mesa Labs, Inc. 12 Jun 2026 \n\n### FT-NIR Spectroscopy for Polymer Manufacturing\n\n From Galaxy Scientific Inc 11 Jun 2026 \n\n### Flotation Plants 101\n\n From Thermo Fisher Scientific – Minerals Processing and Analytical Solutions 5 Jun 2026 \n\n### Automating Aluminum Sample Analysis in Production Laboratories\n\n From Thermo Fisher Scientific – Handheld Elemental & Radiation Detection 5 Jun 2026 \n\n## Newsletters you may be interested in\n\n   Image 21: Artificial Intelligence Artificial Intelligence (Subscribe or Preview)   \n   Image 22: Automotive Automotive (Subscribe or Preview)   \n   Image 23: Mining Industry News Mining Industry News (Subscribe or Preview)   \n\nSee all Newsletters »\n\nImage 24: Azthena chat logo\n\nYour AI Powered Scientific Assistant [...] ## Methodology: Dual-Channel Architecture and Screening\n\nTo enable symmetry-aware inverse design, researchers developed a dual-channel architecture that jointly encodes both crystal structure and symmetry information. Atomic species, spatial coordinates, and lattice parameters were processed using a DimeNet++-based graph neural network to extract key geometric features. In contrast, a separate convolutional encoder analyzed space-group-affine matrices to generate symmetry descriptors. These representations were then combined into a shared latent space that guided predictions of composition, lattice parameters, and space-group identity.\n\n### Related Stories [...] Download PDF Copy\n\nImage 3: Muhammad OsamaBy Muhammad Osama Reviewed by Susha Cheriyedath, M.Sc.Jun 14 2026\n\nA symmetry-guided AI model narrowed 110,000 generated crystals to four stable antiferromagnetic candidates, pointing to a faster computational route for discovering materials that could shape future spintronic memory technologies.\n\nImage 4\n\n_Paper: Inverse Design of Novel Antiferromagnets Through Symmetry-aware Generation. Image Credit: AI-generated image / OpenAI_",
+          "source": "Azom",
+          "url": "https://www.azom.com/news.aspx?newsID=65528",
           "time": "今日",
-          "tag": "HuggingFace",
-          "image": "https://picsum.photos/seed/project1/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai18/400/250"
         },
         {
-          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
-          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
-          "source": "PyTorch",
-          "url": "https://pytorch.org/blog/pytorch-3.0-release/",
-          "time": "昨日",
-          "tag": "PyTorch",
-          "image": "https://picsum.photos/seed/project2/400/250"
-        },
-        {
-          "title": "TensorFlow 3.0 简化 API，更易上手",
-          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
-          "source": "TensorFlow",
-          "url": "https://blog.tensorflow.org/2025/05/tensorflow-3.0.html",
+          "title": "Intelligent soft robotic gripper for non-destructive grasping and attribute recognition via multi-modal waveguide tactile sensors - Nature",
+          "summary": "deep learning algorithm are introduced to dynamically adjust the grasping force and intelligently re",
+          "content": "deep learning algorithm are introduced to dynamically adjust the grasping force and intelligently recognize object attributes such as shape, size, and hardness, with accuracies exceeding 97% for each attribute. Ultimately, experimental validation via a smart fruit-sorting system highlights the platform’s potential for precision agriculture, intelligent logistics, and medical robotics, demonstrating robust, adaptive manipulation in real-world applications. [...] ### Intelligent attributes recognition algorithm via LSTM deep learning [...] 1. 1.\n\n   Although the bending data from the outer surface EOWS can be used to compensate for the coupled signals of the inner and side sensors in real time, it is necessary to combine advanced machine learning algorithms to realize high-precision mathematical decoupling of bending, contact force, and pressure signals, further improving the stability and accuracy of sensing signals.\n2. 2.\n\n   At present, target objects can be recognized by updating the object database and iterating the model incrementally. In the future, transfer learning, few-shot learning, or meta-learning strategies can be introduced to expand the diversity and coverage of training samples and improve the system’s generalization to unseen objects.\n3. 3.",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41378-026-01364-4",
           "time": "今日",
-          "tag": "TensorFlow",
-          "image": "https://picsum.photos/seed/project3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai19/400/250"
         },
         {
-          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
-          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
-          "source": "GitHub",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.0",
-          "time": "昨日",
-          "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project4/400/250"
+          "title": "高考填志愿前，读懂“顶薪”传闻背后的“AI字头”专业",
+          "summary": "2026年高考出分在即，志愿填报的“大考”将拉开帷幕。在人工智能科技浪潮的全面冲击下，高校中如雨后春笋般涌现的“AI字头”专业成为考生与家长关注的焦点。",
+          "content": "2026年高考出分在即，志愿填报的“大考”将拉开帷幕。在人工智能科技浪潮的全面冲击下，高校中如雨后春笋般涌现的“AI字头”专业成为考生与家长关注的焦点。",
+          "source": "Shobserver",
+          "url": "https://www.shobserver.com/news/detail?id=1128574",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news12/400/250"
+        },
+        {
+          "title": "基于空间信息的深度学习在全场超声无损检测中的应用",
+          "summary": "编辑推荐：. 科尔·N·麦克斯韦尔|乔舒亚·R·坦佩尔曼|埃里卡·M·雅各布森|尼尔·沙阿|埃里克·B·弗林|亚当·J·瓦赫托尔美国新墨西哥州洛斯阿拉莫斯市洛斯阿拉莫斯国家实验室",
+          "content": "编辑推荐：. 科尔·N·麦克斯韦尔|乔舒亚·R·坦佩尔曼|埃里卡·M·雅各布森|尼尔·沙阿|埃里克·B·弗林|亚当·J·瓦赫托尔美国新墨西哥州洛斯阿拉莫斯市洛斯阿拉莫斯国家实验室",
+          "source": "Ebiotrade",
+          "url": "https://www.ebiotrade.com/newsf/2026-6/20260615001159530.htm",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
+        },
+        {
+          "title": "争论几十年的水之谜，被AI一举破解！港城大&中石大成果登Nature Physics",
+          "summary": "香港城市大学曾晓成教授与中国石油大学（华东）钟杰教授团队给出了终结级的分子水平证据，成果发表于《Nature Physics》。",
+          "content": "香港城市大学曾晓成教授与中国石油大学（华东）钟杰教授团队给出了终结级的分子水平证据，成果发表于《Nature Physics》。",
+          "source": "51cto",
+          "url": "https://www.51cto.com/article/846268.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -127,49 +148,64 @@
       "icon": "📄",
       "items": [
         {
-          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
-          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12345",
+          "title": "AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics - AZoM",
+          "summary": "Download PDF Copy\n\nImage 3: Muhammad OsamaBy Muhammad Osama Reviewed by Susha Cheriyedath, M.Sc.Jun ",
+          "content": "Download PDF Copy\n\nImage 3: Muhammad OsamaBy Muhammad Osama Reviewed by Susha Cheriyedath, M.Sc.Jun 14 2026\n\nA symmetry-guided AI model narrowed 110,000 generated crystals to four stable antiferromagnetic candidates, pointing to a faster computational route for discovering materials that could shape future spintronic memory technologies.\n\nImage 4\n\n_Paper: Inverse Design of Novel Antiferromagnets Through Symmetry-aware Generation. Image Credit: AI-generated image / OpenAI_ [...] APA\n\nOsama, Muhammad. (2026, June 14). AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics. AZoM. Retrieved on June 14, 2026 from \n\n   MLA\n\nOsama, Muhammad. \"AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics\". _AZoM_. 14 June 2026. .\n\n   Chicago\n\nOsama, Muhammad. \"AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics\". AZoM.  (accessed June 14, 2026).\n\n   Harvard\n\nOsama, Muhammad. 2026. _AI Uses Crystal Symmetry to Find New Antiferromagnets for Spintronics_. AZoM, viewed 14 June 2026, \n\n## Comments\n\n## Tell Us What You Think\n\nDo you have a review, update or anything you would like to add to this news story?\n\nCancel reply to comment;)\n\nImage 6\n\nLeave your feedback\n\nLogin\n\n(Logout)\n\nYour comment type\n\nPublic Comment [...] In summary, this study demonstrates that embedding symmetry constraints directly into deep learning models can improve the reliability of generative materials design. By combining crystallographic symmetry information with geometric diffusion methods, the framework reduces the low symmetry collapse often observed in unconstrained generative models and enables the discovery of functional magnetic materials.\n\nThe methodology may be adaptable to search for materials with a wide range of targeted properties, provided appropriate physical constraints and validation workflows are incorporated. This approach accelerates the discovery of advanced functional materials, helping prioritize candidates for further computational and expe",
+          "source": "Azom",
+          "url": "https://www.azom.com/news.aspx?newsID=65528",
           "time": "今日",
-          "tag": "NeurIPS",
-          "image": "https://picsum.photos/seed/paper0/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "ICML 收录：多模态对齐新突破",
-          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12346",
-          "time": "昨日",
-          "tag": "ICML",
-          "image": "https://picsum.photos/seed/paper1/400/250"
-        },
-        {
-          "title": "ACL 2025：大语言模型推理能力深度分析",
-          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12347",
+          "title": "Why Gen Z Is Right To Be Concerned About AI - Forbes",
+          "summary": "MORE FOR YOU\n\n## The Deeper Trap: Short-term Profit Maximization\n\nThe root issue transcends technolo",
+          "content": "MORE FOR YOU\n\n## The Deeper Trap: Short-term Profit Maximization\n\nThe root issue transcends technology. In his 2026 book Incorruptible, Eric Ries describes the pull of traditional management toward short-term profit maximization. As firms scale, governance, incentives, and legacy practices shift focus from customer value and human flourishing. Customers become “market share.” Staff are merely headcount. AI turns into an extraction hammer rather than an enablement tool. Missions erode under quarterly pressures.\n\nForbes contributor Bernard Marr terms this “the AI trap that more companies will fall into in 2026.” Escaping it demands redefining success around long-term value creation.\n\n## Real-World Proof: P&G And The Retail Shift [...] The majority—around 70%—remain trapped in an automation mindset. Focused on cost-cutting and headcount reduction, they generate short-term profit bumps but produce “AI slop”: low-quality, generic output that erodes trust and quality. As Kate Niederhoffer and Jeffrey Hancock note in Harvard Business Review, forced AI adoption amid layoffs breeds resistance, anxiety, and plummeting morale. Overburdened staff churn out volume over value.\n\nConsequences follow predictably: declining employee well-being, talent attrition, and ruptured leadership pipelines. Firms stop hiring entry-level talent—contributing to youth unemployment rates hovering near 5-6% for recent graduates—while top performers flee toxic environments. Long-term vitality collapses.\n\nMORE FOR YOU [...] ## Two Paths: Augmentation vs. Automation\n\nA minority of firms—roughly 30%—deploy AI to augment human capabilities and create new customer value. In these organizations, leaders invest in both technology and people. Employees gain time, resources, and psychological safety to experiment. AI enhances judgment and creativity rather than replacing it. The results: sustained productivity, improved well-being, stronger retention, flourishing talent pipelines, and teams re-configuring to ",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/stevedenning/2026/06/14/why-gen-z-is-right-to-be-concerned-about-ai/",
           "time": "今日",
-          "tag": "ACL",
-          "image": "https://picsum.photos/seed/paper2/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
-          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12348",
+          "title": "Google CEO Sundar Pichai dodges AI (and boos) during Stanford commencement - Business Insider",
+          "summary": "### Business Insider tells the innovative stories you want to know\n\nLakshmi Varanasi \n\nYou're curren",
+          "content": "### Business Insider tells the innovative stories you want to know\n\nLakshmi Varanasi \n\nYou're currently following this author! Want to unfollow? Unsubscribe via the link in your email.\n\nLakshmi Varanasi writes about AI and the consulting industry, exploring how artificial intelligence is transforming consulting firms like McKinsey & Company, Boston Consulting Group, and Bain. Previously, she reported for Slate, Politico, and Reveal.Have a tip or a story? Contact Lakshmi Varanasi via email at lvaranasi@businessinsider.com or lvaranasi.70 on Signal. Recent Stories [...] Subscribe   Newsletters\n\nAI\n\n# Sundar Pichai skirts AI and tells students to 'choose optimism' in his Stanford graduation speech\n\nBy   Lakshmi Varanasi \n\nYou're currently following this author! Want to unfollow? Unsubscribe via the link in your email.\n\nRead in app\n\nCopy link   Email   Facebook   WhatsApp   X   LinkedIn   Bluesky   Threads   Impact Link\n\n  Save Saved\n\nThis story is available exclusively to Business Insider subscribers. Become an Insider and start reading now. Have an account? .\n\nGoogle is one of the companies leading the AI revolution.\n\nGoogle CEO Sundar Pichai, however, made no mention of that during his commencement speech to Stanford University graduates on Sunday — and for good reason. [...] Over a dozen major companies have cited AI in layoffs this year. And recent graduates have told Business Insider that they've been searching for months for full-time jobs to no avail.\n\nPichai, a Stanford alum, has led Google since 2015 and seen several waves of technology pass through Silicon Valley. AI, however, has brought about a level of change humans haven't seen before, he said on a recent episode of the \"Hard Fork\" podcast.\n\n\"These graduates are actually both going to be a big part of driving that progress and also dealing with the impact,\" he said, referring to AI.\n\n## Read next\n\n### Business Insider tells the innovative stories you want to know\n\n### Business Insider tells the innovative",
+          "source": "Businessinsider",
+          "url": "https://www.businessinsider.com/google-ceo-sundar-pichai-stanford-graduation-speech-ai-2026-6",
           "time": "今日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
         },
         {
-          "title": "深度学习可解释性研究取得重要进展",
-          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12349",
-          "time": "昨日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper4/400/250"
+          "title": "Optimized N-deque partition dual-deque merge string sorting algorithm - Nature",
+          "summary": "enhanced through various techniques and innovations. Gupta et al.19.\") proposed a GPU-based sorting ",
+          "content": "enhanced through various techniques and innovations. Gupta et al.19.\") proposed a GPU-based sorting algorithm leveraging a sorted matrix structure, achieving a fivefold speedup relative to the CUDA Thrust library20.\"). Mankowitz et al.21, 257–263 (2023).\") explored the use of deep reinforcement learning to improve sorting algorithm performance. Kobus et al.22.\") optimized segmented sorting on GPUs, achieving speedups ranging from 1.26\\times to 1.35\\times on four GPUs. Vásquez et al.23 1–7 (IEEE, 2023).\") proposed the Parallel Block-InsertionSort algorithm, also implemented using OpenMP. Each block is sorted independently, and a multiway merge algorithm from the libstdc++ parallel mode is used to combine the results. This approach yielded a speedup of up to 17\\times on a 32-core processor. [...] yielded a speedup of up to 17\\times on a 32-core processor. Yang et al.24, 503–518 (2024).\") developed thSort, a parallel bitonic sorting algorithm tailored for the FT-M7032 CPU-DSP heterogeneous processor, achieving a speedup of up to 2.15\\times compared to std::sort. Takase et al.25.\") presented the H-P Sort algorithm implemented on GPU, demonstrating a 3.45\\times speedup over its original version. Alhabboub et al.26, 131–138 (2024).\") introduced a parallel large-scale quicksort algorithm using the OpenMP library, capable of sorting millions of elements in approximately 16,339 milliseconds. Dang’ana and Jacobsen27.\") presented FractalSort, a novel compressed radix-sorting architecture for FPGA that effectively addresses the exponential histogram growth and data skew issues inherent in [...] (2021).\"), utilizing a block-based partitioning strategy. Each thread maintains its own deque to store the boundary indices of blocks. The algorithm performs partitioning by simultaneously traversing the array from both ends—left and right—toward the center. In 2022, the parallel sorting algorithm named In-place Parallel Super Scalar Samplesort (IPS^{4}o) was proposed14 sorting algorithm",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-46549-z",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news10/400/250"
+        },
+        {
+          "title": "Even GPT-5 Failed This Human Attention Test - SciTechDaily",
+          "summary": "The findings suggest that modern AI may have hidden weaknesses when tasks require sustained focus, i",
+          "content": "The findings suggest that modern AI may have hidden weaknesses when tasks require sustained focus, inhibition of automatic responses, and long-term maintenance of specific instructions.\n\nAs AI systems become increasingly integrated into everyday life, understanding these limitations could be just as important as measuring their strengths.\n\nReference: “Deficient executive control in transformer attention” by Suketu Chandrakant Patel, Hongbin Wang and Jin Fan, 2 June 2026, PNAS Nexus.  \n DOI: 10.1093/pnasnexus/pgag149\n\nNever miss a breakthrough: Join the SciTechDaily newsletter.  \nFollow us on Google and Google News.\n\nArtificial Intelligence ChatGPT Psychology\n\nShare.   Facebook   Twitter\")   Pinterest   LinkedIn   Email   Reddit\n\n#### Related Articles",
+          "source": "Scitechdaily",
+          "url": "https://scitechdaily.com/even-gpt-5-failed-this-human-attention-test/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news11/400/250"
+        },
+        {
+          "title": "A novel belief-degree-based uncertain Tchebycheff norm DEA model for the case study of risks prioritizing in e-business projects - Nature",
+          "summary": "Various aspects of projects’ success criteria are considered to evaluate the impact of each risk. In",
+          "content": "Various aspects of projects’ success criteria are considered to evaluate the impact of each risk. In order to evaluate the impact of the risks on the success criteria, the experts of the field with experience in e-business project teams are invited to evaluate the impacts linguistically. [...] E-business projects may face several risks that are potential to affect the success of such projects. As an important issue for a project manager in this field, the potential risks should be prioritized according to their potential impact on the success of the project. In this study, the potential risks of the e-business sector are to be evaluated and ranked based on the success criteria of such projects. For this aim a complete set of risks compared to the literature is considered and their impact on the project success criteria are determined linguistically by the experts of the field as a case study. To respect the uncertain nature of the evaluations, the linguistic evaluations are converted to belief-degree-based uncertain values. Then for the first time, a data envelopment analysis [...] Article \n   Google Scholar\n2. Dogan, O. & Gurcan, O. F. Enhancing e-business communication with a hybrid rule-based and extractive-based chatbot. J. Theor. Appl. Electron. Commer. Res. 19(3), 1984–1999 (2024).\n\n   Google Scholar\n3. Routaib, H., Seddik, S., Elmounadi, A. & El Haddadi, A. Enhancing e-business in industry 4.0: Integrating fog/edge computing with Data LakeHouse for IIoT. Future Gener. Comput. Syst. 166, 107653 (2025).\n\n   Google Scholar\n4. Huo, D., Ouyang, R., Tang, A., Gu, W. & Liu, Z. New growth in cross-border e-business: Evidence from gray forecasting to cross-border e-business in China. J. Internet Digit. Econ. 4(1), 12–29 (2024).",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-48479-2",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news9/400/250"
         }
       ]
     },
@@ -179,63 +215,69 @@
       "icon": "💬",
       "items": [
         {
-          "title": "Sam Altman：AGI 可能比预期更早到来",
-          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
-          "source": "Twitter",
-          "url": "https://twitter.com/sama/status/1923456789012345678",
-          "time": "今日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social0/400/250"
-        },
-        {
-          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
-          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
-          "source": "Twitter",
-          "url": "https://twitter.com/ylecun/status/1923456789012345679",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social1/400/250"
-        },
-        {
-          "title": "Hacker News 热议：AI 是否会取代程序员？",
-          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234567",
+          "title": "AI Supercharges Deepfake Nudes—Unleashing a New Form of Bullying Among Kids - tovima.com",
+          "summary": "The Belize-based Undress AI teases a $59 video-creation option on its website with images of a peach",
+          "content": "The Belize-based Undress AI teases a $59 video-creation option on its website with images of a peach emoji. Users select the pose for the video: undressing, “riding,” and other sexual acts. It encourages users to recruit others to join the site: “For each friend you invite you get free credits that can be used for Undress AI!”\n\nUndress AI didn’t respond to requests for comment.\n\nSome AI nudify apps use coordinated networks of accounts on social media to promote themselves, including one network of 45,000 accounts on X that use variations of similar text, according to Matthew Patane, a senior researcher at Graphika, a social network analysis firm. The ads use implicit phrases and censored visuals in an attempt to avoid moderation, Patane found. [...] Grok’s parent company SpaceX didn’t respond to requests for comment. Musk’s social network X said in a post in January that the company had started blocking users from using Grok to undress images of real people in jurisdictions where it is illegal, which would include the U.S.\n\nCustom bots  \n Other new technologies allow users to create bots based on voice recordings. The target may not even know about it.\n\nA 16-year-old boy in Canada put a 10-second voice message from his crush into an AI platform called Character.AI to create a custom-made bot that uses the girl’s voice. [...] Μake us preferred on Google \n\nAI has made it trivially easy for anyone with a phone to digitally undress people and post the content online. Called explicit deepfakes, these images, and sometimes videos, are unleashing a new form of bullying and harassment among young people.\n\nArtificial-intelligence “nudify” tools are evolving and multiplying. Laws cracking down on them have lagged behind cases and aren’t always enforced. Schools don’t know how to handle them. Parents are left trying to help their children regain a sense of safety as they try to scrub the images from the internet.",
+          "source": "Tovima",
+          "url": "https://www.tovima.com/wsj/ai-supercharges-deepfake-nudes-unleashing-a-new-form-of-bullying-among-kids/",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social2/400/250"
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "Reddit：2026 年最值得学习的 AI 技能",
-          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/",
-          "time": "今日",
-          "tag": "Reddit",
-          "image": "https://picsum.photos/seed/social3/400/250"
-        },
-        {
-          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
-          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
-          "source": "Twitter",
-          "url": "https://twitter.com/search?q=AI%20startup%20opportunities",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social4/400/250"
-        },
-        {
-          "title": "Hacker News：最佳开源 LLM 排行榜",
-          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234568",
+          "title": "Future Self Simulators - Trend Hunter",
+          "summary": "Read More+JUN 8, 2026\n\n### Digital Avatar Platforms\n\nClones Video Creates AI Videos With Digital Ava",
+          "content": "Read More+JUN 8, 2026\n\n### Digital Avatar Platforms\n\nClones Video Creates AI Videos With Digital Avatars And Voice Replication\n\nRead More+FEB 12, 2026\n\n### Personal Reflection Apps\n\nDear: Future Self Lets Users Write Letters to Their Future Selves\n\nRead More+\n\n## Trending in Tech\n\n1Industrial All-in-One Power Banks2Interactive Companionship Robotic Dogs3Large Format Tablets4Top 100 Gadgets Trends in 20255Handheld Smartwatch Cases6Durable Glowing Smartwatch Straps7Compact Cinema Soundbars8Value Gaming Desktops9AI Pocket Pets10Smart Sourdough Kits\n\n## Top Lists\n\nTop 50 Social Media Trends in AprilCATEGORY\n\nTech\n\nTop 100 Tech Trends in JuneCATEGORY\n\nTech\n\nTop 35 Games Trends in JuneCATEGORY\n\nTech\n\nTop 35 Robots Trends in June\n\nView All Tech Articles→ [...] SCORE\n\n3.7 out of 10\n\nGENDER\n\n50% Men50% Women\n\nMARKETTop markets: North America\n\nGENERATION\n\n Gen Z\n Gen Alpha\n Gen X\n Millennial (primary audience)\n\nPOPULARITY\n\nPopularity 11%\n\nActivity 0%\n\nFreshness 100%\n\nGet a Custom Report→Subscribe to Advisory→\n\n## Related\n\nMAR 9, 2026\n\n### Autonomous Digital Personas\n\nPika AI Selves Let Users Birth an AI Version of Themselves\n\nRead More+APR 17, 2026\n\n### Voice Cloning Tools\n\nAI Voice Cloning Generates Realistic Voices From Short Audio Samples\n\nRead More+MAY 13, 2026\n\n### AI Voice Generators\n\nAI Baby Podcast Generator Creates Adorable Future Voices For Parents\n\nRead More+OCT 22, 2025\n\n### Voice-Based Guidance Tools\n\nThe AI Guides Offers Free 24/7 Voice Companions for Personal Growth\n\nRead More+JUN 8, 2026\n\n### Digital Avatar Platforms [...] PublishedJun 14, 2026\n\nReferencescallingclones\n\nPeople often make decisions based on present emotions, even when they know their long-term goals point in a different direction -- Calling Clones is a voice AI project that experiments with identity, behavior, and how people think about their future selves.\n\nThe platform allows users to have phone-style conversations with an AI-generated version of who they aspire to become. These interactions ",
+          "source": "Trendhunter",
+          "url": "https://www.trendhunter.com/trends/calling-clones",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social5/400/250"
+          "image": "https://picsum.photos/seed/ai16/400/250"
+        },
+        {
+          "title": "Inside China’s traffic-driven self-media commentary industry that turns clicks into yuan - The Straits Times",
+          "summary": "AI generated\n\nSINGAPORE - A recent wave of Chinese-language online postsdisparaging Singapore and it",
+          "content": "AI generated\n\nSINGAPORE - A recent wave of Chinese-language online postsdisparaging Singapore and its Indian community has shone a spotlight on an industry of independent content creators in China who seize on sensational and inflammatory narratives about other countries to attract clicks and generate income.\n\nSingapore authorities saythe content in the 14 posts that have been blocked by the city-state was likely generated “organically”, rather than as part of a government-coordinated campaign, and that the content likely originated from a China-based social media platform. It remains unclear, however, how these posts later spread to Facebook, YouTube and X, and for what reason.",
+          "source": "Straitstimes",
+          "url": "https://www.straitstimes.com/asia/east-asia/inside-chinas-traffic-driven-self-media-commentary-industry-that-turns-clicks-into-yuan",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai17/400/250"
+        },
+        {
+          "title": "Opinion | AI Can Do Math, but Is It Really Math? - WSJ",
+          "summary": "# AI Can Do Math, but Is It Really Math? - WSJ\n\nSkip to Main Content\n\nSkip to... \n\nSelect\n   What to",
+          "content": "# AI Can Do Math, but Is It Really Math? - WSJ\n\nSkip to Main Content\n\nSkip to... \n\nSelect\n   What to Read Next\n   Most Popular News\n   Most Popular Opinion\n\n\n\nImage 1: image\n\nEva Vázquez\n\nIf nobody understands a mathematical proof, is it a proof at all?\n\nOpenAI startled mathematicians last month by announcing that one of its models had disproved a longstanding conjecture, posed by the mathematician Paul Erdős (1913-96) in 1946, about the “unit distance problem.” In a companion paper, prominent mathematicians verified and explained the argument.\n\nCopyright ©2026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8\n\nImage 2: The Wall Street Journal\n\nContinue reading your article with\n\na WSJ subscription\n\nSubscribe Now\n\nAlready a subscriber? Sign In\n\n  \n\n## Videos [...] Already a subscriber? Sign In\n\n  \n\n## Videos\n\nAdvertisement\n\n  \n\n### Most Popular News\n\nImage 3: Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models\n\n#### Amazon CEO’s Talks With U.S. Officials Triggered Crackdown on Anthropic Models\n\nImage 4: A Guide to the Biggest Winners From the SpaceX IPO\n\n#### A Guide to the Biggest Winners From the SpaceX IPO\n\nImage 5: The 70-Year Marriage Between McDonald’s and Coke Has Some Issues\n\n#### The 70-Year Marriage Between McDonald’s and Coke Has Some Issues\n\nImage 6: Why the Bisexual Man Is Hollywood’s Breakout Star\n\n#### Why the Bisexual Man Is Hollywood’s Breakout Star\n\nImage 7: The Retirement Tax Break That Most People Overlook\n\n#### The Retirement Tax Break That Most People Overlook\n\n  \n\n### Most Popular\n\nOPINION [...] Image 15\n\n### The New Students at This Liberal Arts College Are in Their 80s\n\nImage 16\n\n### Gen Z Can’t Get Enough of Roth IRAs\n\nImage 17: image\n\n### opinion How Does Generation Z Feel About AI?\n\nAdvertisement\n\nImage 18Image 19Image 20Image 21Image 22Image 23\n\nImage 24\n\nImage 25",
+          "source": "Wsj",
+          "url": "https://www.wsj.com/opinion/ai-can-do-math-but-is-it-really-math-a7db34be",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai10/400/250"
+        },
+        {
+          "title": "Microsoft CEO Satya Nadella Warns Against A Future Where 'A Few Models Eat Everything They See' - Benzinga",
+          "summary": "## Microsoft Expands Its AI Efforts Beyond OpenAI\n\nNadella’s comments come as Microsoft is simultane",
+          "content": "## Microsoft Expands Its AI Efforts Beyond OpenAI\n\nNadella’s comments come as Microsoft is simultaneously investing in its own AI models and infrastructure, seeking greater control over the technology stack while maintaining partnerships with leading AI developers.\n\nFurthermore, Nadella previously identified the real bottleneck in AI expansion as the scaling of data centers, or “token factories,” rather than customer demand. This underscores the infrastructure challenges in supporting AI growth.\n\nDisclaimer: This content was partially produced with the help of AI tools and was reviewed and published by Benzinga editors.\n\nPhoto courtesy: Shutterstock\n\nMarket News and Data brought to you by Benzinga APIs [...] 3 min read\n\nRead this article\n\nMicrosoft has recently unveiled a series of new AI models to compete with Anthropic and OpenAI. Despite rapid advancements, Anthropic has maintained a lead, releasing more advanced models ahead of Microsoft, highlighting the intense race in AI development.\n\nAdditionally, the potential IPOs of AI companies like OpenAI and Anthropic could disrupt the current dominance of big tech in the AI market. Microsoft has invested heavily in OpenAI, integrating its systems into Azure and Office, while competitors like Alphabet Inc.'s (NASDAQ:GOOG) (NASDAQ:GOOGL) Google and Amazon.com Inc. (NASDAQ:AMZN) have backed Anthropic.\n\nRead Next\n\n##### Bernie Sanders Says Paramount-Warner Bros Discovery Merger ‘Not Acceptable' After Elizabeth Warren Renews Calls To Block It [...] He stressed that organizations must focus on building both human and token capital, ensuring that human expertise remains valuable even as AI capabilities grow.\n\n## Nadella's Warning\n\nNadella warned against a scenario where a few AI models dominate, commoditizing human expertise and hollowing out industries. He drew parallels to the first phase of globalization, where outsourcing led to economic displacement despite positive GDP numbers.\n\nNadella advocated for a future where com",
+          "source": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/06/53185845/microsoft-satya-nadella-warning-ai-frontier-models",
+          "time": "今日",
+          "tag": "Hacker News",
+          "image": "https://picsum.photos/seed/ai11/400/250"
+        },
+        {
+          "title": "Why Gen Z Is Right To Be Concerned About AI - Forbes",
+          "summary": "## Two Paths: Augmentation vs. Automation\n\nA minority of firms—roughly 30%—deploy AI to augment huma",
+          "content": "## Two Paths: Augmentation vs. Automation\n\nA minority of firms—roughly 30%—deploy AI to augment human capabilities and create new customer value. In these organizations, leaders invest in both technology and people. Employees gain time, resources, and psychological safety to experiment. AI enhances judgment and creativity rather than replacing it. The results: sustained productivity, improved well-being, stronger retention, flourishing talent pipelines, and teams re-configuring to deliver novel value. [...] MORE FOR YOU\n\n## The Deeper Trap: Short-term Profit Maximization\n\nThe root issue transcends technology. In his 2026 book Incorruptible, Eric Ries describes the pull of traditional management toward short-term profit maximization. As firms scale, governance, incentives, and legacy practices shift focus from customer value and human flourishing. Customers become “market share.” Staff are merely headcount. AI turns into an extraction hammer rather than an enablement tool. Missions erode under quarterly pressures.\n\nForbes contributor Bernard Marr terms this “the AI trap that more companies will fall into in 2026.” Escaping it demands redefining success around long-term value creation.\n\n## Real-World Proof: P&G And The Retail Shift [...] The path forward is clear:\n\n Avoid the declining 70% of legacy firms trapped in automation and financial gravity. Many will struggle or disappear.\n Seek roles in the ascending 30%—organizations centered on genuine customer value, where AI multiplies human potential.\n Build new ones. Solo or team-based entrepreneurship offers immense opportunity when paired with the right mindset.\n\nAI itself is not the enemy. Misused AI in service of obsolete management is.",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/stevedenning/2026/06/14/why-gen-z-is-right-to-be-concerned-about-ai/",
+          "time": "今日",
+          "tag": "Hacker News",
+          "image": "https://picsum.photos/seed/ai12/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-06-14T04:10:39.237Z",
+  "generatedAt": "2026-06-15T04:22:24.762Z",
   "version": "3.0.0",
   "source": "tavily-mimo"
 }
