@@ -1,11 +1,11 @@
 {
   "date": {
-    "date": "2026-07-01",
-    "display": "2026年7月1日星期三",
-    "timestamp": "2026-07-01T03:58:59.495Z",
+    "date": "2026-07-02",
+    "display": "2026年7月2日星期四",
+    "timestamp": "2026-07-02T03:39:38.368Z",
     "year": "2026",
     "month": "07",
-    "day": "01"
+    "day": "02"
   },
   "categories": [
     {
@@ -14,58 +14,64 @@
       "icon": "📰",
       "items": [
         {
-          "title": "OpenAI 发布 GPT-5，多模态能力大幅提升",
-          "summary": "OpenAI 正式发布 GPT-5 模型，在推理、编程和多模态理解方面取得重大突破。",
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2025/05/14/openai-gpt-5-multimodal/",
+          "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation - TechCrunch",
+          "summary": "That means that neoclouds, which are the companies providing AI-specific hardware (often Nvidia GPU ",
+          "content": "That means that neoclouds, which are the companies providing AI-specific hardware (often Nvidia GPU clusters) and other infrastructure tools, have been hot commodities for VC investment. Upscale AI raised a Series A plus an A extension totaling $500 million at a $2 billion valuation last month; TensorWave — which focuses on GPU clusters from AMD — raised a $350 million Series B at $1.55 billion valuation last month as well, to name just two recent examples.\n\nTogether AI was co-founded by Vipul Ved Prakash (pictured above, middle) after he sold his previous startup, social media search platform Topsy, to Apple in 2013 for reported $200+ million. His Together AI co-founders are Stanford professor Percy Liang (left) and ETH Zürich/University of Chicago associate professor Ce Zhang (right). [...] The hefty infusion of capital comes as Together AI claims annual bookings of over $1.15 billion as of its last quarter, as companies increasingly adopt competent yet far less expensive open source models via neocloud providers like Together AI. They are increasingly turning to this option rather than pay the premiums on tokens for closed frontier models for all their AI usage.\n\nThis has tripled usage of open source models across the industry in the past year, Together AI says, pointing to research from another company cashing in on the trend, AI gateway OpenRouter. Together AI says it has thousands of paying customers naming Cursor, Cognition, and Decagon among them. [...] + Ivan Mehta\n Ford rehires ‘gray beard’ engineers after AI falls short\n\n  + Anthony Ha\n Govee’s smart nugget ice maker makes every iced drink feel like a luxury\n\n  + Aisha Malik\n Asian AI startups launch Mythos-like models as Anthropic’s export ban drags on\n\n  + Kate Park\n FTC gives Musk the OK to acquire SpaceX alumni startup Mesh\n\n  + Marina Temkin\n Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product\n\n  + Julie Bort\n Trump administration proposes axing br",
+          "source": "Techcrunch",
+          "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+          "time": "今日",
+          "tag": "Anthropic",
+          "image": "https://picsum.photos/seed/ai12/400/250"
+        },
+        {
+          "title": "Microsoft improves AI bot defences in Teams - iTnews",
+          "summary": "Latest News\n\n## Service NSW appoints interim chief digital officer ## Microsoft improves AI bot defe",
+          "content": "Latest News\n\n## Service NSW appoints interim chief digital officer ## Microsoft improves AI bot defences in Teams ## Blackmores looks to knowledge graph to ground future agentic AI tools ## AWS to create division of 'embedded' AI engineers ## DTA's latest Microsoft support deal tops $100m\n\n Home\n News\n Technology\n Security\n\n# Microsoft improves AI bot defences in Teams\n\nBy   Juha Saarinen     \n\nJul 1 2026 1:22PM\n\n## New policy to keep unwanted machines out of meetings.\n\nMicrosoft is putting the brakes on artificial intelligence bots joining Teams meetings with improved detection and a new policy for access control in its flagship conferencing app. [...] ## ABC drops Salesforce for Braze\n\n  ## Chemist Warehouse's AI tool for HR becoming a \"standard pattern\"\n\n  ## Virgin Australia, Wesfarmers strike OpenAI agreements\n\n  ## Westpac Intelligence Layer breaks cover\n\n  ## Qantas' digital and customer head steps down\n ## HamiltonJet partners with digital services provider Fortude\n\n  ## SentinelOne signs distribution agreement with Sektor\n\n  ## Rapid7’s new SIEM combines exposure management with threat detection\n\n  ## The techpartner.news podcast, episode 3: Why security consultancy founder Kat McCrabb started with the hard stuff\n\n  ## Bluechip Infotech enters final stage of Goodson Imports acquisition\n ## Blackberry celebrates \"giant step forward\"\n\n  ## 'Touch-free' smartphone controlled with head movements [...] ### Events\n\n iTnews State of Data & AI Breakfast\n Forrester's AI Forum Sydney\n The 2026 iAwards\n Integrate 2026\n Security Exhibition & Conference\n\n### Most Read Articles\n\n## ASD to retire Essential Eight cyber security framework within next two years\n\n## Bendigo Bank aims to have Australia's \"first agentic SOC\"\n\n## NAB's SecOps rethink focuses on data expert and dev hires\n\n## Services Australia describes fraud, debt-related machine learning use cases\n\nSydney-based AI-cloud waste startup raises $3m Brennan uses NiCE to modernise its contact centre Impact Awards: Te",
+          "source": "Itnews",
+          "url": "https://www.itnews.com.au/news/microsoft-improves-ai-bot-defences-in-teams-627054?utm_source=feed&utm_medium=rss&utm_campaign=editors_picks",
           "time": "今日",
           "tag": "OpenAI",
-          "image": "https://picsum.photos/seed/news0/400/250"
+          "image": "https://picsum.photos/seed/ai13/400/250"
         },
         {
-          "title": "Google DeepMind 推出 Gemini 2.0 Ultra",
-          "summary": "Google DeepMind 发布新一代多模态大模型，在数学和科学推理领域表现卓越。",
-          "source": "Google Blog",
-          "url": "https://blog.google/technology/ai/gemini-2-0-ultra/",
+          "title": "Trump’s AI flip-flopping could be a gift to China - Politico",
+          "summary": "As American tech companies wait for clarity after repeated reformulations of AI policy, Chinese AI c",
+          "content": "As American tech companies wait for clarity after repeated reformulations of AI policy, Chinese AI companies have announced a new wave of advanced AI systems — with capabilities they claim are comparable to those of their American competitors.\n\nChinese company 360 Security Technology unveiled two AI models last week that the firm said match the capabilities of Anthropic’s Mythos model. Reuters reported that the tools were designed to drastically improve vulnerability discovery and to automate incident response to cyberattacks. [...] The U.S. has so far led the global development of frontier AI models with hacking capabilities. American AI giant Anthropic boasted in April that its newest Claude Mythos model can sniff out security flaws in software and operating systems better than most human minds. People who have studied OpenAI’s latest models call them similarly adept at finding vulnerabilities.\n\nEarlier this month, the Trump administration placed export controls on two of Anthropic’s most advanced AI models over concerns that its security guardrails were not strong enough. And last week, OpenAI limited the release of its most powerful model yet, GPT-5.6, after the White House asked the company to restrict access. [...] A separate China-based company, Z.ai, has released its new model, GLM-5.2, which is around one-sixth of the cost of leading U.S. models. GLM-5.2’s bug-hunting capabilities were also found to be comparable to those of leading U.S. models, according to security assessments by the cyber firm Semgrep and the visual investigations platform Graphistry.\n\nResearchers at Graphistry suggested in their findings that GLM-5.2’s capabilities may be the result of “an illegal distillation” — or tactic to steal and replicate advanced AI models — of powerful, American-made AI tools, including OpenAI’s GPT-5.5 and Anthropic’s Claude Opus 4.8.",
+          "source": "Politico",
+          "url": "https://www.politico.com/news/2026/07/01/trump-ai-policy-china-gift-00983446",
           "time": "今日",
-          "tag": "Google",
-          "image": "https://picsum.photos/seed/news1/400/250"
+          "tag": "OpenAI",
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "Anthropic Claude 4 发布，安全对齐成亮点",
-          "summary": "Anthropic 发布 Claude 4，强调 AI 安全性和可解释性，获得业界广泛关注。",
-          "source": "VentureBeat",
-          "url": "https://venturebeat.com/ai/anthropic-claude-4-safety-alignment/",
-          "time": "昨日",
-          "tag": "Anthropic",
-          "image": "https://picsum.photos/seed/news2/400/250"
-        },
-        {
-          "title": "Meta 开源 Llama 4，参数规模达 400B",
-          "summary": "Meta 继续推进 AI 开源战略，Llama 4 在多项基准测试中超越闭源模型。",
-          "source": "Meta AI",
-          "url": "https://ai.meta.com/blog/llama-4-open-source/",
+          "title": "AI-Proof Work: How One Big Law Firm's Trial School Trains Associates - Law.com",
+          "summary": "Public Notices\n\nNew York  Pennsylvania\n\nResources\n\nAll Resources  Analyst Reports  CLE Center  Edito",
+          "content": "Public Notices\n\nNew York  Pennsylvania\n\nResources\n\nAll Resources  Analyst Reports  CLE Center  Editorial Calendar  Expert Perspectives  Expert Witness Search  Industry Podcasts  Industry Webcasts  Law Journal Newsletters\n\nLawJobs  Lawyer Pages  Legal Dictionary  Lexology Index  Podcasts  Professional Announcements  Resource Center  Scholar  Scholar Store  Webcasts\n\n Click to enter your existing username and password or create a new account.  Click to purchase an individual user subscription with your credit card. \n\nRelated information\n\nNewsLaw Firms - Large\n\n# AI-Proof Work: How One Big Law Firm's Trial School Trains Associates [...] Page printed from:\n\nNOT FOR REPRINT\n\n© 2026 ALM Global, LLC, All Rights Reserved. Request academic re-use from www.copyright.com. All other uses, submit a request to  [[email protected].](/cdn-cgi/l/email-protection#2404455757415009454a4009484b434b09484d47414a574d4a43644548490a474b49) For more information visit Asset & Logo Licensing.\n\n## Continue Reading\n\n## Hogan Lovells Cadwalader Is 'Ready to Roll'\n\nAmanda O'Brien\n\nOn the verge of a historic merger with Cadwalader Wickersham & Taft, Hogan Lovells CEO Miguel Zaldivar said both legacy firms turned in strong performances during the first half of 2026 and the combined firm will be off to a strong start.\n\nJune 30, 2026\n\n## Brown Rudnick's Revenue Surpassed $300M, Profits Saw Double-Digit Increases in 2025\n\nAbigail Adcox [...] Global 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs\n\nAll Market Hubs  Atlanta  Boston  Los Angeles  St. Louis  Toronto\n\nOther\n\nRanking\n\nThe Am Law 100 Rankings\n\nThe Am Law 100 is the definitive ranking of the 100 largest law firms in the United States.\n\nTool\n\nLaw.com Compass\n\nDynamically explore and compare data on law firms, companies, individual lawyers, and industry trends.\n\nTool\n\nLaw.com Radar\n\nReal-time alerts on new state and federal litigation, plus unlimited complaint access, expert case summaries and AI-enhanced trend detection.\n\nLoading Events..\n\nPro\n\nPro",
+          "source": "Law",
+          "url": "https://www.law.com/nationallawjournal/2026/07/01/ai-proof-work-how-one-big-law-firms-trial-school-trains-associates/",
           "time": "今日",
-          "tag": "Meta",
-          "image": "https://picsum.photos/seed/news3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news12/400/250"
         },
         {
-          "title": "微软发布 Copilot Workspace，AI 编程再进化",
-          "summary": "微软推出 AI 驱动的开发环境，支持从需求到代码的全流程自动化。",
-          "source": "Microsoft",
-          "url": "https://blogs.microsoft.com/ai/copilot-workspace/",
+          "title": "No More World Tours: Rapid Pace of Hiring Disrupts Firm Processes - Law.com",
+          "summary": "Global 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs\n\nAll Market Hubs  Atlanta  Boston  Los Angeles ",
+          "content": "Global 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs\n\nAll Market Hubs  Atlanta  Boston  Los Angeles  St. Louis  Toronto\n\nOther\n\nRanking\n\nThe Am Law 100 Rankings\n\nThe Am Law 100 is the definitive ranking of the 100 largest law firms in the United States.\n\nTool\n\nLaw.com Compass\n\nDynamically explore and compare data on law firms, companies, individual lawyers, and industry trends.\n\nTool\n\nLaw.com Radar\n\nReal-time alerts on new state and federal litigation, plus unlimited complaint access, expert case summaries and AI-enhanced trend detection.\n\nLoading Events..\n\nPro\n\nPro  Pro Mid-Market\n\nMembership Communities\n\nGlobal Leaders in Law  Private Client Global Elite\n\nPublic Notices\n\nNew York  Pennsylvania\n\nResources [...] Loading Practice Of Law...\n\nLoading...\n\nTop News\n\nAll Legal Technology  Alternative Dispute Resolution  Artificial Intelligence  Contracts  Cybersecurity  e-Discovery\n\nIntellectual Property  Knowledge Management  Legal Operations  Privacy  All Topics\n\nResources\n\nThe Artificial Intelligence Glossary  Data Privacy Law Tracker  Generative AI Case Studies  Legal Tech Deal Tracker  Legal Tech Investment Tracker  Meet the Female Founders of Legal Tech\n\nOther\n\nKEY CONTENT\n\nLegaltech News\n\nReporting, and expert analysis of legal technology with a focus onwhat legal departments, law firms, and tech companies need to know\n\nLoading...\n\nSurveys & Rankings\n\nAll Surveys & Rankings  Am Law 100  Am Law 200  A-List\n\nGlobal 200  NLJ 500  Pro Bono Scorecard\n\nMarket hubs [...] 4 minute read July 01, 2026 at 04:45 AM\n\nBy\n\nOscar Glyn\n\nFor many years, incoming lateral partner hires at Cleary, Gottlieb, Steen & Hamilton had to take part in a ritual; flying around the world to meet the entire partnership.\n\n### Exclusive Content\n\nA Subscription is Required to Access this Content.\n\n#### Subscribe to Law.com Today for:\n\n Strategic Intelligence - Business of law market insights from experts and analysts across all major legal markets\n Integrated Insights - Compass and Radar context buil",
+          "source": "Law",
+          "url": "https://www.law.com/international-edition/2026/07/01/no-more-world-tours-rapid-pace-of-hiring-disrupts-firm-processes/",
           "time": "今日",
-          "tag": "Microsoft",
-          "image": "https://picsum.photos/seed/news4/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
         },
         {
-          "title": "中国大模型榜单更新：通义千问位列前三",
-          "summary": "最新大模型评测榜单发布，国产模型在中文理解任务上表现优异。",
-          "source": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2025-05-14-llm-ranking",
-          "time": "昨日",
-          "tag": "AI",
-          "image": "https://picsum.photos/seed/news5/400/250"
+          "title": "The 2.5-trillion market is booming, and the industrial internet sector sees a full board of daily limit-ups. - 36Kr",
+          "summary": "Different from past fragmented support, this policy focuses on the integration of \"AI + Industrial I",
+          "content": "Different from past fragmented support, this policy focuses on the integration of \"AI + Industrial Internet\" and seizes the opportunity of new - quality productivity. The new regulations propose to promote the integrated construction of industrial computing power networks and industrial networks, build scenarios for the implementation of industrial large - scale models and industrial intelligent agents, and break through industrial data silos relying on the identification and resolution system, so that factory data can be upgraded from simple collection to the core production factors driving production optimization, flexible customization, and green manufacturing. [...] The policy defines five clear investment lines: 5G industrial private networks will drive the demand for communication modules and network integration; leading industrial platforms will enjoy the dividends of increased concentration; industrial large - scale models and intelligent agents will open up new incremental tracks; industrial data rights confirmation and network security will become mandatory requirements; and the digital transformation of industrial chains and clusters will release the potential of the sinking market.",
+          "source": "Eu",
+          "url": "https://eu.36kr.com/en/p/3876899022470022",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -75,49 +81,64 @@
       "icon": "💻",
       "items": [
         {
-          "title": "LangChain v0.3 发布，Agent 能力全面升级",
-          "summary": "LangChain 发布新版本，支持更复杂的 Agent 工作流和多步推理。",
-          "source": "GitHub",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/v0.3.0",
+          "title": "Sandbox bypass flaws in Cursor IDE highlight prompt injection as an RCE vector - csoonline.com",
+          "summary": "Jun 4, 2026 7 mins\n news\n\n  ### HP Poly VoIP vulnerability sets the stage for executive voice deepfa",
+          "content": "Jun 4, 2026 7 mins\n news\n\n  ### HP Poly VoIP vulnerability sets the stage for executive voice deepfakes\n\n  Jun 2, 2026 4 mins\n\n## Show me more\n\nnews\n\n### Sandbox bypass flaws in Cursor IDE highlight prompt injection as an RCE vector\n\nBy Lucian Constantin\n\nJul 1, 20265 mins\n\nArtificial IntelligenceDevelopment ToolsVulnerabilities\n\nfeature\n\n### Detection engineering: A programmatic approach to identifying cyber threats\n\nBy Jaikumar Vijayan\n\nJul 1, 20268 mins\n\nIncident ResponseThreat and Vulnerability Management\n\nnews\n\n### Malicious Chromium extension spoofs Perplexity AI to hijack browser searches\n\nBy Gyana Swain\n\nJun 30, 20265 mins\n\nBrowser SecurityEndpoint ProtectionSecurity\n\npodcast\n\n### Defining Trustworthy AI Before AI Scales Beyond Control\n\nBy Joan Goodchild\n\nJun 18, 202614 mins [...] By Joan Goodchild\n\nJun 18, 202614 mins\n\nGenerative AI\n\npodcast\n\n### Rethinking Security Awareness Through Human Risk Management\n\nBy Joan Goodchild\n\nJun 11, 20268 mins\n\nRisk Management\n\npodcast\n\n### Why AI Is Forcing a Rethink of Data Security\n\nBy Joan Goodchild\n\nJun 4, 20267 mins\n\nData and Information Security\n\n### Defining Trustworthy AI Before AI Scales Beyond Control\n\nBy Joan Goodchild\n\nJun 18, 202614 mins\n\nGenerative AI\n\nvideo\n\n### Rethinking Security Awareness Through Human Risk Management\n\nBy Joan Goodchild\n\nJun 11, 20268 mins\n\nRisk Management\n\nvideo\n\n### Why AI Is Forcing a Rethink of Data Security\n\nBy Joan Goodchild\n\nJun 4, 20267 mins\n\nData and Information Security [...] ## More from this author\n\n news\n\n  ### Be on the lookout for Mistic, a new backdoor used by ransomware broker\n\n  Jun 24, 2026 4 mins\n news analysis\n\n  ### M365 Copilot SearchLeak: Your prompt injection attack surface just got bigger\n\n  Jun 19, 2026 6 mins\n news\n\n  ### GreatXML zero-day BitLocker bypass doesn’t seem to work, yet\n\n  Jun 12, 2026 5 mins\n news\n\n  ### Ivanti patches critical Sentry flaws that lead to full device takeover\n\n  Jun 10, 2026 2 mins\n news analysis\n\n  ### AI worm prototype shows attack",
+          "source": "Csoonline",
+          "url": "https://www.csoonline.com/article/4191923/sandbox-bypass-flaws-in-cursor-ide-highlight-prompt-injection-as-an-rce-vector.html",
           "time": "今日",
-          "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project0/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai17/400/250"
         },
         {
-          "title": "HuggingFace Transformers 新增 100+ 模型支持",
-          "summary": "HuggingFace 库持续扩展，现已支持超过 10 万个预训练模型。",
-          "source": "HuggingFace",
-          "url": "https://huggingface.co/blog/transformers-100k-models",
+          "title": "The AI Cold War Just Got Chillier - Gizmodo",
+          "summary": "In short, Anthropic said its being targeted by the federal government was completely groundless, at ",
+          "content": "In short, Anthropic said its being targeted by the federal government was completely groundless, at least as far as national security is concerned. Its inclusion of Kimi-K2.7 in its internal jailbreaking tests is significant, since it lends support to the claim made by many cybersecurity experts that the federal ban on Anthropic’s top models benefits no one as much as the Chinese AI industry, which for years has been making a big push into open source models. Even before the Fable/Mythos ban, those open source alternatives had big appeal among American developers and businesses who had become disenchanted with the climbing costs of homegrown AI tools like Claude Code and OpenAI’s Codex. [...] Norton just plugged its \"Genie\" scam detector directly into Claude and ChatGPT, giving both a layer of real threat intelligence they've never had on their own.\n\nBuying Guides     Gizmodo Deals     Jul 1\n\n### Claude Fable 5 Will Be Back Online Wednesday, Anthropic Says\n\nAnthropic announced Tuesday that the Trump Administration had lifted its controls on the cutting-edge AI model.\n\nArtificial Intelligence     Mike Pearl     Jun 30\n\n### Anthropic Wants You to Know Its New AI Model Is Definitely Not Too Dangerous to Release\n\nClaude Sonnet 5 delivers impressive agentic capabilities at a relatively low cost. It’s also really bad at cybersecurity—probably for the reason you’d expect.\n\nArtificial Intelligence     Webb Wright     Jun 30\n\nSign up for our newsletters \n\nLatest [...] ### The Best Tech to Level Up Summer 2026\n\nStay cool and enjoy the long, sunny days ahead with these gadgets to upgrade your life this summer and beyond.\n\nOther Gadgets    Kyle Barr and James Pero    Jun 25\n\n### Claude’s Solution to Decades-Long Math Mystery Is ‘Essentially Correct,’ Physicists Say\n\nFor years, physicists were stuck in trying to explain an important mathematical problem in physics. The right approach ended up being too simple.\n\nPhysics & Chemistry     Gayoung Lee     Jul 1\n\n### Trump Officially ",
+          "source": "Gizmodo",
+          "url": "https://gizmodo.com/the-ai-cold-war-just-got-chillier-2000780213",
           "time": "今日",
-          "tag": "HuggingFace",
-          "image": "https://picsum.photos/seed/project1/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai18/400/250"
         },
         {
-          "title": "PyTorch 3.0 正式发布，编译器性能提升 2x",
-          "summary": "PyTorch 新版本带来显著的性能优化，训练速度提升一倍。",
-          "source": "PyTorch",
-          "url": "https://pytorch.org/blog/pytorch-3.0-release/",
-          "time": "昨日",
-          "tag": "PyTorch",
-          "image": "https://picsum.photos/seed/project2/400/250"
-        },
-        {
-          "title": "TensorFlow 3.0 简化 API，更易上手",
-          "summary": "Google 发布 TensorFlow 3.0，大幅简化 API 设计，降低入门门槛。",
-          "source": "TensorFlow",
-          "url": "https://blog.tensorflow.org/2025/05/tensorflow-3.0.html",
+          "title": "AI-enhanced antibiotic discovery could thwart multi-drug resistant gonorrhea - BioTechniques",
+          "summary": "A new machine-learning model predicts how molecules will influence gene expression and has been used",
+          "content": "A new machine-learning model predicts how molecules will influence gene expression and has been used to pick out promising drug candidates for two tough-to-treat diseases. [...] After gaining confidence in the model’s ability to find ‘hidden gems’ with anti-gonococcal activity, they used their AI model to virtually screen a much larger library of about 6 million compounds. This yielded 213 candidates that they validated further. Following a series of growth inhibitory and antimicrobial resistance assays, as well as cell biological assays to exclude compounds with unwanted toxicities, they were able to pinpoint two compounds with promising selectivity for and strong potency against multi-drug resistant N. gonorrhoeae strains that themselves caused resistance at very low frequencies.\n\nAccelerating drug discovery with “paradigm shifting” AI model [...] “This study builds on a body of work in our lab that leverages artificial intelligence to combat infectious diseases and brings that focus to N. gonorrhoeae to help address the growing crisis of antimicrobial resistance for this fast-evolving pathogen.” Collins is also the Termeer Professor of Medical Engineering & Science at MIT and an Institute member of the Broad Institute of MIT and Harvard.\n\n## Building a machine learning pipeline",
+          "source": "Biotechniques",
+          "url": "https://www.biotechniques.com/computational-biology/ai-enhanced-antibiotic-discovery-could-thwart-multi-drug-resistant-gonorrhea/",
           "time": "今日",
-          "tag": "TensorFlow",
-          "image": "https://picsum.photos/seed/project3/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai19/400/250"
         },
         {
-          "title": "vLLM 推理引擎更新，吞吐量提升 3 倍",
-          "summary": "高效 LLM 推理引擎 vLLM 发布新版本，支持更多模型架构。",
-          "source": "GitHub",
-          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.6.0",
-          "time": "昨日",
-          "tag": "GitHub",
-          "image": "https://picsum.photos/seed/project4/400/250"
+          "title": "A hidden predictor of sudden cardiac death uncovered by deep learning - Nature",
+          "summary": "Skip to main content\n\n NEWS AND VIEWS\n\n# A hidden predictor of sudden cardiac death uncovered by dee",
+          "content": "Skip to main content\n\n NEWS AND VIEWS\n\n# A hidden predictor of sudden cardiac death uncovered by deep learning\n\nA machine-learning model trained on thousands of electrocardiogram recordings identifies a previously unrecognized group of at-risk people.\n\nBy\n\n Changxin Lai ORCID: \n\n Email\n Bluesky\n Facebook\n LinkedIn\n Reddit\n Whatsapp\n X\n\nAccess through your institution\n\nBuy or subscribe [...] ## Related Articles\n\n Read the paper: An ECG biomarker for sudden cardiac death discovered with deep learning\n An open AI model could help medical experts to interpret chest X-rays\n Machine learning improves health-care access in Sierra Leone\n See all News & Views\n\n## Subjects\n\n Health care\n Machine learning\n Cardiovascular biology\n Medical research\n\n## Latest on:\n\n Disparate privacy risks from medical AI\n\n  Article\n Towards Conversational AI for Disease Management\n\n  Article\n Should nicotine be regulated like a narcotic? A Pacific nation makes the case\n\n  News\n\n Will AI spark a scientific renaissance — or a diffuse monoculture?\n\n  World View\n Is AI ruining our skills? Early results are in — and they’re not good [...] Access through your institution\n\nBuy or subscribe\n\nSudden cardiac death claims hundreds of thousands of lives annually, often striking without warning in people who had seemed reasonably healthy. Implantable defibrillators can terminate the lethal heart rhythms that are responsible, but deciding who should receive a defibrillator depends on accurate risk prediction. The current clinical tools for this miss most people who eventually succumb and flag many who never benefit. Writing in Nature, Obermeyer et al.1 describe a deep-learning model trained on population-scale electrocardiogram (ECG) data and death records. With this model, the authors identify a new high-risk group and discover features of the ECG trace that could be used to predict risk of sudden death.\n\n## Access options",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01806-z",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news12/400/250"
+        },
+        {
+          "title": "Accelerate Complex Machinery Development Through AI Engineering - IndustryWeek",
+          "summary": "What you will learn:\n\n Bridge the Gap: Keep engineering, manufacturing, and service teams perfectly ",
+          "content": "What you will learn:\n\n Bridge the Gap: Keep engineering, manufacturing, and service teams perfectly aligned\n Supercharge AI: Establish the structured, traceable data foundation that AI tools actually need to find answers faster\n Reduce Rework: Gain complete, closed-loop configuration visibility to prevent costly errors down the line\n\nStop wasting critical engineering time.",
+          "source": "Industryweek",
+          "url": "https://www.industryweek.com/sponsored/whitepaper/55385735/accelerate-complex-machinery-development-through-ai-engineering",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news13/400/250"
+        },
+        {
+          "title": "XPENG Unveils X-Mind: Empowering Autonomous Driving With A \"Future-Foresight\" Brain - CleanTechnica",
+          "summary": "X-Foresight is architecturally fused with the VLA model, jointly predicting multi-view future imager",
+          "content": "X-Foresight is architecturally fused with the VLA model, jointly predicting multi-view future imagery and ego-vehicle actions within a unified token space to underpin core decision-making. It focuses on “seeing” future frames to understand how the world evolves.\n X-Mind serves as a thinking canvas for the VLA, executing high-frequency cognitive reasoning under constrained vehicle-side computing power, and visually interpreting the underlying logic of model decisions via a Visual Chain-of-Thought. It focuses on establishing a human-like, highly efficient reasoning process prior to acting.\n\nTogether, these two frameworks will drive XPENG’s VLA model to evolve into a General Physical AI equipped with physical common sense, advanced forecasting capabilities, and fully transparent reasoning. [...] In the first half of this year, XPENG’s R&D team published a suite of world-model-focused academic reports, including X-World, X-Foresight, and X-Cache, which systematically disassembled R&D methodologies around controllable generation and long-horizon forecasting. Recently, addressing the critical challenge of enabling models to think proactively and pushing the upper limit of predictive performance, XPENG Group officially released the X-Mind technical framework. By embedding a predictive World Model, X-Mind endows vehicle-side agents with an efficient visual Chain-of-Thought, successfully resolving the tension between cognitive reasoning and real-time computation, thereby establishing an entirely new technical paradigm for achieving genuinely safe, human-like autonomous driving. [...] The release of X-Mind provides a solution to the arduous challenge of explicitly expressing the “thinking process” under vehicle-side computing constraints. Together with X-World and X-Foresight, it constitutes the core R&D lineage of XPENG’s Physical AI Foundational Model, successfully activating the three core competencies: proactive reasoning, controllable generation, and long-horizon forecas",
+          "source": "Cleantechnica",
+          "url": "https://cleantechnica.com/2026/07/01/xpeng-unveils-x-mind-empowering-autonomous-driving-with-a-future-foresight-brain/",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news14/400/250"
         }
       ]
     },
@@ -127,49 +148,64 @@
       "icon": "📄",
       "items": [
         {
-          "title": "NeurIPS 2025 最佳论文：高效微调新方法",
-          "summary": "研究者提出新型参数高效微调方法，仅需 0.1% 参数即可达到全量微调效果。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12345",
+          "title": "A hidden predictor of sudden cardiac death uncovered by deep learning - Nature",
+          "summary": "## Related Articles\n\n Read the paper: An ECG biomarker for sudden cardiac death discovered with deep",
+          "content": "## Related Articles\n\n Read the paper: An ECG biomarker for sudden cardiac death discovered with deep learning\n An open AI model could help medical experts to interpret chest X-rays\n Machine learning improves health-care access in Sierra Leone\n See all News & Views\n\n## Subjects\n\n Health care\n Machine learning\n Cardiovascular biology\n Medical research\n\n## Latest on:\n\n Disparate privacy risks from medical AI\n\n  Article\n Towards Conversational AI for Disease Management\n\n  Article\n Should nicotine be regulated like a narcotic? A Pacific nation makes the case\n\n  News\n\n Will AI spark a scientific renaissance — or a diffuse monoculture?\n\n  World View\n Is AI ruining our skills? Early results are in — and they’re not good [...] News\n Mathematicians are developing rules for AI use — other fields should follow\n\n  Editorial\n\n How your heartbeat could keep cancer at bay\n\n  News\n Uncharted: understanding women’s health across the body\n\n  Outlook\n Damage from a heart attack comes from brain signals, mouse study suggests\n\n  News\n\n##\n\n### Jobs\n\n #### Postdoctoral Researcher\n\n  Molecular Mechanisms and Neural Circuits of Fear Memory, Maternal and Social Behavior. A recent PhD in molecular biology / neuroscience.\n\n  Piscataway, New Jersey\n\n  Rutgers University Shumyatsky lab\n #### 10 PhD Positions – Ultrafast Nanoscopy\n\n  If you are interested in developing and using cutting-edge concepts, join us in our ongoing research training group.\n\n  Regensburg (Stadt), Bayern (DE)",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01806-z",
           "time": "今日",
-          "tag": "NeurIPS",
-          "image": "https://picsum.photos/seed/paper0/400/250"
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai14/400/250"
         },
         {
-          "title": "ICML 收录：多模态对齐新突破",
-          "summary": "论文提出创新的多模态对齐算法，在图文理解任务上刷新 SOTA。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12346",
-          "time": "昨日",
-          "tag": "ICML",
-          "image": "https://picsum.photos/seed/paper1/400/250"
-        },
-        {
-          "title": "ACL 2025：大语言模型推理能力深度分析",
-          "summary": "研究深入分析 LLM 的推理机制，揭示 Chain-of-Thought 的本质原理。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12347",
+          "title": "Reducing skin tone bias in dermatology AI via sketch-guided multimodal fusion - Nature",
+          "summary": "Muhammad Nasir & Shaohua Kevin Zhou\n3. Department of Computer Science and Technology, Zhejiang Unive",
+          "content": "Muhammad Nasir & Shaohua Kevin Zhou\n3. Department of Computer Science and Technology, Zhejiang University, 38 Zheda Road, Hangzhou, 310027, Zhejiang, China\n\n   Muhammad Zeeshan Tahir\n4. Jiangsu Provincial Key Laboratory of Multimodal Digital Twin Technology, Suzhou, 215123, Jiangsu, China\n\n   Shaohua Kevin Zhou\n5. Biomedical Basic Research Center (BBRC) of Jiangsu Province, Suzhou, 215123, Jiangsu, China\n\n   Shaohua Kevin Zhou\n6. State Key Laboratory of Precision and Intelligent Chemistry, Hefei, 230026, Anhui, China\n\n   Shaohua Kevin Zhou\n\nAuthors\n\n1. Muhammad Nasir\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n2. Muhammad Zeeshan Tahir\n\n   View author publications\n\n   Search author on:PubMed Google Scholar\n3. Shaohua Kevin Zhou\n\n   View author publications [...] Skip to main content\n\nDownload PDF\n\n Article\n Open access\n Published:\n\n# Reducing skin tone bias in dermatology AI via sketch-guided multimodal fusion\n\n Muhammad Nasir1,2,\n Muhammad Zeeshan Tahir \n  ORCID: orcid.org/0000-0001-9104-41023 &\n Shaohua Kevin Zhou1,2,4,5,6\n\nScientific Reports\n(2026) Cite this article\n\nSave article\n\nView saved research\n\nWe are providing an unedited version of this manuscript to give early access to its\nfindings. Before final publication, the manuscript will undergo further editing. Please note\nthere may be errors present which affect the content, and all legal disclaimers apply.\n\n## Abstract [...] ## Acknowledgements\n\nThis work was supported by Natural Science Foundation of China under Grant 62271465, National Key R&D Program of China under Grant 2025YFC3408300, Natural Science Foundation of Jiangsu Province (No. BK20255001), and Suzhou Basic Research Program under Grant SYG202338.\n\n## Funding\n\nThe authors received no specific funding for this study.\n\n## Author information\n\n### Authors and Affiliations\n\n1. School of Biomedical Engineering, Division of Life Sciences and Medicine, University of Science and Technology of China (USTC), Hefei, 230026, Anhui, ",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-59316-x",
           "time": "今日",
           "tag": "ACL",
-          "image": "https://picsum.photos/seed/paper2/400/250"
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "arXiv 热门：Mixture-of-Experts 优化策略",
-          "summary": "论文系统研究 MoE 模型的专家分配策略，提出动态路由算法。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12348",
+          "title": "White Paper: Physical AI 2.0 and the Critical Need for Physical State Recovery - markets.businessinsider.com",
+          "summary": "My Markets Watchlist\n\nMarkets   News\n\n# White Paper: Physical AI 2.0 and the Critical Need for Physi",
+          "content": "My Markets Watchlist\n\nMarkets   News\n\n# White Paper: Physical AI 2.0 and the Critical Need for Physical State Recovery\n\nPRESS RELEASE Plentisoft\n\nJul. 1, 2026, 01:06 AM\n\nReasoning and simulation aren't enough if the system doesn't truly understand the physical state of its environment.\n\nPleasanton, California, United States, July 1, 2026 -- Atomathic, formerly Neural Propulsion Systems and a pioneer in physical AI-sensing technology, today announced a new white paper “Physical AI 2.0” that outlines a necessary architectural shift as AI moves from software workflows into embodied systems. [...] As AI systems move into applications, such as autonomous vehicles, robotics, and intelligent infrastructure, today’s dominant approaches—centered on vision, simulation, and reasoning—leave a critical gap that can be resolved in Physical AI 2.0.\n\nDownload the white paper\n\n“AI systems can only reason as well as the reality they perceive,” said Dr. Behrooz Rezvani, founder and CEO of Atomathic and author of the paper. “When observations are sparse, noisy, or physically ambiguous, the bottleneck isn’t just predicting the next scene—it is recovering the actual physical state before higher-level reasoning acts on it. Without a trustworthy state estimate, all downstream reasoning inherits upstream ambiguity.”\n\nDefining Physical AI 2.0 [...] Key pillars of the Physical AI 2.0 framework include:\n\n World Models: Learned priors and simulation engines that generate plausible future states to expand scenario coverage.\n Physical State Recovery: The “missing link” that recovers meaningful physical structure from sparse, noisy, or degraded measurements before higher-level control begins.\n Reasoning Systems: Models that deliberate at inference-time to compare alternatives and interpret intent based on the recovered state.\n Action: Bounded actuation and safety logic that closes the loop in the physical world, generating new observations.\n\nThe Recovery Thesis",
+          "source": "Markets",
+          "url": "https://markets.businessinsider.com/news/stocks/white-paper-physical-ai-2-0-and-the-critical-need-for-physical-state-recovery-1036289045",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai16/400/250"
+        },
+        {
+          "title": "How AI Tech Deployed in War Zones Detects Cellphone-Sized Plastic Landmines - Military.com",
+          "summary": "The research, Deep Learning and Multiview-Based Detection of Scatterable PFM-1 Landmines: Performanc",
+          "content": "The research, Deep Learning and Multiview-Based Detection of Scatterable PFM-1 Landmines: Performance, Out-of-Sample Evaluation, and Field Readiness, recently appeared in the journal Geomatics and examined the prevalence of small landmines encased in plastic to deter metal detectors and other geophysical techniques like asground-penetrating radar, magnetometry and electromagnetic induction in combat zones—all found by the study's authors to be significantly less effective with plastic mines than with metal ones.\n\nThe study was authored by Alex Nikulin, Binghamton University associate professor of earth sciences; Binghamton geology alumna Sharifa Karwandyar, and Thomas Pingel, an associate professor of geography. [...] ## How Researchers Conducted Their Study\n\nThe study included tactics employed by Karwandyar in her master’s thesis, when she used a drone-mounted camera and software to stitch together low-resolution images and run them through a You Only Look Once (YOLO), a machine learning algorithm that helped identify potential landmines.\n\nThe research trio reportedly trained YOLO’s object detection algorithm using inert PFM-1 mines, in addition to 3-D printed replicas. They placed mines in different parts of Binghamton University’s Nature Preserve to build a dataset of what a PFM-1 mine would look like in various environments, angles, settings and lighting conditions, according to Karwandyar.",
+          "source": "Military",
+          "url": "https://www.military.com/how-ai-tech-deployed-in-war-zones-detect-cellphone-sized-plastic-landmines",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news9/400/250"
+        },
+        {
+          "title": "Real-time dynamic monitoring of rockfalls with PTZ cameras - Nature",
+          "summary": "Article \n    Google Scholar\n29. Zhang, X. et al. A dynamic detection method for railway slope fallin",
+          "content": "Article \n    Google Scholar\n29. Zhang, X. et al. A dynamic detection method for railway slope falling rocks based on the Gaussian mixture model segmentation algorithm. Appl. Sci. 14, 4454 (2024).\n\n    Article \n    CAS \n    Google Scholar\n30. Wang, L., Wang, S., Xie, X., Deng, Y. & Tian, W. An improved method for rockfall detection and tracking based on video stream. In Proc. IET Int. Radar Conf. (IRC), 4103–4110(Chongqing, China, 2023).\n31. Yao, Z., Huan-zhang, L. & Lu-ping, Z. Mou-fa, H. Overview of visual multi-object tracking algorithms with deep learning. Comput. Eng. Appl. 57 (13), 55–66 (2021). [...] Rockfall is a prevalent geological hazard threatening lives and infrastructure. Beyond static assessment, real-time dynamic monitoring is crucial to capture sudden events, ensuring timely warning and risk mitigation. Leveraging low cost, flexible deployment, and high spatiotemporal resolution, PTZ (Pan-Tilt-Zoom) cameras combined with deep learning provide a potential solution. However, the small size, background similarity, rapid and complex motion of rockfall objects present significant challenges for reliable monitoring. To tackle these issues, this paper proposes a rockfall detection and tracking framework integrating motion awareness and physical constraints. First, a lightweight temporal module is incorporated into YOLOv8 to enhance perception of small and dim moving objects. [...] Article \n    Google Scholar\n11. Casagli, N. et al. Spaceborne, UAV and ground-based remote sensing techniques for landslide mapping, monitoring and early warning. Geoenviron Disasters. 4, 9 (2017).\n\n    Article \n    Google Scholar\n12. Chen, H., Zhang, L., Zhang, Y. & Liu, J. Research on variational optical flow method for rockfall monitoring. Sign Image Video Process. 18 (Suppl. 1), 713–730 (2024).\n\n    Article \n    Google Scholar\n13. Fang, H. et al. Automatic visual enhancement of PTZ camera based on reinforcement learning. Neurocomputing 529, 129531 (2025).\n\n    Article \n    Goo",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-49008-x",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/news10/400/250"
+        },
+        {
+          "title": "Clinical drug report generation using multi-phase prompt large language models - Nature",
+          "summary": "Article \n    Google Scholar\n11. Yunfan, G. et al. Retrieval-Augmented Generation for Large Language ",
+          "content": "Article \n    Google Scholar\n11. Yunfan, G. et al. Retrieval-Augmented Generation for Large Language Models. arXiv (2024). \n12. LangChain, C. LangChain Documentation (2025). \n13. deepset. Haystack Documentation (2025). \n14. Yikuan, L., Ramsey, M. W., Faraz, S. A., Hanyin, W. & Yuan, L. A comparative study of pretrained language models for long clinical text. J. Am. Med. Inform. Assoc. 30(2), 340–347.  (2022). [...] Article \n    Google Scholar\n15. Xi, Y. et al. GatorTron: A Large Clinical Language Model to Unlock Patient Information from Unstructured Electronic Health Records (2022). \n16. Brown, T., Mann, B. & Ryder, N. Language Models are Few-Shot Learners. in NeurIPS (2020). \n17. World Health, O. Ethics and governance of artificial intelligence for health (2025). \n18. Chen, B., Zhang, Z., Langrené, N. & Zhu, S. Unleashing the potential of prompt engineering for large language models. Patterns 6, 101260.  (2025).\n19. GeeksforGeeks How to optimize memory usage in PyTorch? GeeksforGeeks (2024). \n20. Amit, H. What Every User Should Know About Mixed Precision Training in PyTorch. Medium (2024). [...] Reprints and permissions\n\n## About this article\n\n### Cite this article\n\nKhan, S., Lor, M.A., Sperry, M.L. et al. Clinical drug report generation using multi-phase prompt large language models.\nSci Rep 16, 20250 (2026). \n\nDownload citation\n\n Received:\n Accepted:\n Published:\n Version of record:\n DOI: \n\n### Share this article\n\nAnyone you share the following link with will be able to read this content:\n\nProvided by the Springer Nature SharedIt content-sharing initiative\n\n### Keywords\n\n Large Language Models (LLMs)\n Prompt Engineering\n Pharmacy Artificial Intelligence\n Clinical Drug Report\n Natural Language Processing (NLP)\n\n### Subjects\n\n Computational biology and bioinformatics\n Drug discovery\n Health care\n Medical research",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41598-026-47707-z",
           "time": "今日",
           "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper3/400/250"
-        },
-        {
-          "title": "深度学习可解释性研究取得重要进展",
-          "summary": "研究者提出新型可视化方法，揭示神经网络内部决策机制。",
-          "source": "arXiv",
-          "url": "https://arxiv.org/abs/2505.12349",
-          "time": "昨日",
-          "tag": "arXiv",
-          "image": "https://picsum.photos/seed/paper4/400/250"
+          "image": "https://picsum.photos/seed/news8/400/250"
         }
       ]
     },
@@ -179,63 +215,69 @@
       "icon": "💬",
       "items": [
         {
-          "title": "Sam Altman：AGI 可能比预期更早到来",
-          "summary": "OpenAI CEO 在 Twitter 发文讨论 AGI 时间线，引发社区热议。",
-          "source": "Twitter",
-          "url": "https://twitter.com/sama/status/1923456789012345678",
-          "time": "今日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social0/400/250"
-        },
-        {
-          "title": "Yann LeCun：自回归模型不是 AGI 的正确路径",
-          "summary": "Meta 首席 AI 科学家在社交媒体分享对 LLM 局限性的看法。",
-          "source": "Twitter",
-          "url": "https://twitter.com/ylecun/status/1923456789012345679",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social1/400/250"
-        },
-        {
-          "title": "Hacker News 热议：AI 是否会取代程序员？",
-          "summary": "HN 社区展开激烈讨论，观点从完全取代到辅助共存各有支持。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234567",
+          "title": "How This Google Labs AI App Became Part of My Daily Routine - CNET",
+          "summary": "ai atlas\n Tech\n Services & Software\n AI\n\n# How This Google Labs AI App Became Part of My Daily Routi",
+          "content": "ai atlas\n Tech\n Services & Software\n AI\n\n# How This Google Labs AI App Became Part of My Daily Routine\n\nDreambeans is unlike any other social media or AI app I've tested in a good way.\n\nKatelyn Chedraoui Reporter 2\n\nKatelyn is a reporter with CNET covering artificial intelligence, including chatbots, image and video generators. Her work explores how new AI technology is infiltrating our lives, shaping the content we consume on social media and affecting the people behind the screens. She graduated from the University of North Carolina at Chapel Hill with a degree in media and journalism. You can reach her at kchedraoui@cnet.com.\n\nExpertise artificial intelligence, AI image generators, social media platforms\n\nSee full bio\n\nKatelyn Chedraoui\n\n5 min read [...] At the very least, Google has finally built a product that makes me want to give it my information, rather than just accept that I will be forced to in order to use it. Dreambeans is a rare combination of useful and fun -- something that keeps me coming back to the app.\n\nKATELYN CHEDRAOUI\n\nReporter 2\n\nKatelyn is a reporter with CNET covering artificial intelligence, including chatbots, image and video generators. Her work explores how new AI technology is infiltrating our lives, shaping the content we consume on social media and affecting the people behind the screens. She graduated from the University of North Carolina at Chapel Hill with a degree in media and journalism. You can reach her at kchedraoui@cnet.com. See full bio [...] The goal isn't socializing with others; you don't post or follow other people. It's meant to motivate you to accomplish tasks and spark your creativity. You can quickly scroll through your stories, absorb the day's most pressing reminders and spark inspiration, then log off the app to get back to your day. It's an intentionally short timeline, with only the top 10 or so stories each day.\n\n\"Dreambeans is that morning coffee for your digital life, in a way,\" Gozde Oznur, the product man",
+          "source": "Cnet",
+          "url": "https://www.cnet.com/tech/services-and-software/google-labs-ai-app-dreambeans-testing-news/",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social2/400/250"
+          "image": "https://picsum.photos/seed/ai15/400/250"
         },
         {
-          "title": "Reddit：2026 年最值得学习的 AI 技能",
-          "summary": "r/MachineLearning 用户投票选出最热门的 AI 技能和学习路径。",
-          "source": "Reddit",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1abcdef/ai_skills_2026/",
+          "title": "The AI Cold War Just Got Chillier - Gizmodo",
+          "summary": "Tech News \n  + Artificial Intelligence\n  + Commerce\n  + Crime\n  + Cryptocurrencies\n  + Culture\n  + G",
+          "content": "Tech News \n  + Artificial Intelligence\n  + Commerce\n  + Crime\n  + Cryptocurrencies\n  + Culture\n  + Gadgets\n  + Internet\n  + Politics\n  + Privacy & Security\n  + Robots\n  + Social Media\n  + Sploid\n  + Tech Policy\n  + Transportation\n Reviews \n  + Smartphones\n  + Laptops\n  + Headphones\n  + Gaming\n  + Home Entertainment & Smart Home\n  + Other Gadgets\n  + Tablets\n  + Accessories & Wearables\n  + Desktops\n Deals \n  + Buying Guides\n Science \n  + Biology\n  + Health\n  + Human History\n  + Physics & Chemistry\n  + Space & Spaceflight\n Earther \n  + Climate Change\n  + Conservation\n  + Earth Science\n  + Energy\n  + Environmental Justice\n io9 \n  + io9 Reviews\n  + Movies\n  + Trailers\n  + Television\n  + Books & Comics\n  + Anime\n  + Toys & Collectibles\n  + Games\n  + Corporate Culture [...] Earlier this week, complaints started surfacing on Reddit about a mechanism embedded within Claude Code, which appeared to covertly flag users based in China (or with ties to Chinese AI labs) by detecting telltale signs like timezone and the use of proxy URLs. One Redditor made the case that by surreptitiously keeping tabs on Chinese users, Anthropic could ultimately use its spyware towards more malicious ends. “Today it’s a timezone check,” the Redditor wrote. “Tomorrow, it could be system sabotage or data exfiltration.” [...] Norton just plugged its \"Genie\" scam detector directly into Claude and ChatGPT, giving both a layer of real threat intelligence they've never had on their own.\n\nBuying Guides     Gizmodo Deals     Jul 1\n\n### Claude Fable 5 Will Be Back Online Wednesday, Anthropic Says\n\nAnthropic announced Tuesday that the Trump Administration had lifted its controls on the cutting-edge AI model.\n\nArtificial Intelligence     Mike Pearl     Jun 30\n\n### Anthropic Wants You to Know Its New AI Model Is Definitely Not Too Dangerous to Release\n\nClaude Sonnet 5 delivers impressive agentic capabilities at a relatively low cost. It’s also really bad at cybersecurity—probably for the reason you’d expect.\n\n",
+          "source": "Gizmodo",
+          "url": "https://gizmodo.com/the-ai-cold-war-just-got-chillier-2000780213",
           "time": "今日",
           "tag": "Reddit",
-          "image": "https://picsum.photos/seed/social3/400/250"
+          "image": "https://picsum.photos/seed/ai16/400/250"
         },
         {
-          "title": "科技大 V 讨论：AI 创业还有哪些机会？",
-          "summary": "多位科技博主分享对 AI 创业赛道的观察，探讨蓝海方向。",
-          "source": "Twitter",
-          "url": "https://twitter.com/search?q=AI%20startup%20opportunities",
-          "time": "昨日",
-          "tag": "Twitter",
-          "image": "https://picsum.photos/seed/social4/400/250"
+          "title": "CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline - CNBC",
+          "summary": "Skip Navigation\n\nMarkets\n\n Pre-Markets\n U.S. Markets\n Currencies\n Prediction Markets\n Cryptocurrency",
+          "content": "Skip Navigation\n\nMarkets\n\n Pre-Markets\n U.S. Markets\n Currencies\n Prediction Markets\n Cryptocurrency\n Futures & Commodities\n Bonds\n Funds & ETFs\n\nBusiness\n\n Economy\n Finance\n Health & Science\n Media\n Real Estate\n Energy\n Climate\n Transportation\n Investigations\n Industrials\n Retail\n Wealth\n Sports\n Life\n Small Business\n\nInvesting\n\n Personal Finance\n Fintech\n Financial Advisors\n Options Action\n ETF Street\n Buffett Archive\n Earnings\n Trader Talk\n\nTech\n\n Cybersecurity\n AI\n Enterprise\n Internet\n Media\n Mobile\n Social Media\n CNBC Disruptor 50\n Tech Guide\n\nPolitics\n\n White House\n Policy\n Defense\n Congress\n Expanding Opportunity\n\nVideo\n\n Latest Video\n Full Episodes\n Livestream\n Live Audio\n Live TV Schedule\n CNBC Podcasts\n CEO Interviews\n CNBC Documentaries\n Digital Originals\n\nWatchlist [...] Watchlist\n\nInvesting Club\n\n Trust Portfolio\n Analysis\n Trade Alerts\n Meeting Videos\n Homestretch\n Jim's Columns\n Education\n Subscribe\n\nPRO\n\n Pro News\n Josh Brown\n Mike Santoli\n Calls of the Day\n My Portfolio\n Livestream\n Full Episodes\n Stock Screener\n Market Forecast\n Options Investing\n Chart Investing\n Subscribe\n\nLivestream\n\n Make It\n select\n\n USA\n INTL\n\n Livestream\n\n Livestream\n\nWatchlist\n\nSIGN IN\n\nCreate free account\n\nMarkets\n\nBusiness\n\nInvesting\n\nTech\n\nPolitics\n\nVideo\n\nWatchlist\n\nInvesting Club\n\nPRO\n\nLivestream\n\nDaily Open\n\n# CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline\n\nJustina Lee@in/justina-lee-2742aa59\n\nWATCH LIVE\n\nKey Points",
+          "source": "Cnbc",
+          "url": "https://www.cnbc.com/2026/07/01/cnbc-daily-open-ai-demand-fuels-investors-portfolio-while-oil-posts-biggest-monthly-decline.html",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai17/400/250"
         },
         {
-          "title": "Hacker News：最佳开源 LLM 排行榜",
-          "summary": "社区用户整理开源大模型性能对比，分享使用体验和部署建议。",
-          "source": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=40234568",
+          "title": "Smart people in tech react to the return of Anthropic's most powerful AI models after White House dispute - Business Insider",
+          "summary": "Dean W. Ball, a former Trump AI official who is joining OpenAI, welcomed the return of Fable 5 in a ",
+          "content": "Dean W. Ball, a former Trump AI official who is joining OpenAI, welcomed the return of Fable 5 in a Tuesday X post but said important questions remain about what safety commitments Anthropic agreed to and whether the same standards will apply to other frontier AI models.\n\n\"This opacity will not lend itself well to a stable, investable, trustworthy industry over time,\" Ball wrote. \"But USG needn't figure all this out in a day, and a two-week review timeline is not insane in the grand scheme of things.\"\n\nNevertheless, he said that progress had been made and that it was \"worthy of applause\".\n\n## Aaron Levie, CEO of Box [...] In a post on X on Wednesday, Alex Stamos called the suspension a \"huge own goal for the US,\" arguing that restricting American AI models could push cybersecurity companies toward Chinese alternatives and ultimately hurt US competitiveness.\n\n\"Security companies and startups that provide services to others will now be driven to use Chinese models,\" the former Facebook chief security officer said. \"Big win for PRC labs this month.\"\n\nHe added: \"Anthropic's blog is saying: We have always cared about safety, we did a good job initially, the actual AI experts in USG agreed, we proved it, we will come up with standards so these things are better communicated.\"\n\n## Dean W. Ball, senior fellow at the Foundation for American Innovation [...] The dispute began in June after the White House imposed restrictions on the AI models over concerns they could be misused by adversaries for cyberattacks. Anthropic said there had been a misunderstanding over a potential Fable 5 jailbreak and sent senior executives to Washington to negotiate a resolution.\n\nThe return of the models, which Anthropic said come with additional safeguards, marks a significant moment in the debate over how governments should regulate frontier AI systems. Here's what smart people in tech are saying about it.\n\n## Alex Stamos, Stanford University lecturer and former Facebook chief security officer",
+          "source": "Businessinsider",
+          "url": "https://www.businessinsider.com/smart-voices-tech-react-anthropic-fable-mythos-5-return-dispute-2026-7",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai10/400/250"
+        },
+        {
+          "title": "Goldman Sachs: Why It's Time to Double Down on the AI Trade - Business Insider",
+          "summary": "\"For much of the semiconductor complex, including memory, there's been very little, if any, expansio",
+          "content": "\"For much of the semiconductor complex, including memory, there's been very little, if any, expansion in valuation multiples that implies a continued skepticism,\" he said.\n\nSecond, he said the power infrastructure theme is \"extremely attractive\" both due to the ongoing AI spend and because of the Iran war's impact on power and energy. Energy infrastructure has been a pillar of the \"HALO trade\" in 2026, with the infrastructure buildout key to fueling the AI industry's insatiable demand for power.\n\nAnd third, Snider likes the hyperscaler firms that doing all of the AI spending on data centers for their cloud platforms. Think Amazon, Microsoft, Meta, Alphabet, Oracle, and IBM. [...] In an interview with Business Insider, Ben Snider dismissed bubble concerns and said he's continuing to lean into some of the major themes in the AI trade.\n\nOne fear rippling through markets is that hyperscalers could suddenly pull back on their massive spending efforts. If one firm decides its investment isn't delivering a satisfactory return, it could slash its spending projections. If investors reward such a move, others could follow suit, the thinking goes.\n\nTo Snider, however, the risk of such a pivot is small. Growing spending on the AI buildout should continue to fuel the trade, he said. [...] But other valuation metrics tell a different story, like the 12-month forward PE. Snider put it succinctly: Despite the S&P 500's big gain over the last 12 months, its PE multiple is lower than it was a year ago.\n\nIt's a sign that earnings growth, not multiple expansion, continues to drive the market. And Snider says some of the most attractive parts of the market remain those that have outperformed in recent months and years.\n\n## 3 AI themes to invest in\n\nSnider highlighted three subsets of the AI trade that he'd lean into most right now.\n\nFirst, he'd stay with the AI infrastructure names as they're trading at relatively low valuations. This encompasses businesses producing products like semic",
+          "source": "Businessinsider",
+          "url": "https://www.businessinsider.com/ai-stocks-investing-ideas-bubble-valuations-ben-snider-goldman-sachs-2026-7",
+          "time": "今日",
+          "tag": "资讯",
+          "image": "https://picsum.photos/seed/ai11/400/250"
+        },
+        {
+          "title": "OpenClaw Matures Amid Swarm Culture - Forbes",
+          "summary": "“I think all software developers are using AI coding agents,” one panelist said. “You can basically ",
+          "content": "“I think all software developers are using AI coding agents,” one panelist said. “You can basically build much more, and it's robust. … AI can do it faster and experiment much more than a human, (although) maybe a very experienced human can do it much better than AI. But if you don't need perfect quality and you are good with good enough quality, AI can do much more and much faster, much cheaper, especially for startups, because startups, usually, they don't have large reputational risks. … startups, I think, can take more risks in using AI agents.”\n\nMetrics for Progress [...] InnovationAI\n\n# OpenClaw Matures Amid Swarm Culture\n\nByJohn Werner,\n\nForbes contributors publish independent expert analyses and insights.\n\n I am an MIT Senior Fellow & Lecturer, 5x-founder & VC investing in AI\n\n--:-- / --:--\n\nThis voice experience is generated by AI. Learn more.\n\nThis voice experience is generated by AI. Learn more.\n\nWhen it became available a few months ago, OpenClaw was a big mystery to most of us. There was the common understanding that you have to be cautious with an agentic technology like this, that any missteps could cause calamity.\n\nIn China, people were lining up to get OpenClaw. In American communities, you didn’t see that as much. But behind the scenes, the early adopters were at work.",
+          "source": "Forbes",
+          "url": "https://www.forbes.com/sites/johnwerner/2026/07/01/openclaw-matures-amid-swarm-culture/",
           "time": "今日",
           "tag": "Hacker News",
-          "image": "https://picsum.photos/seed/social5/400/250"
+          "image": "https://picsum.photos/seed/ai12/400/250"
         }
       ]
     }
   ],
-  "generatedAt": "2026-07-01T03:58:59.495Z",
+  "generatedAt": "2026-07-02T03:39:38.368Z",
   "version": "3.0.0",
   "source": "tavily-mimo"
 }
